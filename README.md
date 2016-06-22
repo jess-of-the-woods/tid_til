@@ -10,6 +10,17 @@
 
  -------
 
+## Links
+####Markdown
+   * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
+   * [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+
+
+## About
+I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbyschuknight/tid_til) and others.
+
+=========================
+
 ### CSS
 - [Readme](CSS/CSS.md)
 - yea
