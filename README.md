@@ -1,13 +1,15 @@
 # today I did / today I learned
 A repository to keep track of what I have been [working on each day](tid.md) & what I have been learning. As well as a place to keep notes, questions etc.
 
+[To Learn](toLearn.md)
+
 ### Categories
 
  * [CSS](#CSS)
  * [Databases](#databases)
  * [HTML](#HTML)
  * [JavaScript](#javascript)
- * [Another Thing](#another)
+
 
  -------
 
@@ -20,23 +22,21 @@ A repository to keep track of what I have been [working on each day](tid.md) & w
 ## About
 I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbyschuknight/tid_til) and others.
 
-=========================
+-------
 
-### [CSS](CSS/CSS.md)
-- yea
-- nah
+### CSS
+- [General](CSS/CSS.md)
+- Flexbox
+- SASS
 
 ### Databases
 - PostgreSQL
 - MySQL
 
 ### HTML
-- [a thing](HTML/aThing.md)
+- [a specific thing](HTML/aThing.md)
 - other stuff
 
-## [JavaScript](javascript/javascript.md)
+## JavaScript
+- [General](javascript/javascript.md)
 - A thing
-
-## Another
-- stuffs
-- yea
