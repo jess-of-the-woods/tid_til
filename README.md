@@ -1,5 +1,4 @@
 # today I did / today I learned
-===============================
 
 ### Categories
 
@@ -11,8 +10,7 @@
 
  -------
 
-
-### CSS ()
+### CSS
 - [Readme](CSS/CSS.md)
 - yea
 - nah
@@ -28,6 +26,4 @@
 ## [JavaScript](javascript/javascript.md)
 - A thing
 
-## [Another Category]
--
--
+## Another Category
