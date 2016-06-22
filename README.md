@@ -1,4 +1,5 @@
 # today I did / today I learned
+A repository to keep track of what I have been [working on each day](tid.md) & what I have been learning. As well as a place to keep notes, questions etc.
 
 ### Categories
 
@@ -6,7 +7,7 @@
  * [Databases](#databases)
  * [HTML](#HTML)
  * [JavaScript](#javascript)
- * [Another Thing](#another category)
+ * [Another Thing](#another)
 
  -------
 
@@ -21,8 +22,7 @@ I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbys
 
 =========================
 
-### CSS
-- [Readme](CSS/CSS.md)
+### [CSS](CSS/CSS.md)
 - yea
 - nah
 
@@ -37,4 +37,6 @@ I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbys
 ## [JavaScript](javascript/javascript.md)
 - A thing
 
-## Another Category
+## Another
+- stuffs
+- yea
