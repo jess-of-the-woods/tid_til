@@ -1,18 +1,33 @@
 # today I did / today I learned
+===============================
+
+### Categories
 
  * [CSS](#CSS)
+ * [Databases](#databases)
  * [HTML](#HTML)
+ * [JavaScript](#javascript)
+ * [Another Thing](#another category)
 
- ### Categories
+ -------
 
-* CSS ()
-- [CSS.md](CSS/CSS.md)
+
+### CSS ()
+- [Readme](CSS/CSS.md)
 - yea
 - nah
 
-* HTML
-- stuff
+### Databases
+- PostgreSQL
+- MySQL
+
+### HTML
+- [a thing](HTML/aThing.md)
 - other stuff
 
+## [JavaScript](javascript/javascript.md)
+- A thing
 
-* [Another Category]
+## [Another Category]
+-
+-
