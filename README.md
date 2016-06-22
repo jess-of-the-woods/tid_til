@@ -3,11 +3,16 @@
  * [CSS](#CSS)
  * [HTML](#HTML)
 
-## CSS ()
-- [Some stuff](CSS/CSS.md)
+ ### Categories
+
+* CSS ()
+- [CSS.md](CSS/CSS.md)
 - yea
 - nah
 
-## HTML
+* HTML
 - stuff
 - other stuff
+
+
+* [Another Category]
