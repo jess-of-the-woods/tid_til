@@ -39,8 +39,7 @@ I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbys
 - [a particular thing](HTML/aThing.md)
 - other stuff
 
-## JavaScript
-- [General](javascript/javascript.md)
+## [JavaScript](javascript/javascript.md)
 - [Node](javascript/node.md)
 
 ## DataVisualisation

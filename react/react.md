@@ -1,5 +1,6 @@
 #React
 
+##[Redux](redux.md)
 [React JS Tutorial for Beginners - 3 - Multiple Components and Properties](http://bit.ly/1VBqhUe)
 
 User Interface Library ( created by Facebook )
