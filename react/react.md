@@ -19,11 +19,13 @@ ____________
 Component :
     building block for UI
     is a react class.
+
 ```javascript
     var componentName = React.createClass({
         // code
     })
 ```
+
 Each component has a render function which returns html content which will be rendered to the page.
 
 ```javascript
@@ -37,7 +39,8 @@ Each component has a render function which returns html content which will be re
 ```
 _________
 
-Render function takes two arguments, component to display & where to display it ( div etc. )
+Render function (from module) takes two arguments, component to display & where to display it ( div etc. )
+This is typically the top-level component, inside which others are rendered (nested?)
 
 ```javascript
 React.render(
@@ -45,10 +48,11 @@ React.render(
     document.getElementById('content')
 );
 ```
-_____________
+  _____________
 
 slush pages-react
 ( scaffolding tool/generator ), uses ES6, e.g.
+
 ```javascript
     import React from 'react'
     import { render } from 'react-dom'
@@ -63,11 +67,11 @@ slush pages-react
 - class name needs to start with capital letter..
 
 ####Props
-- is an immutable value ( never changes ). Props is an object
-you can set props when you create a new instance of a component.
+- is an immutable value ( never changes ). Props (properties) is an object.
+You can set props when you create a new instance of a component.
 
 ####State ( & setState )
-- changes over time, based on user interaction etc.
+- changes over time, based on user interaction etc. You can call setState on state to mutate it.
 
 ####JSX:
 - new language( looks a bit like HTML in your js file ) mix of js & HTML
