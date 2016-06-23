@@ -1,5 +1,5 @@
 # Today I did / Today I learned
-A repository to keep track of what I have been [working on each day](tid.md) & what I have been learning. As well as a place to keep notes, questions etc.
+A repository to keep track of what I have been [working on](tid.md) each day & what I have been learning. As well as a place to keep notes, questions etc.
 
 
 [To Learn](toLearn.md)
