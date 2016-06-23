@@ -5,3 +5,5 @@
 - how to tell the size of a git repo?
 
 - what is a <g> tag, as in react, D3?
+
+- express partials, middleware..
