@@ -1,7 +1,10 @@
 # Today I did / Today I learned
 A repository to keep track of what I have been [working on each day](tid.md) & what I have been learning. As well as a place to keep notes, questions etc.
 
+
 [To Learn](toLearn.md)
+
+[Keyboard Shortcuts](keyboardShortcuts.md)
 
 ### Categories
 
@@ -12,7 +15,6 @@ A repository to keep track of what I have been [working on each day](tid.md) & w
  * [DataVisualisation](#DataVisualisation)
  * [React](#react)
 
- -------
 
 ## Links
 ####Markdown
@@ -49,3 +51,6 @@ I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbys
 ## React
 - [Redux](react/redux.md)
 - Router
+
+## Other
+ - Voltage
