@@ -42,7 +42,7 @@ I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbys
 
 ## JavaScript
 - [General](javascript/javascript.md)
-- A thing
+- [Node](javascript/node.md)
 
 ## DataVisualisation
 - D3
@@ -54,3 +54,5 @@ I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbys
 
 ## Other
  - Voltage
+ - Serial vs Parallel processing
+ -

@@ -21,4 +21,6 @@ Diff ways of declaring functions ( pros & cons ), Anon Functions
 - OAuth
 - Knex
 - fs
+- ramda
+- lodash
 - 
