@@ -1,5 +1,7 @@
 #React
 
+![React](http://yycjs.com/real-world-react/img/react-logo.png "React")
+
 ##[Redux](redux.md)
 [React JS Tutorial for Beginners - 3 - Multiple Components and Properties](http://bit.ly/1VBqhUe)
 
