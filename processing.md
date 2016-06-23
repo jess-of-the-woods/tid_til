@@ -1,0 +1,52 @@
+#Processing :
+
+`./processing` from the processing folder in terminal to run
+
+- Casey Reas
+- Ben Fry
+- p5js
+- [cacheflowe](https://ello.co/cacheflowe)
+
+________________
+
+Processing.js is a JavaScript port of Processing, a programming language designed to write visualizations, images, and interactive content. It allows web browsers to display animations, visual applications, games and other graphical rich content without the need for a Java applet or Flash plugin.
+Processing.js was originally created to allow existing Processing developers and existing code to work unmodified on web. Processing.js uses JavaScript to render  2D and 3D content on the HTML canvas element, and is supported by browsers that have implemented this element (the latest versions of Mozilla Firefox, Opera, Internet Explorer, Safari and Google Chrome).
+
+___________
+
+p5.js a JS client-side library for creating graphic and interactive experiences, based on the core principles of Processing.
+
+________________
+
+Rectangle:
+`rect(200,200,200,200 );`
+
+first two are x,y coordinates for the position. determines the top left corner of shape. second two are width & height
+
+_____
+
+Ellipse:
+`ellipse(20, 20, 140, 130);`
+
+____
+
+Color:
+
+you can fill a shape with color by
+
+```
+stroke(232, 200, 129);
+fill();
+rect(10, 10, 40, 40);
+```
+colors are RGB values, between 0 & 255. 0 is none of R, G or B, 255 is full 'saturation'
+
+_____
+
+```
+void setup() {
+};
+
+void draw() {
+};
+```

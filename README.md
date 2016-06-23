@@ -7,13 +7,14 @@ A repository to keep track of what I have been [working on each day](tid.md) & w
 [Keyboard Shortcuts](keyboardShortcuts.md)
 
 ### Categories
- * [CSS](#CSS)
- * [Databases](#databases)
- * [HTML](#HTML)
- * [JavaScript](#javascript)
- * [DataVisualisation](#datavisualisation)
- * [React](#react)
- * [Other](#other)
+* [CSS](#CSS)
+* [Databases](#databases)
+* [HTML](#HTML)
+* [JavaScript](#javascript)
+* [DataVisualisation](#datavisualisation)
+* [React](#react)
+* [Art](#art)
+* [Other](#other)
 
 ## Links
 ####Markdown
@@ -45,10 +46,14 @@ I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbys
 ## DataVisualisation
 - D3
 - WebGL
+- [Three.js](javascript/threejs.md)
 
 ## [React](react/react.md)
 - [Redux](react/redux.md)
 - Router
+
+##Art
+- [processing](processing.md)
 
 ## Other
  - Voltage
