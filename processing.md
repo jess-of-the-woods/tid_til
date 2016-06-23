@@ -1,4 +1,5 @@
 #Processing :
+![processing](https://lh4.googleusercontent.com/-azP3ojRmi4Q/AAAAAAAAAAI/AAAAAAAAAZk/hyRbfyOPMAU/photo.jpg)
 
 `./processing` from the processing folder in terminal to run
 
@@ -19,13 +20,16 @@ p5.js a JS client-side library for creating graphic and interactive experiences,
 ________________
 
 Rectangle:
+
 `rect(200,200,200,200 );`
 
-first two are x,y coordinates for the position. determines the top left corner of shape. second two are width & height
+First two are x,y coordinates for the position. Determines the top left corner of shape.
+Second two are width & height
 
 _____
 
 Ellipse:
+
 `ellipse(20, 20, 140, 130);`
 
 ____
