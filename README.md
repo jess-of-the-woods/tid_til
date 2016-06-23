@@ -7,14 +7,13 @@ A repository to keep track of what I have been [working on each day](tid.md) & w
 [Keyboard Shortcuts](keyboardShortcuts.md)
 
 ### Categories
-
  * [CSS](#CSS)
  * [Databases](#databases)
  * [HTML](#HTML)
  * [JavaScript](#javascript)
- * [DataVisualisation](#DataVisualisation)
+ * [DataVisualisation](#datavisualisation)
  * [React](#react)
-
+ * [Other](#other)
 
 ## Links
 ####Markdown
@@ -24,7 +23,7 @@ A repository to keep track of what I have been [working on each day](tid.md) & w
 ## About
 I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbyschuknight/tid_til) and others.
 
--------
+---
 
 ### CSS
 - [General](CSS/CSS.md)
@@ -48,11 +47,10 @@ I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbys
 - D3
 - WebGL
 
-## React
+## [React](react/react.md)
 - [Redux](react/redux.md)
 - Router
 
 ## Other
  - Voltage
  - Serial vs Parallel processing
- -

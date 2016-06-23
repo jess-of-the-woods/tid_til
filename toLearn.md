@@ -6,8 +6,6 @@
 - Tape, tests
 - Listeners, jQuery event delegation
 - Class, Constructors
-- Recursion
-- API's
 - Closures, Factory functions
 - ES6
 
@@ -23,4 +21,4 @@ Diff ways of declaring functions ( pros & cons ), Anon Functions
 - fs
 - ramda
 - lodash
-- 
+-
