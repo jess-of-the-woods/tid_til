@@ -6,27 +6,29 @@ ____________
 
 ####To setup express:
 * new folder
-* cd into
-* npm init -y
-`npm i express --save`
+* cd into folder
+* `npm init -y`
+* `npm i express --save`
+* `touch server.js`
 
-`touch server.js`
+####Express Generator:
+`express .` to run express-generator ( run inside a folder )
 
 __________________________
 
 if you get port in use error, e.g. ( Error: listen EADDRINUSE :::3000 )
 
-`ps -ax | grep node`
+in terminal: `ps -ax | grep node`
 
 You'll get something like:
 
 60778 ??         0:00.62 /usr/local/bin/node abc.js
 
-Then do:
-
-`kill -9 60778`
+Then do: `kill -9 60778`
 
 ____________________
+
+Passing data as query:
 
 localhost:9000/?age=33&name=will
 
@@ -57,13 +59,17 @@ Create, Read, Update, Destroy..
 `POST /tweets`
 
 `GET /tweets`
+
 `GET /tweets/:id`
 
 `PUT /tweets/:id` ( replace whole object )
+
 `PATCH /tweets/:id` ( replace part of object )
 
 `{id: 7, tweet: 'hi', color: 'red'}`
+
 `PUT /tweets/7 {color: 'blue'} => {id: 7, color: 'blue'}`
+
 `PATCH /tweets/7 {color: 'blue'} =>  {id: 7, tweet: 'hi', color: 'blue'}`
 
 `DELETE /tweets/:id`
@@ -80,6 +86,3 @@ router.post('newTweet', function(req, res){
     })
 })
 ```
-___________
-
-`express .` to run express-generator ( run inside a folder )
