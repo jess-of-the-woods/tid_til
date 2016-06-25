@@ -32,9 +32,7 @@ I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbys
 - Flexbox
 - SASS
 
-### Databases
-- PostgreSQL
-- MySQL
+### [Databases](databases.md)
 
 ### HTML
 - [General](HTML/HTML.md)
