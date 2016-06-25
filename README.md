@@ -1,12 +1,9 @@
 # Today I did / Today I learned
 A repository to keep track of what I have been [working on](tid.md) each day & what I have been learning. As well as a place to keep notes, questions etc.
 
+[Questions](questions.md) | [To Learn](toLearn.md)
+
 [Notes](notes.md)
-[Questions](questions.md)
-
-[To Learn](toLearn.md)
-
-[Keyboard Shortcuts](keyboardShortcuts.md)
 
 ### Categories
 * [CSS](#CSS)

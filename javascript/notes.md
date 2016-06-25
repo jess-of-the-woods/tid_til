@@ -1,25 +1,25 @@
 #JavaScript Notes
 * [Express.js](javascript/express.md)
 
-Data types
-Variables
-Arrays
-Objects
-Functions
-Selectors
-Events
-Scope
-Hoisting
-Debugging
-Truthy/ Falsy
-Conditionals
-Control Flow
-Loops
-Constructors
-Class
-Closures
-Promises
-use strict
+- Data types
+- Variables
+- Arrays
+- Objects
+- Functions
+- Selectors
+- Events
+- Scope
+- Hoisting
+- Debugging
+- Truthy/ Falsy
+- Conditionals
+- Control Flow
+- Loops
+- Constructors
+- Class
+- Closures
+- Promises
+- use strict
 
 ##Data types
 - Strings (e.g. "dogs go woof!")

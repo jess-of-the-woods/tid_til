@@ -6,3 +6,5 @@
 * [three.js](javascript/threejs.md)
 * [react](react/react.md)
 * [javascript](javascript/notes.md)
+
+[Keyboard Shortcuts](keyboardShortcuts.md)
