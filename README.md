@@ -24,7 +24,7 @@ A repository to keep track of what I have been [working on](tid.md) each day & w
    * [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
 ## About
-I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbyschuknight/tid_til) and others.
+I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbyschuknight/tid_til) and others.
 
 ---
 
@@ -33,7 +33,7 @@ I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbys
 - Flexbox
 - SASS
 
-### [Databases](databases.md)
+### Databases
 
 ### HTML
 - [General](HTML/HTML.md)
@@ -46,14 +46,14 @@ I have copied this idea from [libbyschuknight/tid_til](https://github.com/libbys
 ## DataVisualisation
 - D3
 - WebGL
-- [Three.js](javascript/threejs.md)
+- Three.js
 
 ## [React](react/react.md)
 - [Redux](react/redux.md)
 - Router
 
 ##Art
-- [processing](processing.md)
+- processing
 
 ## Other
  - Voltage
