@@ -1,5 +1,8 @@
-#Databases:
+#Databases
 
+[Tutorialspoint SQL Tutorial](http://www.tutorialspoint.com/sql/)
+
+###Categories
 * [SQL](#sql)
 * [PostgreSQL](#postgresql)
 * [NoSQL](#nosql)
@@ -7,7 +10,7 @@
 * [Database in an App](#database in an app)
 * [Database testing](#database testing)
 
-##Persistence:
+##Persistence
 - Data persists after program execution.. long term storage. On a hard drive somewhere
 - File System vs Memory
 
@@ -19,8 +22,7 @@
 
 __________________
 
-####SQL:
-
+##SQL
 statement always end in `;`
 
 ```sql
@@ -37,7 +39,7 @@ UPDATE celebs
 SET age = 22
 WHERE id = 1;
 ```
-####SQL Joins & relationships:
+###SQL Joins & relationships:
 
 relationships between data, modelling data
 
@@ -62,7 +64,6 @@ SELECT * FROM shoes INNER JOIN people ON people.id = shoes.owner_id
 
 twitter project.. one person can follow many people, a person can be followed by many people.
 
-[tutorialspoint](http://www.tutorialspoint.com/sql/)
 
 ```sql
 SELECT * FROM MassiveTable
@@ -97,14 +98,15 @@ sql queries end with  `;`
 
 ___________________
 
-####NoSQL:
+##NoSQL:
 - approach to building DB's
 - described as non-relational (as opposed to SQL which is relational)
 - good for rapid expansion of db (millions of records)
 
 __________________
 
-###Knex:
+##Knex:
+- Node module
 - lets us access data from within programs
 - knex translates javascript into SQL
 - knexfile.js ( config details, says which file to use ), so that knex command in CLI knows where to look for config info.
@@ -145,7 +147,7 @@ can use either way.. Knex or raw. When queries get really big, raw becomes a bit
 
 ____
 
-####Database testing :
+##Database testing :
 
 different connections to different databases.. in testing file and in server.js
 one for testing. one for development
@@ -154,7 +156,7 @@ knex is outside of config file.. we pass knex to app and then get back a app obj
 
 ---
 
-###15 April 2016 - Database in an app
+##15 April 2016 - Database in an app
 
 `git init`
 
