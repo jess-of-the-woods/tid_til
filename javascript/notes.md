@@ -1,6 +1,26 @@
 #JavaScript Notes
 * [Express.js](javascript/express.md)
 
+Data types
+Variables
+Arrays
+Objects
+Functions
+Selectors
+Events
+Scope
+Hoisting
+Debugging
+Truthy/ Falsy
+Conditionals
+Control Flow
+Loops
+Constructors
+Class
+Closures
+Promises
+use strict
+
 ##Data types
 - Strings (e.g. "dogs go woof!")
 - Numbers (e.g. 4, 10)
@@ -17,14 +37,12 @@
 
 Any time you see data surrounded by `[ ]`, it is an array.
 
-###Declaring/Creating an array :
-
+###Declaring/Creating an array
 ```javascript
 var junkData = ["hello", "there", 65, 450]
 ```
 
-###Accessing data in an array :
-
+###Accessing data in an array
 ```javascript
 var junkData = ["Eddie Murphy", 49, "peanuts", 31];
 console.log (junkData[3])
@@ -75,7 +93,6 @@ var newEmail = email.replace("gmail","yahoo")
 ```javascript
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
 ```
-____
 
 ###Print substring of variable to console
 x = starting position (starts from 0)
@@ -106,7 +123,8 @@ guess = +guess;
 console.log(guess);
 ```
 
-###'typeof' tells what type a variable is (number/string/function/object etc.)
+###typeof
+tells what type a variable is (number/string/function/object etc.)
 e.g.
 ```javascript
 console.log(typeof objName);
@@ -216,7 +234,6 @@ var foodDemand = function(food) {
 
 foodDemand("Mashed Potatoes!!! Fuck Yea!")
 ```
-____
 
 ###Function declaration notation:
 This is a named function
@@ -241,8 +258,6 @@ function( data ) {
     return data
 }
 ```
----
-
 
 ##Return keyword
 Parameter is a number, and we do math with that parameter
@@ -360,7 +375,6 @@ if ("JessicaSchmessica".length < 189 ) {
   console.log("Holy crap! Your name is tiny!! Congrats my friend!" );
 }
 ```
-____
 
 ###If / Else statement
 
@@ -439,7 +453,6 @@ for (var i = 1; i < 11; i = i + 1){
   console.log(i);
 }
 ```
-_____________________
 
 ##For / In Loop
 loop over objects.
@@ -456,8 +469,6 @@ for(var vertebrae in nyc) {
 }
 ```
 will print property names
-
-____
 
 ##While loops
 Used when you don't know how many times a loop will have to execute.. While 'some condition' is true, run code, then check condition again.
@@ -499,7 +510,6 @@ var soloLoop = function(){
 };
 soloLoop();
 ```
-_______
 
 ###Do/While Loop (aka "Do" loops)
 Runs at least one time no matter what. Checks the condition after running once. And if still true will loop again.
@@ -604,7 +614,6 @@ Being able to reference a specific instance of local variables in an enclosing f
 - promise libraries (bluebird ( denodeify ), promise ( promiseifyAll ))
 
 ---
-
 ###`use strict`
 first introduced in ES5, but backwards compatible
 reserved words, undeclared variables ( variables without using 'var' ).. will throw errors
