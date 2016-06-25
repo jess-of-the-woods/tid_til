@@ -22,7 +22,7 @@
 
 __________________
 
-##SQL
+##SQL - Structured Query Language
 statement always end in `;`
 
 ```sql
@@ -31,10 +31,12 @@ CREATE TABLE table_name (
     column_2 data_type,
     column_3 data_type
   );
-
+```
+```sql
 INSERT INTO celebs (id, name, age) VALUES (4, 'Taylor Swift', 26);
 SELECT name FROM celebs;
-
+```
+```sql
 UPDATE celebs
 SET age = 22
 WHERE id = 1;
@@ -81,49 +83,51 @@ ______________
 - set up pg so you don't need a username & password
 
 `createdb databaseName`
+
 `dropdb databaseName`
-`psql databaseName`
 
 `knex migrate:latest --env test` => migrates test db ( test is referenced from config file, knexfile.js )
 
-`psql databaseName` - enters interactive terminal
+####PostgreSQL interactive terminal
+- `psql` - enters interactive terminal
+- `psql databaseName` - enters terminal w/ a particular database
+- `\?` - lists all available commands
+- `\l` lists all databases
+- `\d` ( describe ( lists all tables )
+- `\d`  describe tableName (schema)
+- `\q` to exit
+- `SELECT * FROM tableName;`
 
-####PostgreSQL interactive terminal:
-`\l` lists all databases
-`\d` ( describe ( lists all tables )
-`\d`  tableName
-`\q` to exit
-`SELECT * FROM tableName;`
-sql queries end with  `;`
+SQL queries end with  `;`
 
-___________________
+___
 
-##NoSQL:
+##NoSQL
 - approach to building DB's
 - described as non-relational (as opposed to SQL which is relational)
 - good for rapid expansion of db (millions of records)
 
 __________________
 
-##Knex:
+##Knex
 - Node module
 - lets us access data from within programs
 - knex translates javascript into SQL
 - knexfile.js ( config details, says which file to use ), so that knex command in CLI knows where to look for config info.
 
-####Migrations:
+####Migrations
 - `knex migrate:make CreateCarsTable` - throws up error that we need to install sqlite3 (if  not installed)
 creates new migration file in new folder with timestamp as part of filename
 - open new migration file, look at knexjs documentation, create table, add stuff to exports.up & exports.down
-- `knex migrate:latest`
+- `knex migrate:latest` - runs all migrations.
 - name migrations well so they describe what they do.
-- migrate current data from DB to a new ..form, changes structure of db, schema are instructions on how to migrate to new state ( add fields, remove fields )
+- migrate current data from DB to a new ..form, changes structure of db, schema are instructions on how to migrate to new state (add fields, remove fields)
 - migration up is forward, migration down is back ( rollback migration )
 - install knex globally = `npm i -g knex`
 
 varchar = variable character. basically a string. any character up to max 255 long
 
-#####Seeds
+####Seeds
 seed data is test data, good for testing environment, or development
 - `knex seed:make seedName` - creates new seed file..
 - add data to seed file
@@ -138,12 +142,12 @@ seed data is test data, good for testing environment, or development
 ```
 
 #####Raw SQL syntax:
-```sql
+```javascript
   var allTheCats = 'SELECT * FROM cats'
 ```
 can use either way.. Knex or raw. When queries get really big, raw becomes a bit unwieldy & ugly
 
-`DROP` means delete/destroy. E.g. `drop table` etc
+`DROP` means delete/destroy. E.g. `drop table`
 
 ____
 
@@ -158,22 +162,23 @@ knex is outside of config file.. we pass knex to app and then get back a app obj
 
 ##15 April 2016 - Database in an app
 
-`git init`
+`git init` -  initialises new git repository in project.
 
-`npm init`
+`npm init` - initialises as a node project.
 
-`npm i -g express-generator` (install globally)
+`npm i -g express-generator` installs express-generator globally
 
 `express /path/to/folder` or just type `express`
 `npm install` ( installs dependencies )
 
 if git add all node modules.. `git rm  -r --cached node_modules/`
-`touch .gitignore`, add node_modules
 
-`npm i knex --save` - needed in package.json even if installed globally
+`touch .gitignore`, add node_modules.
 
-`npm i knex -g` - makes it available to use as a command
+`npm i knex --save` - knex module needed in package.json even if installed globally.
 
-`knex init`
-look at knexfile.js (should point to a file)
+`npm i knex -g` - installs knex, makes it available to use as a command in terminal.
+
+`knex init` -  creates knex config file. look at knexfile.js (should point to a file)
+
 `npm i sqlite3 --save`
