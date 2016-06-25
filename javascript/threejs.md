@@ -1,14 +1,10 @@
 #Three.js
 
-[How to effortlessly integrate Three.js into your projects]( http://bit.ly/25RlmE4) ( youtube )
-
-[Intro to THREE.js #4 – Creating and Controlling an Animation w/ the DAT.GUI Interface](bit.ly/1VpsO23)
-
 ```javascript
-    geometry = new THREE.CubeGeometry(200, 200, 200); // creates a new cube geometry w some parameters
-    material = new THREE.MeshNormalMaterial({shading: THREE.FlatShading}) // creates new material which wraps around geometry
-    mesh = new THREE.mesh(geometry, material);  // adds new mesh which is combination of prev 2 lines ( geom & material )
-    scene.add(mesh); // adds mesh to scene
+geometry = new THREE.CubeGeometry(200, 200, 200);  // creates a new cube geometry w some parameters
+material = new THREE.MeshNormalMaterial({shading: THREE.FlatShading}) // creates new material which wraps around geometry
+mesh = new THREE.mesh(geometry, material); // adds new mesh which is combination of prev 2 lines ( geometry & material )
+scene.add(mesh); // adds mesh to scene
 ```
 
 In chrome, to allow cross origin,
@@ -27,9 +23,12 @@ ________
 - Euler values (radians) something about pi & rotation?
 - Fiducial - (especially of a point or line) assumed as a fixed basis of comparison.
 - MVP - Model View Projection
-_______
 
 ####Links
+
+[How to effortlessly integrate Three.js into your projects]( http://bit.ly/25RlmE4) ( youtube )
+
+[Intro to THREE.js #4 – Creating and Controlling an Animation w/ the DAT.GUI Interface](bit.ly/1VpsO23)
 
 [Gallant Lab Neuroimaging](http://gallantlab.org/semanticmovies/)
 
