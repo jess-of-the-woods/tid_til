@@ -92,10 +92,10 @@ ______________
 - `psql` - enters interactive terminal
 - `psql databaseName` - enters terminal w/ a particular database
 - `\?` - lists all available commands
-- `\l` lists all databases
-- `\d` ( describe ( lists all tables )
-- `\d`  describe tableName (schema)
-- `\q` to exit
+- `\l` - lists all databases
+- `\d` - describe (lists all tables)
+- `\d tableName` - describe tableName (schema)
+- `\q` - exit
 - `SELECT * FROM tableName;`
 
 SQL queries end with  `;`
@@ -103,9 +103,9 @@ SQL queries end with  `;`
 ___
 
 ##NoSQL
-- approach to building DB's
+- approach to building databases
 - described as non-relational (as opposed to SQL which is relational)
-- good for rapid expansion of db (millions of records)
+- good for rapid expansion of database (millions of records)
 
 __________________
 
