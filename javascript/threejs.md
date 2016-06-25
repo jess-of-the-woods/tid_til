@@ -1,6 +1,7 @@
 #Three.js
 
 [How to effortlessly integrate Three.js into your projects]( http://bit.ly/25RlmE4) ( youtube )
+
 [Intro to THREE.js #4 – Creating and Controlling an Animation w/ the DAT.GUI Interface](bit.ly/1VpsO23)
 
 ```javascript
@@ -10,11 +11,13 @@
     scene.add(mesh); // adds mesh to scene
 ```
 
-In chrome, to allow cross origin, close all instances then start the Chrome executable with a command line flag: 'google-chrome --allow-file-access-from-files'
+In chrome, to allow cross origin,
+close all instances then start the Chrome executable with a command line flag: `google-chrome --allow-file-access-from-files`
 
-
-Different renderers you can use:
-- WebGL, SVG or HTML5 Canvas
+####Different renderers you can use:
+- WebGL
+- SVG
+- HTML5 Canvas
 
 ________
 
@@ -26,7 +29,12 @@ ________
 - MVP - Model View Projection
 _______
 
+####Links
+
 [Gallant Lab Neuroimaging](http://gallantlab.org/semanticmovies/)
+
 [Interactive 3D Graphics](https://www.udacity.com/course/interactive-3d-graphics--cs291)
+
 [HTML5 Canvas](https://www.udacity.com/course/html5-canvas--ud292)
+
 [pluralsight three.js](https://www.pluralsight.com/courses/webgl-threejs-fundamentals)
