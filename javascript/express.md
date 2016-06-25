@@ -1,9 +1,5 @@
 #Express Server:
 
-Use relative routes in client side app.. ( express endpoints )
-
-____________
-
 ####To setup express:
 * new folder
 * cd into folder
@@ -13,6 +9,10 @@ ____________
 
 ####Express Generator:
 `express .` to run express-generator ( run inside a folder )
+
+__________________________
+
+Use relative routes in client side app.. ( express endpoints )
 
 __________________________
 
@@ -64,13 +64,11 @@ Create, Read, Update, Destroy..
 
 `PUT /tweets/:id` ( replace whole object )
 
-`PATCH /tweets/:id` ( replace part of object )
+`PATCH /tweets/:id` ( replace part of object ) `{id: 7, tweet: 'hi', color: 'red'}`
 
-`{id: 7, tweet: 'hi', color: 'red'}`
+`PUT /tweets/7 {color: 'blue'}` => `{id: 7, color: 'blue'}`
 
-`PUT /tweets/7 {color: 'blue'} => {id: 7, color: 'blue'}`
-
-`PATCH /tweets/7 {color: 'blue'} =>  {id: 7, tweet: 'hi', color: 'blue'}`
+`PATCH /tweets/7 {color: 'blue'}` =>  `{id: 7, tweet: 'hi', color: 'blue'}`
 
 `DELETE /tweets/:id`
 
