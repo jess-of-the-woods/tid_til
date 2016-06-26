@@ -303,12 +303,14 @@ mouseout, mousemove, click, mouseover, dblclick, DomContentLoaded, load, keydown
 Event firing goes down the tree from the DOM element that is the root touching every child along the way, to the element which triggered it, known as the target This is capturing or phase 1. Then all the way back up again (bubbling/phase 2).
 This means that with stopPropagation(), the event can be stopped at any specified point along the way.
 So the 'true' boolean in the event listener means capturing. 'False' means bubbling.
+
 ---
 ##Scope
 Each local scope can also see all the local scopes that contain it. JavaScript only has local & global scope. It doesn't have block scope. Functions are the only things that create local scope. All variables from blocks around a function’s definition are visible—meaning both those in function bodies that enclose it and those at the top level of the program.
 ##Hoisting
 When you declare and initialize a variable below other code that has the same scope, its as if the variable is being declared at the top of the code and then initialised later.
 Function definitions are also hoisted, that is they are parsed before other code and therefore are available to be called before they are declared
+
 ---
 ##Debugging
 - console.log() stdout
