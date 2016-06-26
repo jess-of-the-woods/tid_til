@@ -22,6 +22,7 @@
 - [Closures](#closures)
 - [Promises](#promises)
 - [use strict](#use-strict)
+
 ---
 
 ##Data-types
@@ -94,25 +95,21 @@ console.log(typeof objName);
 - Jagged Arrays: Nested Arrays aren't all the same length
 
 Any time you see data surrounded by `[ ]`, it is an array.
-
 ###Declaring/Creating an array
 ```javascript
 var junkData = ["hello", "there", 65, 450]
 ```
-
 ###Accessing data in an array
 ```javascript
 var junkData = ["Eddie Murphy", 49, "peanuts", 31];
 console.log (junkData[3])
 ```
 prints `31`
-
 ###Length method
 ```javascript
 console.log(junkData.length)
 ```
 prints out the number of items in an array
-
 ###Push method
 Arrays have a `.push()` method that adds the thing between parentheses to the end of the array. eg.
 
@@ -121,7 +118,6 @@ newArray = [];
 newArray.push('hello');
 newArray[0];   // equals 'hello'
 ```
-
 ###Iterating over an Array
 ```javascript
 var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
@@ -130,21 +126,16 @@ for (i = 0; i < languages.length; i++) {
 }
 ```
 ---
-
-
 ##Modulo
-23%10
-23 divided by 10 = 2 and a remainder of 3
+`23%10` = 23 divided by 10 = 2 and a remainder of 3
 
 ---
-
 ##Objects
 A JavaScript object is a collection of named values
 Like a noun & a verb together. Information & Functions in the same place.
 You can also think of objects as combinations of key-value pairs (like arrays), only their keys don't have to be numbers like 0, 1, or 2: they can be strings and variables
 - have properties, and properties have values
 - have methods (like a function associated with an object)
-
 ###Object Literal Notation
 ```javascript
 var myObj = {
@@ -154,14 +145,10 @@ var myObj = {
 
 var emptyObj = {};
 ```
-__
-
 ###Object Constructor
 ```javascript
 var objectName = new Object();
 ```
-____
-
 ####2 ways to add keys/values to object
 ```javascript
 myObj["name"] = "Charlie";
@@ -170,7 +157,6 @@ or
 ```javascript
 myObj.name = "Charlie";
 ```
-
 ###Accessing Objects
 
 ####Dot notation
@@ -196,7 +182,6 @@ var bob = new Object();
 bob.name = "Bob Smith";
 bob.age = 30;
 ```
-
 this time we have added a method, setAge
 ```javascript
 bob.setAge = function (newAge){
@@ -205,7 +190,6 @@ bob.setAge = function (newAge){
 bob.setAge(20);
 ```
 'this' is a place holder used in methods (functions), (defined outside of an object). Replace 'this' with the object name and the method can be used on any object.
-
 ####hasOwnProperty (Object Method)
 checks to see whether an object has a particular property
 
@@ -223,7 +207,6 @@ else {
 }
 ```
 ---
-
 ##Functions
 This way of declaring functions is actually anonymous, although the anonymous function is stored in a variable.
 
@@ -234,7 +217,6 @@ var foodDemand = function(food) {
 
 foodDemand("Mashed Potatoes!!! Fuck Yea!")
 ```
-
 ###Function declaration notation:
 This is a named function
 ```javascript
@@ -249,7 +231,6 @@ function triple(x) {
     return x * 3
 }
 ```
-
 ###Anonymous function
 ```javascript
 function( data ) {
@@ -258,7 +239,6 @@ function( data ) {
     return data
 }
 ```
-
 ##Return keyword
 Parameter is a number, and we do math with that parameter
 ```javascript
@@ -271,22 +251,18 @@ this calls timesTwo function and assigns output to new variable (newNumber), the
 var newNumber = timesTwo(8)
 console.log(newNumber);
 ```
-
 ---
-
 ##Comments
 
 ####Single-line
-// Some comments
+`// Some comments`
 
 ####Multi-line
-/* Comment comment comment
-comment comment */
-/*
+`/* Comment comment comment
+comment comment */`
 
 ---
-
-##Selectors:
+##Selectors
 [caniuse.com](caniuse.com) - browser compatibility
 ```javascript
 document.getElementById("main").innerHTML = "text to be <strong>entered</strong>"
@@ -294,7 +270,8 @@ document.getElementsByTagName("p")
 document.getElementsByClassName("main")
 document.querySelector(".main") // will give you the first element it finds
 document.querySelectorAll(".main") // will give you all elements
-
+```
+```javascript
 li = document.getElementsByTagName("li")
 li.classList.add("main")
 li.classList.remove("main")
@@ -303,7 +280,6 @@ li.parentElement.children     // returns siblings
 li.parentElement.children[0]   // returns sibling that is 1st child of parent
 ```
 ---
-
 ##Events
 Event Listener is a function which takes 3 arguments
 1. Event name
@@ -320,25 +296,20 @@ para.addEventListener("mouseleave", add)
 ```
 which will call a function called 'add'
 
-###Common event names:
+###Common event names
 mouseout, mousemove, click, mouseover, dblclick, DomContentLoaded, load, keydown, keyup, wheel, DOMMouseScroll
 
-###Capturing/Bubbling :
+###Capturing/Bubbling
 Event firing goes down the tree from the DOM element that is the root touching every child along the way, to the element which triggered it, known as the target This is capturing or phase 1. Then all the way back up again (bubbling/phase 2).
 This means that with stopPropagation(), the event can be stopped at any specified point along the way.
 So the 'true' boolean in the event listener means capturing. 'False' means bubbling.
-
 ---
-
 ##Scope
 Each local scope can also see all the local scopes that contain it. JavaScript only has local & global scope. It doesn't have block scope. Functions are the only things that create local scope. All variables from blocks around a function’s definition are visible—meaning both those in function bodies that enclose it and those at the top level of the program.
-
 ##Hoisting
 When you declare and initialize a variable below other code that has the same scope, its as if the variable is being declared at the top of the code and then initialised later.
 Function definitions are also hoisted, that is they are parsed before other code and therefore are available to be called before they are declared
-
 ---
-
 ##Debugging
 - console.log() stdout
 - IDE's.. visual studio, eclipse
@@ -394,7 +365,9 @@ else
 
 ###Logical operators
 `&&` - and
+
 `||` - or
+
 `!` - not
 
 ```javascript
@@ -468,7 +441,7 @@ for(var vertebrae in nyc) {
     console.log(vertebrae);
 }
 ```
-will print property names
+will print property names, even though there is no 'vertebrae' property in nyc object.
 
 ##While loops
 Used when you don't know how many times a loop will have to execute.. While 'some condition' is true, run code, then check condition again.
