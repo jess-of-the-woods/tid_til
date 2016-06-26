@@ -1,7 +1,6 @@
 # JavaScript
 ============
-
-Yea, some stuff..
+[Notes](notes.md)
 
 [Node](node.md)
 

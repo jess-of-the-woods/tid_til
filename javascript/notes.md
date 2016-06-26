@@ -1,5 +1,8 @@
 #JavaScript Notes
 * [Express.js](javascript/express.md)
+* [react](react/react.md)
+* [three.js](javascript/threejs.md)
+
 
 - [Data types](#data-types)
 - [Variables](#variables)
@@ -11,7 +14,7 @@
 - [Scope](#scope)
 - [Hoisting](#hoisting)
 - [Debugging](#debugging)
-- Truthy/ Falsy
+- [Truthy / Falsy](#truthy-falsy)
 - [Conditionals](#conditionals)
 - [Control Flow](#control-flow)
 - [Loops](#loops)
@@ -20,6 +23,7 @@
 - [Closures](#closures)
 - [Promises](#promises)
 - [use strict](#use-strict)
+---
 
 ##Data-types
 - Strings (e.g. "dogs go woof!")

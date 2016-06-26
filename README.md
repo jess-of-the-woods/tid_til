@@ -22,9 +22,7 @@ A repository to keep track of what I have been [working on](tid.md) each day & w
 
 ## About
 I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbyschuknight/tid_til) and others.
-
 ---
-
 ### CSS
 - [General](CSS/CSS.md)
 - Flexbox

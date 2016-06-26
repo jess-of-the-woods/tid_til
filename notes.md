@@ -1,10 +1,10 @@
 #Notes
 
 * [Databases](databases.md)
-* [processing](processing.md)
 * [Express.js](javascript/express.md)
-* [three.js](javascript/threejs.md)
-* [react](react/react.md)
 * [javascript](javascript/notes.md)
+* [three.js](javascript/threejs.md)
+* [processing](processing.md)
+* [react](react/react.md)
 
 [Keyboard Shortcuts](keyboardShortcuts.md)
