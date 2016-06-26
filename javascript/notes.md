@@ -3,7 +3,6 @@
 * [react](react/react.md)
 * [three.js](javascript/threejs.md)
 
-
 - [Data types](#data-types)
 - [Variables](#variables)
 - [Arrays](#arrays)
@@ -26,18 +25,21 @@
 ---
 
 ##Data-types
-- Strings (e.g. "dogs go woof!")
-- Numbers (e.g. 4, 10)
-- Booleans (e.g. false, 5 > 4)
-- Arrays (e.g. [23, bool1, "stuff"];)
-- Objects
+- Strings e.g. `"dogs go woof!"`
+- Numbers e.g. `4`, `10`
+- Booleans e.g. `false`, `5 > 4`
+- Arrays e.g. `[23, bool1, {height: 154}, "stuff"]`
+- Objects  e.g. `{
+  music: 'excellent',
+  genre: 'noise'
+  }`
 
 ##Variables
 Also referred to as a scalar
 Only variables declared with keyword 'var' inside functions with have 'localness'.
+Avoid global variables if possible.
 
 Declare a variable and initialize it to a value :
-
 ```javascript
 var myAge = 34;
 var myCountry = "Aotearoa"
@@ -52,14 +54,12 @@ var newEmail = email.replace("gmail","yahoo")
 ```javascript
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
 ```
-
 ###Print substring of variable to console
 x = starting position (starts from 0)
 y = end position
 ```javascript
 console.log(myCountry.substring(0,3));
 ```
-
 ###Print number of characters in variable to console
 ```javascript
 console.log(myCountry.length);
@@ -68,29 +68,24 @@ console.log(myCountry.length);
 ```javascript
 var age = prompt("What's your age?");
 ```
-
 ###Increment/Decrement
 - `variableName++` - Increment by 1
 - `variableName--` - Decrement by 1
 - `variableName += 3` - Increment by X (3)
 - `variableName -= 3` - Decrement by X (3)
-
 ###Convert (numerical) user input (from prompt) to a number using +
 ```javascript
 guess = prompt()
 guess = +guess;
 console.log(guess);
 ```
-
 ###typeof
 tells what type a variable is (number/string/function/object etc.)
 e.g.
 ```javascript
 console.log(typeof objName);
 ```
-
 ---
-
 ##Arrays
 - Lists of data
 - Heterogeneous: Different data types (strings, integers, booleans)
