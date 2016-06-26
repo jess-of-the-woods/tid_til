@@ -7,5 +7,6 @@
 * [three.js](javascript/threejs.md)
 * [processing](processing.md)
 * [react](react/react.md)
+* [flexbox](CSS/flexbox.md)
 
 [Keyboard Shortcuts](keyboardShortcuts.md)
