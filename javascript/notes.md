@@ -1,77 +1,32 @@
 #JavaScript Notes
 * [Express.js](javascript/express.md)
 
-- Data types
-- Variables
-- Arrays
-- Objects
-- Functions
-- Selectors
-- Events
-- Scope
-- Hoisting
-- Debugging
+- [Data types](#data-types)
+- [Variables](#variables)
+- [Arrays](#arrays)
+- [Objects](#objects)
+- [Functions](#functions)
+- [Selectors](#selectors)
+- [Events](#events)
+- [Scope](#scope)
+- [Hoisting](#hoisting)
+- [Debugging](#debugging)
 - Truthy/ Falsy
-- Conditionals
-- Control Flow
-- Loops
-- Constructors
-- Class
-- Closures
-- Promises
-- use strict
+- [Conditionals](#conditionals)
+- [Control Flow](#control-flow)
+- [Loops](#loops)
+- [Constructors](#constructors)
+- [Class](#class)
+- [Closures](#closures)
+- [Promises](#promises)
+- [use strict](#use-strict)
 
-##Data types
+##Data-types
 - Strings (e.g. "dogs go woof!")
 - Numbers (e.g. 4, 10)
 - Booleans (e.g. false, 5 > 4)
 - Arrays (e.g. [23, bool1, "stuff"];)
 - Objects
-
-##Arrays
-- Lists of data
-- Heterogeneous: Different data types (strings, integers, booleans)
-- Ordered (position is fixed), indexed from 0
-- Multidimensional (Nested, 2D, 3D etc.)
-- Jagged Arrays: Nested Arrays aren't all the same length
-
-Any time you see data surrounded by `[ ]`, it is an array.
-
-###Declaring/Creating an array
-```javascript
-var junkData = ["hello", "there", 65, 450]
-```
-
-###Accessing data in an array
-```javascript
-var junkData = ["Eddie Murphy", 49, "peanuts", 31];
-console.log (junkData[3])
-```
-prints `31`
-
-###Length method
-```javascript
-console.log(junkData.length)
-```
-prints out the number of items in an array
-
-###Push method
-Arrays have a `.push()` method that adds the thing between parentheses to the end of the array. eg.
-
-```javascript
-newArray = [];
-newArray.push('hello');
-newArray[0];   // equals 'hello'
-```
-
-###Iterating over an Array
-```javascript
-var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
-for (i = 0; i < languages.length; i++) {
-    console.log(languages[i]);
-}
-```
----
 
 ##Variables
 Also referred to as a scalar
@@ -131,6 +86,52 @@ console.log(typeof objName);
 ```
 
 ---
+
+##Arrays
+- Lists of data
+- Heterogeneous: Different data types (strings, integers, booleans)
+- Ordered (position is fixed), indexed from 0
+- Multidimensional (Nested, 2D, 3D etc.)
+- Jagged Arrays: Nested Arrays aren't all the same length
+
+Any time you see data surrounded by `[ ]`, it is an array.
+
+###Declaring/Creating an array
+```javascript
+var junkData = ["hello", "there", 65, 450]
+```
+
+###Accessing data in an array
+```javascript
+var junkData = ["Eddie Murphy", 49, "peanuts", 31];
+console.log (junkData[3])
+```
+prints `31`
+
+###Length method
+```javascript
+console.log(junkData.length)
+```
+prints out the number of items in an array
+
+###Push method
+Arrays have a `.push()` method that adds the thing between parentheses to the end of the array. eg.
+
+```javascript
+newArray = [];
+newArray.push('hello');
+newArray[0];   // equals 'hello'
+```
+
+###Iterating over an Array
+```javascript
+var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
+for (i = 0; i < languages.length; i++) {
+    console.log(languages[i]);
+}
+```
+---
+
 
 ##Modulo
 23%10
