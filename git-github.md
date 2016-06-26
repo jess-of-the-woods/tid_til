@@ -1,5 +1,55 @@
 #Git / GitHub
 
+`git init` initialize project as git repo
+
+`git clone https://github.com/dev-academy-programme/karearea-2016.git` - clone git repository to local machine
+
+---
+
+### Git checkout
+- `git checkout branchName` - switch to newBranchName
+- `git checkout -b newBranchName` - create & checkout new branch
+
+`git add .` / `git add -A` / `git add filename` - stage files to be committed
+
+`git status` - see status of repository
+
+`git commit -m "message about commit"` - commit staged files/changes to repository
+
+`git push` - push files to github repository
+
+`git pull` - pulls down changes from remote repository (pull = fetch + merge)
+
+`git pull -r` - pulls down changes and rebases them to be before commits on local branch
+
+---
+
+### Git Branch
+- `git branch --all` - displays all branches, verbose
+- `git branch new_branch_name` - create new branch in local repository
+- `git branch -d <branch name>` - delete a branch
+
+---
+
+### Git log
+- `git log` - lists all the commits
+- `git log --since='2013-06-09` - since specified date
+- `git log since ='2 weeks ago'` - since 2 weeks ago
+
+  `git show sha-key`
+
+[creating-project-pages-manually](https://help.github.com/articles/creating-project-pages-manually/)
+
+---
+
+###Git remote
+- `git remote -v` - displays all remotes, verbose
+- `git remote add origin` https://github.com/jess-of-the-woods/react-the_first.git - adds origin
+- `git remote rm origin` - removes remotes
+- `git remote prune origin` - deletes local cached version of branches that have been deleted on github
+
+---
+
 ##Undoing
 3 trees ( collections of files ):  Working directory, Index, HEAD
 
@@ -20,60 +70,7 @@ Make the Working Directory look like the Index
 `git reset --soft HEAD ~1` ( uncommit changes, number of commits )
 
 ###Revert
-  `git revert commitId` ( does an anti-commit, undo commit, but is still available )
-
----
-
-###Git remote
-`git init` initialize project as git repo
-
-`git remote -v` - displays all remotes, verbose
-
-`git remote add origin` https://github.com/jess-of-the-woods/react-the_first.git - adds origin
-
-`git remote rm origin` - removes remotes
-
-`git remote prune origin` - deletes local cached version of branches that have been deleted on github
-
-
-
-`git help commit` - ?
-
-
-
-`git clone https://github.com/dev-academy-programme/karearea-2016.git` - clone git repo to local machine
-
-### Git checkout
-- `git checkout branchName` - switch to newBranchName
-- `git checkout -b newBranchName` - create & checkout new branch
-
-
-`git add .` / `git add -A` / `git add filename` - stage files to be committed
-
-
-`git status` - see status of repository
-
-`git commit -m "message about commit"` - commit staged files/changes to repository
-
-`git push` - push files to github repository
-
-`git pull` - pulls down changes from remote repository (pull = fetch + merge)
-
-`git pull -r` - pulls down changes and rebases them to be before commits on local branch
-
-### Git Branch
-- `git branch --all` - displays all branches, verbose
-- `git branch new_branch_name` - create new branch in local repository
-- `git branch -d <branch name>` - delete a branch
-
-### Git log
-- `git log` - lists all the commits
-- `git log --since='2013-06-09` - since specified date
-- `git log since ='2 weeks ago'` - since 2 weeks ago
-
-  `git show sha-key`
-
-[creating-project-pages-manually](https://help.github.com/articles/creating-project-pages-manually/)
+`git revert commitId` ( does an anti-commit, undo commit, but is still available )
 
 ---
 
