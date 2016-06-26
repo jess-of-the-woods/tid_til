@@ -1,6 +1,5 @@
 #node
-<!-- ![node](https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png "Node.js") -->
-<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" align="left" height="120" width="200">
+<img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" height="120" width="200">
 
 - [Express](express.md)
 
