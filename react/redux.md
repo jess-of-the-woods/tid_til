@@ -4,3 +4,7 @@
 Heart of redux is state
 
 Has a reducer fn which takes state & action. Returns a new state which flows into react components as props..
+
+
+
+_______
