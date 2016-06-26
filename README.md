@@ -6,11 +6,11 @@ A repository to keep track of what I have been [working on](tid.md) each day & w
 [Notes](notes.md)
 
 ### Categories
-* [CSS](#CSS)
+* [CSS](#css)
 * [Databases](#databases)
 * [HTML](#HTML)
 * [JavaScript](#javascript)
-* [DataVisualisation](#datavisualisation)
+* [DataVisualisation](#data-visualisation)
 * [React](#react)
 * [Art](#art)
 * [Other](#other)
@@ -38,7 +38,7 @@ I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbysch
 ## [JavaScript](javascript/javascript.md)
 - [Node](javascript/node.md)
 
-## DataVisualisation
+## Data Visualisation
 - D3
 - WebGL
 - Three.js
