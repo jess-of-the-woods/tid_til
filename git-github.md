@@ -54,7 +54,7 @@
 
 ##Undoing
 
-<img src='https://i.stack.imgur.com/caci5.png' height="150" width="150">
+<img src='https://i.stack.imgur.com/caci5.png'>
 
 3 trees ( collections of files ):  Working directory, Index, HEAD
 
