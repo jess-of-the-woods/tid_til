@@ -5,4 +5,4 @@
 - Canvas
 - SVG
 
-See Also [CSS](../CSS/CSS.md)
+See Also [CSS](../CSS/CSS.md) | [JavaScript](../javascript/javascript.md)

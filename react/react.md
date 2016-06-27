@@ -2,8 +2,6 @@
 
 #React
 
-<!-- ![React](http://yycjs.com/real-world-react/img/react-logo.png "React") -->
-
 <img src="http://yycjs.com/real-world-react/img/react-logo.png" height="120" width="120">
 
 ##[Redux](redux.md)

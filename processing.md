@@ -1,5 +1,8 @@
-#Processing :
-![processing](https://lh4.googleusercontent.com/-azP3ojRmi4Q/AAAAAAAAAAI/AAAAAAAAAZk/hyRbfyOPMAU/photo.jpg)
+[Notes](notes.md) | [JavaScript](javascript/notes.md)
+
+#Processing
+
+<img src="https://lh4.googleusercontent.com/-azP3ojRmi4Q/AAAAAAAAAAI/AAAAAAAAAZk/hyRbfyOPMAU/photo.jpg" height="120" width="120">
 
 `./processing` from the processing folder in terminal to run
 
@@ -21,9 +24,10 @@ ________________
 
 Rectangle:
 
-`rect(200,200,200,200 );`
+`rect(200,200,200,200);`
 
 First two are x,y coordinates for the position. Determines the top left corner of shape.
+
 Second two are width & height
 
 _____

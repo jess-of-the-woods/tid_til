@@ -1,4 +1,4 @@
-[Back](README.md) | [toLearn](toLearn.md) | [Notes](notes.md)
+[Home](README.md) | [To Learn](toLearn.md) | [Notes](notes.md)
 
 #Questions
 

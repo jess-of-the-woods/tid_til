@@ -1,6 +1,6 @@
-[Notes](../notes.md) | [Asynchronous](../async.md)
+[Notes](../notes.md) | [JavaScript](javascript/notes.md) | [Asynchronous](../async.md)
 
-#node
+#Node.js
 <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" height="120" width="200">
 
 - [Express](express.md)

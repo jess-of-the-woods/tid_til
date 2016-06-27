@@ -1,4 +1,4 @@
-[notes](notes.md)
+[Notes](notes.md)
 
 #Nix Terminal
 
