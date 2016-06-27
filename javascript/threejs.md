@@ -27,15 +27,10 @@ ________
 - MVP - Model View Projection
 
 ####Links
+- [How to effortlessly integrate Three.js into your projects]( http://bit.ly/25RlmE4) (YouTube)
+- [Intro to THREE.js #4 – Creating and Controlling an Animation w/ the DAT.GUI Interface](https://www.youtube.com/watch?v=GlLPYIDrxbM&list=PLOGomoq5sDLutXOHLlESKG2j9CCnCwVqg&index=4) (YouTube)
+- [Gallant Lab Neuroimaging](http://gallantlab.org/semanticmovies/)
+- [Interactive 3D Graphics](https://www.udacity.com/course/interactive-3d-graphics--cs291) (Udacity Course)
+- [Pluralsight Three.js fundamentals](https://www.pluralsight.com/courses/webgl-threejs-fundamentals)
 
-[How to effortlessly integrate Three.js into your projects]( http://bit.ly/25RlmE4) ( youtube )
-
-[Intro to THREE.js #4 – Creating and Controlling an Animation w/ the DAT.GUI Interface](bit.ly/1VpsO23)
-
-[Gallant Lab Neuroimaging](http://gallantlab.org/semanticmovies/)
-
-[Interactive 3D Graphics](https://www.udacity.com/course/interactive-3d-graphics--cs291)
-
-[HTML5 Canvas](https://www.udacity.com/course/html5-canvas--ud292)
-
-[pluralsight three.js](https://www.pluralsight.com/courses/webgl-threejs-fundamentals)
+See Also [Data Visualisation](dataVisualisation.md)
