@@ -3,16 +3,6 @@ A repository to keep track of what I have been [working on](tid.md) each day & w
 
 [Questions](questions.md) | [To Learn](toLearn.md) | [Notes](notes.md)
 
-#### Categories
-* [CSS](#css)
-* [Databases](#databases)
-* [HTML](#html)
-* [JavaScript](#javascript)
-* [DataVisualisation](#data-visualisation)
-* [React](#react)
-* [Art](#art)
-* [Other](#other)
-
 ## Links
 #####Markdown
    * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
@@ -23,20 +13,20 @@ I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbysch
 
 ---
 
-### [CSS](CSS/CSS.md)
+####[Art](art.md)
 
-### [Databases](databases.md)
+#### [CSS](CSS/CSS.md)
 
-### [HTML](HTML/HTML.md)
+#### [Databases](databases.md)
 
-### [JavaScript](javascript/notes.md)
+#### [Data Visualisation](dataVisualisation.md)
 
-### [Data Visualisation](dataVisualisation.md)
+#### [HTML](HTML/HTML.md)
 
-### [React](react/react.md)
+#### [JavaScript](javascript/notes.md)
 
-###[Art](art.md)
+#### [React](react/react.md)
 
-### Other
+#### Other
  - Voltage
  - Serial vs Parallel processing
