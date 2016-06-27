@@ -1,8 +1,8 @@
-[To Learn](toLearn.md)
+[To Learn](../toLearn.md)
 
 #HTML
 - HTML5
 - Canvas
 - SVG
 
-See Also [CSS](../CSS/CSS.md) | [JavaScript](../javascript/javascript.md)
+See Also [CSS](../CSS/CSS.md) | [JavaScript](../javascript/notes.md)
