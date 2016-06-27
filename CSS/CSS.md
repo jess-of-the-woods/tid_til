@@ -1,4 +1,6 @@
-# CSS
+[Notes](../notes.md)
+
+#CSS
 
 [Flexbox](flexbox.md)
 

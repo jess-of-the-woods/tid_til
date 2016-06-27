@@ -45,7 +45,6 @@ I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbysch
 
 ## [React](react/react.md)
 - [Redux](react/redux.md)
-- Router
 
 ##Art
 - processing

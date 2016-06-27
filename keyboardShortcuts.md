@@ -1,3 +1,5 @@
+[Notes](notes.md)
+
 #Keyboard Shortcuts
 
 ## Atom Shortcuts: (  http://bit.ly/24lIABu  )

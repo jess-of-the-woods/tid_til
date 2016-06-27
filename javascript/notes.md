@@ -1,9 +1,10 @@
-[Notes](notes.md)
+[Notes](../notes.md)
 
 #JavaScript Notes
 * [Express.js](javascript/express.md)
 * [react](react/react.md)
 * [three.js](javascript/threejs.md)
+* [Node](node.md)
 
 ##Table Of Contents
 - [Data types](#data-types)

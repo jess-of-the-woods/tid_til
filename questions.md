@@ -1,3 +1,5 @@
+[toLearn](toLearn.md) | [Notes](notes.md)
+
 #Questions
 
 - do many repo branches greatly increase the size of a repo if the differences are very small or can it share code where it exists the same way across multiple branches?

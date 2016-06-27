@@ -1,13 +1,16 @@
+[Questions](questions.md) | [To Learn](toLearn.md)
+
 #Notes
 
+* [Asynchronous](async.md)
 * [Databases](databases.md)
 * [Express.js](javascript/express.md)
+* [Flexbox](CSS/flexbox.md)
 * [Git/GitHub](git-github.md)
-* [javascript](javascript/notes.md)
-* [three.js](javascript/threejs.md)
-* [processing](processing.md)
-* [react](react/react.md)
-* [flexbox](CSS/flexbox.md)
+* [JavaScript](javascript/notes.md)
 * [Linux Terminal](linuxTerminal.md)
+* [processing](processing.md)
+* [React](react/react.md)
+* [Three.js](javascript/threejs.md)
 
 [Keyboard Shortcuts](keyboardShortcuts.md)

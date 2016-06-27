@@ -1,7 +1,9 @@
+[Notes](notes.md) | [Questions](questions.md)
+
 #To Learn
 
-- SASS/ Flexbox
-- React
+- SASS/ [Flexbox](CSS/flexbox.md)
+- [React](react/react.md), React router
 - Ember.js
 - Tape, tests
 - Listeners, jQuery event delegation
@@ -11,7 +13,6 @@
 
 DOM, DOM Manipulation
 Matrices?
-Diff ways of declaring functions ( pros & cons ), Anon Functions
 
 ## Node basics
 - express

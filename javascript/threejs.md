@@ -1,3 +1,5 @@
+[Notes](../notes.md) | [JavaScript](javascript.md)
+
 #Three.js
 
 ```javascript
