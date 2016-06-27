@@ -3,10 +3,10 @@
 #JavaScript Notes
 
 ##Links
-* [Express.js](javascript/express.md)
-* [React](react/react.md)
+* [Express.js](express.md)
+* [React](../react/react.md)
 * [Node.js](node.md)
-* [Three.js](javascript/threejs.md)
+* [Three.js](threejs.md)
 
 ##Table Of Contents
 - [Data types](#data-types)
