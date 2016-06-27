@@ -1,9 +1,11 @@
 [Notes](notes.md) | [To Learn](toLearn.md)
 
 #Data Visualisation
+* [CSS](CSS/CSS.md)
+* D3.js
+* [HTML](HTML/HTML.md)5 Canvas
 * [processing](processing.md)
-* [Three.js](javascript/threejs.md)
 * SVG
-* HTML5 Canvas
+* [Three.js](javascript/threejs.md)
 
 See Also [Databases](databases.md) | Art

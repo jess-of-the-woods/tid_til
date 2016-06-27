@@ -7,10 +7,12 @@
 - DOM, DOM Manipulation
 - Matrices?
 - [HTML](HTML/HTML.md)
+- [Data Visualisation](dataVisualisation.md)
 
 ###[CSS](CSS/CSS.md)
 - SASS
 - [Flexbox](CSS/flexbox.md)
+
 
 
 ###JavaScript

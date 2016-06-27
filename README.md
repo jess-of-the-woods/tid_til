@@ -26,20 +26,16 @@ I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbysch
 - Flexbox
 - SASS
 
-### Databases
+### [Databases](databases.md)
 
-### HTML
-- [General](HTML/HTML.md)
-- [a particular thing](HTML/aThing.md)
-- other stuff
+### [HTML](HTML/HTML.md)
 
 ## [JavaScript](javascript/notes.md)
-- [Node](javascript/node.md)
 
-## Data Visualisation
+## [Data Visualisation](dataVisualisation.md)
 - D3
 - WebGL
-- Three.js
+- [Three.js](javascript/threejs.md)
 
 ## [React](react/react.md)
 - [Redux](react/redux.md)
