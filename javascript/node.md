@@ -1,7 +1,11 @@
+[Asynchronous](../async.md)
+
 #node
 <img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" height="120" width="200">
 
 - [Express](express.md)
+
+Node offers easy way to do aysnchronous processing
 
 ##Links
 [An introduction to Node.js - Max Ogden](https://github.com/maxogden/art-of-node)
