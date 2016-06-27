@@ -12,7 +12,6 @@
 - Edward Tufte (info design, data visualisation)
 - Hans Rosling - 'Let the data set change your mindset'
 - David McCandless
-- Bret Victor (UI designer)
 
 ####Visual UI design
 - webGL / three.js / SVG / processing
@@ -41,4 +40,4 @@ d3.layout.pie - compute arc angles from data
 
 ---
 
-See Also [Databases](databases.md) | [Art](art.md) | generative art | UI's
+See Also [Databases](databases.md) | [Art](art.md) | generative art | [UI](UI.md)
