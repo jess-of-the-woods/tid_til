@@ -43,25 +43,24 @@ UPDATE celebs
 SET age = 22
 WHERE id = 1;
 ```
-###SQL Joins & relationships:
-
+###SQL Joins & relationships
 relationships between data, modelling data
 
-#####People table:
- id, email, password (id is primary key)
+#####People table
+id, email, password (id is primary key)
 
-#####Shoes table:
- size, color, owner_id (foreign id)
+#####Shoes table
+size, color, owner_id (foreign id)
 
 one to many relationship. one person, many shoes
 
-`LEFT INNER JOIN` (most commonly used join)
+`LEFT INNER JOIN`: most commonly used join
 
 ```sql
 SELECT * FROM shoes INNER JOIN people ON people.id = shoes.owner_id
 ```
 
-####Many to many relationship:
+####Many to many relationship
 - Shoe-sharing household
 - Many people wear the shoes, the shoes are worn by many
 - wear event table in middle.. ( join tables )
@@ -74,9 +73,9 @@ SELECT * FROM MassiveTable
 LIMIT 10 ( return 10 items )
 OFFSET 20 ( start at 20th )
 ```
-______________
+---
 
-##PostgreSQL :
+##PostgreSQL
 - handles multi-threading
 - Needs to be installed and configured correctly
 - `npm i pg --save`
@@ -84,11 +83,11 @@ ______________
 - `psql` ( enters pg repl ) `psql database name`
 - set up pg so you don't need a username & password
 
-`createdb databaseName`
+`createdb databaseName`: creates new database
 
-`dropdb databaseName`
+`dropdb databaseName`: drops database
 
-`knex migrate:latest --env test` => migrates test db ( test is referenced from config file, knexfile.js )
+`knex migrate:latest --env test`: migrates test database (test is referenced from config file, knexfile.js)
 
 ####PostgreSQL interactive terminal
 - `psql` - enters interactive terminal
@@ -102,14 +101,14 @@ ______________
 
 SQL queries end with  `;`
 
-___
+---
 
 ##NoSQL
 - approach to building databases
 - described as non-relational (as opposed to SQL which is relational)
 - good for rapid expansion of database (millions of records)
 
-__________________
+---
 
 ##Knex
 - Node module
@@ -136,14 +135,15 @@ seed data is test data, good for testing environment, or development
 - `knex seed:run` - runs seed file, inserts seed data into tables
 
 ####Knex vs Knex.raw..
-#####Knex syntax :
+
+#####Knex syntax
 
 ```sql
   knex.select()
   .table('cats')
 ```
 
-#####Raw SQL syntax:
+#####Raw SQL syntax
 ```javascript
   var allTheCats = 'SELECT * FROM cats'
 ```
@@ -153,17 +153,15 @@ can use either way.. Knex or raw. When queries get really big, raw becomes a bit
 
 ____
 
-##Database testing :
-
+##Database testing
 different connections to different databases.. in testing file and in server.js
 one for testing. one for development
 
-knex is outside of config file.. we pass knex to app and then get back a app object w/ a particular database
+knex is outside of config file.. we pass knex to app and then get back a app object with a particular database
 
 ---
 
-##15 April 2016 - Database in an app
-
+##15 April 2016 - Database in an App
 `git init` -  initialises new git repository in project.
 
 `npm init` - initialises as a node project.
@@ -185,4 +183,5 @@ if git add all node modules.. `git rm  -r --cached node_modules/`
 
 `npm i sqlite3 --save`
 
-See Also [Data Visualisation](dataVisualisation.md)
+
+See Also [Data Visualisation](dataVisualisation.md) | [Node](javascript/node.md)

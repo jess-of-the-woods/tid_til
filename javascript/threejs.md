@@ -1,4 +1,4 @@
-[Notes](../notes.md) | [JavaScript](javascript.md) | 3D
+[Notes](../notes.md) | [JavaScript](notes.md) | 3D
 
 #Three.js
 
