@@ -3,11 +3,11 @@
 #To Learn
 - [Art](art.md)
 - Class, Constructors
+- [Data Visualisation](dataVisualisation.md)
 - Closures, Factory functions
 - DOM, DOM Manipulation
-- Matrices?
 - [HTML](HTML/HTML.md)
-- [Data Visualisation](dataVisualisation.md)
+- Matrices?
 
 ###[CSS](CSS/CSS.md)
 - SASS

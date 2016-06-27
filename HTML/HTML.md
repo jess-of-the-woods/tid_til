@@ -1,4 +1,4 @@
-[To Learn](../toLearn.md)
+[Notes](../notes.md) | [To Learn](../toLearn.md)
 
 #HTML
 - HTML5
