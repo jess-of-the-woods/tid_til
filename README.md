@@ -20,7 +20,9 @@ A repository to keep track of what I have been [working on](tid.md) each day & w
 
 ## About
 I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbyschuknight/tid_til) and others.
+
 ---
+
 ### CSS
 - [General](CSS/CSS.md)
 - Flexbox
@@ -30,19 +32,19 @@ I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbysch
 
 ### [HTML](HTML/HTML.md)
 
-## [JavaScript](javascript/notes.md)
+### [JavaScript](javascript/notes.md)
 
-## [Data Visualisation](dataVisualisation.md)
+### [Data Visualisation](dataVisualisation.md)
 - D3
 - WebGL
 - [Three.js](javascript/threejs.md)
 
-## [React](react/react.md)
+### [React](react/react.md)
 - [Redux](react/redux.md)
 
-##Art
+###Art
 - processing
 
-## Other
+### Other
  - Voltage
  - Serial vs Parallel processing
