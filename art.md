@@ -10,7 +10,7 @@
 * 3D Fashion
 * Biomimicry
 * New Media Art
-
+* Algorithmic / Code Art / Dev Art / Data Art
 
 * Lorentz Force
 * 'Clouds' Documentary
@@ -64,4 +64,4 @@ is a visual programming language with works with the CAD application Rhino 3D. G
 "Popular among students & professionals, McNeel Associate’s Rhino modelling tool is endemic in the architectural design world. The new Grasshopper environment provides an intuitive way to explore designs without having to learn to script."
 
 
-See also [Data Visualisation](dataVisualisation.md) | 3D
+See also [Data Visualisation](dataVisualisation.md) | 3D | [CSS](CSS/CSS.md)
