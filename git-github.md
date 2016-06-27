@@ -71,10 +71,25 @@ Make the Index look like HEAD (stop here unless --hard)
 
 Make the Working Directory look like the Index
 
-`git checkout e8723hdk79` ( checkout previous commit )
+`git checkout e8723hdk79`: checkout previous commit
 
-`git reset index.html` ( un add staged files )
-`git reset --soft HEAD ~1` ( uncommit changes, number of commits )
+`git reset index.html`: un add staged files
+`git reset --soft HEAD ~1`: uncommit changes, x number of commits
+
+
+
+If all you want to do is undo the act of committing, leaving everything else intact, use:
+
+`git reset --soft HEAD^`
+
+If you want to undo the act of committing and everything you'd staged, but leave the work tree (your files intact):
+
+`git reset HEAD^`
+
+And if you actually want to completely undo it, throwing away all uncommitted changes, resetting everything to the previous commit (as the original question asked):
+
+`git reset --hard HEAD^`
+
 
 ###Revert
 `git revert commitId` ( does an anti-commit, undo commit, but is still available )
