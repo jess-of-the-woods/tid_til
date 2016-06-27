@@ -53,7 +53,12 @@
 ---
 
 ##Undoing
+
+<img src='https://i.stack.imgur.com/caci5.png' height="150" width="150">
+
 3 trees ( collections of files ):  Working directory, Index, HEAD
+
+[Difference between HEAD / Working Tree / Index in Git](https://stackoverflow.com/questions/3689838/difference-between-head-working-tree-index-in-git)
 
 If you commit node modules on 1st commit..
 - `rm -rf .git`

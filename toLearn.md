@@ -10,6 +10,10 @@
 - Matrices?
 - [User Interfaces](UI.md)
 
+###Git
+- tag
+- refs, HEAD
+
 ###[CSS](CSS/CSS.md)
 - SASS
 - [Flexbox](CSS/flexbox.md)
@@ -21,7 +25,7 @@
 - Tape, tests
 - Listeners, jQuery event delegation
 
-## Node basics
+### Node basics
 - express
 - session storage
 - OAuth
