@@ -1,3 +1,5 @@
+[Notes](notes.md)
+
 #Git / GitHub
 
 `git init` initialize project as git repo

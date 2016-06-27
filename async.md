@@ -1,3 +1,5 @@
+[Notes](notes.md)
+
 #Asynchronous
 - [Node](javascript/node.md)
 - callbacks

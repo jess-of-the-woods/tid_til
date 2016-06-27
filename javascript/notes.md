@@ -1,3 +1,5 @@
+[Notes](notes.md)
+
 #JavaScript Notes
 * [Express.js](javascript/express.md)
 * [react](react/react.md)

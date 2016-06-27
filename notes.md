@@ -8,5 +8,6 @@
 * [processing](processing.md)
 * [react](react/react.md)
 * [flexbox](CSS/flexbox.md)
+* [Linux Terminal](linuxTerminal.md)
 
 [Keyboard Shortcuts](keyboardShortcuts.md)

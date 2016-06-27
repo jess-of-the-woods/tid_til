@@ -1,3 +1,5 @@
+[notes](notes.md)
+
 #Databases
 
 [Tutorialspoint SQL Tutorial](http://www.tutorialspoint.com/sql/)

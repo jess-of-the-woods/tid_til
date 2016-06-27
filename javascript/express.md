@@ -1,3 +1,5 @@
+[Notes](notes.md)
+
 #Express Server:
 
 ####To setup express:

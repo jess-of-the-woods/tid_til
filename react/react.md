@@ -1,3 +1,5 @@
+[Notes](notes.md)
+
 #React
 
 <!-- ![React](http://yycjs.com/real-world-react/img/react-logo.png "React") -->
