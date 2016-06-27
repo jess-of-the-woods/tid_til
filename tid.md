@@ -2,10 +2,13 @@
 
 #Today I Did..
 
+###28 June 2016
+- 
+
 ###27 June 2016
 - XML Namespaces 'xmlns'
 - Flexbox
-
+- git reset
 
 ###26 June 2016
 - Flexbox
