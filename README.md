@@ -3,11 +3,6 @@ A repository to keep track of what I have been [working on](tid.md) each day & w
 
 [Questions](questions.md) | [To Learn](toLearn.md) | [Notes](notes.md)
 
-## Links
-#####Markdown
-   * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-   * [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
 #####About
 I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbyschuknight/tid_til) and others.
 
