@@ -1,10 +1,15 @@
 [Home](README.md)
 
-#Today I Did
+#Today I Did..
 
 ###27 June 2016
+- XML Namespaces 'xmlns'
 - Flexbox
-- Can use html tags in markdown on GitHub (i.e. `<a>` & `<img>` )
+
+
+###26 June 2016
+- Flexbox
+- Can use HTML tags in markdown on GitHub (i.e. `<a>` & `<img>` )
 
 ###23 June 2016
 - Learnt about voltage
