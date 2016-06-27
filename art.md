@@ -10,6 +10,7 @@
 
 Xanalogical?? Xanadu..
 Parametric model  ??
+Voxels?
 
 ####WebGL
 an API for controlling the GPU, based on OpenGL ES (which is OpenGL for mobile) which is based on OpenGL
@@ -34,12 +35,16 @@ an API for controlling the GPU, based on OpenGL ES (which is OpenGL for mobile) 
 ---
 
 3D Fashion
+
 Biomimicry
+
 New Media Art
+
 Lorentz Force
+
 'Clouds' Documentary
+
 Data Art | Emotional Resonance of data
-Voxels?
 
 ---
 

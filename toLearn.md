@@ -1,7 +1,7 @@
 [Home](README.md) | [Notes](notes.md) | [Questions](questions.md)
 
 #To Learn
-
+- [Art](art.md)
 - Class, Constructors
 - Closures, Factory functions
 - DOM, DOM Manipulation
