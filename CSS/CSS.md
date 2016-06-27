@@ -1,4 +1,4 @@
-[Notes](../notes.md) | [To Learn](toLearn.md)
+[Notes](../notes.md) | [To Learn](../toLearn.md)
 
 #CSS
 
@@ -9,4 +9,4 @@ HTML elements have default display types. e.g. divs have block type, therefore a
 
 learnlayout(http://learnlayout.com)
 
-See Also [HTML](HTML/HTML.md) | [JavaScript](../javascript/javascript.md)
+See Also [HTML](../HTML/HTML.md) | [JavaScript](../javascript/javascript.md)

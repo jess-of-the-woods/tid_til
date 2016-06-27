@@ -1,4 +1,4 @@
-[Notes](notes.md) | [JavaScript](javascript/notes.md)
+[Notes](notes.md) | Data Visualisation
 
 #Processing
 
@@ -58,3 +58,5 @@ void setup() {
 void draw() {
 };
 ```
+
+See Also [JavaScript](javascript/notes.md)

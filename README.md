@@ -33,7 +33,7 @@ I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbysch
 - [a particular thing](HTML/aThing.md)
 - other stuff
 
-## [JavaScript](javascript/javascript.md)
+## [JavaScript](javascript/notes.md)
 - [Node](javascript/node.md)
 
 ## Data Visualisation

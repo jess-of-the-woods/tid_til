@@ -1,12 +1,12 @@
-[JavaScript](javascript.md) | [Notes](../notes.md)
+[Notes](../notes.md)
 
 #JavaScript Notes
 
 ##Links
 * [Express.js](javascript/express.md)
 * [React](react/react.md)
-* [three.js](javascript/threejs.md)
-* [Node](node.md)
+* [Three.js](javascript/threejs.md)
+* [Node.js](node.md)
 
 ##Table Of Contents
 - [Data types](#data-types)
