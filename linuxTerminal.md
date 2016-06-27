@@ -3,19 +3,18 @@
 #Nix Terminal
 
 ###Terminal window shortcuts
-`ctrl alt t`: Open terminal window
-`ctrl shift t`: Open new tab
-`ctrl shift n`: Open new window
-`ctrl shift w`: Close tab
-`ctrl shift q`: Close terminal window
-`ctrl pageup` ( `ctrl + fn + up` ): Next tab
-`ctrl l`: Clear terminal
+- `ctrl alt t`: Open terminal window
+- `ctrl shift t`: Open new tab
+- `ctrl shift n`: Open new window
+- `ctrl shift w`: Close tab
+- `ctrl shift q`: Close terminal window
+- `ctrl pageup` ( `ctrl + fn + up` ): Next tab
+- `ctrl l`: Clear terminal
 
 ###Shell scripts
 starts with hashbang (`#!`) & reference to thing that runs the script e.g.
-`#! /bin/bash` (bash script)
-
-`#! /usr/bin/env node` (node script)
+- `#! /bin/bash`: bash script
+- `#! /usr/bin/env node`: node script
 
 [Beginners Bash Scripting](https://help.ubuntu.com/community/Beginners/BashScripting)
 
@@ -36,8 +35,8 @@ _________________
 - `du -hs ./path/to/dir` ( du = disk usage, h = human-readable, s = summary ) recursive summary of folder & subfolders..
 
 ###ls
-`ls` - list files (`-l` long form, `-a` hidden files & directories, `-t` sort by time modified)
-`ls /bin`: list files/folders in /bin
+- `ls` - list files (`-l` long form, `-a` hidden files & directories, `-t` sort by time modified)
+- `ls /bin`: list files/folders in /bin
 
 ###rm
 - `rm` ( remove files & directories, -r recursive )
@@ -74,15 +73,13 @@ _________________
 `less filename`: output file contents to screen, cf. more
 
 ###chmod
-`chmod`: change mode, modify permission string
-
-`chmod +x`: adds execution rights
-
-`chmod -x`: removes execution rights
-
----
+- `chmod`: change mode, modify permission string
+- `chmod +x`: adds execution rights
+- `chmod -x`: removes execution rights
 
 `chown`: change owner or group of object
+
+---
 
 `whoami`: displays current username
 `hostname`: displays hostname (name of computer)
@@ -109,7 +106,7 @@ _________________
 
 
 ###Piping/redirection
-`sort deserts.txt | uniq > uniq-deserts.txt`
+`sort deserts.txt | uniq > uniq-deserts.txt`: sort deserts.txt, pipe to `uniq`, redirect to newfile.
 
 ###Network tools
 - `ping 8.8.8.8`: time to return answer
@@ -122,9 +119,15 @@ _________________
 ----
 
 `~/.bash_profile` (bash profile, used to store environment settings for terminal (source ~/.bash_profile activates changes))
-~ (tilde) represents users home directory eg. `/home/user`
+
+` ~` (tilde) represents users home directory eg. `/home/user`
+
 `$` represents prompt?
+
 'alias' is another name for keyboard shortcut
+
 `.` (dot) represents current directory
+
 `..` (dot dot)represents parent directory
+
 `|` (pipe) pipes output of one command to another
