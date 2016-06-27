@@ -1,8 +1,10 @@
-[Notes](../notes.md)
+[JavaScript](javascript.md) | [Notes](../notes.md)
 
 #JavaScript Notes
+
+##Links
 * [Express.js](javascript/express.md)
-* [react](react/react.md)
+* [React](react/react.md)
 * [three.js](javascript/threejs.md)
 * [Node](node.md)
 

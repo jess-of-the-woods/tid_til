@@ -8,7 +8,7 @@ A repository to keep track of what I have been [working on](tid.md) each day & w
 ### Categories
 * [CSS](#css)
 * [Databases](#databases)
-* [HTML](#HTML)
+* [HTML](#html)
 * [JavaScript](#javascript)
 * [DataVisualisation](#data-visualisation)
 * [React](#react)
