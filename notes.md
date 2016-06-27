@@ -2,6 +2,7 @@
 
 #Notes
 
+* [Art](art.md)
 * [Asynchronous](async.md)
 * [CSS](CSS/CSS.md)
 * [Databases](databases.md)

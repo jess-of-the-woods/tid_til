@@ -13,8 +13,6 @@
 - SASS
 - [Flexbox](CSS/flexbox.md)
 
-
-
 ###JavaScript
 - ES6
 - [React](react/react.md), React router

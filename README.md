@@ -32,15 +32,10 @@ I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbysch
 ### [JavaScript](javascript/notes.md)
 
 ### [Data Visualisation](dataVisualisation.md)
-- D3
-- WebGL
-- [Three.js](javascript/threejs.md)
 
 ### [React](react/react.md)
-- [Redux](react/redux.md)
 
-###Art
-- processing
+###[Art](art.md)
 
 ### Other
  - Voltage
