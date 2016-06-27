@@ -1,4 +1,4 @@
-[Notes](notes.md) | Data Visualisation
+[Notes](notes.md) | Art | [Data Visualisation](dataVisualisation.md)
 
 #Processing
 

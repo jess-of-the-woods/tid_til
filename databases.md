@@ -184,3 +184,5 @@ if git add all node modules.. `git rm  -r --cached node_modules/`
 `knex init` -  creates knex config file. look at knexfile.js (should point to a file)
 
 `npm i sqlite3 --save`
+
+See Also [Data Visualisation](dataVisualisation.md)
