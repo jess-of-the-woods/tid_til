@@ -26,7 +26,7 @@
 - Listeners, jQuery event delegation
 
 ### Node basics
-- express
+- [Express](javascript/express.md)
 - session storage
 - OAuth
 - Knex

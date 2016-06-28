@@ -1,8 +1,7 @@
 [Notes](../notes.md) | [Frontend](../frontend.md)
 
 #React
-
-<img src="http://yycjs.com/real-world-react/img/react-logo.png" height="120" width="120">
+<a href='https://facebook.github.io/react/'><img src="http://yycjs.com/real-world-react/img/react-logo.png" height="120" width="120"></a>
 
 ##[Redux](redux.md)
 [React JS Tutorial for Beginners - 3 - Multiple Components and Properties](http://bit.ly/1VBqhUe)
