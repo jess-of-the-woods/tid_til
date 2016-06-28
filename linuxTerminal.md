@@ -44,7 +44,7 @@ _________________
 
 `pwd`: print working directory
 
-`cd ../..`: change directory, cd / goes to root, cd goes to home
+`cd ../..`: change directory, `cd /` goes to root (as does `/`), `cd` goes to home
 
 `clear`: clear screen
 
@@ -81,18 +81,7 @@ _________________
 
 ---
 
-`whoami`: displays current username
-`hostname`: displays hostname (name of computer)
-
-`nm-tool`: ( Network Manager Tool ) network information
-
-`ssh`: secure shell, 'ssh user@192.x.x.x'
-
 `nano path/filename`: open file in nano editor ( ctrl + O to save, ctrl + X to exit )
-
-`lspci | grep Net`: info about network cards (wired & wireless)
-
-`lsusb`: info about usb devices connected etc.
 
 `sudo apt-get install packagename`: install a package/program
 
@@ -109,12 +98,19 @@ _________________
 `sort deserts.txt | uniq > uniq-deserts.txt`: sort deserts.txt, pipe to `uniq`, redirect to newfile.
 
 ###Network tools
+- `ifconfig`: configure a network interface [(x)](http://net-tools.sourceforge.net/man/ifconfig.8.html)
 - `ping 8.8.8.8`: time to return answer
-- `traceroute`: shows path to the destination ip
-- `ifconfig`
-- `whois`: gets info on domain names or ip's
+- `whois`: gets info on domain names or IP's
+- `traceroute`: shows path to the destination IP
 - `dig`: domain info groper, translates domains to ip addresses
 - `iftop`: displays a table of bandwidth usage by hosts
+- `whoami`: displays username
+- `hostname`: displays hostname (name of computer)
+- `nm-tool`: Network Manager Tool (Network Information)
+- `ssh`: secure shell, 'ssh user@192.x.x.x'
+- `lspci | grep Net`: info about Network Cards (wired & wireless)
+- `lsusb`: info about USB devices connected etc.
+
 
 ----
 
@@ -124,7 +120,7 @@ _________________
 
 `$` represents prompt?
 
-'alias' is another name for keyboard shortcut
+'alias' is another name for keyboard shortcut in the terminal
 
 `.` (dot) represents current directory
 

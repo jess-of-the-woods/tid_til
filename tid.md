@@ -3,12 +3,15 @@
 #Today I Did..
 
 ###28 June 2016
-- 
+- Responsive type
+- freeCodeCamp HTML5 & CSS
+- linux terminal, `xdg-open fileName`: open image
 
 ###27 June 2016
 - XML Namespaces 'xmlns'
 - Flexbox
 - git reset
+- VR OS design / VR UI
 
 ###26 June 2016
 - Flexbox
