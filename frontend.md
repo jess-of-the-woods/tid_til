@@ -4,6 +4,8 @@
 * [Art](art.md)
 * [CSS](CSS/CSS.md)
 * [Data Visualisation](dataVisualisation.md)
+* [HTML](HTML/HTML.md)
+* [React](react/react.md)
 * [User Interfaces](UI.md)
 
-See also Backend, VR
+See also [Backend](backend.md), VR

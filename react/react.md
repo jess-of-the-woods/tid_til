@@ -1,4 +1,4 @@
-[Notes](../notes.md)
+[Notes](../notes.md) | [Frontend](../frontend.md)
 
 #React
 
