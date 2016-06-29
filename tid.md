@@ -2,6 +2,9 @@
 
 #Today I Did..
 
+###29 June 2016
+- Bootstrap
+
 ###28 June 2016
 - Responsive type
 - freeCodeCamp HTML5 & CSS
