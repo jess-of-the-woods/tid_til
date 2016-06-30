@@ -1,4 +1,4 @@
-[Notes](../notes.md) | [JavaScript](javascript/notes.md) | [Asynchronous](../async.md) | [Backend](backend.md)
+[Notes](../notes.md) | [JavaScript](notes.md) | [Asynchronous](../async.md) | [Backend](../backend.md)
 
 #Node.js
 <a href='https://nodejs.org/en/'><img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" height="120" width="200"></a>
@@ -41,8 +41,6 @@ Then you can add a script tag (link) to bundle.js in your html file.
 Live Reload / Budo / Watchify / Nodemon / Webpack
 
 ##Links
-[An introduction to Node.js - Max Ogden](https://github.com/maxogden/art-of-node)
-
-[Understanding module.exports and exports in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
-
-[Getting started w/ Browserify](https://www.youtube.com/watch?v=CTAa8IcQh1U) (YouTube)
+- [An introduction to Node.js - Max Ogden](https://github.com/maxogden/art-of-node)
+- [Understanding module.exports and exports in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
+- [Getting started w/ Browserify](https://www.youtube.com/watch?v=CTAa8IcQh1U) (YouTube)
