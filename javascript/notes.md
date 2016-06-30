@@ -4,7 +4,7 @@
 
 ##Links
 * [Express.js](express.md)
-* [jQuery](javascript/jQuery.md)
+* [jQuery](jQuery.md)
 * [React](../react/react.md)
 * [Node.js](node.md)
 * [Three.js](threejs.md)
