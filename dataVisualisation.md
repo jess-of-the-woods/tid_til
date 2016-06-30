@@ -8,7 +8,7 @@
 * SVG
 * [Three.js](javascript/threejs.md)
 
-[The Art of Data Visualization | PBS](http://bit.ly/1AeeMVT) (YouTube)
+[The Art of Data Visualization | PBS](https://www.youtube.com/watch?v=AdSZJzb-aX8) (YouTube)
 
 ####People
 - Edward Tufte (info design, data visualisation)

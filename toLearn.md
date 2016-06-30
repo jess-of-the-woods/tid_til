@@ -1,6 +1,9 @@
-[Home](README.md) | [Notes](notes.md) | [Questions](questions.md)
+[Home](README.md) | [Notes](notes.md) |
 
 #To Learn
+
+###[Questions](questions.md)
+
 - [Art](art.md)
 - Class, Constructors
 - [Data Visualisation](dataVisualisation.md)
@@ -22,11 +25,14 @@
 - [Flexbox](CSS/flexbox.md)
 
 ###JavaScript
-- ES6
-- [React](react/react.md), React router
+- return function [JS Functions that Return Functions](https://davidwalsh.name/javascript-functions)
+- ES6 - `let`, `const`
+- [React](react/react.md), React router, redux
+- inu
 - Ember.js?
-- Tape, tests
+- Tape, testing
 - Listeners, jQuery event delegation
+- Express:  partials, middleware..
 
 ### Node basics
 - [Express](javascript/express.md)
