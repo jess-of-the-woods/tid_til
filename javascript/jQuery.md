@@ -30,7 +30,16 @@ $('#main').HTML(varName)
 ```
 Like innerHTML.. Inputs to div
 
-___________
+####Listeners
+```javascript
+$(document).on('click', function() {
+  //code, code, code
+});
+```
+
+---
+
+####Document ready function
 
 Everything should go inside this 'Document.ready' function. Waits till page is loaded then fires.
 ```javascript
@@ -38,7 +47,7 @@ Everything should go inside this 'Document.ready' function. Waits till page is l
             // code, code, code
         });
 ```
-or
+or alternatively
 ```javascript
     $(function() {
       // code, code, code
@@ -46,18 +55,9 @@ or
 ```
 ---
 
-###Listeners
-```javascript
-    $(document).on('click', function() {
-        //code, code, code
-    });
-```
+####Append (or prepend) to HTML id
+(Udacity Resume Assignment)
 
----
-
-####Udacity Resume Assignment
-
-append (or prepend) to html id
 ```javascript
 $("#header").append(variableName);
 ```
@@ -66,12 +66,12 @@ $("#header").append(variableName);
 
 ```javascript
 $(function() {
+    //hide panel 1
     $(#panel1).hide();
+    //panel 2 opacity becomes 50%
     $(#panel2).css({opacity:'0.5'});
-
 }),
 ```
-//hide panel 1
-//panel 2 opacity becomes 50%
 
-See also [React](../react/react.md) |
+
+See also [React](../react/react.md)
