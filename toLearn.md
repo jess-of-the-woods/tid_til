@@ -16,7 +16,8 @@
 - markdown tables
 - streams, I/O, sockets
 - webRTC
-
+- Media type (MIME type)
+- Data type (https://en.wikipedia.org/wiki/Data_type)
 
 ###Git
 - tag
