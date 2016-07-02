@@ -8,3 +8,4 @@
 - constructors
 - ternary operators
 - factory functions
+- what is webkit.. engines, vendor prefixes

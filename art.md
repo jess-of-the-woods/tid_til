@@ -5,7 +5,8 @@
 * [processing](processing.md)
 * SVG
 * [Three.js](javascript/threejs.md)
-* Stack.gl
+* Stack.gl [more](stack.gl)
+* [http://hughsk.io/campjs/](http://hughsk.io/campjs/)
 * [Parametric Design](https://en.wikipedia.org/wiki/Parametric_design)
 * 3D Fashion
 * Biomimicry
