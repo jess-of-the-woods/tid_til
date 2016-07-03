@@ -2,6 +2,13 @@
 
 #Today I Did..
 
+
+
+###3 July 2016
+- Currying, Ramda, Functional programming
+
+[what is currying](https://stackoverflow.com/questions/36314/what-is-currying)
+
 ###30 June 2016
 - Express middleware, experiment with basic-express-demo..
 

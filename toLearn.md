@@ -19,6 +19,7 @@
 - Media type (MIME type)
 - Data type (https://en.wikipedia.org/wiki/Data_type)
 
+
 ###Git
 - tag
 - refs, HEAD
@@ -37,11 +38,11 @@
 - Listeners, jQuery event delegation
 - Express:  partials, middleware..
 
-### Node basics
+### Node / NPM basics
 - [Express](javascript/express.md)
 - session storage
 - OAuth
 - Knex
-- fs
-- ramda
-- lodash
+- fs (core node)
+- ramda, lodash, underscore (functional libraries)
+- superagent
