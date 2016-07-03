@@ -2,6 +2,15 @@
 
 ##Nix Terminal
 
+- [Terminal Window Keyboard Shortcuts](#terminal-window-shortcuts)
+- [Shell Scripts](#shell-scripts)
+- [Disk Usage](#disk-usage)
+- [ls](#ls)
+- [rm](#rm)
+- [chmod](#chmod)
+- [Piping](#piping-redirection)
+- [Network Tools](#network-tools)
+
 ###Terminal window shortcuts
 - `ctrl alt t`: Open terminal window
 - `ctrl shift t`: Open new tab
@@ -71,6 +80,21 @@ _________________
 `file /user/home/filename.txt`: tells you document type
 
 `less filename`: output file contents to screen, cf. more
+
+###grep
+- `G`lobal `Re`gular expression `P`rint (regex)
+- used to look for line that matches a pattern in files
+- `grep "foo" words.txt` or `grep -i "foo" words.txt`
+- `-i`: case-insensitive
+- `-v`: invert
+- `-n`: line number
+- `^`: start of line
+- `$`: end of line
+- `..cept` finds `accept`, `except`
+
+###sed
+- Stream Editor for filtering & transforming text
+
 
 ###chmod
 - `chmod`: change mode, modify permission string

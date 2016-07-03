@@ -571,7 +571,6 @@ This time it works!
 ```javascript
 snoopy.bark();
 ```
-____
 
 ###Class Inheritance
 ```javascript
@@ -598,4 +597,5 @@ Being able to reference a specific instance of local variables in an enclosing f
 ---
 ###`use strict`
 first introduced in ES5, but backwards compatible
+
 reserved words, undeclared variables ( variables without using 'var' ).. will throw errors

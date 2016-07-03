@@ -12,6 +12,7 @@
 * [JavaScript](javascript/notes.md)
 * [Linux Terminal](linuxTerminal.md)
 * [React](react/react.md)
+* [Testing](testing.md)
 * [User Interfaces](UI.md)
 
 #####Markdown

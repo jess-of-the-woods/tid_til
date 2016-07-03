@@ -5,13 +5,14 @@
 ###[Questions](questions.md)
 
 - [Art](art.md), SVG, stack.gl, webGL, three.js
-- Class, Constructors
 - [Data Visualisation](dataVisualisation.md)
-- Closures, Factory functions
-- DOM, DOM Manipulation
 - [HTML](HTML/HTML.md)
-- Matrices?
 - [User Interfaces](UI.md)
+
+- Class, Constructors
+- Closures, Factory functions, Constructors, Classes, Prototypes
+- DOM, DOM Manipulation
+- Matrices?
 - SSH
 - markdown tables
 - streams, I/O, sockets
