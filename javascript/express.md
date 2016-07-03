@@ -17,6 +17,8 @@ Read DB, send JSON to client which renders it
 ####Express Generator
 `express .` to run express-generator ( run inside a folder )
 
+or `express folderName`
+
 ---
 
 if you get port in use error, e.g. ( Error: listen EADDRINUSE :::3000 )
@@ -38,7 +40,7 @@ localhost:9000/?age=33&name=will
 `console.log(req.query)`
 
 ---
-
+####Simple server example
 ```javascript
 var express = require ('express')
 var app = express()
@@ -74,7 +76,7 @@ Create, Read, Update, Destroy..
 `DELETE /tweets/:id`
 
 ----
-
+####POST Route using Knex
 ```javascript
 router.post('newTweet', function(req, res){
     knex('tweets').insert({
@@ -88,4 +90,4 @@ router.post('newTweet', function(req, res){
 
 ---
 
-See also [databases](../databases.md), [async](../async.md), superagent | [client-side](../client-side.md)
+See also [async](../async.md), [client-side](../client-side.md),  [databases](../databases.md), superagent
