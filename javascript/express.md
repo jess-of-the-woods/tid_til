@@ -4,6 +4,9 @@
 
 [documentation](http://expressjs.com/)
 
+JSON API is quicker, more lightweight than full server-side rendering.
+Read DB, send JSON to client which renders it
+
 ####To setup express:
 * new folder
 * cd into folder
@@ -11,14 +14,10 @@
 * `npm i express --save`
 * `touch server.js`
 
-####Express Generator:
+####Express Generator
 `express .` to run express-generator ( run inside a folder )
 
-__________________________
-
-Use relative routes in client side app.. ( express endpoints )
-
-__________________________
+---
 
 if you get port in use error, e.g. ( Error: listen EADDRINUSE :::3000 )
 
@@ -30,15 +29,15 @@ You'll get something like:
 
 Then do: `kill -9 60778`
 
-____________________
+---
 
-Passing data as query:
+####Passing data as query
 
 localhost:9000/?age=33&name=will
 
 `console.log(req.query)`
 
-___
+---
 
 ```javascript
 var express = require ('express')
@@ -52,12 +51,10 @@ app.listen(3000, function){
     console.log('Listening on port 3000!')
 })
 ```
-_________________
 
-JSON API is quicker, more lightweight than full server-side rendering.
-Read DB, send JSON to client which renders it
+---
 
-###CRUD/ REST APIs:
+###CRUD/ REST APIs
 Create, Read, Update, Destroy..
 
 `POST /tweets`
