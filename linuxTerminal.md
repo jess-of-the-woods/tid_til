@@ -9,7 +9,7 @@
 - [rm](#rm)
 - [grep](#grep)
 - [chmod](#chmod)
-- [Piping](#piping-redirection)
+- [Piping / Redirection](#piping-redirection)
 - [Network Tools](#network-tools)
 
 ###Terminal window shortcuts

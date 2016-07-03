@@ -171,7 +171,7 @@ knex is outside of config file.. we pass knex to app and then get back a app obj
 `express /path/to/folder` or just type `express`
 `npm install` ( installs dependencies )
 
-if git add all node modules.. `git rm  -r --cached node_modules/`
+if you 'git add' node modules.. `git rm  -r --cached node_modules/`
 
 `touch .gitignore`, add node_modules.
 
@@ -185,4 +185,4 @@ if git add all node modules.. `git rm  -r --cached node_modules/`
 
 ---
 
-See Also [Data Visualisation](dataVisualisation.md) | [Node](javascript/node.md)
+See Also [data visualisation](dataVisualisation.md) | [node](javascript/node.md)
