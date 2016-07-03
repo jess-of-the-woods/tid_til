@@ -1,12 +1,13 @@
-[Notes](notes.md)
+[notes](notes.md) | [backend](backend.md)
 
 ##Nix Terminal
-
+- [Git / Github](git-github.md)
 - [Terminal Window Keyboard Shortcuts](#terminal-window-shortcuts)
 - [Shell Scripts](#shell-scripts)
 - [Disk Usage](#disk-usage)
 - [ls](#ls)
 - [rm](#rm)
+- [grep](#grep)
 - [chmod](#chmod)
 - [Piping](#piping-redirection)
 - [Network Tools](#network-tools)

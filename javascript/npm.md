@@ -1,4 +1,4 @@
-[Node.js](node.md) |
+[node.js](node.md) |
 
 ##node package manager - NPM
 
@@ -44,7 +44,7 @@
 - is-url
 - unirest
 - smokestack
-- 
+-
 
 
 devDependencies

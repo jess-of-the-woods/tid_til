@@ -1,4 +1,4 @@
-[Notes](notes.md)
+[notes](notes.md)
 
 ##Asynchronous
 - [Node](javascript/node.md)

@@ -1,4 +1,4 @@
-[Notes](../notes.md) | [JavaScript](notes.md) | [Asynchronous](../async.md) | [Backend](../backend.md)
+[notes](../notes.md) | [JavaScript](notes.md) | [asynchronous](../async.md) | [backend](../backend.md)
 
 ##Node.js
 <a href='https://nodejs.org/en/'><img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" height="120" width="200"></a>

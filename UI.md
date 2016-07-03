@@ -1,4 +1,4 @@
-[Notes](notes.md) | [To Learn](toLearn.md) | [Frontend](frontend.md)
+[notes](notes.md) | [to learn](toLearn.md) | [frontend](frontend.md)
 
 ##User Interface
 
@@ -13,4 +13,4 @@
 
 
 
-See also VR, 3D, UX
+See also VR, [3D](3D.md), UX

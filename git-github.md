@@ -1,4 +1,5 @@
-[Notes](notes.md)
+[notes](notes.md) | [backend](backend.md) | [linux terminal](linuxTerminal.md)
+
 
 #Git / GitHub
 

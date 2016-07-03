@@ -1,4 +1,4 @@
-[Notes](notes.md) | [Backend](backend.md)
+[notes](notes.md) | [backend](backend.md)
 
 #Databases
 

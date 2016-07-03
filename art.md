@@ -1,4 +1,4 @@
-[Notes](notes.md) | [To Learn](toLearn.md)
+[notes](notes.md) | [to learn](toLearn.md)
 
 #Art
 * [HTML](HTML/HTML.md)5 Canvas
@@ -66,4 +66,4 @@ is a visual programming language with works with the CAD application Rhino 3D. G
 
 ---
 
-See also [Data Visualisation](dataVisualisation.md) | 3D | [CSS](CSS/CSS.md)
+See also [data visualisation](dataVisualisation.md) | [3D](3D.md) | [CSS](CSS/CSS.md)

@@ -1,4 +1,4 @@
-[Node](node.md) | [Backend](../backend.md) | [NPM](npm.md)
+[node.js](node.md) | [backend](../backend.md) | [NPM](npm.md)
 
 ##Express Server
 
@@ -91,4 +91,4 @@ router.post('newTweet', function(req, res){
 
 ---
 
-See also [databases](../databases.md), [async](../async.md), superagent
+See also [databases](../databases.md), [async](../async.md), superagent | [client-side](../client-side.md)

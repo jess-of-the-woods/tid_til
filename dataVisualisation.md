@@ -1,11 +1,11 @@
-[Notes](notes.md) | [To Learn](toLearn.md)
+[notes](notes.md) | [to learn](toLearn.md)
 
 ##Data Visualisation
 * [CSS](CSS/CSS.md)
 * [D3.js](d3.md)
 * [HTML](HTML/HTML.md)5 Canvas
+* [SVG](HTML/SVG.md)
 * [processing](processing.md)
-* SVG
 * [Three.js](javascript/threejs.md)
 
 [The Art of Data Visualization | PBS](https://www.youtube.com/watch?v=AdSZJzb-aX8) (YouTube)
@@ -26,4 +26,4 @@
 
 ---
 
-See Also [Art](art.md) | [Databases](databases.md) | generative art | [UI](UI.md)
+See Also [3D](3D.md) | [art](art.md) | [databases](databases.md) | generative art | [UI](UI.md)

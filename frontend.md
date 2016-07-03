@@ -1,4 +1,4 @@
-[Notes](notes.md) | [To Learn](toLearn.md)
+[notes](notes.md) | [to learn](toLearn.md)
 
 ##Frontend
 * [Art](art.md)
@@ -13,4 +13,4 @@
 
 ---
 
-See also [Backend](backend.md)
+See also [backend](backend.md) | [client-side](client-side.md)

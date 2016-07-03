@@ -1,4 +1,4 @@
-[Home](README.md) | [Notes](notes.md) |
+[home](README.md) | [notes](notes.md) |
 
 #To Learn
 
@@ -39,9 +39,7 @@
 - [React](react/react.md), React router, redux
 
 ### Node / NPM basics
-- inu
-- [Express](javascript/express.md)
-- OAuth
-- fs (core node)
-- ramda, lodash, underscore (functional libraries)
 - superagent
+- fs ( file system ) fsReadFile, fsWriteFile (node core)
+- inu
+- OAuth

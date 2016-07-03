@@ -1,4 +1,4 @@
-[React](react.md)
+[react](react.md)
 
 #Redux
 [Learn Redux](http://bit.ly/1USXO6n) (YouTube series)

@@ -1,4 +1,4 @@
-[Notes](../notes.md) | [To Learn](../toLearn.md) | [Frontend](../frontend.md)
+[notes](../notes.md) | [to learn](../toLearn.md) | [frontend](../frontend.md)
 
 #CSS
 - [Flexbox](flexbox.md)

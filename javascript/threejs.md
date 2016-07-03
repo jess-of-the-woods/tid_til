@@ -1,4 +1,4 @@
-[Notes](../notes.md) | [JavaScript](notes.md) | 3D | WebGL
+[notes](../notes.md) | [JavaScript](notes.md) | [3D](../3D.md) | WebGL
 
 #Three.js
 
@@ -19,12 +19,7 @@ close all instances then start the Chrome executable with a command line flag: `
 
 ________
 
-####Glossary:
 
-- vertex - each angular point of a polygon, polyhedron, or other figure.
-- Euler values (radians) something about pi & rotation?
-- Fiducial - (especially of a point or line) assumed as a fixed basis of comparison.
-- MVP - Model View Projection
 
 ####Links
 - [How to effortlessly integrate Three.js into your projects]( http://bit.ly/25RlmE4) (YouTube)
@@ -35,4 +30,4 @@ ________
 
 ---
 
-See Also [Art](../art.md) | [Data Visualisation](../dataVisualisation.md)
+See Also [art](../art.md) | [data visualisation](../dataVisualisation.md) | [SVG](../HTML/SVG.md)

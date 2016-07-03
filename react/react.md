@@ -1,4 +1,4 @@
-[Notes](../notes.md) | [Frontend](../frontend.md)
+[notes](../notes.md) | [frontend](../frontend.md)
 
 #React
 <a href='https://facebook.github.io/react/'><img src="http://yycjs.com/real-world-react/img/react-logo.png" height="120" width="120"></a>
