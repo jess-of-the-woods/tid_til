@@ -16,7 +16,7 @@
 - webRTC
 - Media type (MIME type)
 - Data type (https://en.wikipedia.org/wiki/Data_type)
-
+- Elm
 
 ###Git
 - tag
@@ -29,11 +29,11 @@
 ###JavaScript
 - return function [JS Functions that Return Functions](https://davidwalsh.name/javascript-functions)
 - ES6 - `let`, `const`
-- Ember.js?
 - Testing ([notes](testing.md))
-- jQuery event delegation, Listeners
-- express:  partials, middleware.. [notes](javascript/express.md)
 - React, React router, redux ([notes](react/react.md))
+- jQuery event delegation, Listeners
+- Ember.js?
+- express:  partials, middleware.. ([notes](javascript/express.md))
 
 ### Node / NPM basics
 - superagent
@@ -43,7 +43,8 @@
 
 ---
 
-- [art](art.md), SVG, stack.gl, webGL, three.js
+- [art](art.md).. SVG, stack.gl, webGL, three.js, rhino3D?
 - [data visualisation](dataVisualisation.md)
 - [HTML](HTML/HTML.md)
+- [node](javascript/node.md)
 - [user interfaces](UI.md)
