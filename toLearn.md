@@ -3,12 +3,6 @@
 #To Learn
 
 ###[Questions](questions.md)
-
-- [Art](art.md), SVG, stack.gl, webGL, three.js
-- [Data Visualisation](dataVisualisation.md)
-- [HTML](HTML/HTML.md)
-- [User Interfaces](UI.md)
-
 - Class, Constructors
 - Closures, Factory functions, Constructors, Classes, Prototypes
 - DOM, DOM Manipulation
@@ -25,21 +19,28 @@
 - tag
 - refs, HEAD
 
-###[CSS](CSS/CSS.md)
+###CSS [notes](CSS/CSS.md)
 - SASS
-- [Flexbox](CSS/flexbox.md)
+- Flexbox [notes](CSS/flexbox.md)
 
 ###JavaScript
 - return function [JS Functions that Return Functions](https://davidwalsh.name/javascript-functions)
 - ES6 - `let`, `const`
 - Ember.js?
-- Tape, testing
+- Testing [notes](testing.md)
 - jQuery event delegation, Listeners
-- Express:  partials, middleware..
-- [React](react/react.md), React router, redux
+- express:  partials, middleware.. [notes](javascript/express.md)
+- React, React router, redux [notes](react/react.md)
 
-### Node / NPM basics
+### Node / NPM basics [notes](javascript/node.md)
 - superagent
 - fs ( file system ) fsReadFile, fsWriteFile (node core)
 - inu
 - OAuth
+
+---
+
+- [art](art.md), SVG, stack.gl, webGL, three.js
+- [data visualisation](dataVisualisation.md)
+- [HTML](HTML/HTML.md)
+- [user interfaces](UI.md)
