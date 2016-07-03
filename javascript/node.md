@@ -4,7 +4,7 @@
 <a href='https://nodejs.org/en/'><img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" height="120" width="200"></a>
 
 - [NPM](npm.md)
-- [Express](express.md)
+- [express.js](express.md)
 
 Node offers easy way to do aysnchronous processing
 
@@ -47,3 +47,7 @@ Live Reload / Budo / Watchify / Nodemon / Webpack
 - [An introduction to Node.js - Max Ogden](https://github.com/maxogden/art-of-node)
 - [Understanding module.exports and exports in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
 - [Getting started w/ Browserify](https://www.youtube.com/watch?v=CTAa8IcQh1U) (YouTube)
+
+---
+
+See also [functional programming](functional.md)

@@ -6,4 +6,4 @@
 
 Map, Filter, Reduce
 
-See also [node.js](node.md)
+See also [JavaScript](javascript/notes.md) | [node.js](javascript/node.md)
