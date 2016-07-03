@@ -50,6 +50,6 @@ Canvas element is a part of HTML5 and allows for dynamic, scriptable rendering o
 
 [Canvas Tutorial](https://www.youtube.com/watch?v=FaOYjLl9dZg&list=PLftmDuo1-PWLCoCQmXM_e57bYRHjVg0pp&index=5).. (up to part 5) canvas2.html
 
-
+---
 
 See Also [CSS](../CSS/CSS.md) | [JavaScript](../javascript/notes.md)

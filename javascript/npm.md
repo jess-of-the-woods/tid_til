@@ -7,3 +7,6 @@
 ###Ramda
 - A js library for functional programming
 - automatically curries
+
+- Knex
+- express-session (session storage)

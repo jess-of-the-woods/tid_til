@@ -81,3 +81,7 @@ You can set props when you create a new instance of a component.
 - new language( looks a bit like [HTML](../HTML.HTML.md) in your js file ) mix of js & HTML
 - doesn't like comments
 - JSX is a preprocessor step that adds XML syntax to JavaScript
+
+---
+
+See also Angular, Ember..

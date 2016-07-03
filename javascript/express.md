@@ -76,7 +76,7 @@ Create, Read, Update, Destroy..
 
 `DELETE /tweets/:id`
 
-_____________
+----
 
 ```javascript
 router.post('newTweet', function(req, res){
@@ -89,4 +89,6 @@ router.post('newTweet', function(req, res){
 })
 ```
 
-See also [databases](../databases.md)
+---
+
+See also [databases](../databases.md), [async](../async.md), superagent

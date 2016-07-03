@@ -1,6 +1,6 @@
 [Notes](notes.md)
 
-#Nix Terminal
+##Nix Terminal
 
 ###Terminal window shortcuts
 - `ctrl alt t`: Open terminal window

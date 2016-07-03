@@ -33,4 +33,6 @@ ________
 - [Gallant Lab Neuroimaging](http://gallantlab.org/semanticmovies/)
 - [Interactive 3D Graphics](https://www.udacity.com/course/interactive-3d-graphics--cs291) (Udacity Course)
 
+---
+
 See Also [Art](../art.md) | [Data Visualisation](../dataVisualisation.md)

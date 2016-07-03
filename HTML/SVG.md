@@ -24,4 +24,6 @@ L = 'Line to'
 <path d='M50 50 L200 150' stroke='black'stroke-width='20'></path>
 ```
 
+---
+
 See also [CSS](../CSS/CSS.md) | [D3.js](../javascript/d3.md) | [React](../react/react.md)

@@ -64,5 +64,6 @@ parametric adj. of, relating to, or expressed in terms of a parameter or paramet
 is a visual programming language with works with the CAD application Rhino 3D. Grasshopper is primarily used to build generative algorithms, such as for generative art. Many of Grasshopper's components create 3D geometry. Programs may also contain other types of algorithms including numeric, textual, audio-visual and haptic applications.
 "Popular among students & professionals, McNeel Associate’s Rhino modelling tool is endemic in the architectural design world. The new Grasshopper environment provides an intuitive way to explore designs without having to learn to script."
 
+---
 
 See also [Data Visualisation](dataVisualisation.md) | 3D | [CSS](CSS/CSS.md)

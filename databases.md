@@ -183,5 +183,6 @@ if git add all node modules.. `git rm  -r --cached node_modules/`
 
 `npm i sqlite3 --save`
 
+---
 
 See Also [Data Visualisation](dataVisualisation.md) | [Node](javascript/node.md)

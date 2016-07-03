@@ -31,18 +31,16 @@
 ###JavaScript
 - return function [JS Functions that Return Functions](https://davidwalsh.name/javascript-functions)
 - ES6 - `let`, `const`
-- [React](react/react.md), React router, redux
-- inu
 - Ember.js?
 - Tape, testing
-- Listeners, jQuery event delegation
+- jQuery event delegation, Listeners
 - Express:  partials, middleware..
+- [React](react/react.md), React router, redux
 
 ### Node / NPM basics
+- inu
 - [Express](javascript/express.md)
-- session storage
 - OAuth
-- Knex
 - fs (core node)
 - ramda, lodash, underscore (functional libraries)
 - superagent
