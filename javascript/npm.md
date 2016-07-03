@@ -44,7 +44,6 @@
 - is-url
 - unirest
 - smokestack
--
 
 
 devDependencies

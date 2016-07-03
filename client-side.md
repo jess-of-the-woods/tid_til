@@ -1,7 +1,6 @@
 [notes](notes.md) | [frontend](frontend.md)
 
 ##Client-Side Rendering
-
 - uses users processor (browser)
 
 ###GET
@@ -21,4 +20,4 @@
 - [Three.js](javascript/threejs.md)
 
 
-See also server-side, [express](javascript/express.md)
+See also server-side, [express](javascript/express.md) | HTTP

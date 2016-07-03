@@ -8,6 +8,7 @@
 * [CSS](CSS/CSS.md)
 * [Databases](databases.md)
 * [Data Visualisation](dataVisualisation.md)
+* [Functional Programming](functional.md)
 * [Git/GitHub](git-github.md)
 * [HTML](HTML/HTML.md)
 * [JavaScript](javascript/notes.md)

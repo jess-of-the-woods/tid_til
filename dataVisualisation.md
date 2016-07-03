@@ -7,22 +7,18 @@
 * [SVG](HTML/SVG.md)
 * [processing](processing.md)
 * [Three.js](javascript/threejs.md)
+- Highcharts
 
-[The Art of Data Visualization | PBS](https://www.youtube.com/watch?v=AdSZJzb-aX8) (YouTube)
+---
+
+[The Art of Data Visualization](https://www.youtube.com/watch?v=AdSZJzb-aX8) - PBS (YouTube)
+
+3D Data visualisation
 
 ####People
 - Edward Tufte (info design, data visualisation)
 - Hans Rosling - 'Let the data set change your mindset'
 - David McCandless
-
-####Visual UI design
-- WebGL / three.js / SVG / processing
-- 3D rendering
-
-
-- 3D Data visualisation
-- Highcharts
-
 
 ---
 

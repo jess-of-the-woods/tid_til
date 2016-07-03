@@ -6,6 +6,7 @@
 
 ---
 
+- [Functional Programming](functional.md)
 - Class, Constructors
 - Closures, Factory functions, Constructors, Classes, Prototypes
 - DOM, DOM Manipulation

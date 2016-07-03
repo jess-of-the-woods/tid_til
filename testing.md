@@ -1,4 +1,4 @@
-[Notes](notes.md) |
+[notes](notes.md) | [to learn](toLearn.md)
 
 ##Testing
 

@@ -6,11 +6,15 @@
 - Mike Alger
 - Bret Victor (UI designer)
 
-[VR Interface Design](https://vimeo.com/141380662) - Mike Alger
-
+####Visual UI design
+- WebGL / three.js / SVG / processing
+- 3D rendering
 - Head Mounted Displays
 
+[VR Interface Design](https://vimeo.com/141380662) - Mike Alger
 
 
 
-See also VR, [3D](3D.md), UX
+
+
+See also [3D](3D.md), VR, UX
