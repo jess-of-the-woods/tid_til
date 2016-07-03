@@ -3,7 +3,7 @@
 #Art
 * [HTML](HTML/HTML.md)5 Canvas
 * [processing](processing.md)
-* SVG
+* [SVG](HTML/SVG.md)
 * [Three.js](javascript/threejs.md)
 * Stack.gl [more](stack.gl)
 * [http://hughsk.io/campjs/](http://hughsk.io/campjs/)

@@ -4,7 +4,7 @@
 
 ###[Questions](questions.md)
 
-- [Art](art.md)
+- [Art](art.md), SVG, stack.gl, webGL, three.js
 - Class, Constructors
 - [Data Visualisation](dataVisualisation.md)
 - Closures, Factory functions

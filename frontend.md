@@ -7,6 +7,7 @@
 * [HTML](HTML/HTML.md)
 * [jQuery](javascript/jQuery.md)
 * [React](react/react.md)
+* [SVG](HTML/SVG.md)
 * [User Interfaces](UI.md)
 * Virtual Reality
 

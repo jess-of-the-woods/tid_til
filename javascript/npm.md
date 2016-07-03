@@ -4,5 +4,6 @@
 
 - [Express](express.md)
 
-ramda
-A js library for functional programming
+###Ramda
+- A js library for functional programming
+- automatically curries

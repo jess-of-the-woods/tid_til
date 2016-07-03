@@ -3,7 +3,8 @@
 ##HTML
 - HTML5
 - Canvas
-- SVG
+- [SVG](SVG.md)
+
 
 
 ####Forms
