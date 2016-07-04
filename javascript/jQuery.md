@@ -1,4 +1,4 @@
-[frontend](../frontend.md) | [JavaScript](notes.md)
+[frontend](../frontend.md) | [client-side](../client-side.md) | [JavaScript](notes.md)
 
 ##jQuery
 
