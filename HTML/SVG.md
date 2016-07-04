@@ -24,6 +24,26 @@ L = 'Line to'
 <path d='M50 50 L200 150' stroke='black'stroke-width='20'></path>
 ```
 
+####Using <g> tag
+```HTML
+
+- group other SVG elements.
+- transformations applied to `<g>` are performed on all children. attributes will be inherited
+- Can group multiple elements to be referenced later with the `<use>` element. 
+
+<svg viewBox="0 0 95 50"
+     xmlns="http://www.w3.org/2000/svg">
+   <g stroke="green" fill="white" stroke-width="5">
+     <circle cx="25" cy="25" r="15"/>
+     <circle cx="40" cy="25" r="15"/>
+     <circle cx="55" cy="25" r="15"/>
+     <circle cx="70" cy="25" r="15"/>
+   </g>
+</svg>
+```
+
+
+
 ---
 
 See also [CSS](../CSS/CSS.md) | [D3.js](../javascript/d3.md) | [react](../react/react.md)

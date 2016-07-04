@@ -8,6 +8,8 @@
 
 Node offers easy way to do aysnchronous processing
 
+`node fileName`: to run a file with Node runner
+
 `node -v`: To see if Node is installed.
 
 `npm -v`: To see if NPM is installed.
