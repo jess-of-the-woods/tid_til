@@ -1,13 +1,9 @@
-[notes](notes.md) | [to learn](toLearn.md)
+[notes](notes.md) | [backend](backend.md)
 
-##Backend
-
+##Server-Side
 * [Databases](databases.md)
 * [Express](javascript/express.md)
 * [Linux Terminal](linuxTerminal.md)
 * [Node](javascript/node.md)
-* [Server-Side](server-side.md)
 
----
-
-See also [frontend](frontend.md)
+See also [asynchronous](async.md) | [client-side](client-side.md)

@@ -7,7 +7,6 @@
 - I/O - Input/Output
 - filesystem read/writes, network calls
 - client/server (API)
-- restful API's
 - server side rendering
 
 ###Asynchronous Breakout
@@ -40,4 +39,4 @@ Node offers easy way to do aysnchronous processing
 Callbacks will always have an `error` as 1st argument, 2nd is usually `data`
 
 
-See also Promises in js notes, [express](javascript/express.md)
+See also [asynchronous](async.md) | [express](javascript/express.md) | [client-side](client-side.md) | [javascript notes](javascript/notes.md)

@@ -4,11 +4,9 @@
 
 * [3D](3D.md)
 * [Art](art.md)
-* [Asynchronous](async.md)
 * [CSS](CSS/CSS.md)
 * [Databases](databases.md)
 * [Data Visualisation](dataVisualisation.md)
-* [Functional Programming](functional.md)
 * [Git/GitHub](git-github.md)
 * [HTML](HTML/HTML.md)
 * [JavaScript](javascript/notes.md)
@@ -18,6 +16,8 @@
 * [Tools](tools.md)
 * [User Interfaces](UI.md)
 
+
+[asynchronous](async.md) | [backend](backend.md) | [frontend](frontend.md) | [functional](functional.md) | [client-side](client-side.md) | [server-side](server-side.md)
 ---
 
 ###Links

@@ -24,4 +24,4 @@ Use relative routes in client side app.. ( express endpoints )
 
 ---
 
-See also server-side, [express](javascript/express.md) | HTTP
+See also [express](javascript/express.md) | HTTP | [server-side](server-side.md)
