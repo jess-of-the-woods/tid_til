@@ -2,14 +2,6 @@
 
 ##Scalable Vector Graphics - SVG
 
-<svg  height='300'
-      width='400'
-      xmlns="http://www.w3.org/2000/svg"
-      version="1.1">
-  <rect x="0" y="0" width="150" height="150" fill="rgba(0,255,0,0.25)"></rect>
-  <rect x="70" y="70" width="120" height="120" fill="rgba(70,255,120,0.6)"></rect>
-</svg>
-
 Scalable Vector Graphics (SVG) is an XML-based markup language for describing two-dimensional vector graphics. SVG is essentially to graphics what HTML is to text.
 
 ####Setup
@@ -36,7 +28,10 @@ sets viewport size
 </svg>
 ```
 
-####2 Rectangles:
+####Co-ordinate system
+<img src='https://s3.amazonaws.com/dashingd3js/images/svg_coordinate_graph_circle_drawing_331x200.png' />
+
+####2 Rectangles
 ```HTML
 <rect x="0" y="0" width="150" height="150" fill="rgba(0,255,0,0.25)"></rect>
 <rect x="70" y="70" width="120" height="120" fill="rgba(70,255,120,0.6)"></rect>
