@@ -27,15 +27,13 @@ Scalable Vector Graphics (SVG) is an XML-based markup language for describing tw
 
 ###Paths
 ####Line:
-M = 'Move to'
-
-L = 'Line to'
+`M` = 'Move to', `L` = 'Line to'
 
 ```HTML
 <path d='M50 50 L200 150' stroke='black'stroke-width='20'></path>
 ```
 
-####Using <g> tag
+####Using `<g>` tag
 ```HTML
 
 - group other SVG elements.
