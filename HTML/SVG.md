@@ -2,6 +2,14 @@
 
 ##Scalable Vector Graphics - SVG
 
+<svg  height='300'
+      width='400'
+      xmlns="http://www.w3.org/2000/svg"
+      version="1.1">
+  <rect x="0" y="0" width="150" height="150" fill="rgba(0,255,0,0.25)"></rect>
+  <rect x="70" y="70" width="120" height="120" fill="rgba(70,255,120,0.6)"></rect>
+</svg>
+
 Scalable Vector Graphics (SVG) is an XML-based markup language for describing two-dimensional vector graphics. SVG is essentially to graphics what HTML is to text.
 
 ####Setup
@@ -28,7 +36,6 @@ sets viewport size
 </svg>
 ```
 
-
 ####2 Rectangles:
 ```HTML
 <rect x="0" y="0" width="150" height="150" fill="rgba(0,255,0,0.25)"></rect>
@@ -36,6 +43,20 @@ sets viewport size
 ```
 
 ###Paths
+commands are available for path data:
+- M = moveto
+- L = lineto
+- H = horizontal lineto
+- V = vertical lineto
+- C = curveto
+- S = smooth curveto
+- Q = quadratic Bézier curve
+- T = smooth quadratic Bézier curveto
+- A = elliptical Arc
+- Z = closepath
+
+Note: All of the commands above can also be expressed with lower letters. Capital letters means absolutely positioned, lower cases means relatively positioned.
+
 ####Line:
 `M` = 'Move to', `L` = 'Line to'
 
