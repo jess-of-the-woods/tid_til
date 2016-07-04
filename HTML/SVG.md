@@ -64,6 +64,9 @@ Note: All of the commands above can also be expressed with lower letters. Capita
 - transformations applied to `<g>` are performed on all children. attributes will be inherited
 - Can group multiple elements to be referenced later with the `<use>` element.
 
+[MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g) | [jenkov.com](http://tutorials.jenkov.com/svg/g-element.html) (tutorial)
+
+
 ```HTML
 <svg viewBox="0 0 95 50"
      xmlns="http://www.w3.org/2000/svg">
@@ -76,8 +79,8 @@ Note: All of the commands above can also be expressed with lower letters. Capita
 </svg>
 ```
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g)
 
+ | [Vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) - Wikipedia | [W3Schools](http://www.w3schools.com/svg/default.asp) - tutorial
 
 ---
 
