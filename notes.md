@@ -17,6 +17,9 @@
 * [Testing](testing.md)
 * [User Interfaces](UI.md)
 
+
+[Hihi Gitbook 2016](https://enspiral-academy.gitbooks.io/hihi-2016/content/)
+
 #####Markdown
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 * [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
