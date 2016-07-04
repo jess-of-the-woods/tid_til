@@ -14,4 +14,8 @@ pseudocode: when we render this template, we provide a date & the template rende
 - tap-spec
 - Tape
 
-test anything protocol
+TAP - test anything protocol
+
+[Hihi TDD Gitbook](https://enspiral-academy.gitbooks.io/hihi-2016/content/weeks/1/monday.html)
+
+See also [tools](tools.md)

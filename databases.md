@@ -185,4 +185,6 @@ if you 'git add' node modules.. `git rm  -r --cached node_modules/`
 
 ---
 
-See Also [data visualisation](dataVisualisation.md) | [node](javascript/node.md)
+[ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) - wikipedia
+
+See Also [data visualisation](dataVisualisation.md) | [node](javascript/node.md) | ontology | info science

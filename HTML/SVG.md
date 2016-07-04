@@ -6,9 +6,18 @@ Scalable Vector Graphics (SVG) is an XML-based markup language for describing tw
 
 ####Create an SVG element on the page:
 ```HTML
-<svg width="250" height="250">
+<svg height="250" width="250">
 </svg>
 ```
+####Specify Namespace & Version
+```HTML
+<svg  height='300'
+      width='400'
+      xmlns="http://www.w3.org/2000/svg"
+      version="1.1">
+</svg>
+```
+
 
 ####2 Rectangles:
 ```HTML

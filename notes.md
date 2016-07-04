@@ -15,13 +15,17 @@
 * [Linux Terminal](linuxTerminal.md)
 * [React](react/react.md)
 * [Testing](testing.md)
+* [Tools](tools.md)
 * [User Interfaces](UI.md)
 
+---
+
+###Links
 
 [Hihi Gitbook 2016](https://enspiral-academy.gitbooks.io/hihi-2016/content/)
 
-#####Markdown
+[Keyboard Shortcuts](keyboardShortcuts.md) ( Atom & Sublime )
+
+####Markdown
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 * [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
-
-[Keyboard Shortcuts](keyboardShortcuts.md) ( Atom & Sublime )

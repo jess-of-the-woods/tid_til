@@ -15,3 +15,7 @@
 - `center`: align items across the center of the cross axis
 
 Note: `align-items` also accepts the values `baseline` (align items such that their baselines line up) and `stretch` (stretch items such that they span the entire cross axis)
+
+###Links
+
+- [Tutorial](https://www.youtube.com/watch?v=_vEjcueG3zY&list=PLu8EoSxDXHP7xj_y6NIAhy0wuCd4uVdid#t=245.086938) - Wes Bos, Part 3 (YouTube)
