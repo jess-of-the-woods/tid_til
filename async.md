@@ -3,12 +3,12 @@
 ##Asynchronous
 - [Node](javascript/node.md)
 - callbacks
-- filesystem
+- promises
+- I/O - Input/Output
+- filesystem read/writes, network calls
 - client/server (API)
 - restful API's
 - server side rendering
-- promises
-
 
 ###Asynchronous Breakout
 ```javascript
@@ -31,12 +31,13 @@ console.log('all done')
 Pizza order
 createPizza(order, pickup)  // has anon function (pickup)
 
-
 With synchronous processing, one order has to be completed before another can be taken. ('blocking')
+
 Asynchronous doesn't work that way. I.e. is non-blocking.
 
 Node offers easy way to do aysnchronous processing
 
+Callbacks will always have an `error` as 1st argument, 2nd is usually `data`
 
 
 See also Promises in js notes, [express](javascript/express.md)
