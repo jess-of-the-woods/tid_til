@@ -4,11 +4,21 @@
 
 Scalable Vector Graphics (SVG) is an XML-based markup language for describing two-dimensional vector graphics. SVG is essentially to graphics what HTML is to text.
 
-####Create an SVG element on the page:
+####Setup
+
+You can write SVG in `<svg></svg>` tags inside your HTML. Or you can write it in `<svg></svg>` tags in an svg file and link to it like so:
+```HTML
+<img src='fileName.svg'/>
+```
+
+####Create an SVG element on the page (A Viewport)
 ```HTML
 <svg height="250" width="250">
 </svg>
 ```
+
+sets viewport size
+
 ####Specify Namespace & Version
 ```HTML
 <svg  height='300'
@@ -30,16 +40,15 @@ Scalable Vector Graphics (SVG) is an XML-based markup language for describing tw
 `M` = 'Move to', `L` = 'Line to'
 
 ```HTML
-<path d='M50 50 L200 150' stroke='black'stroke-width='20'></path>
+<path d='M50 50 L200 150' stroke='black' stroke-width='20'></path>
 ```
 
 ####Using `<g>` tag
-```HTML
-
 - group other SVG elements.
 - transformations applied to `<g>` are performed on all children. attributes will be inherited
 - Can group multiple elements to be referenced later with the `<use>` element.
 
+```HTML
 <svg viewBox="0 0 95 50"
      xmlns="http://www.w3.org/2000/svg">
    <g stroke="green" fill="white" stroke-width="5">
