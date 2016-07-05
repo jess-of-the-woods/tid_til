@@ -2,6 +2,12 @@
 
 ##Today I Did..
 
+###5 July
+- sockets.io chat app
+- jQuery
+- fsReadFile, JSON.parse
+
+[socket-chat-app](https://github.com/rauchg/chat-example) - github
 
 ###3 July 2016
 - lodash, Ramda
