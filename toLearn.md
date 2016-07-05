@@ -45,4 +45,13 @@
 
 ---
 
-- [art](art.md).. SVG, stack.gl, webGL, three.js, rhino3D | [data visualisation](dataVisualisation.md) | [HTML](HTML/HTML.md) | [node](javascript/node.md) | [user interfaces](UI.md)
+## [art](art.md)
+- SV
+- stack.gl
+- webGL
+- three.js
+- rhino3D
+- [data visualisation](dataVisualisation.md) 
+- [HTML](HTML/HTML.md)
+- [node](javascript/node.md)
+- [user interfaces](UI.md)
