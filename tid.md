@@ -3,11 +3,10 @@
 ##Today I Did..
 
 ###5 July
-- sockets.io chat app
+- sockets.io chat app - ([original on github](https://github.com/rauchg/chat-example))  ([mine](https://github.com/jess-of-the-woods/Chat))
 - jQuery
 - fsReadFile, JSON.parse
-
-[socket-chat-app](https://github.com/rauchg/chat-example) - github
+- console.log(process.argv) 
 
 ###3 July 2016
 - lodash, Ramda

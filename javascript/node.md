@@ -47,8 +47,9 @@ Live Reload / Budo / Watchify / Nodemon / Webpack
 
 ##Links
 - [An introduction to Node.js - Max Ogden](https://github.com/maxogden/art-of-node)
+- [process.argv](http://code-maven.com/argv-raw-command-line-arguments-in-nodejs) (part of node.js tutorial, http://code-maven.com )
 - [Understanding module.exports and exports in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
-- [Getting started w/ Browserify](https://www.youtube.com/watch?v=CTAa8IcQh1U) (YouTube)
+- [Getting started with Browserify](https://www.youtube.com/watch?v=CTAa8IcQh1U) (YouTube)
 
 ---
 
