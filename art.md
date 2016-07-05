@@ -1,6 +1,6 @@
 [notes](notes.md) | [to learn](toLearn.md)
 
-#Art
+## Art
 * [HTML](HTML/HTML.md)5 Canvas
 * [processing](processing.md)
 * [SVG](HTML/SVG.md)
@@ -13,6 +13,7 @@
 * New Media Art
 * Algorithmic / Code Art / Dev Art / Data Art
 
+
 * Lorentz Force
 * 'Clouds' Documentary
 * Data Art | Emotional Resonance of data
@@ -21,19 +22,18 @@
 * connecting up processing to dj software like ableton
 * Shader
 
-
 Xanalogical?? Xanadu..
 
 Parametric model  ??
 
 Voxels?
 
-####WebGL
+### WebGL
 an API for controlling the GPU, based on OpenGL ES (which is OpenGL for mobile) which is based on OpenGL
 
 [StackGL](http://stack.gl/) | [Slides](http://mikolalysenko.github.io/madjs-stackgl-slides/#/)
 
-####People
+### People
 - [Matt DesLauriers](http://mattdesl.com/) StackGL, Node, Budo
 - [David Li](http://david.li/)
 - [Reza Ali](http://www.syedrezaali.com/)
@@ -57,10 +57,10 @@ HSL ( Hue, Saturation & Lightness ) cylindrical coordinates representation of co
 parametric adj. of, relating to, or expressed in terms of a parameter or parameters.
 
 
-####Rhinoceros
+### Rhinoceros
 (typically abbreviated Rhino, or Rhino3D) is a commercial 3D computer graphics and computer-aided design (CAD) application software developed by Robert McNeel & Associates; an American, privately held, employee-owned company, that was founded in 1980. Rhinoceros geometry is based on the NURBS mathematical model, which focuses on producing mathematically precise representation of curves and freeform surfaces in computer graphics (as opposed to polygon mesh-based applications).
 
-####Grasshopper 3D
+### Grasshopper 3D
 is a visual programming language with works with the CAD application Rhino 3D. Grasshopper is primarily used to build generative algorithms, such as for generative art. Many of Grasshopper's components create 3D geometry. Programs may also contain other types of algorithms including numeric, textual, audio-visual and haptic applications.
 "Popular among students & professionals, McNeel Associate’s Rhino modelling tool is endemic in the architectural design world. The new Grasshopper environment provides an intuitive way to explore designs without having to learn to script."
 

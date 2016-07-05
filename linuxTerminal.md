@@ -1,6 +1,6 @@
 [notes](notes.md) | [backend](backend.md)
 
-##Nix Terminal
+## Nix Terminal
 - [Git / Github](git-github.md)
 - [Terminal Window Keyboard Shortcuts](#terminal-window-shortcuts)
 - [Shell Scripts](#shell-scripts)
@@ -12,7 +12,7 @@
 - [Piping / Redirection](#piping-redirection)
 - [Network Tools](#network-tools)
 
-###Terminal window shortcuts
+### Terminal window shortcuts
 - `ctrl alt t`: Open terminal window
 - `ctrl shift t`: Open new tab
 - `ctrl shift n`: Open new window
@@ -21,7 +21,7 @@
 - `ctrl pageup` ( `ctrl + fn + up` ): Next tab
 - `ctrl l`: Clear terminal
 
-###Shell scripts
+### Shell scripts
 starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 - `#! /bin/bash`: bash script
 - `#! /usr/bin/env node`: node script
@@ -38,17 +38,17 @@ _________________
 
 `ls -la | grep bash | sort nk1 > testfile`: ?
 
-###Disk Usage
+### Disk Usage
 - `df -h`
 - `lsblk`
 - `baobab`
 - `du -hs ./path/to/dir` ( du = disk usage, h = human-readable, s = summary ) recursive summary of folder & subfolders..
 
-###ls
+### ls
 - `ls` - list files (`-l` long form, `-a` hidden files & directories, `-t` sort by time modified)
 - `ls /bin`: list files/folders in /bin
 
-###rm
+### rm
 - `rm` ( remove files & directories, -r recursive )
 - `rm -rf dirname`: removes non-empty dir ( recursive & force )
 
@@ -82,7 +82,7 @@ _________________
 
 `less filename`: output file contents to screen, cf. more
 
-###grep
+### grep
 - `G`lobal `Re`gular expression `P`rint (regex)
 - used to look for line that matches a pattern in files
 - `grep "foo" words.txt` or `grep -i "foo" words.txt`
@@ -93,11 +93,11 @@ _________________
 - `$`: end of line
 - `..cept` finds `accept`, `except`
 
-###sed
+### sed
 - Stream Editor for filtering & transforming text
 
 
-###chmod
+### chmod
 - `chmod`: change mode, modify permission string
 - `chmod +x`: adds execution rights
 - `chmod -x`: removes execution rights
@@ -119,10 +119,10 @@ _________________
 `ls /usr/share/applications | awk -F '.desktop' ' { print $1}' - > ~/Desktop/applications.txt`: list of installed applications
 
 
-###Piping/redirection
+### Piping / Redirection
 `sort deserts.txt | uniq > uniq-deserts.txt`: sort deserts.txt, pipe to `uniq`, redirect to newfile.
 
-###Network tools
+### Network tools
 - `ifconfig`: configure a network interface [(x)](http://net-tools.sourceforge.net/man/ifconfig.8.html)
 - `ping 8.8.8.8`: time to return answer
 - `whois`: gets info on domain names or IP's

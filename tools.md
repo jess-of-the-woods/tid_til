@@ -1,19 +1,19 @@
 [notes](notes.md)
 
-##Tools
+## Tools
 
-- Postman
-- Sublime
+- [Linux Terminal](linuxTerminal.md)
 - Atom
+- browser console ( dev tools, firebug etc. )
+- MDN
+- [Git / GitHub](git-github.md)
+- Postman
 - codepen.io
 - jsfiddle.net
-- browser console
 - Validators
 - debugger
 - linters
-- Git / GitHub
-- [Linux Terminal](linuxTerminal.md)
 - Stack Overflow
-- MDN
+- Sublime
 
 See also [testing](testing.md)

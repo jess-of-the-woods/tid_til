@@ -1,10 +1,10 @@
 [node.js](node.md) |
 
-##node package manager - NPM
+## node package manager - NPM
 
 - [express](express.md)
 
-###Ramda
+### Ramda
 - A js library for functional programming
 - automatically curries
 

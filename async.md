@@ -1,6 +1,6 @@
 [notes](notes.md)
 
-##Asynchronous
+## Asynchronous
 - [Node](javascript/node.md)
 - callbacks
 - promises
@@ -9,7 +9,7 @@
 - client/server (API)
 - server side rendering
 
-###Asynchronous Breakout
+### Asynchronous Breakout
 ```javascript
 console.log('starting')
 

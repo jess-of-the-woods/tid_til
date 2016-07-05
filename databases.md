@@ -1,10 +1,10 @@
-[notes](notes.md) | [backend](backend.md)
+[notes](notes.md) | [backend](backend.md) | [server-side](server-side.md)
 
-#Databases
+## Databases
 
 [Tutorialspoint SQL Tutorial](http://www.tutorialspoint.com/sql/)
 
-###Categories
+### Categories
 * [SQL](#sql)
 * [PostgreSQL](#postgresql)
 * [NoSQL](#nosql)
@@ -12,11 +12,11 @@
 * [Database in an App](#database in an app)
 * [Database testing](#database testing)
 
-##Persistence
+## Persistence
 - Data persists after program execution.. long term storage. On a hard drive somewhere
 - File System vs Memory
 
-##Databases vs a File
+## Databases vs a File
 - Access large quantity of data quickly, easily & efficiently ( refill pad vs file cabinet )
 - Simultaneous multi-user access, multiple requests ( collisions, race conditions )
 - Structured Data vs unstructured ( e.g. spreadsheet vs text file )
@@ -24,7 +24,7 @@
 
 __________________
 
-##SQL - Structured Query Language
+## SQL - Structured Query Language
 statement always end in `;`
 
 ```sql
@@ -43,13 +43,13 @@ UPDATE celebs
 SET age = 22
 WHERE id = 1;
 ```
-###SQL Joins & relationships
+### SQL Joins & relationships
 relationships between data, modelling data
 
-#####People table
+##### People table
 id, email, password (id is primary key)
 
-#####Shoes table
+##### Shoes table
 size, color, owner_id (foreign id)
 
 one to many relationship. one person, many shoes
@@ -60,7 +60,7 @@ one to many relationship. one person, many shoes
 SELECT * FROM shoes INNER JOIN people ON people.id = shoes.owner_id
 ```
 
-####Many to many relationship
+#### Many to many relationship
 - Shoe-sharing household
 - Many people wear the shoes, the shoes are worn by many
 - wear event table in middle.. ( join tables )
@@ -75,7 +75,7 @@ OFFSET 20 ( start at 20th )
 ```
 ---
 
-##PostgreSQL
+### PostgreSQL
 - handles multi-threading
 - Needs to be installed and configured correctly
 - `npm i pg --save`
@@ -89,7 +89,7 @@ OFFSET 20 ( start at 20th )
 
 `knex migrate:latest --env test`: migrates test database (test is referenced from config file, knexfile.js)
 
-####PostgreSQL interactive terminal
+#### PostgreSQL interactive terminal
 - `psql` - enters interactive terminal
 - `psql databaseName` - enters terminal w/ a particular database
 - `\?` - lists all available commands
@@ -103,20 +103,20 @@ SQL queries end with  `;`
 
 ---
 
-##NoSQL
+## NoSQL
 - approach to building databases
 - described as non-relational (as opposed to SQL which is relational)
 - good for rapid expansion of database (millions of records)
 
 ---
 
-##Knex
+## Knex
 - Node module
 - lets us access data from within programs
 - knex translates javascript into SQL
 - knexfile.js ( config details, says which file to use ), so that knex command in CLI knows where to look for config info.
 
-####Migrations
+### Migrations
 - `knex migrate:make CreateCarsTable` - throws up error that we need to install sqlite3 (if  not installed)
 creates new migration file in new folder with timestamp as part of filename
 - open new migration file, look at knexjs documentation, create table, add stuff to exports.up & exports.down
@@ -128,22 +128,22 @@ creates new migration file in new folder with timestamp as part of filename
 
 varchar = variable character. basically a string. any character up to max 255 long
 
-####Seeds
+### Seeds
 seed data is test data, good for testing environment, or development
 - `knex seed:make seedName` - creates new seed file..
 - add data to seed file
 - `knex seed:run` - runs seed file, inserts seed data into tables
 
-####Knex vs Knex.raw..
+### Knex vs Knex.raw..
 
-#####Knex syntax
+##### Knex syntax
 
 ```sql
   knex.select()
   .table('cats')
 ```
 
-#####Raw SQL syntax
+##### Raw SQL syntax
 ```javascript
   var allTheCats = 'SELECT * FROM cats'
 ```
@@ -153,7 +153,7 @@ can use either way.. Knex or raw. When queries get really big, raw becomes a bit
 
 ____
 
-##Database testing
+## Database testing
 different connections to different databases.. in testing file and in server.js
 one for testing. one for development
 
@@ -161,7 +161,7 @@ knex is outside of config file.. we pass knex to app and then get back a app obj
 
 ---
 
-##15 April 2016 - Database in an App
+### 15 April 2016 - Database in an App
 `git init` -  initialises new git repository in project.
 
 `npm init` - initialises as a node project.

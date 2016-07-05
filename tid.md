@@ -6,7 +6,8 @@
 - sockets.io chat app - ([original on github](https://github.com/rauchg/chat-example))  ([mine](https://github.com/jess-of-the-woods/Chat))
 - jQuery
 - fsReadFile, JSON.parse
-- console.log(process.argv) 
+- console.log(process.argv)
+- markdown tables
 
 ###3 July 2016
 - lodash, Ramda

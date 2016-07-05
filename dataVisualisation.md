@@ -1,6 +1,6 @@
 [notes](notes.md) | [to learn](toLearn.md)
 
-##Data Visualisation
+## Data Visualisation
 * [CSS](CSS/CSS.md)
 * [D3.js](d3.md)
 * [HTML](HTML/HTML.md)5 Canvas
@@ -13,13 +13,13 @@
 
 [The Art of Data Visualization](https://www.youtube.com/watch?v=AdSZJzb-aX8) - PBS (YouTube)
 
-3D Data visualisation
+- 3D Data visualisation
 
-####People
+#### People
 - Edward Tufte (info design, data visualisation)
 - Hans Rosling - 'Let the data set change your mindset'
 - David McCandless
 
 ---
 
-See Also [3D](3D.md) | [art](art.md) | [databases](databases.md) | generative art | [UI](UI.md)
+See Also [art](art.md) | [3D](3D.md) | [databases](databases.md) | generative art | [UI](UI.md)

@@ -1,6 +1,6 @@
 [frontend](../frontend.md) | [client-side](../client-side.md) | [JavaScript](notes.md)
 
-##jQuery
+## jQuery
 
 [jQuery Tutorial for Beginners](bit.ly/2383XSL)
 
@@ -15,7 +15,7 @@ In node.js projects:
 var $ = require('jquery')
 ```
 
-###Syntax
+### Syntax
 ```javascript
     //for id's
     $("#selector").function(propertyToBeApplied);
@@ -29,7 +29,7 @@ $('#main').HTML(varName)
 ```
 Like innerHTML.. Inputs to div
 
-####Listeners
+### Listeners
 ```javascript
 $(document).on('click', function() {
   //code, code, code
@@ -38,7 +38,7 @@ $(document).on('click', function() {
 
 ---
 
-####Document ready function
+### Document ready function
 
 Everything should go inside this 'Document.ready' function. Waits till page is loaded then fires.
 ```javascript
@@ -54,7 +54,7 @@ or alternatively
 ```
 ---
 
-####Append (or prepend) to HTML id
+### Append (or prepend) to HTML id
 (Udacity Resume Assignment)
 
 ```javascript
@@ -74,4 +74,4 @@ $(function() {
 
 ---
 
-See also [React](../react/react.md)
+See also [react](../react/react.md)

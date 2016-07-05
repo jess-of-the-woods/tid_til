@@ -1,7 +1,7 @@
 [notes](notes.md) | [backend](backend.md) | [linux terminal](linuxTerminal.md)
 
 
-#Git / GitHub
+## Git / GitHub
 
 `git init` initialize project as git repo
 
@@ -45,7 +45,7 @@
 
 ---
 
-###Git remote
+### Git remote
 - `git remote -v` - displays all remotes, verbose
 - `git remote add origin` https://github.com/jess-of-the-woods/react-the_first.git - adds origin
 - `git remote rm origin` - removes remotes
@@ -53,7 +53,7 @@
 
 ---
 
-##Undoing
+## Undoing
 
 <img src='https://i.stack.imgur.com/caci5.png'>
 
@@ -65,7 +65,7 @@ If you commit node modules on 1st commit..
 - `rm -rf .git`
 - `git init`
 
-###Reset:
+### Reset
 Move the branch HEAD points to (stop here if --soft)
 
 Make the Index look like HEAD (stop here unless --hard)
@@ -92,7 +92,7 @@ And if you actually want to completely undo it, throwing away all uncommitted ch
 `git reset --hard HEAD^`
 
 
-###Revert
+### Revert
 `git revert commitId` ( does an anti-commit, undo commit, but is still available )
 
 ---
@@ -124,7 +124,7 @@ See the size of a github repo before cloning it?
 
 ---
 
-###Password Caching
+### Password Caching
 `git config --global credential.helper cache` - cache password in git
 
 `git config --global credential.helper 'cache --timeout=3600'` - timeout = 1 hour

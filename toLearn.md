@@ -1,11 +1,12 @@
 [home](README.md) | [notes](notes.md) |
 
-#To Learn
+## To Learn
 
-###[questions](questions.md)
+### [questions](questions.md)
 
 ---
 
+- fsWriteFile
 - [Functional Programming](functional.md)
 - Class, Constructors
 - Closures, Factory functions, Constructors, Classes, Prototypes
@@ -19,15 +20,15 @@
 - Data type (https://en.wikipedia.org/wiki/Data_type)
 - Elm
 
-###Git
+### Git / Github
 - tag
 - refs, HEAD
 
-###CSS
+### CSS
 - SASS
 - Flexbox ([notes](CSS/flexbox.md))
 
-###JavaScript
+### JavaScript
 - return function [JS Functions that Return Functions](https://davidwalsh.name/javascript-functions)
 - ES6 - `let`, `const`
 - Testing ([notes](testing.md))
@@ -44,8 +45,4 @@
 
 ---
 
-- [art](art.md).. SVG, stack.gl, webGL, three.js, rhino3D?
-- [data visualisation](dataVisualisation.md)
-- [HTML](HTML/HTML.md)
-- [node](javascript/node.md)
-- [user interfaces](UI.md)
+- [art](art.md).. SVG, stack.gl, webGL, three.js, rhino3D | [data visualisation](dataVisualisation.md) | [HTML](HTML/HTML.md) | [node](javascript/node.md) | [user interfaces](UI.md)

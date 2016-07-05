@@ -1,6 +1,6 @@
 [notes](notes.md) | [to learn](toLearn.md)
 
-##Functional Programming
+## Functional Programming
 - Elm
 - Ramda, lodash, underscore
 
