@@ -43,10 +43,9 @@
 - inu
 - OAuth
 
----
 
 ## [art](art.md)
-- SV
+- SVG
 - stack.gl
 - webGL
 - three.js
