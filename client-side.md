@@ -1,13 +1,14 @@
 [notes](notes.md) | [frontend](frontend.md)
 
-[jQuery](javascript/jQuery.md) | [React](react/react.md) [Three.js](javascript/threejs.md)
 
-##Client-Side Rendering
+## Client-Side Rendering
 - uses users processor (browser)
 
 Use relative routes in client side app.. ( express endpoints )
 
-###GET
+
+### HTTP
+#### GET
 - xhr
 - superagent
 - simpleget
@@ -17,7 +18,9 @@ Use relative routes in client side app.. ( express endpoints )
 - local server to local server
 - can set in header to enable ??
 
+---
+
 
 ---
 
-See also [asynchronous](async.md) | [express](javascript/express.md) | HTTP | [server-side](server-side.md)
+See also [asynchronous](async.md) | [express](javascript/express.md) | [HTTP](HTTP.md) | [server-side](server-side.md) | [jQuery](javascript/jQuery.md) | [react](react/react.md) | [Three.js](javascript/threejs.md)

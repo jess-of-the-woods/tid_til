@@ -9,6 +9,7 @@
 * [Data Visualisation](dataVisualisation.md)
 * [Git/GitHub](git-github.md)
 * [HTML](HTML/HTML.md)
+* [HTTP](HTTP.md)
 * [JavaScript](javascript/notes.md)
 * [Linux Terminal](linuxTerminal.md)
 * [React](react/react.md)

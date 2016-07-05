@@ -53,4 +53,4 @@ Live Reload / Budo / Watchify / Nodemon / Webpack
 
 ---
 
-See also [functional programming](functional.md)
+See also bundling | [functional programming](functional.md)
