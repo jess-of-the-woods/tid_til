@@ -11,7 +11,7 @@
 
 ---
 
-[The Art of Data Visualization](https://www.youtube.com/watch?v=AdSZJzb-aX8) - PBS (YouTube)
+[The Art of Data Visualization](https://www.youtube.com/watch?v=AdSZJzb-aX8) - PBS (YouTube), 8 Mins
 
 - 3D Data visualisation
 
