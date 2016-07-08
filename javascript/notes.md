@@ -22,7 +22,7 @@
 - [Class](#class)
 - [Closures](#closures)
 - [Promises](#promises)
-- [Truthy / Falsy](#truthy-falsy)
+- [Truthy / Falsy](#truthy/falsy)
 - [use strict](#use-strict)
 
 
@@ -575,6 +575,7 @@ Penguin.prototype = new Animal();
 ```
 
 ---
+
 ### Closures
 Closures aka 'Lexical closures' or 'Function closures':
 Being able to reference a specific instance of local variables in an enclosing function is called closure. A function that “closes over” some local variables is called a closure. This behaviour not only frees you from having to worry about lifetimes of variables but also allows for some creative use of function values.
@@ -588,7 +589,7 @@ Being able to reference a specific instance of local variables in an enclosing f
 - origami'd callback
 - looks more synchronous
 - 'simpler'
-- Async
+- Asynchronous
 - promise libraries (bluebird ( denodeify ), promise ( promiseifyAll ))
 
 ---
