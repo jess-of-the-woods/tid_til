@@ -43,6 +43,14 @@
 - inu
 - OAuth
 
----
 
-- [art](art.md).. SVG, stack.gl, webGL, three.js, rhino3D | [data visualisation](dataVisualisation.md) | [HTML](HTML/HTML.md) | [node](javascript/node.md) | [user interfaces](UI.md)
+## [art](art.md)
+- SVG
+- stack.gl
+- webGL
+- three.js
+- rhino3D
+- [data visualisation](dataVisualisation.md) 
+- [HTML](HTML/HTML.md)
+- [node](javascript/node.md)
+- [user interfaces](UI.md)
