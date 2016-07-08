@@ -2,12 +2,7 @@
 
 ## JavaScript Notes
 
-### Links
-- **[Express.js](express.md)**
-- **[jQuery](jQuery.md)**
-- **[React](../react/react.md)**
-- **[Node.js](node.md)**
-- **[Three.js](threejs.md)**
+**[Express.js](express.md)** | **[jQuery](jQuery.md)** | **[React](../react/react.md)** | **[Node.js](node.md)** | **[Three.js](threejs.md)**
 
 ### Table Of Contents
 - [Data types](#data-types)

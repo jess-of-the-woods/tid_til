@@ -3,8 +3,7 @@
 ##Node.js
 <a href='https://nodejs.org/en/'><img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" height="120" width="200"></a>
 
-- [NPM](npm.md)
-- [express.js](express.md)
+**[NPM](npm.md)** | **[express.js](express.md)**
 
 Node offers easy way to do aysnchronous processing
 

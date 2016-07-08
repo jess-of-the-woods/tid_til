@@ -1,27 +1,27 @@
 [node.js](node.md) | [backend](../backend.md) | [NPM](npm.md)
 
-##Express Server
+## Express Server
 
 [documentation](http://expressjs.com/)
 
 JSON API is quicker, more lightweight than full server-side rendering.
 Read DB, send JSON to client which renders it
 
-####To setup express
+#### To setup express
 * make new folder
 * cd into folder
 * `npm init -y`
 * `npm i express --save`
 * `touch server.js`
 
-####Express Generator
+#### Express Generator
 `express .` to run express-generator ( run inside a folder )
 
 or `express folderName`
 
 ---
 
-####Simple server example
+#### Simple server example
 ```javascript
 var express = require ('express')
 var app = express()
@@ -35,7 +35,7 @@ app.listen(3000, function){
 })
 ```
 
-####CRUD/ REST APIs
+#### CRUD/ REST APIs
 Create, Read, Update, Destroy..
 
 `POST /tweets`
@@ -54,7 +54,7 @@ Create, Read, Update, Destroy..
 
 `DELETE /tweets/:id`
 
-####POST Route using Knex
+#### POST Route using Knex
 ```javascript
 router.post('newTweet', function(req, res){
   knex('tweets').insert({
@@ -66,7 +66,7 @@ router.post('newTweet', function(req, res){
 })
 ```
 
-####Passing data as query
+#### Passing data as query
 
 localhost:9000/?age=33&name=will
 
@@ -74,7 +74,7 @@ localhost:9000/?age=33&name=will
 
 ---
 
-if you get port in use error, e.g. ( Error: listen EADDRINUSE :::3000 )
+**if you get port in use error**, e.g. ( Error: listen EADDRINUSE :::3000 )
 
 in terminal: `ps -ax | grep node`
 

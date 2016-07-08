@@ -8,7 +8,7 @@ I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbysch
 
 ---
 
-####[Art](art.md)
+<!-- #### [Art](art.md)
 
 #### [CSS](CSS/CSS.md)
 
@@ -25,4 +25,4 @@ I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbysch
 #### [User Interfaces](UI.md)
 
 #### Other
- - Serial vs Parallel processing
+ - Serial vs Parallel processing -->

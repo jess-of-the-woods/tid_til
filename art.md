@@ -1,13 +1,13 @@
 [notes](notes.md) | [to learn](toLearn.md)
 
 ## Art
-* [HTML](HTML/HTML.md)5 Canvas
-* [processing](processing.md)
-* [SVG](HTML/SVG.md)
-* [Three.js](javascript/threejs.md)
+* [HTML](HTML/HTML.md)5 Canvas | **[processing](processing.md)** | **[SVG](HTML/SVG.md)** | **[three.js](javascript/threejs.md)**
+
+
+
 * Stack.gl [more](stack.gl)
 * [http://hughsk.io/campjs/](http://hughsk.io/campjs/)
-* [Parametric Design](https://en.wikipedia.org/wiki/Parametric_design)
+* Parametric Design ([wikipedia](https://en.wikipedia.org/wiki/Parametric_design))
 * 3D Fashion
 * Biomimicry
 * New Media Art

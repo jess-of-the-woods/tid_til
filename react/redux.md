@@ -1,6 +1,6 @@
 [react](react.md)
 
-#Redux
+## Redux
 [Learn Redux](http://bit.ly/1USXO6n) (YouTube series)
 
 - Heart of redux is state

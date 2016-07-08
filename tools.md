@@ -2,11 +2,11 @@
 
 ## Tools
 
-- [Linux Terminal](linuxTerminal.md)
+- [linux terminal](linuxTerminal.md)
 - Atom
 - browser console ( dev tools, firebug etc. )
 - MDN
-- [Git / GitHub](git-github.md)
+- [git / GitHub](git-github.md)
 - Postman
 - codepen.io
 - jsfiddle.net

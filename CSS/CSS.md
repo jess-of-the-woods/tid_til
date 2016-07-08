@@ -1,8 +1,8 @@
 [notes](../notes.md) | [to learn](../toLearn.md) | [frontend](../frontend.md)
 
 ## CSS
-- **[Flexbox](flexbox.md)**
-- **[SASS](SASS.md)**
+**[Flexbox](flexbox.md)** | **[SASS](SASS.md)**
+
 
 
 - [Pseudo-Elements](#pseudo-elements)

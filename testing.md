@@ -2,7 +2,7 @@
 
 ## Testing
 
-Pattern
+**Pattern**
 - Arrange, Act, Assert
 
 ```javascript
