@@ -32,7 +32,7 @@ fs & path are core node modules
 `npm uninstall moduleName --save`: uninstalls module & deletes reference in package.json
 
 
-### fs ( file system )
+### fs ( file system module )
 ```javascript
 var fs = require('fs')
 var output = fs.readFileSync('data.txt', 'utf8')

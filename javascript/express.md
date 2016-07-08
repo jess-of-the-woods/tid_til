@@ -38,7 +38,7 @@ app.listen(3000, function){
 ```
 
 #### CRUD/ REST APIs
-Create, Read, Update, Destroy..
+Create, Read, Update, Destroy.. See [SQL](../SQL.md)
 
 `POST /tweets`
 

@@ -2,7 +2,7 @@
 
 ## NPM - node package manager
 
-**[express](express.md)**
+**[express](express.md)** | **[Knex](knex.md)**
 
 looks at package.json which records dependencies
 
@@ -11,7 +11,6 @@ looks at package.json which records dependencies
 - automatically curries
 
 ### List
-- Knex
 - express-session (session storage)
 - express-generator
 - body-parser

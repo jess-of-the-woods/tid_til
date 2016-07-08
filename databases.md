@@ -1,14 +1,11 @@
 [notes](notes.md) | [backend](backend.md) | [server-side](server-side.md)
 
 ## Databases
-
-[SQL Tutorial](http://www.tutorialspoint.com/sql/) - Tutorialspoint
+**[Knex](javascript/knex.md)** | **[SQL](SQL.md)**
 
 ### Categories
-* [SQL](#sql)
 * [PostgreSQL](#postgresql)
 * [NoSQL](#nosql)
-* [Knex](#knex)
 * [Database in an App](#database in an app)
 * [Database testing](#database testing)
 
@@ -22,57 +19,6 @@
 - Structured Data vs unstructured ( e.g. spreadsheet vs text file )
 - Permissions
 
-__________________
-
-## SQL - Structured Query Language
-statement always end in `;`
-
-```sql
-CREATE TABLE table_name (
-    column_1 data_type,
-    column_2 data_type,
-    column_3 data_type
-  );
-```
-```sql
-INSERT INTO celebs (id, name, age) VALUES (4, 'Taylor Swift', 26);
-SELECT name FROM celebs;
-```
-```sql
-UPDATE celebs
-SET age = 22
-WHERE id = 1;
-```
-### SQL Joins & relationships
-relationships between data, modelling data
-
-##### People table
-id, email, password (id is primary key)
-
-##### Shoes table
-size, color, owner_id (foreign id)
-
-one to many relationship. one person, many shoes
-
-`LEFT INNER JOIN`: most commonly used join
-
-```sql
-SELECT * FROM shoes INNER JOIN people ON people.id = shoes.owner_id
-```
-
-#### Many to many relationship
-- Shoe-sharing household
-- Many people wear the shoes, the shoes are worn by many
-- wear event table in middle.. ( join tables )
-
-twitter project.. one person can follow many people, a person can be followed by many people.
-
-
-```sql
-SELECT * FROM MassiveTable
-LIMIT 10 ( return 10 items )
-OFFSET 20 ( start at 20th )
-```
 ---
 
 ### PostgreSQL
@@ -110,49 +56,6 @@ SQL queries end with  `;`
 
 ---
 
-## Knex
-- Node module
-- lets us access data from within programs
-- knex translates javascript into SQL
-- knexfile.js ( config details, says which file to use ), so that knex command in CLI knows where to look for config info.
-
-### Migrations
-- `knex migrate:make CreateCarsTable` - throws up error that we need to install sqlite3 (if  not installed)
-creates new migration file in new folder with timestamp as part of filename
-- open new migration file, look at knexjs documentation, create table, add stuff to exports.up & exports.down
-- `knex migrate:latest` - runs all migrations.
-- name migrations well so they describe what they do.
-- migrate current data from DB to a new ..form, changes structure of db, schema are instructions on how to migrate to new state (add fields, remove fields)
-- migration up is forward, migration down is back ( rollback migration )
-- install knex globally = `npm i -g knex`
-
-varchar = variable character. basically a string. any character up to max 255 long
-
-### Seeds
-seed data is test data, good for testing environment, or development
-- `knex seed:make seedName` - creates new seed file..
-- add data to seed file
-- `knex seed:run` - runs seed file, inserts seed data into tables
-
-### Knex vs Knex.raw..
-
-##### Knex syntax
-
-```sql
-  knex.select()
-  .table('cats')
-```
-
-##### Raw SQL syntax
-```javascript
-  var allTheCats = 'SELECT * FROM cats'
-```
-can use either way.. Knex or raw. When queries get really big, raw becomes a bit unwieldy & ugly
-
-`DROP` means delete/destroy. E.g. `drop table`
-
-____
-
 ## Database testing
 different connections to different databases.. in testing file and in server.js
 one for testing. one for development
@@ -185,6 +88,6 @@ if you 'git add' node modules.. `git rm  -r --cached node_modules/`
 
 ---
 
-[ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) - wikipedia
+([ontology](https://en.wikipedia.org/wiki/Ontology_(information_science)) - wikipedia
 
 See Also [data visualisation](dataVisualisation.md) | [node](javascript/node.md) | ontology | info science
