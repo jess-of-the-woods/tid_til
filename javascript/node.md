@@ -5,16 +5,25 @@
 
 **[NPM](npm.md)** | **[express.js](express.md)**
 
-Node offers easy way to do aysnchronous processing
+Node offers easy way to do aysnchronous processing. Follows common.js pattern
+
+#### Three parts
+- REPL
+- Server ([NPM](npm.md))
+- Runner
 
 fs & path are core node modules
 
 ### Commands
 `node fileName`: to run a file with Node runner
 
-`node -v`: To see if Node is installed
+`node -v`: To see if Node is installed, tells you version number
 
-`npm -v`: To see if NPM is installed
+`npm -v`: To see if NPM is installed, tells you version number
+
+`node --help`: Help
+
+`which node` finds path of node install
 
 `npm -g ls`: prints list of all globally installed modules
 

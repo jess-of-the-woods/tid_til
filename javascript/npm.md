@@ -1,13 +1,16 @@
 [node.js](node.md) |
 
-## node package manager - NPM
+## NPM - node package manager
 
 **[express](express.md)**
+
+looks at package.json which records dependencies
 
 ### Ramda
 - A js library for functional programming
 - automatically curries
 
+### List
 - Knex
 - express-session (session storage)
 - express-generator

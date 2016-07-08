@@ -8,6 +8,14 @@
 - PATCH
 - DELETE
 
+**curl** is a program for HTTP requests from terminal
+
+`curl http://google.com`
+
+**postman**
+
+chrome extension for HTTP requests
+
 ---
 
 See also API's | [node.js](node.md)

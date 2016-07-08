@@ -2,7 +2,9 @@
 
 ## Express Server
 
-[documentation](http://expressjs.com/)
+([documentation](http://expressjs.com/))
+
+Built on top of node core http module
 
 JSON API is quicker, more lightweight than full server-side rendering.
 Read DB, send JSON to client which renders it

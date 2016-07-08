@@ -2,6 +2,9 @@
 
 ## Testing
 
+### Red, Green, Refactor
+Write test, test should be non-passing.. i.e. 'red'. Write code, keep testing till test passes, i.e. green. Then refactor (improve code)
+
 **Pattern**
 - Arrange, Act, Assert
 
