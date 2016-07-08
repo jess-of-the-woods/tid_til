@@ -576,7 +576,7 @@ Penguin.prototype = new Animal();
 ---
 ### Closures
 Closures aka 'Lexical closures' or 'Function closures':
-Being able to reference a specific instance of local variables in an enclosing function—is called closure. A function that “closes over” some local variables is called a closure. This behaviour not only frees you from having to worry about lifetimes of variables but also allows for some creative use of function values.
+Being able to reference a specific instance of local variables in an enclosing function is called closure. A function that “closes over” some local variables is called a closure. This behaviour not only frees you from having to worry about lifetimes of variables but also allows for some creative use of function values.
 (possibly should be in functional notes?)
 
 - function that makes a function
@@ -595,3 +595,5 @@ Being able to reference a specific instance of local variables in an enclosing f
 first introduced in ES5, but backwards compatible
 
 reserved words, undeclared variables ( variables without using 'var' ).. will throw errors
+
+See Also [CSS](../CSS/CSS.md) | [HTML](../HTML/HTML.md)

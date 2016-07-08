@@ -1,8 +1,8 @@
 [node.js](node.md) |
 
-## NPM - node package manager
+## NPM - Node Package Manager
 
-**[express](express.md)** | **[Knex](knex.md)**
+**[express.js](express.md)** | **[Knex](knex.md)**
 
 looks at package.json which records dependencies
 
@@ -21,8 +21,8 @@ looks at package.json which records dependencies
 - simpleget
 - superagent
 - xhr
-- bluebird
-- pg
+- bluebird (promises?)
+- promise
 - jade, handlebars, hyper-script
 - inu
 - bcrypt-node, bcrypt
@@ -32,8 +32,8 @@ looks at package.json which records dependencies
 - moment
 - passport
 - jQuery
+- pg
 - sqlite3
-- promise
 - keypress
 - cylon-ble
 - babel, babelify, babel-preset-es2015, babel-preset-react
@@ -56,3 +56,4 @@ devDependencies
 - supertest
 - tape, tap-closer
 - tap-spec
+- nodemon

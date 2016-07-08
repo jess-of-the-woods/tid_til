@@ -66,4 +66,4 @@ OFFSET 20 ( start at 20th )
 ```
 
 ### Links
-[SQL Tutorial](http://www.tutorialspoint.com/sql/) - Tutorialspoint
+[Tutorial](http://www.tutorialspoint.com/sql/) - Tutorialspoint

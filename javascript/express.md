@@ -1,17 +1,17 @@
-[node.js](node.md) | [backend](../backend.md) | [NPM](npm.md)
+[backend](../backend.md) | [NPM](npm.md)
 
-## Express Server
+## Express.js Server
 
 ([documentation](http://expressjs.com/))
 
-Built on top of node core http module
+Built on top of node core 'http' module
 
 JSON API is quicker, more lightweight than full server-side rendering.
 Read DB, send JSON to client which renders it
 
 #### To setup express
-* make new folder
-* cd into folder
+* make new folder ( `mkdir newFolder` )
+* `cd` into folder
 * `npm init -y`
 * `npm i express --save`
 * `touch server.js`
@@ -37,7 +37,7 @@ app.listen(3000, function){
 })
 ```
 
-#### CRUD/ REST APIs
+#### CRUD/ REST API's
 Create, Read, Update, Destroy.. See [SQL](../SQL.md)
 
 `POST /tweets`

@@ -3,14 +3,14 @@
 ## Node.js
 <a href='https://nodejs.org/en/'><img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" height="120" width="200"></a>
 
-**[NPM](npm.md)** | **[express.js](express.md)**
+**[NPM](npm.md)**
 
 Node offers easy way to do aysnchronous processing. Follows common.js pattern
 
 #### Three parts
-- REPL
+- REPL ( type `node` in terminal to enter REPL )
 - Server ([NPM](npm.md))
-- Runner
+- Runner ( e.g. `node fileName` to run a file with node.js runner)
 
 fs & path are core node modules
 
