@@ -19,6 +19,23 @@ Variables can use different data types. E.g. color, numbers, strings, booleans, 
 `(key1: value1, key2: value2)`
 
 
-## Next heading..
-- asldasdjls
-- askdhaksdgyfhavnppo[pw]
+### &
+In Sass, the & character is used to specify exactly where a parent selector should be inserted. It also helps write pseudo classes in a much less repetitive way.
+
+For example, the following Sass:
+
+```css
+.notecard{
+  &:hover{
+      @include transform (rotatey(-180deg));  
+    }
+  }
+```
+
+will compile to the following CSS:
+
+```css
+.notecard:hover {
+  transform: rotatey(-180deg);
+}
+```
