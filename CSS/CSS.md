@@ -33,12 +33,13 @@ For example, it can be used to:
 - Style visited and unvisited links differently
 - Style an element when it gets focus
 
+#### Syntax
 ```css
 selector:pseudo-class {
     property:value;
 }
 ```
-
+e.g.
 ```css
 /* unvisited link */
 a:link {
@@ -60,6 +61,9 @@ a:active {
    color: #0000FF;
 }
 ```
+
+### Font-stack
+A font stack is a list of fonts in a CSS font-family declaration. The fonts are listed in order of preference by the Web designer. A font stack allows a designer to control the look of the fonts on the Web page even if the computer doesn't have the best font for the job.
 
 ## Layout
 HTML elements have default display types. e.g. divs have block type, therefore are displayed across the whole width of the page. span elements are inline, therefore are displayed inline.

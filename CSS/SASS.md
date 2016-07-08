@@ -1,6 +1,7 @@
 [CSS](CSS.md)
 
-## Syntactically Awesome Style Sheets - SASS
+## SASS - Syntactically Awesome Style Sheets
+([Guide](http://sass-lang.com/guide))
 
 ### Variables
 
@@ -12,7 +13,7 @@ $standard-border: 4px solid black`
   }
 ```
 
-Variables can use different data types. E.g. color, numbers, strings, booleans, null, lists, maps. Above variable is an example of a list.
+Variables can be different data types. E.g. color, numbers, strings, booleans, null, lists, maps. Above variable is an example of a list. They are declared with the `$`symbol and then the variable name.
 
 **Map**
 
@@ -37,5 +38,23 @@ will compile to the following CSS:
 ```css
 .notecard:hover {
   transform: rotatey(-180deg);
+}
+```
+
+### Mixins
+
+a mixin lets you make groups of CSS declarations that you want to reuse throughout your site.
+
+**Note**: Mixin names and all other Sass identifiers use hyphens and underscores interchangeably.
+
+e.g.
+
+```css
+@mixin backface-visibility {
+  backface-visibility: hidden;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+  -o-backface-visibility: hidden;
 }
 ```
