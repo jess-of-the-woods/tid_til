@@ -3,6 +3,8 @@
 ## SASS - Syntactically Awesome Style Sheets
 ([Guide](http://sass-lang.com/guide))
 
+**To compile**: `sass main.scss main.css` ( after installing SASS )
+
 ### Variables
 
 ```css
