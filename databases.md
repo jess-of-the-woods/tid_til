@@ -2,7 +2,7 @@
 
 ## Databases
 
-[Tutorialspoint SQL Tutorial](http://www.tutorialspoint.com/sql/)
+[SQL Tutorial](http://www.tutorialspoint.com/sql/) - Tutorialspoint
 
 ### Categories
 * [SQL](#sql)

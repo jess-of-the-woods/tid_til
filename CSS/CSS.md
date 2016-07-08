@@ -1,8 +1,14 @@
 [notes](../notes.md) | [to learn](../toLearn.md) | [frontend](../frontend.md)
 
 ## CSS
-- [Flexbox](flexbox.md)
-- [SASS](SASS.md)
+- **[Flexbox](flexbox.md)**
+- **[SASS](SASS.md)**
+
+
+- [Pseudo-Elements](#pseudo-elements)
+- [Pseudo-classes](#pseudo-classes)
+- [Font-stack](#font-stack)
+- [Layout](#layout)
 
 ### Pseudo-Elements
 ([w3schools](http://www.w3schools.com/css/css_pseudo_elements.asp))

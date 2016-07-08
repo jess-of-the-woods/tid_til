@@ -1,15 +1,15 @@
 [notes](../notes.md)
 
-#JavaScript Notes
+## JavaScript Notes
 
-##Links
-* [Express.js](express.md)
-* [jQuery](jQuery.md)
-* [React](../react/react.md)
-* [Node.js](node.md)
-* [Three.js](threejs.md)
+### Links
+- **[Express.js](express.md)**
+- **[jQuery](jQuery.md)**
+- **[React](../react/react.md)**
+- **[Node.js](node.md)**
+- **[Three.js](threejs.md)**
 
-##Table Of Contents
+### Table Of Contents
 - [Data types](#data-types)
 - [Variables](#variables)
 - [Arrays](#arrays)
@@ -32,7 +32,7 @@
 
 ---
 
-##Data-types
+### Data-types
 - Strings e.g. `"dogs go woof!"`
 - Numbers e.g. `4`, `10`
 - Booleans e.g. `false`, `5 > 4`
@@ -42,7 +42,7 @@
   genre: 'noise'
   }`
 
-##Variables
+### Variables
 Also referred to as a scalar
 Only variables declared with keyword 'var' inside functions with have 'localness'.
 Avoid global variables if possible.
@@ -53,7 +53,7 @@ var myAge = 34;
 var myCountry = "Aotearoa"
 ```
 
-###string.replace() method
+#### string.replace() method
 Takes string name, specifies the value within the string to be changed out, then specifies the value to be swapped in.
 ```javascript
 var email = "jess@gmail.com"
@@ -62,39 +62,40 @@ var newEmail = email.replace("gmail","yahoo")
 ```javascript
 var formattedName = HTMLheaderName.replace("%data%", bio.name);
 ```
-###Print substring of variable to console
+#### Print substring of variable to console
 x = starting position (starts from 0)
 y = end position
 ```javascript
 console.log(myCountry.substring(0,3));
 ```
-###Print number of characters in variable to console
+#### Print number of characters in variable to console
 ```javascript
 console.log(myCountry.length);
 ```
-###Prompt user for input and store in variable
+#### Prompt user for input and store in variable
 ```javascript
 var age = prompt("What's your age?");
 ```
-###Increment/Decrement
+#### Increment/Decrement
 - `variableName++` - Increment by 1
 - `variableName--` - Decrement by 1
 - `variableName += 3` - Increment by X (3)
 - `variableName -= 3` - Decrement by X (3)
-###Convert (numerical) user input (from prompt) to a number using +
+
+#### Convert (numerical) user input (from prompt) to a number using +
 ```javascript
 guess = prompt()
 guess = +guess;
 console.log(guess);
 ```
-###typeof
+#### typeof
 tells what type a variable is (number/string/function/object etc.)
 e.g.
 ```javascript
 console.log(typeof objName);
 ```
 ---
-##Arrays
+### Arrays
 - Lists of data
 - Heterogeneous: Different data types (strings, integers, booleans)
 - Ordered (position is fixed), indexed from 0
@@ -102,22 +103,22 @@ console.log(typeof objName);
 - Jagged Arrays: Nested Arrays aren't all the same length
 
 Any time you see data surrounded by `[ ]`, it is an array.
-###Declaring/Creating an array
+#### Declaring/Creating an array
 ```javascript
 var junkData = ["hello", "there", 65, 450]
 ```
-###Accessing data in an array
+#### Accessing data in an array
 ```javascript
 var junkData = ["Eddie Murphy", 49, "peanuts", 31];
 console.log (junkData[3])
 ```
 prints `31`
-###Length method
+#### Length method
 ```javascript
 console.log(junkData.length)
 ```
 prints out the number of items in an array
-###Push method
+#### Push method
 Arrays have a `.push()` method that adds the thing between parentheses to the end of the array. eg.
 
 ```javascript
@@ -125,7 +126,7 @@ newArray = [];
 newArray.push('hello');
 newArray[0];   // equals 'hello'
 ```
-###Iterating over an Array
+#### Iterating over an Array
 ```javascript
 var languages = ["HTML", "CSS", "JavaScript", "Python", "Ruby"];
 for (i = 0; i < languages.length; i++) {
@@ -133,17 +134,17 @@ for (i = 0; i < languages.length; i++) {
 }
 ```
 ---
-##Modulo
+### Modulo
 `23%10` = 23 divided by 10 = 2 and a remainder of 3
 
 ---
-##Objects
+### Objects
 A JavaScript object is a collection of named values
 Like a noun & a verb together. Information & Functions in the same place.
 You can also think of objects as combinations of key-value pairs (like arrays), only their keys don't have to be numbers like 0, 1, or 2: they can be strings and variables
 - have properties, and properties have values
 - have methods (like a function associated with an object)
-###Object Literal Notation
+#### Object Literal Notation
 ```javascript
 var myObj = {
     type: 'fancy',
@@ -152,21 +153,13 @@ var myObj = {
 
 var emptyObj = {};
 ```
-###Object Constructor
+#### Object Constructor
 ```javascript
 var objectName = new Object();
 ```
-####2 ways to add keys/values to object
-```javascript
-myObj["name"] = "Charlie";
-```
-or
-```javascript
-myObj.name = "Charlie";
-```
-###Accessing Objects
+#### Accessing Objects
 
-####Dot notation
+##### Dot notation
 bob.name
 
 e.g.
@@ -174,7 +167,7 @@ e.g.
 var newVar = bob.name;
 ```
 
-####Bracket Notation
+##### Bracket Notation
 bob["name"];
 
 e.g.
@@ -182,7 +175,15 @@ e.g.
 var newVar = bob["name"];
 ```
 
-###Object Methods
+##### 2 ways to add keys/values to object
+```javascript
+myObj["name"] = "Charlie";
+```
+or
+```javascript
+myObj.name = "Charlie";
+```
+#### Object Methods
 here is bob again, with his usual properties
 ```javascript
 var bob = new Object();
@@ -197,7 +198,7 @@ bob.setAge = function (newAge){
 bob.setAge(20);
 ```
 'this' is a place holder used in methods (functions), (defined outside of an object). Replace 'this' with the object name and the method can be used on any object.
-####hasOwnProperty (Object Method)
+##### hasOwnProperty (Object Method)
 checks to see whether an object has a particular property
 
 e.g.
@@ -214,7 +215,7 @@ else {
 }
 ```
 ---
-##Functions
+### Functions
 This way of declaring functions is actually anonymous, although the anonymous function is stored in a variable.
 
 ```javascript
@@ -224,7 +225,7 @@ var foodDemand = function(food) {
 
 foodDemand("Mashed Potatoes!!! Fuck Yea!")
 ```
-###Function declaration notation:
+#### Function declaration notation:
 This is a named function
 ```javascript
 function woo() {
@@ -238,7 +239,7 @@ function triple(x) {
     return x * 3
 }
 ```
-###Anonymous function
+#### Anonymous function
 ```javascript
 function( data ) {
     x = 56;
@@ -246,7 +247,7 @@ function( data ) {
     return data
 }
 ```
-##Return keyword
+### Return keyword
 Parameter is a number, and we do math with that parameter
 ```javascript
 var timesTwo = function(number) {
@@ -259,17 +260,17 @@ var newNumber = timesTwo(8)
 console.log(newNumber);
 ```
 ---
-##Comments
+### Comments
 
-####Single-line
+#### Single-line
 `// Some comments`
 
-####Multi-line
+#### Multi-line
 `/* Comment comment comment
 comment comment */`
 
 ---
-##Selectors
+### Selectors
 [caniuse.com](caniuse.com) - browser compatibility
 ```javascript
 document.getElementById("main").innerHTML = "text to be <strong>entered</strong>"
@@ -287,7 +288,7 @@ li.parentElement.children     // returns siblings
 li.parentElement.children[0]   // returns sibling that is 1st child of parent
 ```
 ---
-##Events
+### Events
 Event Listener is a function which takes 3 arguments
 1. Event name
 2. Event Handler (which reacts to an event)
@@ -303,23 +304,23 @@ para.addEventListener("mouseleave", add)
 ```
 which will call a function called 'add'
 
-###Common event names
+#### Common event names
 mouseout, mousemove, click, mouseover, dblclick, DomContentLoaded, load, keydown, keyup, wheel, DOMMouseScroll
 
-###Capturing/Bubbling
+#### Capturing/Bubbling
 Event firing goes down the tree from the DOM element that is the root touching every child along the way, to the element which triggered it, known as the target This is capturing or phase 1. Then all the way back up again (bubbling/phase 2).
 This means that with stopPropagation(), the event can be stopped at any specified point along the way.
 So the 'true' boolean in the event listener means capturing. 'False' means bubbling.
 
 ---
-##Scope
+### Scope
 Each local scope can also see all the local scopes that contain it. JavaScript only has local & global scope. It doesn't have block scope. Functions are the only things that create local scope. All variables from blocks around a function’s definition are visible—meaning both those in function bodies that enclose it and those at the top level of the program.
-##Hoisting
+### Hoisting
 When you declare and initialize a variable below other code that has the same scope, its as if the variable is being declared at the top of the code and then initialised later.
 Function definitions are also hoisted, that is they are parsed before other code and therefore are available to be called before they are declared
 
 ---
-##Debugging
+### Debugging
 - console.log() stdout
 - IDE's.. visual studio, eclipse
 - browser (chrome devtools) firebug for firefox
@@ -341,22 +342,22 @@ jump into, jump out of
 
 ---
 
-###Truthy/Falsy
+### Truthy/Falsy
 In JavaScript, a truthy value is a value that translates to true when evaluated in a Boolean context. All values are truthy unless they are defined as falsy (i.e., except for false, 0, "", null, undefined, and NaN).
 
 _____________________
 
-##Conditionals
+### Conditionals
 difference between 'else if' and 'else' is that 'else if' can take a condition, whereas else doesn't.
 
-###If statement
+#### If statement
 ```javascript
 if ("JessicaSchmessica".length < 189 ) {
   console.log("Holy crap! Your name is tiny!! Congrats my friend!" );
 }
 ```
 
-###If / Else statement
+#### If / Else statement
 
 ```javascript
 if ("This here string".length >= 99 )
@@ -370,9 +371,9 @@ else
 ```
 ---
 
-##Control Flow
+### Control Flow
 
-###Logical operators
+#### Logical operators
 `&&` - and
 
 `||` - or
@@ -392,7 +393,7 @@ var happy = function() {
 };
 ```
 
-###Switches
+#### Switches
 ```javascript
 var someVariable = prompt("type something")
 
@@ -412,9 +413,9 @@ switch (/*Some expression*/) {
 ```
 _____________________
 
-##Loops
+### Loops
 
-##For loops
+#### For loops
 You use for loops, if you know how often you'll loop. The most often used varName in loops is i.
 
 Syntax:
@@ -436,7 +437,7 @@ for (var i = 1; i < 11; i = i + 1){
 }
 ```
 
-##For / In Loop
+#### For / In Loop
 loop over objects.
 ```javascript
 var nyc = {
@@ -452,7 +453,7 @@ for(var vertebrae in nyc) {
 ```
 will print property names, even though there is no 'vertebrae' property in nyc object.
 
-##While loops
+#### While loops
 Used when you don't know how many times a loop will have to execute.. While 'some condition' is true, run code, then check condition again.
 
 ```javascript
@@ -493,7 +494,7 @@ var soloLoop = function(){
 soloLoop();
 ```
 
-###Do/While Loop (aka "Do" loops)
+#### Do/While Loop (a.k.a "Do" loops)
 Runs at least one time no matter what. Checks the condition after running once. And if still true will loop again.
 
 ```javascript
@@ -526,7 +527,7 @@ while (huh);
 ```
 ---
 
-##Constructors
+#### Constructors
 constructs a new object with certain pre-defined properties
 
 e.g.
@@ -539,7 +540,7 @@ function Cat(age, color) {
 
 ---
 
-##Class
+### Class
 In object-oriented programming, a class defines an object's characteristics. Class is a template definition of an object's properties and methods, the "blueprint" from which other more specific instances of the object are drawn.
 
 Prototypes:
@@ -572,13 +573,13 @@ This time it works!
 snoopy.bark();
 ```
 
-###Class Inheritance
+#### Class Inheritance
 ```javascript
 Penguin.prototype = new Animal();
 ```
 
 ---
-##Closures
+### Closures
 Closures aka 'Lexical closures' or 'Function closures':
 Being able to reference a specific instance of local variables in an enclosing function—is called closure. A function that “closes over” some local variables is called a closure. This behaviour not only frees you from having to worry about lifetimes of variables but also allows for some creative use of function values.
 (possibly should be in functional notes?)
@@ -587,7 +588,7 @@ Being able to reference a specific instance of local variables in an enclosing f
 
 ---
 
-##Promises
+### Promises
 - origami'd callback
 - looks more synchronous
 - 'simpler'
@@ -595,7 +596,7 @@ Being able to reference a specific instance of local variables in an enclosing f
 - promise libraries (bluebird ( denodeify ), promise ( promiseifyAll ))
 
 ---
-###`use strict`
+### `use strict`
 first introduced in ES5, but backwards compatible
 
 reserved words, undeclared variables ( variables without using 'var' ).. will throw errors
