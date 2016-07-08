@@ -2,7 +2,7 @@
 
 ## NPM - Node Package Manager
 
-**[express.js](express.md)** | **[Knex](knex.md)**
+**[express.js](express.md)** | **[Knex](knex.md)** | **[React](../react/react.md)**
 
 looks at package.json which records dependencies
 

@@ -2,7 +2,7 @@
 
 ## JavaScript Notes
 
-**[Express.js](express.md)** | **[jQuery](jQuery.md)** | **[React](../react/react.md)** | **[Node.js](node.md)** | **[Three.js](threejs.md)**
+**[jQuery](jQuery.md)** | **[Node.js](node.md)** | **[Three.js](threejs.md)**
 
 ### Table Of Contents
 - [Data types](#data-types)
@@ -15,7 +15,6 @@
 - [Scope](#scope)
 - [Hoisting](#hoisting)
 - [Debugging](#debugging)
-- [Truthy / Falsy](#truthy-falsy)
 - [Conditionals](#conditionals)
 - [Control Flow](#control-flow)
 - [Loops](#loops)
@@ -23,9 +22,9 @@
 - [Class](#class)
 - [Closures](#closures)
 - [Promises](#promises)
+- [Truthy / Falsy](#truthy-falsy)
 - [use strict](#use-strict)
 
----
 
 ### Data-types
 - Strings e.g. `"dogs go woof!"`
@@ -38,9 +37,7 @@
   }`
 
 ### Variables
-Also referred to as a scalar
-Only variables declared with keyword 'var' inside functions with have 'localness'.
-Avoid global variables if possible.
+Also referred to as a scalar. Only variables declared with keyword `var` inside functions with have 'localness'. Avoid global variables if possible.
 
 Declare a variable and initialize it to a value :
 ```javascript
@@ -90,6 +87,7 @@ e.g.
 console.log(typeof objName);
 ```
 ---
+
 ### Arrays
 - Lists of data
 - Heterogeneous: Different data types (strings, integers, booleans)
@@ -140,6 +138,7 @@ You can also think of objects as combinations of key-value pairs (like arrays), 
 - have properties, and properties have values
 - have methods (like a function associated with an object)
 #### Object Literal Notation
+
 ```javascript
 var myObj = {
     type: 'fancy',
@@ -155,7 +154,7 @@ var objectName = new Object();
 #### Accessing Objects
 
 ##### Dot notation
-bob.name
+`bob.name`
 
 e.g.
 ```javascript
@@ -163,7 +162,7 @@ var newVar = bob.name;
 ```
 
 ##### Bracket Notation
-bob["name"];
+`bob["name"];`
 
 e.g.
 ```javascript
@@ -209,7 +208,7 @@ else {
     suitcase.shorts = "red";
 }
 ```
----
+
 ### Functions
 This way of declaring functions is actually anonymous, although the anonymous function is stored in a variable.
 
@@ -228,7 +227,7 @@ function woo() {
 }
 ```
 
-Another named function
+#### Another named function
 ```javascript
 function triple(x) {
     return x * 3
@@ -257,12 +256,18 @@ console.log(newNumber);
 ---
 ### Comments
 
-#### Single-line
-`// Some comments`
+**Single-line**
+```javascript
+// Some comments
+```
 
-#### Multi-line
-`/* Comment comment comment
-comment comment */`
+**Multi-line**
+
+```javascript
+/* Comment comment
+comment
+comment comment */
+```
 
 ---
 ### Selectors
@@ -316,7 +321,7 @@ Function definitions are also hoisted, that is they are parsed before other code
 
 ---
 ### Debugging
-- console.log() stdout
+- `console.log()` to stdout
 - IDE's.. visual studio, eclipse
 - browser (chrome devtools) firebug for firefox
 - node debugger
@@ -325,7 +330,8 @@ node inspector (lets you use devtools), can use browser to debug server side cod
 nodemon (file watcher)
 
 `pgrep node`  finds process id for node
-kill process id
+
+then `kill process id`
 
 `node-inspector & nodemon --debug app.js`
 
@@ -336,11 +342,6 @@ you can hover over var's in devtools, you can change the values of var's when co
 jump into, jump out of
 
 ---
-
-### Truthy/Falsy
-In JavaScript, a truthy value is a value that translates to true when evaluated in a Boolean context. All values are truthy unless they are defined as falsy (i.e., except for false, 0, "", null, undefined, and NaN).
-
-_____________________
 
 ### Conditionals
 difference between 'else if' and 'else' is that 'else if' can take a condition, whereas else doesn't.
@@ -591,6 +592,12 @@ Being able to reference a specific instance of local variables in an enclosing f
 - promise libraries (bluebird ( denodeify ), promise ( promiseifyAll ))
 
 ---
+
+### Truthy/Falsy
+In JavaScript, a truthy value is a value that translates to true when evaluated in a Boolean context. All values are truthy unless they are defined as falsy (i.e., except for false, 0, "", null, undefined, and NaN).
+
+---
+
 ### `use strict`
 first introduced in ES5, but backwards compatible
 
