@@ -1,6 +1,6 @@
 [notes](notes.md)
 
-## Keyboard Shortcuts
+## keyboard shortcuts
 
 ### Atom Shortcuts [more](http://bit.ly/24lIABu)
 - `ctrl`: Open settings

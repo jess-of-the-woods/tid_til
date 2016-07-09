@@ -1,6 +1,6 @@
-[home](README.md) | [to learn](toLearn.md) | [notes](notes.md)
+[home](README.md) | [to learn](toLearn.md)
 
-## Questions
+## questions
 
 - data definition language, data modelling language, (control language?)
 - constructors
@@ -11,3 +11,5 @@
 ### Git
 - do many repo branches greatly increase the size of a repo if the differences are very small or can it share code where it exists the same way across multiple branches?
 - how to tell the size of a git repo?
+
+See also [notes](notes.md)

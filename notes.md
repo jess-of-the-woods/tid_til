@@ -28,4 +28,4 @@
 [Hihi Gitbook 2016](https://enspiral-academy.gitbooks.io/hihi-2016/content/)
 
 
-See also [markdown](markdown.md) | [to learn](toLearn.md)
+See also [to learn](toLearn.md)

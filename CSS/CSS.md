@@ -1,6 +1,6 @@
-[notes](../notes.md) | [to learn](../toLearn.md) | [frontend](../frontend.md)
+[notes](../notes.md) | [frontend](../frontend.md)
 
-## CSS
+## CSS - Cascading Style Sheets
 **[Flexbox](flexbox.md)** | **[SASS](SASS.md)**
 
 

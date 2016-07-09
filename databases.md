@@ -1,6 +1,6 @@
 [notes](notes.md) | [backend](backend.md) | [server-side](server-side.md)
 
-## Databases
+## databases
 **[Knex](javascript/knex.md)** | **[SQL](SQL.md)**
 
 ### Categories

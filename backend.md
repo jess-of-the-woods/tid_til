@@ -1,6 +1,6 @@
 [notes](notes.md) | [to learn](toLearn.md)
 
-## Backend
+## backend
 
 * [Databases](databases.md)
 * [HTTP](HTTP.md)

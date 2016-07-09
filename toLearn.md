@@ -2,7 +2,7 @@
 
 ## to learn
 
-- ### [questions](questions.md)
+- ### **[questions](questions.md)**
 - Functional Programming ([notes](functional.md))
 - Class, Constructors
 - Closures, Factory functions, Constructors, Classes, Prototypes

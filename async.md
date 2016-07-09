@@ -1,15 +1,16 @@
 [notes](notes.md)
 
-## Asynchronous
-- [Node](javascript/node.md)
+## asynchronous
+- [Node.js](javascript/node.md)
 - callbacks
 - promises
 - I/O - Input/Output
 - filesystem read/writes, network calls
 - client/server (API)
 - server side rendering
+---
 
-### Asynchronous Breakout
+### Breakout
 ```javascript
 console.log('starting')
 
@@ -39,4 +40,4 @@ Node offers easy way to do aysnchronous processing
 Callbacks will always have an `error` as 1st argument, 2nd is usually `data`
 
 
-See also [asynchronous](async.md) | [express](javascript/express.md) | [client-side](client-side.md) | [javascript notes](javascript/notes.md)
+See also [asynchronous](async.md) | [client-side](client-side.md) | [express.js](javascript/express.md) | [javascript](javascript/notes.md)

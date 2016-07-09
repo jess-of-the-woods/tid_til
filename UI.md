@@ -1,6 +1,6 @@
-[notes](notes.md) | [to learn](toLearn.md) | [frontend](frontend.md)
+[notes](notes.md) | [frontend](frontend.md)
 
-## User Interface
+## user interface
 
 ### People
 - Mike Alger [VR Interface Design](https://vimeo.com/141380662)

@@ -1,6 +1,6 @@
 [notes](notes.md) | [to learn](toLearn.md)
 
-## Testing
+## testing
 
 ### Red, Green, Refactor
 Write test, test should be non-passing.. i.e. 'red'. Write code, keep testing till test passes, i.e. green. Then refactor (improve code)

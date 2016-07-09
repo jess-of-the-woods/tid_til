@@ -1,9 +1,9 @@
 [Home](README.md)
 
-##Today I Did..
+## today i did..
 
 ### 9 July
-- SASS, compilation, mixins, 
+- SASS, compilation, mixins,
 
 ### 5 July
 - sockets.io chat app - ([original on github](https://github.com/rauchg/chat-example))  ([mine](https://github.com/jess-of-the-woods/Chat))
