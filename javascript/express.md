@@ -1,4 +1,4 @@
-[backend](../backend.md) | [NPM](npm.md) | [server-side](server-side.md)
+[backend](../backend.md) | [NPM](npm.md) | [server-side](../server-side.md)
 
 
 ## Express.js Server
@@ -90,4 +90,4 @@ Then do: `kill -9 60778`
 ---
 
 
-See also [async](../async.md), [client-side](../client-side.md),  [databases](../databases.md), superagent
+See also [async](../async.md) | [client-side](../client-side.md) |  [databases](../databases.md) | superagent
