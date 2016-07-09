@@ -1,9 +1,8 @@
 [notes](notes.md) | [backend](backend.md) | [server-side](server-side.md)
 
 ## databases
-**[Knex](javascript/knex.md)** | **[SQL](SQL.md)**
-
-### Categories
+- **[Knex](javascript/knex.md)**
+- **[SQL](SQL.md)**
 * [PostgreSQL](#postgresql)
 * [NoSQL](#nosql)
 * [Database in an App](#database in an app)
@@ -65,24 +64,25 @@ knex is outside of config file.. we pass knex to app and then get back a app obj
 ---
 
 ### 15 April 2016 - Database in an App
-`git init` -  initialises new git repository in project.
+`git init`:  Initialises new git repository in project.
 
-`npm init` - initialises as a node project.
+`npm init`: Initialises folder as a node project.
 
-`npm i -g express-generator` installs express-generator globally
+`npm i -g express-generator`: Installs express-generator globally
 
-`express /path/to/folder` or just type `express`
-`npm install` ( installs dependencies )
+`express /path/to/folder` or just type `express` / ( `express .` ? )
 
-if you 'git add' node modules.. `git rm  -r --cached node_modules/`
+`npm install`: Installs dependencies
 
-`touch .gitignore`, add node_modules.
+if you accidentally 'git add' node modules.. `git rm  -r --cached node_modules/`
 
-`npm i knex --save` - knex module needed in package.json even if installed globally.
+`touch .gitignore` then add node_modules to gitignore file.
 
-`npm i knex -g` - installs knex, makes it available to use as a command in terminal.
+`npm i knex --save`: knex module needed in package.json even if installed globally.
 
-`knex init` -  creates knex config file. look at knexfile.js (should point to a file)
+`npm i knex -g`: Installs knex, makes it available to use as a command in terminal.
+
+`knex init`: Creates knex config file. look at knexfile.js (should point to a file)
 
 `npm i sqlite3 --save`
 

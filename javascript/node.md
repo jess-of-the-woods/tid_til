@@ -12,7 +12,7 @@ Node offers easy way to do aysnchronous processing. Follows common.js pattern
 - Server ([NPM](npm.md))
 - Runner ( e.g. `node fileName` to run a file with node.js runner)
 
-fs & path are core node modules
+'fs' & 'path' are core node modules
 
 ### Commands
 `node fileName`: to run a file with Node runner
@@ -62,4 +62,4 @@ Live Reload / Budo / Watchify / Nodemon / Webpack
 
 ---
 
-See also bundling | [functional programming](functional.md)
+See also bundling | [functional programming](../functional.md)
