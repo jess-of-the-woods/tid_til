@@ -1,7 +1,7 @@
-[notes](notes.md) | [backend](backend.md)
+[notes](notes.md) | [backend](backend.md) | [tools](tools.md)
 
 ## Nix Terminal
-- [Git / Github](git-github.md)
+- **[Git / Github](git-github.md)**
 - [Terminal Window Keyboard Shortcuts](#terminal-window-shortcuts)
 - [Shell Scripts](#shell-scripts)
 - [Disk Usage](#disk-usage)

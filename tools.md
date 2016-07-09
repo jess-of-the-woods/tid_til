@@ -13,10 +13,12 @@
 - Validators
 - debugger
 - linters
+- forums ( fb node.js group, ... )
+- Slack ( EDA & JavaScript NZ )
 - Stack Overflow
 
 
-[Keyboard Shortcuts](keyboardShortcuts.md) ( Atom & Sublime )
+[keyboard shortcuts](keyboardShortcuts.md) ( Atom & Sublime )
 
 
 See also [testing](testing.md)
