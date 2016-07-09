@@ -1,6 +1,6 @@
-[home](README.md) | [questions](questions.md) | [to learn](toLearn.md)
+[home](README.md)
 
-## Notes
+## notes
 
 * [3D](3D.md)
 * [Art](art.md)
@@ -27,6 +27,5 @@
 
 [Hihi Gitbook 2016](https://enspiral-academy.gitbooks.io/hihi-2016/content/)
 
-[Keyboard Shortcuts](keyboardShortcuts.md) ( Atom & Sublime )
 
-See also [markdown](markdown.md)
+See also [markdown](markdown.md) | [to learn](toLearn.md)

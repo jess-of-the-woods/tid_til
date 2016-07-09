@@ -2,6 +2,7 @@
 
 ## Questions
 
+- data definition language, data modelling language, (control language?)
 - constructors
 - ternary operators
 - factory functions

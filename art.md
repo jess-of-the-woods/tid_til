@@ -5,7 +5,7 @@
 
 
 
-* Stack.gl [more](stack.gl)
+* Stack.gl ([more](stack.gl))
 * [http://hughsk.io/campjs/](http://hughsk.io/campjs/)
 * Parametric Design ([wikipedia](https://en.wikipedia.org/wiki/Parametric_design))
 * 3D Fashion

@@ -1,6 +1,6 @@
 [notes](notes.md)
 
-## Tools
+## tools
 
 - [linux terminal](linuxTerminal.md)
 - Atom
@@ -15,5 +15,8 @@
 - linters
 - Stack Overflow
 - Sublime
+
+[Keyboard Shortcuts](keyboardShortcuts.md) ( Atom & Sublime )
+
 
 See also [testing](testing.md)
