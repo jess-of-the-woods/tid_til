@@ -1,6 +1,6 @@
 [notes](notes.md) | [to learn](toLearn.md)
 
-## Art
+## art
 * [HTML](HTML/HTML.md)5 Canvas | **[processing](processing.md)** | **[SVG](HTML/SVG.md)** | **[three.js](javascript/threejs.md)**
 
 

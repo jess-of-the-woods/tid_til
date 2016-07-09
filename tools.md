@@ -3,7 +3,7 @@
 ## tools
 
 - [linux terminal](linuxTerminal.md)
-- Atom
+- Editors: Atom, Sublime
 - browser console ( dev tools, firebug etc. )
 - MDN
 - [git / GitHub](git-github.md)
@@ -14,7 +14,7 @@
 - debugger
 - linters
 - Stack Overflow
-- Sublime
+
 
 [Keyboard Shortcuts](keyboardShortcuts.md) ( Atom & Sublime )
 
