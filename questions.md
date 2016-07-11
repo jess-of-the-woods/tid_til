@@ -2,6 +2,7 @@
 
 ## questions
 
+- what does it mean to 'throw' an error?
 - data definition language, data modelling language, (control language?)
 - constructors
 - ternary operators
