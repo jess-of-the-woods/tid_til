@@ -21,4 +21,4 @@
 [keyboard shortcuts](keyboardShortcuts.md) ( Atom & Sublime )
 
 
-See also [testing](testing.md)
+See also [markdown](../markdown.md) | [testing](testing.md)

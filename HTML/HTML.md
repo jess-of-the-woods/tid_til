@@ -52,4 +52,4 @@ Canvas element is a part of HTML5 and allows for dynamic, scriptable rendering o
 
 ---
 
-See Also [CSS](../CSS/CSS.md) | [JavaScript](../javascript/notes.md) | [XML](../XML.md)
+See Also [CSS](../CSS/CSS.md) | [JavaScript](../javascript/notes.md) | [markdown](../markdown.md) | [XML](../XML.md)
