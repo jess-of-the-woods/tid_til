@@ -1,9 +1,16 @@
-[Home](README.md)
+[home](README.md)
 
 ## today i did..
 
+###
+
+### 11 July
+- callbacks review
+- template literals
+- exception handling, (throw etc. (see also 'try', 'catch'))
+
 ### 9 July
-- SASS, compilation, mixins,
+- SASS (compiling, mixins..)
 
 ### 5 July
 - sockets.io chat app - ([original on github](https://github.com/rauchg/chat-example))  ([mine](https://github.com/jess-of-the-woods/Chat))

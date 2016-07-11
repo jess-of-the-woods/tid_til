@@ -24,6 +24,7 @@
 - Flexbox ([notes](CSS/flexbox.md))
 
 ### JavaScript ([notes](javascript/notes.md))
+- try, catch
 - webpack, budo (general bundling stuff?)
 - return function [JS Functions that Return Functions](https://davidwalsh.name/javascript-functions)
 - ES6 - `let`, `const`
