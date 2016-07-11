@@ -4,7 +4,7 @@
 
 - data definition language(DDL), data modelling language(DML), (control language?)
 - constructors
-- ternary operators
+- ternary operators ([w3schools](www.w3schools.com/js/js_comparisons.asp))
 - factory functions
 - ~~what is webkit.. engines, vendor prefixes~~
 - ~~what does it mean to 'throw' an error?~~

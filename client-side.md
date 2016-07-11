@@ -7,7 +7,7 @@ Use relative routes in client side app.. ( express endpoints )
 
 
 ### HTTP requests
-- xhr
+- xhr (XMLHttpRequest)
 - superagent
 - simpleget
 
