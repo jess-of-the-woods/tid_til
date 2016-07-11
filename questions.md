@@ -2,15 +2,15 @@
 
 ## questions
 
-- what does it mean to 'throw' an error?
-- data definition language, data modelling language, (control language?)
+- data definition language(DDL), data modelling language(DML), (control language?)
 - constructors
 - ternary operators
 - factory functions
-- what is webkit.. engines, vendor prefixes
+- ~~what is webkit.. engines, vendor prefixes~~
+- ~~what does it mean to 'throw' an error?~~
 
 ### Git
-- do many repo branches greatly increase the size of a repo if the differences are very small or can it share code where it exists the same way across multiple branches?
+- do many repo branches greatly increase the size of a repo if the differences are very small or can it share code where it exists the same way across multiple branches? (i.e. does it just track differences or does it duplicate code?)
 - how to tell the size of a git repo?
 
 See also [notes](notes.md)
