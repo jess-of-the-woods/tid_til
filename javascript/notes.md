@@ -12,6 +12,8 @@
 - [Arrays](#arrays)
 - [Objects](#objects)
 - [Functions](#functions)
+- [modulo](#modulo)
+- [Comments](#comments)
 - [Selectors](#selectors)
 - [Events](#events)
 - [Scope](#scope)
@@ -26,6 +28,7 @@
 - [Promises](#promises)
 - [Truthy / Falsy](#truthy/falsy)
 - [use strict](#use-strict)
+- [Links](#links)
 
 
 ### Data-types
@@ -88,6 +91,7 @@ e.g.
 ```javascript
 console.log(typeof objName);
 ```
+
 ---
 
 ### Arrays
@@ -128,10 +132,6 @@ for (i = 0; i < languages.length; i++) {
     console.log(languages[i]);
 }
 ```
----
-### Modulo
-`23%10` = 23 divided by 10 = 2 and a remainder of 3
-
 ---
 ### Objects
 A JavaScript object is a collection of named values
@@ -256,6 +256,12 @@ var newNumber = timesTwo(8)
 console.log(newNumber);
 ```
 ---
+
+### Modulo
+`23%10` = 23 divided by 10 = 2 and a remainder of 3
+
+---
+
 ### Comments
 
 **Single-line**
@@ -409,7 +415,6 @@ switch (/*Some expression*/) {
        // Do yet another thing
 }
 ```
-_____________________
 
 ### Loops
 
@@ -523,7 +528,6 @@ do {
 }
 while (huh);
 ```
----
 
 #### Constructors
 constructs a new object with certain pre-defined properties
@@ -535,8 +539,6 @@ function Cat(age, color) {
   this.color = color;
 }
 ```
-
----
 
 ### Class
 In object-oriented programming, a class defines an object's characteristics. Class is a template definition of an object's properties and methods, the "blueprint" from which other more specific instances of the object are drawn.
@@ -576,16 +578,12 @@ snoopy.bark();
 Penguin.prototype = new Animal();
 ```
 
----
-
 ### Closures
 Closures aka 'Lexical closures' or 'Function closures':
 Being able to reference a specific instance of local variables in an enclosing function is called closure. A function that “closes over” some local variables is called a closure. This behaviour not only frees you from having to worry about lifetimes of variables but also allows for some creative use of function values.
 (possibly should be in functional notes?)
 
 - function that makes a function
-
----
 
 ### Promises
 - origami'd callback
@@ -594,16 +592,17 @@ Being able to reference a specific instance of local variables in an enclosing f
 - Asynchronous
 - promise libraries (bluebird ( denodeify ), promise ( promiseifyAll ))
 
----
-
 ### Truthy/Falsy
 In JavaScript, a truthy value is a value that translates to true when evaluated in a Boolean context. All values are truthy unless they are defined as falsy (i.e., except for false, 0, "", null, undefined, and NaN).
-
----
 
 ### `use strict`
 first introduced in ES5, but backwards compatible
 
 reserved words, undeclared variables ( variables without using 'var' ).. will throw errors
+
+---
+
+### Links
+[JavaScript Glossary](https://www.codecademy.com/articles/glossary-javascript) - Codecademy
 
 See Also [CSS](../CSS/CSS.md) | [HTML](../HTML/HTML.md)

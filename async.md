@@ -40,5 +40,7 @@ Node offers easy way to do aysnchronous processing
 
 Callbacks will always have an `error` as 1st argument, 2nd is usually `data`
 
+### Links
+[JavaScript for Beginners: Async](http://rowanmanning.com/posts/javascript-for-beginners-async/) (2013)
 
 See also [client-side](client-side.md) | [express.js](javascript/express.md) | [functional](functional.md) | [javascript](javascript/notes.md)
