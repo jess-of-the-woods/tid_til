@@ -1,25 +1,36 @@
 [notes](notes.md) | [to learn](toLearn.md)
 
 ## functional programming
-
+- [Higher-order functions](#higher-order-functions)
+- [Callbacks](#callbacks)
+- [Closures](#closures)
 - [Map](#map)
 - [Filter](#filter)
 - [Reduce](#reduce)
+- [Uppercaser function](#uppercaser-function)
+- [Recursion](#recursion)
+- [Modules](#modules)
 
+---
 
 -  All of your functions must accept at least one argument.
 -  All of your functions must return data or another function.
 -  No loops!
-
-### Modules
-- Elm (language)
-- Ramda, lodash, underscore
 
 ---
 
 ### Higher-order function
 A function which takes another function as its argument (a callback)
 
+```javascript
+    function repeat(operation, num) {
+      if (num <= 0) return
+      operation()
+      return repeat(operation, --num)
+    }
+
+    module.exports = repeat
+```
 
 ### Callbacks
 - Higher-order Function is another name for a Callback function
@@ -108,25 +119,14 @@ var totalAmount = orders.reduce(function(sum, order) {
   return sum + order.amount
 }, 0 )
 ```
-________
+
+---
 
 ### Uppercaser function
 ```javascript
  module.exports = function(input) {
       return input.toUpperCase()
     }
-```
-
-### Higher-order function
-
-```javascript
-    function repeat(operation, num) {
-      if (num <= 0) return
-      operation()
-      return repeat(operation, --num)
-    }
-
-    module.exports = repeat
 ```
 
 ### Recursion: (functional?)
@@ -148,11 +148,15 @@ function factorial(n) {
 factorial(4);
 ```
 
+### Modules
+- Elm (language)
+- Ramda, lodash, underscore
+
 ---
 
 ### Links
 - [Functional programming in JS w/ MPJ Series](http://bit.ly/1ONgo2m) - Just finished part 4 ( reduce advanced ) but feel like I could revise again & get more from it..  - 15 Jun
 - [Higher-order functions - Part 1 of Functional Programming in JS ( MPJ )](http://bit.ly/1IzcK7R)
-- [Callbacks & higher-order functions](www.niluk.co/blog/post/callbacks-and-higher-order-functions-in-javascript) - (Not Async)
+- [Callbacks & higher-order functions](http://www.niluk.co/blog/post/callbacks-and-higher-order-functions-in-javascript) - (Not Async)
 
 See also [asynchronous](async.md) | [JavaScript](javascript/notes.md) | [node.js](javascript/node.md)
