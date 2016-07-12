@@ -1,6 +1,8 @@
 [notes](../notes.md)
 
-## JavaScript Notes
+## JavaScript
+
+[asynchronous](../async.md) | [functional](../functional.md)
 
 **[jQuery](jQuery.md)** | **[Node.js](node.md)** | **[Three.js](threejs.md)**
 

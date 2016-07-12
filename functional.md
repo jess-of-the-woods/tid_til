@@ -1,9 +1,158 @@
 [notes](notes.md) | [to learn](toLearn.md)
 
 ## functional programming
-- Elm
+
+- [Map](#map)
+- [Filter](#filter)
+- [Reduce](#reduce)
+
+
+-  All of your functions must accept at least one argument.
+-  All of your functions must return data or another function.
+-  No loops!
+
+### Modules
+- Elm (language)
 - Ramda, lodash, underscore
 
-Map, Filter, Reduce
+---
 
-See also [JavaScript](javascript/notes.md) | [node.js](javascript/node.md)
+### Higher-order function
+A function which takes another function as its argument (a callback)
+
+
+### Callbacks
+- Higher-order Function is another name for a Callback function
+- Passing a function as an argument is called a Callback
+- A callback function is a function that is passed as an argument to another function and is invoked after some kind of event.
+- Functions that are passed into other functions as arguments/values are called callback function b/c the host function calls back to them
+
+### Closures
+are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created.
+
+---
+
+Functions are values. You can create an anonymous function and assign it to a variable.
+
+e.g.
+```javascript
+var triple = function(x) {
+  return x * 3
+}
+```
+Just like any variable we can pass it around.. e.g.
+
+e.g.
+```javascript
+var triple = function(x) {
+  return x * 3
+}
+
+var waffle = triple
+
+waffle(30)
+// -> 90
+```
+---
+
+### Map
+is a method on the array object. It returns all objects in the array, but transformed in a way specified by the callback function (the function which is passed to it as an argument).
+
+#### Basic map
+
+```javascript
+function doubleAll(numbers) {
+  var result = numbers.map(function(number){
+    return number * 2;
+  })
+    return result;
+}
+
+
+module.exports = doubleAll
+```
+
+### Filter
+Filter is a function on an array that accepts another function as its argument which it will use to return another filtered version of the array
+
+```javascript
+function getShortMessages(messages) {
+  var filteredResults = messages.
+    filter(function(val) {
+      if (val.message.length < 50) {
+        return true}
+      }).
+    map(function(val2) {
+      return val2.message;
+    });
+return filteredResults;  
+};
+
+module.exports = getShortMessages
+```
+
+### Reduce
+- Can do any array transformation.
+- Multi-tool of list transformations. You can use it if you can't find a - pre-built transformation which suits your purposes.
+- Takes 2 arguments, a starting point a.k.a accumulator (which becomes the return value in the next iteration(s) of the function), & the list ( array )
+
+```javascript
+var orders = [
+  { amount: 250 },
+  { amount: 400 },
+  { amount: 100 },
+  { amount: 325 }
+]
+
+var totalAmount = orders.reduce(function(sum, order) {
+  return sum + order.amount
+}, 0 )
+```
+________
+
+### Uppercaser function
+```javascript
+ module.exports = function(input) {
+      return input.toUpperCase()
+    }
+```
+
+### Higher-order function
+
+```javascript
+    function repeat(operation, num) {
+      if (num <= 0) return
+      operation()
+      return repeat(operation, --num)
+    }
+
+    module.exports = repeat
+```
+
+### Recursion: (functional?)
+
+```javascript
+function factorial(n) {
+    if (n < 0) {
+        return;
+    } //termination condition
+
+    if (n === 0) {
+        return 1;
+    } //base case
+
+    return n * factorial(n - 1)  
+    //recursive case
+}
+
+factorial(4);
+```
+
+---
+
+### Links
+- [Functional programming in JS w/ MPJ Series](http://bit.ly/1ONgo2m) - Just finished part 4 ( reduce advanced ) but feel like I could revise again & get more from it..  - 15 Jun
+- [Higher-order functions - Part 1 of Functional Programming in JS ( MPJ )](http://bit.ly/1IzcK7R)
+- [Callbacks & higher-order functions](www.niluk.co/blog/post/callbacks-and-higher-order-functions-in-javascript) - (Not Async)
+
+See also [asynchronous](async.md) | [JavaScript](javascript/notes.md) | [node.js](javascript/node.md)

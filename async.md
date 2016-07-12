@@ -1,7 +1,7 @@
 [notes](notes.md)
 
 ## asynchronous
-- [Node.js](javascript/node.md)
+- [node.js](javascript/node.md)
 - callbacks
 - promises
 - I/O - Input/Output
@@ -41,4 +41,4 @@ Node offers easy way to do aysnchronous processing
 Callbacks will always have an `error` as 1st argument, 2nd is usually `data`
 
 
-See also [asynchronous](async.md) | [client-side](client-side.md) | [express.js](javascript/express.md) | [javascript](javascript/notes.md)
+See also [client-side](client-side.md) | [express.js](javascript/express.md) | [functional](functional.md) | [javascript](javascript/notes.md)
