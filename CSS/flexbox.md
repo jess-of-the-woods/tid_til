@@ -2,6 +2,10 @@
 
 ## Flexbox
 
+### Default Axes
+
+<img src="https://cask.scotch.io/2015/04/CSS3-Flexbox-Model.jpg" height="180" width="400">
+
 ### Justify-content property takes the following values:
 - `flex-start`: group items at the start of a container's main axis
 - `flex-end`: group items at the end of the main axis
