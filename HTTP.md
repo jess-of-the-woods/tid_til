@@ -13,8 +13,8 @@
 `curl http://google.com`
 
 **postman**
-
-chrome extension for HTTP requests
+- Chrome addon for crafting API requests.
+- PUT, POST, GET requests to specified location
 
 ---
 

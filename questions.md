@@ -2,6 +2,7 @@
 
 ## questions
 
+- What is Backbone.js?
 - data definition language(DDL), data modelling language(DML), (control language?)
 - constructors
 - ternary operators ([w3schools](www.w3schools.com/js/js_comparisons.asp))
