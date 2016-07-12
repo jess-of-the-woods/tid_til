@@ -129,7 +129,8 @@ var totalAmount = orders.reduce(function(sum, order) {
     }
 ```
 
-### Recursion: (functional?)
+### Recursion
+(functional?)
 
 ```javascript
 function factorial(n) {
