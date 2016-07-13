@@ -1,4 +1,4 @@
-[notes](notes.md) | [to learn](toLearn.md)
+[notes](notes.md) | [to learn](../toLearn.md)
 
 ## backend
 

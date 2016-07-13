@@ -14,4 +14,4 @@
 - do many repo branches greatly increase the size of a repo if the differences are very small or can it share code where it exists the same way across multiple branches? (i.e. does it just track differences or does it duplicate code?)
 - how to tell the size of a git repo?
 
-See also [notes](notes.md)
+See also [notes](notes/notes.md)

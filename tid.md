@@ -4,6 +4,7 @@
 
 ### 13 July
 - try, catch, finally
+- bundling
 
 ### 11 July
 - callbacks review

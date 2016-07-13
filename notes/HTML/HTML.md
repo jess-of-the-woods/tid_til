@@ -1,13 +1,13 @@
-[notes](../notes.md) | [to learn](../toLearn.md) | [frontend](../frontend.md)
+[notes](../notes.md) | [to learn](../../toLearn.md) | [frontend](../frontend.md)
 
-##HTML
+## HTML
 - HTML5
 - Canvas
 - [SVG](SVG.md)
 
 
 
-####Forms
+### Forms
 ```html
 <form>
     <label>Label for the input</label>
@@ -15,40 +15,38 @@
 </form>
 ```
 
-####Span
+### Span
 <span> tag surrounds text inline to change color
 ```html
 <span color="blue">blue</span>
 ```
 
-####Comments
+### Comments
 ```html
 <!-- comment -->
 ```
 
-####CSS link
+### CSS link
 ```html
 <head>
     <link href="styles/main.css" rel="stylesheet" type="text/css">
 </head>
 ```
 
-####Metadata tags
+### Metadata tags
 ```html
 <meta name="description" content="free web tutorials">
 ```
 
-####Elements
+### Elements
 element includes opening, attributes & their values, content & closing tags (sometimes self-closing)
 
 ---
 
-####HTML5 canvas
+### HTML5 canvas
 Canvas element is a part of HTML5 and allows for dynamic, scriptable rendering of 2D shapes and bitmap images
 
-[HTML5 Canvas](https://www.udacity.com/course/html5-canvas--ud292) (Udacity Course)
-
-[Canvas Tutorial](https://www.youtube.com/watch?v=FaOYjLl9dZg&list=PLftmDuo1-PWLCoCQmXM_e57bYRHjVg0pp&index=5).. (up to part 5) canvas2.html
+[HTML5 Canvas](https://www.udacity.com/course/html5-canvas--ud292) (Udacity Course) | [Canvas Tutorial](https://www.youtube.com/watch?v=FaOYjLl9dZg&list=PLftmDuo1-PWLCoCQmXM_e57bYRHjVg0pp&index=5).. (up to part 5) canvas2.html
 
 ---
 

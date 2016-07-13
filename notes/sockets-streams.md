@@ -1,6 +1,6 @@
 [notes](notes.md)
 
-##Streams
+## Streams
 
 sockets:
 connection protocol between computers eg http, ws (websockets)
@@ -12,4 +12,4 @@ pub/sub - publish / subscribe
 fun fun functions MPJ (on streams)
 
 
-See also .. chat, 
+See also .. chat,
