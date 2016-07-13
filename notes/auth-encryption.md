@@ -57,10 +57,10 @@ Algorithm which is cheap to use..
 - symmetric/asymmetric,
 - HTTPS, ( salt )
 
-**authenticating**
+**authentication**
 - sessions
+  - `req.session.theme`/ `req.session.userId`
 
-    `req.session.theme`/ `req.session.userId`
 
 - cookie
 
