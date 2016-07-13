@@ -1,7 +1,7 @@
 [notes](notes.md) | [to learn](../toLearn.md)
 
 ## backend
-
+- [Authentication / Encryption](auth-encryption.md)
 - [Databases](databases.md)
 - [Deployment](deployment.md)
 - [HTTP](HTTP.md)

@@ -4,6 +4,7 @@
 
 * [3D](3D.md)
 * [Art](art.md)
+* [Authentication / Encryption](auth-encryption.md)
 * [CSS](CSS/CSS.md)
 * [Databases](databases.md)
 * [Data Visualisation](dataVisualisation.md)

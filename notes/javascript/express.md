@@ -91,4 +91,5 @@ Then do: `kill -9 60778`
 ---
 
 
-See also [async](../async.md) | [client-side](../client-side.md) |  [databases](../databases.md) | superagent
+See also [async](../async.md) | [authentication / encryption](../auth-encryption.md)
+ | [client-side](../client-side.md) |  [databases](../databases.md) | superagent

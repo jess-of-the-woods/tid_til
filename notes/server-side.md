@@ -1,7 +1,11 @@
 [notes](notes.md) | [backend](backend.md)
 
 ## Server-Side
-**[databases](databases.md)** | **[express.js](javascript/express.md)** | **[linux terminal](linuxTerminal.md)** | **[node.js](javascript/node.md)**
+- [authentication/encryption](auth-encryption.md)
+- [databases](databases.md)
+- [express.js](javascript/express.md)
+- [linux terminal](linuxTerminal.md)
+- [node.js](javascript/node.md)
 
 
 ### Links
