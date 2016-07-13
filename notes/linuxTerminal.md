@@ -83,7 +83,7 @@ _________________
 `less filename`: output file contents to screen, cf. more
 
 ### grep
-- `G`lobal `Re`gular expression `P`rint (regex)
+- 'G'lobal 'Re'gular expression 'P'rint (regex)
 - used to look for line that matches a pattern in files
 - `grep "foo" words.txt` or `grep -i "foo" words.txt`
 - `-i`: case-insensitive
@@ -141,14 +141,14 @@ _________________
 
 `~/.bash_profile` (bash profile, used to store environment settings for terminal (source ~/.bash_profile activates changes))
 
-` ~` (tilde) represents users home directory eg. `/home/user`
+` ~` (tilde) represents users home directory eg. `/home/user`, can use in paths e.g. `~/Documents/` is the same as `/home/user/Documents`
 
 `$` represents prompt?
 
-'alias' is another name for keyboard shortcut in the terminal
+'alias' is another name for keyboard shortcut in the terminal, defined in .bashrc or .zshrc etc as `alias tek="cd ~Documents/tech"`
 
-`.` (dot) represents current directory
+`.`: represents current directory
 
-`..` (dot dot)represents parent directory
+`..`: represents parent directory, `cd ..`: change to parent dir
 
 `|` (pipe) pipes output of one command to another

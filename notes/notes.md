@@ -7,6 +7,7 @@
 * [CSS](CSS/CSS.md)
 * [Databases](databases.md)
 * [Data Visualisation](dataVisualisation.md)
+* [Deployment](deployment.md)
 * [Git/GitHub](git-github.md)
 * [HTML](HTML/HTML.md)
 * [HTTP](HTTP.md)

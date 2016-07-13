@@ -1,6 +1,6 @@
 [notes](notes.md)
 
-## asynchronous
+## asynchronicity
 - [node.js](javascript/node.md)
 - callbacks
 - promises
@@ -34,7 +34,7 @@ createPizza(order, pickup)  // has anon function (pickup)
 
 With synchronous processing, one order has to be completed before another can be taken. ('blocking')
 
-Asynchronous doesn't work that way. I.e. is non-blocking.
+Asynchronous doesn't work that way. i.e. is non-blocking.
 
 Node offers easy way to do aysnchronous processing
 
