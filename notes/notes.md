@@ -14,6 +14,7 @@
 * [JavaScript](javascript/notes.md) | [node.js](javascript/node.md)
 * [Linux Terminal](linuxTerminal.md)
 * [React](react/react.md)
+* [Ruby](ruby.md)
 * [Sockets/Streams](sockets-streams.md)
 * [Testing](testing.md)
 * [Tools](tools.md)
