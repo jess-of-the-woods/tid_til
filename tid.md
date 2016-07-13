@@ -2,7 +2,8 @@
 
 ## today i did..
 
-### 12 July
+### 13 July
+- try, catch, finally
 
 ### 11 July
 - callbacks review

@@ -19,15 +19,15 @@
 - tag
 - refs, HEAD
 
-### CSS ([notes](CSS/CSS.md))
-- SASS
+### CSS
+- SASS ([notes](CSS/SASS.md))
 - Flexbox ([notes](CSS/flexbox.md))
 
 ### JavaScript ([notes](javascript/notes.md))
-- try, catch
-- webpack, budo (general bundling stuff?)
+- ~~try, catch~~ ([w3schools](http://www.w3schools.com/js/js_errors.asp))
+- webpack, budo, gulp (general building/bundling stuff?)
 - return function [JS Functions that Return Functions](https://davidwalsh.name/javascript-functions)
-- ES6 - `let`, `const`
+- ES6 - `let`, `const`,
 - Testing ([notes](testing.md))
 - React, React router, redux ([notes](react/react.md))
 - jQuery event delegation, Listeners
