@@ -579,11 +579,30 @@ Penguin.prototype = new Animal();
 ```
 
 ### Closures
-Closures aka 'Lexical closures' or 'Function closures':
+aka 'Lexical closures' or 'Function closures':
 Being able to reference a specific instance of local variables in an enclosing function is called closure. A function that “closes over” some local variables is called a closure. This behaviour not only frees you from having to worry about lifetimes of variables but also allows for some creative use of function values.
-(possibly should be in functional notes?)
 
-- function that makes a function
+A closure is an inner function that has access to the outer (enclosing) function’s variables—scope chain. The closure has three scope chains: it has access to its own scope (variables defined between its curly brackets), it has access to the outer function’s variables, and it has access to the global variables.
+
+The inner function has access not only to the outer function’s variables, but also to the outer function’s parameters. Note that the inner function cannot call the outer function’s arguments object, however, even though it can call the outer function’s parameters directly.
+
+You create a closure by adding a function inside another function.
+
+#### Basic Example
+```javascript
+function showName (firstName, lastName) { 
+	​var nameIntro = "Your name is ";
+	    // this inner function has access to the outer function's variables, including the parameter​
+	​function makeFullName () {         
+	​return nameIntro + firstName + " " + lastName;     
+	}
+	​
+	​return makeFullName (); 
+	} 
+	​
+	showName ("Michael", "Jackson"); // Your name is Michael Jackson 
+```
+([Understand JavaScript Closures With Ease](http://javascriptissexy.com/understand-javascript-closures-with-ease/))
 
 ### Promises
 - origami'd callback
@@ -595,7 +614,7 @@ Being able to reference a specific instance of local variables in an enclosing f
 ### Truthy/Falsy
 In JavaScript, a truthy value is a value that translates to true when evaluated in a Boolean context. All values are truthy unless they are defined as falsy (i.e., except for false, 0, "", null, undefined, and NaN).
 
-### `use strict`
+### `'use strict'`
 first introduced in ES5, but backwards compatible
 
 reserved words, undeclared variables ( variables without using 'var' ).. will throw errors
@@ -603,6 +622,6 @@ reserved words, undeclared variables ( variables without using 'var' ).. will th
 ---
 
 ### Links
-[JavaScript Glossary](https://www.codecademy.com/articles/glossary-javascript) - Codecademy
+- [JavaScript Glossary](https://www.codecademy.com/articles/glossary-javascript) - Codecademy
 
 See Also [CSS](../CSS/CSS.md) | [HTML](../HTML/HTML.md)
