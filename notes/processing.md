@@ -39,7 +39,7 @@ rect(10, 10, 40, 40);
 ```
 colors are RGB values, between 0 & 255. 0 is none of R, G or B, 255 is full 'saturation'
 
-
+---
 
 ```
 void setup() {

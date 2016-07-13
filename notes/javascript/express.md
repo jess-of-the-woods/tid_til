@@ -1,6 +1,5 @@
 [backend](../backend.md) | [NPM](npm.md) | [server-side](../server-side.md)
 
-
 ## Express.js Server
 
 ([documentation](http://expressjs.com/))
@@ -9,6 +8,8 @@ Built on top of node core 'http' module
 
 JSON API is quicker, more lightweight than full server-side rendering.
 Read DB, send JSON to client which renders it
+
+In express, `app.use` allows you to use middleware.. i.e. hbs, body-parser, express-sessions etc. You can also write your own middleware.
 
 #### To setup express
 * make new folder ( `mkdir newFolder` )
