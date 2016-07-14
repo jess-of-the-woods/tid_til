@@ -57,3 +57,5 @@ devDependencies
 - tape, tap-closer
 - tap-spec
 - nodemon
+
+See also [bundling](../bundling.md)
