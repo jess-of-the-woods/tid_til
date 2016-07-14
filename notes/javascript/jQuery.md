@@ -17,17 +17,20 @@ var $ = require('jquery')
 
 ### Syntax
 ```javascript
-    //for id's
-    $("#selector").function(propertyToBeApplied);
-    // for classes
-    $(".selector").function(propertyToBeApplied);
-
-    // adds 'new' class to elements with 'main' class
-    $('.main').addClass("new")
+//for id's
+$("#selector").function("propertyToBeApplied");
+// for classes
+$(".selector").function("propertyToBeApplied");
+```
+e.g.
+```javascript
+// adds 'new' class to elements with 'main' class
+$('.main').addClass("new")
 
 $('#main').HTML(varName)
 ```
-Like innerHTML.. Inputs to div
+
+`.HTML` is like innerHTML (in vanilla js).. Inputs to div
 
 ### Listeners
 ```javascript
@@ -71,6 +74,12 @@ $(function() {
     $(#panel2).css({opacity:'0.5'});
 }),
 ```
+### .css
+
+```javascript
+$("#target1").css("color", "green");
+```
+
 
 ---
 
