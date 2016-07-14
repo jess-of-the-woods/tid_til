@@ -27,10 +27,10 @@ e.g.
 // adds 'new' class to elements with 'main' class
 $('.main').addClass("new")
 
-$('#main').HTML(varName)
+$('#main').html(varName)
 ```
 
-`.HTML` is like innerHTML (in vanilla js).. Inputs to div
+`.html` is like innerHTML (in vanilla js).. Inputs to div
 
 ### Listeners
 ```javascript
@@ -39,9 +39,7 @@ $(document).on('click', function() {
 });
 ```
 
----
-
-### Document ready function
+### Document Ready function
 
 Everything should go inside this 'Document.ready' function. Waits till page is loaded then fires.
 ```javascript
@@ -55,7 +53,6 @@ or alternatively
       // code, code, code
     });
 ```
----
 
 ### Append (or prepend) to HTML id
 (Udacity Resume Assignment)
@@ -80,6 +77,10 @@ $(function() {
 $("#target1").css("color", "green");
 ```
 
+### parent selector
+```javascript
+$("#target1").parent().css("background-color", "red");
+```
 
 ---
 
