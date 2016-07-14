@@ -3,21 +3,25 @@
 ## React
 <a href='https://facebook.github.io/react/'><img src="http://yycjs.com/real-world-react/img/react-logo.png" height="120" width="120"></a>
 
-**[Redux](redux.md)**
-
-[React JS Tutorial for Beginners - 3 - Multiple Components and Properties](http://bit.ly/1VBqhUe)
+**[Redux](redux.md)** | **Router**
 
 User Interface Library (created by Facebook)
+
 Has Virtual DOM which makes it fast to load pages, insert new content into DOM efficiently
+
 Uses JSX syntax (inside script tag `<script type='text/jsx'></script>`)
+
+- [jQuery](../javascript/jquery.md) & react don't really belong together.
+- Uses a dev-server ( localhost )
+- Every react class needs to have a render function which returns code which resembles HTML
+- components are reusable
+- class name needs to start with capital letter..
 
 ```html
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/react.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/react/0.13.3/JSXTransformer.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 ```
-
----
 
 ### Component
 - building block for UI
@@ -41,7 +45,6 @@ Each component has a render function which returns html content which will be re
         }
     })
 ```
-_________
 
 ### Render function
 (from module) takes two arguments, component to display & where to display it (e.g. a div). This is typically the top-level component, inside which others are rendered (nested?)
@@ -52,14 +55,6 @@ React.render(
     document.getElementById('content')
 );
 ```
-
----
-
-- [jQuery](../javascript/jquery.md) & react don't really belong together.
-- Uses a dev-server ( localhost )
-- Every react class needs to have a render function which returns code which resembles HTML
-- components are reusable
-- class name needs to start with capital letter..
 
 #### Props
 - is an immutable value ( never changes ). Props (properties) is an object.
@@ -75,11 +70,13 @@ You can set props when you create a new instance of a component.
 
 ---
 
-**slush-pages-react** ([npm page](https://www.npmjs.com/package/slush-pages-react))
+**slush-pages-react** npm module (slush scaffolding tool/generator)
 
-`slush pages-react` inside a folder
+([documentation](https://www.npmjs.com/package/slush-pages-react))
 
-( scaffolding tool/generator ), uses ES6, e.g.
+type `slush pages-react` inside a folder
+
+Uses ES6 e.g.
 
 ```javascript
 import React from 'react'
@@ -87,5 +84,8 @@ import { render } from 'react-dom'
 ```
 
 ---
+
+### Links
+- [React JS Tutorial for Beginners - 3 - Multiple Components and Properties](https://www.youtube.com/watch?v=JR-Cr_PSVV4&list=PL6gx4Cwl9DGBhLZx_5C-jqECBE4HIID_k&index=3) - YouTube series
 
 See also Angular, Ember..
