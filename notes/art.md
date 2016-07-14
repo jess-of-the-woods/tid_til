@@ -5,10 +5,9 @@
 
 
 
-* Stack.gl ([more](stack.gl))
 * [http://hughsk.io/campjs/](http://hughsk.io/campjs/)
 * Parametric Design ([wikipedia](https://en.wikipedia.org/wiki/Parametric_design))
-* 3D Fashion
+* 3D Printed Fashion ( Iris Van Herpen )
 * Biomimicry
 * New Media Art
 * Algorithmic / Code Art / Dev Art / Data Art
@@ -23,7 +22,6 @@
 ### ?
 - Xanalogical/ Xanadu..
 - Parametric model
-- Voxels
 
 ### WebGL
 an API for controlling the GPU, based on OpenGL ES (which is OpenGL for mobile) which is based on OpenGL
