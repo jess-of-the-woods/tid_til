@@ -1,11 +1,11 @@
-[notes](../notes.md) | [frontend](../frontend.md) | [client-side](../client-side.md)
+[notes](../notes.md) | [JavaScript](../javascript/notes.md) | [frontend](../frontend.md) | [client-side](../client-side.md)
 
 ## React
-<a href='https://facebook.github.io/react/'><img src="http://yycjs.com/real-world-react/img/react-logo.png" height="120" width="120"></a>
+<a href='https://facebook.github.io/react/'><img src="http://yycjs.com/real-world-react/img/react-logo.png" width="150"></a>
 
 **[Redux](redux.md)** | **Router**
 
-User Interface Library (created by Facebook)
+User Interface Library created by Facebook
 
 Has Virtual DOM which makes it fast to load pages, insert new content into DOM efficiently
 
