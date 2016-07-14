@@ -68,6 +68,15 @@ a:active {
 }
 ```
 
+### nth-child
+Specify a background color for every `<p>` element that is the second child of its parent:
+
+```css
+p:nth-child(2) {
+    background: red;
+}
+```
+
 ### Font-stack
 A font stack is a list of fonts in a CSS font-family declaration. The fonts are listed in order of preference by the Web designer. A font stack allows a designer to control the look of the fonts on the Web page even if the computer doesn't have the best font for the job.
 

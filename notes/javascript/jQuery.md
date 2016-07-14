@@ -28,7 +28,7 @@ e.g.
 ```javascript
 // adds 'new' class to elements with 'main' class
 $('.main').addClass("new")
-
+// inserts contents of 'var' into elements with 'main' class
 $('#main').html(varName)
 ```
 
@@ -63,29 +63,41 @@ or alternatively
 $("#header").append(variableName);
 ```
 
----
+### .hide
 
+(inside document ready function)
 ```javascript
 $(function() {
     //hide panel 1
     $(#panel1).hide();
     //panel 2 opacity becomes 50%
-    $(#panel2).css({opacity:'0.5'});
 }),
 ```
 ### .css
 
 ```javascript
 $("#target1").css("color", "green");
+$("#panel2").css({opacity:'0.5'});
 ```
 
 ### parent selector
+
 ```javascript
 $("#target1").parent().css("background-color", "red");
+```
+
+### select even numbered elements
+
+jQuery is zero-indexed, therefore `:even` will select 1st, 3rd, 5th elements etc.
+
+`:odd` selects the second element, fourth element, and so on.
+
+```javascript
+$(".target:even").addClass("animated shake");
 ```
 
 ---
 ### Links
 - [jQuery Tutorial for Beginners](https://www.youtube.com/playlist?list=PLoYCgNOIyGABdI2V8I_SWo22tFpgh2s6_) - LearnCode.academy - YouTube series
 
-See also [react](../react/react.md)
+See also [CSS](../CSS/CSS.md) | [react](../react/react.md)
