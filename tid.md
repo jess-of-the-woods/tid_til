@@ -2,6 +2,12 @@
 
 ## today i did..
 
+### 14 July
+- ES6
+- freeCodeCamp jQuery course
+- started on tribute page (part of freeCodeCamp)
+- callbacks ([JavaScript Callbacks Explained Using Minions](https://medium.freecodecamp.com/javascript-callbacks-explained-using-minions-da272f4d9bcd#.86db9popk))
+
 ### 13 July
 - try, catch, finally
 - bundling

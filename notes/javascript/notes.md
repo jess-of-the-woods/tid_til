@@ -2,7 +2,7 @@
 
 ## JavaScript
 
-[asynchronous](../async.md) | [functional](../functional.md)
+[asynchronous](../async.md) | [functional](../functional.md) | [ES6](es6.md)
 
 **[jQuery](jQuery.md)** | **[Node.js](node.md)** | **[Three.js](threejs.md)**
 
