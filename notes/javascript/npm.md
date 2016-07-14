@@ -1,6 +1,9 @@
 [node.js](node.md) |
 
 ## NPM - Node Package Manager
+<a href="https://www.npmjs.com/">
+  <img src="https://raw.githubusercontent.com/gmetais/YellowLabTools/master/doc/img/npm-logo.png" width="300">
+</a>
 
 **[express.js](express.md)** | **[Knex](knex.md)** | **[React](../react/react.md)**
 

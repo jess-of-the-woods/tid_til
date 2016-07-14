@@ -1,6 +1,10 @@
 [npm](npm.md) | [SQL](../SQL.md)
 
-## Knex
+## Knex.js
+
+<a href="http://knexjs.org/"><img src="http://knexjs.org/docs/images/knex.png" width="300"></a>
+
+
 - Node module
 - Lets us access data from within programs
 - knex translates javascript into SQL

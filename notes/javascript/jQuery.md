@@ -1,9 +1,11 @@
 [frontend](../frontend.md) | [client-side](../client-side.md) | [JavaScript](notes.md)
 
 ## jQuery
+<a href="https://jquery.com/"><img src="http://ejohn.org/apps/workshop/adv-talk/jquery_logo.png" width='300'></a>
 
-[jQuery Tutorial for Beginners](bit.ly/2383XSL)
+jQuery is a cross-platform JavaScript library designed to simplify the client-side scripting of HTML
 
+Link to jQuery library in html:
 ```HTML
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
 ```
@@ -83,5 +85,7 @@ $("#target1").parent().css("background-color", "red");
 ```
 
 ---
+### Links
+- [jQuery Tutorial for Beginners](https://www.youtube.com/playlist?list=PLoYCgNOIyGABdI2V8I_SWo22tFpgh2s6_) - LearnCode.academy - YouTube series
 
 See also [react](../react/react.md)
