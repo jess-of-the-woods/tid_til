@@ -77,12 +77,28 @@ p:nth-child(2) {
 }
 ```
 
+
 ### Font-stack
 A font stack is a list of fonts in a CSS font-family declaration. The fonts are listed in order of preference by the Web designer. A font stack allows a designer to control the look of the fonts on the Web page even if the computer doesn't have the best font for the job.
 
 ## Layout
 HTML elements have default display types. e.g. divs have block type, therefore are displayed across the whole width of the page. span elements are inline, therefore are displayed inline.
 
-learnlayout(http://learnlayout.com)
+### Float
+clear - Specifies on which sides of an element where floating elements are not allowed to float
+
+float -	Specifies whether or not an element should float
+
+overflow -	Specifies what happens if content overflows an element's box
+
+overflow-x -	Specifies what to do with the left/right edges of the content if it overflows the element's content area
+
+overflow-y -	Specifies what to do with the top/bottom edges of the content if it overflows the element's content area
+
+---
+
+### Links
+- [learnlayout.com](http://learnlayout.com)
+- [w3schools](http://www.w3schools.com/css)
 
 See Also [HTML](../HTML/HTML.md) | [JavaScript](../javascript/javascript.md)
