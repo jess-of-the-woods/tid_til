@@ -1,11 +1,7 @@
 [notes](../notes.md) | [to learn](../../toLearn.md) | [frontend](../frontend.md)
 
 ## HTML
-- HTML5
-- Canvas
-- [SVG](SVG.md)
-
-
+**[HTML5](HTML5.md)**
 
 ### Forms
 ```html

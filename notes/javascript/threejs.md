@@ -2,6 +2,8 @@
 
 ## Three.js
 
+
+
 ```javascript
 geometry = new THREE.CubeGeometry(200, 200, 200);  // creates a new cube geometry w some parameters
 material = new THREE.MeshNormalMaterial({shading: THREE.FlatShading}) // creates new material which wraps around geometry
@@ -28,6 +30,5 @@ ________
 - [Gallant Lab Neuroimaging](http://gallantlab.org/semanticmovies/)
 - [Interactive 3D Graphics](https://www.udacity.com/course/interactive-3d-graphics--cs291) (Udacity Course)
 
----
 
-See Also [art](../art.md) | [data visualisation](../dataVisualisation.md) | [SVG](../HTML/SVG.md)
+See Also [art](../art.md) | [canvas](../HTML/canvas.md) | [data visualisation](../dataVisualisation.md) | [SVG](../HTML/SVG.md)

@@ -1,4 +1,4 @@
-[HTML](HTML.md) | [notes](../notes.md) | [to learn](../toLearn.md) | [frontend](../frontend.md) | [XML](../XML) Markup Language
+[HTML5](HTML5.md) | [notes](../notes.md) | [frontend](../frontend.md) | [XML](../XML)
 
 ## Scalable Vector Graphics - SVG
 
@@ -52,7 +52,7 @@ commands are available for path data:
 
 Note: All of the commands above can also be expressed with lower letters. Capital letters means absolutely positioned, lower cases means relatively positioned.
 
-#### Line:
+#### Line
 `M` = 'Move to', `L` = 'Line to'
 
 ```HTML
@@ -64,7 +64,6 @@ Note: All of the commands above can also be expressed with lower letters. Capita
 - transformations applied to `<g>` are performed on all children. attributes will be inherited
 - Can group multiple elements to be referenced later with the `<use>` element.
 
-[MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g) | [jenkov.com](http://tutorials.jenkov.com/svg/g-element.html) (tutorial)
 
 
 ```HTML
@@ -79,9 +78,13 @@ Note: All of the commands above can also be expressed with lower letters. Capita
 </svg>
 ```
 
-
- | [Vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) - Wikipedia | [W3Schools](http://www.w3schools.com/svg/default.asp) - tutorial
+- [MDN](https://developer.mozilla.org/en-US/docs/Web/SVG/Element/g)
+- [jenkov.com](http://tutorials.jenkov.com/svg/g-element.html) (tutorial)
 
 ---
 
-See also [CSS](../CSS/CSS.md) | [D3.js](../javascript/d3.md) | [react](../react/react.md)
+### Links
+- [vector graphics](https://en.wikipedia.org/wiki/Vector_graphics) - Wikipedia
+- [w3schools tutorial](http://www.w3schools.com/svg/default.asp)
+
+See also [canvas](canvas.md) | [CSS](../CSS/CSS.md) | [D3.js](../javascript/d3.md) | [react](../react/react.md)
