@@ -7,12 +7,8 @@
 <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
 </canvas>
 ```
-renders:
-<canvas id="myCanvas" width="200" height="100" style="border:1px solid #000000;">
-</canvas>
 
 ### Draw a rectangle
-
 ```javascript
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
@@ -20,7 +16,7 @@ ctx.fillStyle = "#FF0000";
 ctx.fillRect(0,0,150,75);
 ```
 
-### Draw a circle:
+### Draw a circle
 ```javascript
 var c = document.getElementById("myCanvas");
 var ctx = c.getContext("2d");
