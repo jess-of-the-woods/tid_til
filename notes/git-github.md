@@ -1,17 +1,20 @@
 [notes](notes.md) | [backend](backend.md) | [linux terminal](linuxTerminal.md)  | [tools](tools.md)
 
-
 ## Git / GitHub
+- [basics](#basics)
+- [checkout](#git-checkout)
+- [branch](#git-branch)
+- [log](#git-log)
+- [remote](#git-remote)
+- [undoing](#undoing)
+- [other](#other)
+- [password caching](#password-caching)
 
+
+### Basics
 `git init` initialize project as git repo
 
 `git clone https://github.com/dev-academy-programme/karearea-2016.git` - clone git repository to local machine
-
----
-
-### Git checkout
-- `git checkout branchName` - switch to newBranchName
-- `git checkout -b newBranchName` - create & checkout new branch
 
 `git add .` / `git add -A` / `git add filename` - stage files to be committed
 
@@ -25,25 +28,21 @@
 
 `git pull -r` - pulls down changes and rebases them to be before commits on local branch
 
----
+### Git checkout
+- `git checkout branchName` - switch to newBranchName
+- `git checkout -b newBranchName` - create & checkout new branch
 
-### Git Branch
+### Git branch
 - `git branch --all` - displays all branches, verbose
 - `git branch new_branch_name` - create new branch in local repository
 - `git branch -d <branch name>` - delete a branch
-
----
 
 ### Git log
 - `git log` - lists all the commits
 - `git log --since='2013-06-09` - since specified date
 - `git log since ='2 weeks ago'` - since 2 weeks ago
+- `git show sha-key`
 
-  `git show sha-key`
-
-[creating-project-pages-manually](https://help.github.com/articles/creating-project-pages-manually/)
-
----
 
 ### Git remote
 - `git remote -v` - displays all remotes, verbose
@@ -51,10 +50,7 @@
 - `git remote rm origin` - removes remotes
 - `git remote prune origin` - deletes local cached version of branches that have been deleted on github
 
----
-
 ## Undoing
-
 <img src='https://i.stack.imgur.com/caci5.png'>
 
 3 trees ( collections of files ):  Working directory, Index, HEAD
@@ -75,28 +71,21 @@ Make the Working Directory look like the Index
 `git checkout e8723hdk79`: checkout previous commit
 
 `git reset index.html`: un add staged files
+
 `git reset --soft HEAD ~1`: uncommit changes, x number of commits
 
 
+If all you want to do is undo the act of committing, leaving everything else intact, use: `git reset --soft HEAD^`
 
-If all you want to do is undo the act of committing, leaving everything else intact, use:
+If you want to undo the act of committing and everything you'd staged, but leave the work tree (your files intact): `git reset HEAD^`
 
-`git reset --soft HEAD^`
-
-If you want to undo the act of committing and everything you'd staged, but leave the work tree (your files intact):
-
-`git reset HEAD^`
-
-And if you actually want to completely undo it, throwing away all uncommitted changes, resetting everything to the previous commit (as the original question asked):
-
-`git reset --hard HEAD^`
+And if you actually want to completely undo it, throwing away all uncommitted changes, resetting everything to the previous commit (as the original question asked): `git reset --hard HEAD^`
 
 
 ### Revert
 `git revert commitId` ( does an anti-commit, undo commit, but is still available )
 
----
-
+## Other
 `git merge --abort`
 
 `git remote add upstream git-repo-url`
@@ -117,14 +106,13 @@ upstream is where fork comes from
 5. `git push -u origin awesome-changes` ( -u = set upstream )
 6. Compare & pull request
 
----
-
 See the size of a github repo before cloning it?
 `curl -I https://codeload.github.com/ManojkumarMuralidharan/Excite-Bike3D/zip/master`
 
----
-
-### Password Caching
+## Password Caching
 `git config --global credential.helper cache` - cache password in git
 
 `git config --global credential.helper 'cache --timeout=3600'` - timeout = 1 hour
+
+### Links
+- [creating-project-pages-manually](https://help.github.com/articles/creating-project-pages-manually/)
