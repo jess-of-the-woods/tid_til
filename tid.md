@@ -2,7 +2,8 @@
 
 ## today i did..
 
-###
+### 19 July
+- 
 
 ### 18 July
 - ES6 (babelify, gulp), babel on the client tutorial. ([link to my copy](https://github.com/jess-of-the-woods/Babel-starters-kit))

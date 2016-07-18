@@ -10,6 +10,7 @@
 - [Uppercaser function](#uppercaser-function)
 - [Recursion](#recursion)
 - [Modules](#modules)
+- [Links](#links)
 
 ---
 

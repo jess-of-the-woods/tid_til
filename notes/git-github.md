@@ -7,9 +7,9 @@
 - [log](#git-log)
 - [remote](#git-remote)
 - [undoing](#undoing)
-- [other](#other)
 - [password caching](#password-caching)
-
+- [other](#other)
+- [links](#links)
 
 ### Basics
 `git init` initialize project as git repo
@@ -85,6 +85,11 @@ And if you actually want to completely undo it, throwing away all uncommitted ch
 ### Revert
 `git revert commitId` ( does an anti-commit, undo commit, but is still available )
 
+## Password Caching
+`git config --global credential.helper cache` - cache password in git
+
+`git config --global credential.helper 'cache --timeout=3600'` - timeout = 1 hour
+
 ## Other
 `git merge --abort`
 
@@ -109,10 +114,7 @@ upstream is where fork comes from
 See the size of a github repo before cloning it?
 `curl -I https://codeload.github.com/ManojkumarMuralidharan/Excite-Bike3D/zip/master`
 
-## Password Caching
-`git config --global credential.helper cache` - cache password in git
-
-`git config --global credential.helper 'cache --timeout=3600'` - timeout = 1 hour
+---
 
 ### Links
 - [creating-project-pages-manually](https://help.github.com/articles/creating-project-pages-manually/)
