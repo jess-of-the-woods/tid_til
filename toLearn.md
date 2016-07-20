@@ -41,6 +41,9 @@
 - inu
 - OAuth
 
+### Other
+- Hotspots in images
+
 
 ## art ([notes](notes/art.md))
 - data visualisation ([notes](notes/dataVisualisation.md))
