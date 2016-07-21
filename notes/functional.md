@@ -157,8 +157,8 @@ factorial(4);
 ---
 
 ### Links
-- [Functional programming in JS w/ MPJ Series](http://bit.ly/1ONgo2m) - Just finished part 4 ( reduce advanced ) but feel like I could revise again & get more from it..  - 15 Jun
-- [Higher-order functions - Part 1 of Functional Programming in JS ( MPJ )](http://bit.ly/1IzcK7R)
+- [Functional programming in JS w/ MPJ Series](https://www.youtube.com/playlist?list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84) - Just finished part 4 ( reduce advanced ) but feel like I could revise again & get more from it..  - 15 Jun
+- [Higher-order functions - Part 1 of Functional Programming in JS ( MPJ )](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
 - [Callbacks & higher-order functions](http://www.niluk.co/blog/post/callbacks-and-higher-order-functions-in-javascript) - (Not Async)
 
 See also [asynchronous](async.md) | [JavaScript](javascript/notes.md) | [node.js](javascript/node.md)
