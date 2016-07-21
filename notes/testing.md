@@ -38,6 +38,10 @@ You can pipe the output to 'tap-spec' to prettify the output by running `node te
 
 You can also pipe output to 'tap-simple' which will only display failing tests. Use with nodemon
 
+`"tdd": "nodemon -x\"./bin/tape/test/**/*.test.js | bin/tap-simple \""`
+
+the above script assumes you have created a symlink to node_modules
+
 #### Modules
 - tap-spec
 - tape
@@ -51,8 +55,10 @@ You can also pipe output to 'tap-simple' which will only display failing tests. 
 
 ## Links
 - [Hihi Gitbook - Test Driven Development ](https://enspiral-academy.gitbooks.io/hihi-2016/content/weeks/1/monday.html)
+- [JS Kata - Objects & Arrays](https://github.com/hihi-2016/js-kata-objects-and-arrays) - (EDA Repo)
+- [Unit testing: How to get your team started - FunFunFunction #2](https://www.youtube.com/watch?v=TWBDa5dqrl8) - YouTube (up to 12:54 
 - [
-Unit testing: How to get your team started - FunFunFunction #2
-](https://www.youtube.com/watch?v=TWBDa5dqrl8)
+JavaScript Tutorial: Unit Testing with Tape pt2
+](https://www.youtube.com/watch?v=JK3EvAV4QKU) - YouTube
 
 See also [tools](tools.md)
