@@ -7,7 +7,7 @@
 - ln command (linux terminal)
 
 ### 18 July
-- ES6 (babelify, gulp), babel on the client tutorial. ([link to my copy](https://github.com/jess-of-the-woods/Babel-starters-kit))
+- ES6 (babelify, gulp), babel on the client tutorial. ([repo](https://github.com/jess-of-the-woods/Babel-starters-kit))
 
 ### 14 July
 - ES6
