@@ -40,7 +40,7 @@ You can also pipe output to 'tap-simple' which will only display failing tests. 
 
 `"tdd": "nodemon -x\"./bin/tape/test/**/*.test.js | bin/tap-simple \""`
 
-the above script assumes you have created a symlink to node_modules
+the above script assumes you have created a symlink to node_modules e.g. `ln -s ./node_modules/.bin/ ./bin`
 
 #### Modules
 - tap-spec
