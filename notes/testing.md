@@ -36,13 +36,20 @@ run in terminal with `node test.js` or name of test file.
 
 You can pipe the output to 'tap-spec' to prettify the output by running `node test.js | tap-spec` or define it as a script in package.json
 
+You can also pipe output to 'tap-simple' which will only display failing tests. Use with nodemon
+
+#### Modules
+- tap-spec
+- tape
+- 'TAP': Test Anything Protocol
+- tap-simple
+
 ### Integration testing
 (sometimes called integration and testing, abbreviated I&T) is the phase in software testing in which individual software modules are combined and tested as a group. It occurs after unit testing and before validation testing. Integration testing takes as its input modules that have been unit tested, groups them in larger aggregates, applies tests defined in an integration test plan to those aggregates, and delivers as its output the integrated system ready for system testing.[1]
 
-- tap-spec
-- Tape
-- 'TAP': Test Anything Protocol
+---
 
-[Hihi TDD Gitbook](https://enspiral-academy.gitbooks.io/hihi-2016/content/weeks/1/monday.html)
+## Links
+- [Hihi Gitbook - Test Driven Development ](https://enspiral-academy.gitbooks.io/hihi-2016/content/weeks/1/monday.html)
 
 See also [tools](tools.md)
