@@ -88,6 +88,7 @@ starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 creates links to files or folders
 - `ln file1 yea`: creates hard link to file1. link is called yea
 - `ln -s file1 yea`: creates symlink (soft) to file1. If file1 is deleted, link will not work..
+- [more info](http://www.unixtutorial.org/commands/ln/)
 
 ### grep
 - 'G'lobal 'Re'gular expression 'P'rint (regex)
