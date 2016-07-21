@@ -1,4 +1,4 @@
-[notes](notes.md) | [backend](backend.md) | [tools](tools.md)
+[backend](backend.md) | [linux](linux.md) | [tools](tools.md)
 
 ## Nix Terminal
 - **[Git / Github](git-github.md)**

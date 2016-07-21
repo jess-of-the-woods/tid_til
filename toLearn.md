@@ -41,6 +41,14 @@
 - inu
 - OAuth
 
+### Linux ([notes](notes/linux.md))
+- Mount points
+- Device nodes
+- How to determine filesystem of removable media?
+- filesystem structure
+- SSH
+- SSH from android
+
 ### Other
 - Hotspots in images
 
