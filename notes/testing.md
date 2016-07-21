@@ -1,6 +1,6 @@
 [notes](notes.md) | [to learn](../toLearn.md)
 
-## testing
+## Testing
 
 ### Red, Green, Refactor
 Write test, test should be non-passing.. i.e. 'red'. Write code, keep testing till test passes, i.e. green. Then refactor (improve code)
@@ -51,5 +51,8 @@ You can also pipe output to 'tap-simple' which will only display failing tests. 
 
 ## Links
 - [Hihi Gitbook - Test Driven Development ](https://enspiral-academy.gitbooks.io/hihi-2016/content/weeks/1/monday.html)
+- [
+Unit testing: How to get your team started - FunFunFunction #2
+](https://www.youtube.com/watch?v=TWBDa5dqrl8)
 
 See also [tools](tools.md)
