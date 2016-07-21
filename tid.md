@@ -2,8 +2,9 @@
 
 ## today i did..
 
-### 19 July
-- 
+### 21 July
+- testing with tape ([repo](https://github.com/jess-of-the-woods/testing-with-tape.git))
+- ln command (linux terminal)
 
 ### 18 July
 - ES6 (babelify, gulp), babel on the client tutorial. ([link to my copy](https://github.com/jess-of-the-woods/Babel-starters-kit))
