@@ -56,9 +56,7 @@ the above script assumes you have created a symlink to node_modules
 ## Links
 - [Hihi Gitbook - Test Driven Development ](https://enspiral-academy.gitbooks.io/hihi-2016/content/weeks/1/monday.html)
 - [JS Kata - Objects & Arrays](https://github.com/hihi-2016/js-kata-objects-and-arrays) - (EDA Repo)
-- [Unit testing: How to get your team started - FunFunFunction #2](https://www.youtube.com/watch?v=TWBDa5dqrl8) - YouTube (up to 12:54 
-- [
-JavaScript Tutorial: Unit Testing with Tape pt2
-](https://www.youtube.com/watch?v=JK3EvAV4QKU) - YouTube
+- [Unit testing: How to get your team started - FunFunFunction #2](https://www.youtube.com/watch?v=TWBDa5dqrl8) - YouTube (up to 12:54)
+- [JavaScript Tutorial: Unit Testing with Tape pt2](https://www.youtube.com/watch?v=JK3EvAV4QKU) - YouTube
 
 See also [tools](tools.md)

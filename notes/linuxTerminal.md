@@ -14,7 +14,7 @@
 - [chmod](#chmod)
 - [chown](#chown)
 - [disk usage](#disk-usage)
-- [Installing / Uninstalling / Updating / Managing applications](#installing-/-updating)
+- [Installing / Uninstalling / Updating / Managing applications](#installing-uninstalling-updating-managing-applications)
 - [piping / redirection](#piping-redirection)
 - [Network Tools](#network-tools)
 - [other](#other)
