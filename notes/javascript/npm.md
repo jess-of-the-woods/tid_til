@@ -1,18 +1,18 @@
-[node.js](node.md) |
+[node.js](node.md)
 
 ## NPM - Node Package Manager
 <a href="https://www.npmjs.com/">
   <img src="https://raw.githubusercontent.com/gmetais/YellowLabTools/master/doc/img/npm-logo.png" width="300">
 </a>
 
-**[express.js](express.md)** | **[Knex](knex.md)** | **[React](../react/react.md)**
+**[Express.js](express.md)** | **[Knex](knex.md)** | **[React.js](../react/react.md)**
 
 looks at package.json which records dependencies
 
 ### Commands
-- `npm i moduleName`: Installs module
-- `npm i moduleName --save`: Installs module & saves in package.json
-- `npm i moduleName -D` or `npm i moduleName --save-dev`: Installs module & saves in package.json as devDependency
+- `npm i moduleName`: Installs module(s)
+- `npm i moduleName --save`: Installs module(s) & save in package.json
+- `npm i moduleName -D` or `npm i moduleName --save-dev`: Installs module(s) & saves in package.json in 'devDependencies'
 - `npm -g ls`: Prints list of all globally installed modules
 - `npm -g ls --depth=0`
 - `npm uninstall moduleName --save`: Uninstalls module & deletes reference in package.json
