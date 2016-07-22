@@ -59,7 +59,6 @@
 - `git stash drop stash@{0}`: Drops specified stash
 - `git stash clear`: Drops all stashes
 
-- [Stashing & Cleaning](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning)
 
 ## Undoing
 <img src='https://i.stack.imgur.com/caci5.png'>
@@ -129,3 +128,7 @@ See the size of a github repo before cloning it?
 
 ### Links
 - [creating-project-pages-manually](https://help.github.com/articles/creating-project-pages-manually/)
+
+#### Stash
+- [Stashing & Cleaning](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning)
+- [Git Tutorial: Using the Stash Command](https://www.youtube.com/watch?v=KLEDKgMmbBI) - YouTube (10 mins)
