@@ -28,7 +28,7 @@ Make sure modules needed to run are in Dependencies in package.json (not DevDepe
 
 `git push heroku master`
 
-`heroku run bash`: Access BASH on remote server
+`heroku run bash`: Access BASH on remote server (type `exit` to exit)
 
 `heroku releases`: shows all deployments
 
@@ -74,13 +74,18 @@ app.listen(port, function () {
 });
 ```
 
-### Platforms
+### Deployment Platforms
 - Heroku
 - AWS (Amazon Web Services)
 - Digital Ocean
+- Github pages?
 
 ---
+
+See also [databases](databases.md)
+
 
 ### Links
 
 - [Meow-Heroku](https://github.com/hihi-2016/meow-heroku) - instructions (EDA Repo)
+- [Node.js support](https://devcenter.heroku.com/articles/nodejs-support) - inc. specifying node version number.
