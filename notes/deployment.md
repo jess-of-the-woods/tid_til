@@ -2,9 +2,9 @@
 
 ## Deployment
 
-### options
+### Platforms
 - Heroku
-- AWS ( amazon )
+- AWS (Amazon Web Services)
 - Digital Ocean
 
 `heroku git:remote --app tandem-nz` ( add remote to existing repo )
