@@ -6,6 +6,7 @@
 - [branch](#git-branch)
 - [log](#git-log)
 - [remote](#git-remote)
+- [stash](#stash)
 - [undoing](#undoing)
 - [password caching](#password-caching)
 - [other](#other)
@@ -49,6 +50,16 @@
 - `git remote add origin` https://github.com/jess-of-the-woods/react-the_first.git - adds origin
 - `git remote rm origin` - removes remotes
 - `git remote prune origin` - deletes local cached version of branches that have been deleted on github
+
+## Stash
+- `git stash save 'here is a message describing what I just did'` or `git stash`: Stash changes
+- `git stash list`: Lists all stashes
+- `git stash apply stash@{0}`: Applies `stash@{0}` but doesn't clear the stash, i.e. it remains there to be used
+- `git stash pop`: Applies most recent stash, drops it from stash
+- `git stash drop stash@{0}`: Drops specified stash
+- `git stash clear`: Drops all stashes
+
+- [Stashing & Cleaning](https://git-scm.com/book/en/v2/Git-Tools-Stashing-and-Cleaning)
 
 ## Undoing
 <img src='https://i.stack.imgur.com/caci5.png'>
