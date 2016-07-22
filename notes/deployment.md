@@ -2,20 +2,23 @@
 
 ## Deployment (Heroku)
 
-<!-- ### Notes -->
 Keep your git origin master & heroku & local copy in sync
 
 Can have a separate 'staging' branch on heroku for testing
 
 Sort out deployment rhythm early
 
-Use postgreSQL on heroku production
+Use PostgreSQL on heroku production
 
-Heroku doesn't like nodemon. Use '`node server.js`' instead in start script. Can have `"start-dev": "nodemon server.js"` in package.json.
+Heroku doesn't like nodemon. Use `node server.js` instead in start script. Can have `"start-dev": "nodemon server.js"` in package.json.
 
-make sure modules needed to run are in Dependencies in package.json ( not DevDependencies )
+Add bundle.js to .gitignore and add: `"postinstall": "npm run build"` to package.json. Heroku should run this and build client side bundle after deployment.
+
+Make sure modules needed to run are in Dependencies in package.json (not DevDependencies), including any modules needed for building (browserify etc.)
 
 ---
+
+### Heroku CLI ([toolbelt](https://toolbelt.heroku.com/))
 
 `heroku login`: Login to Heroku
 
