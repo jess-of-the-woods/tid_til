@@ -61,7 +61,7 @@ looks at package.json which records dependencies
 - smokestack
 
 
-devDependencies
+**devDependencies** (see also [testing](../testing.md))
 - watchify
 - cheerio
 - forever
