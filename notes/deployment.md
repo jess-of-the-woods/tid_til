@@ -1,44 +1,68 @@
 [notes](notes.md) | [backend](backend.md)
 
-## Deployment
+## Deployment (Heroku)
 
-### Platforms
-- Heroku
-- AWS (Amazon Web Services)
-- Digital Ocean
+<!-- ### Notes -->
+Keep your git origin master & heroku & local copy in sync
 
-`heroku git:remote --app tandem-nz` ( add remote to existing repo )
+Can have a separate 'staging' branch on heroku for testing
 
-`heroku login`
+Sort out deployment rhythm early
 
-`heroku create`
+Use postgreSQL on heroku production
 
-`heroku logs`: shows any error messages from deployment
+Heroku doesn't like nodemon. Use '`node server.js`' instead in start script. Can have `"start-dev": "nodemon server.js"` in package.json.
 
-`heroku logs --tail`
+make sure modules needed to run are in Dependencies in package.json ( not DevDependencies )
+
+---
+
+`heroku login`: Login to Heroku
+
+`heroku create`: Create a new app (with randomly generated name), optionally: `heroku create appName`
+
+`heroku git:remote --app tandem-nz`: Add remote to existing repo
+
+`git push heroku master`
+
+`heroku run bash`: Access BASH on remote server
 
 `heroku releases`: shows all deployments
 
 `heroku rollback v19`: rollback to version 19 deployed
 
-provision free version of postgres on heroku
 `git push heroku master:master`
-`git push heroku branchName:branchName` ( push branch to heroku branch )
+
+`git push heroku branchName:branchName`: Push branch to heroku branch
 
 `heroku open`
 
-connection: process.env.DATABASE_URL
+`heroku restart`: Restart crashed app.
 
-`heroku restart`
+### Logs
+`heroku logs`: Shows any error messages from deployment
 
-`heroku pg:psql` ( connect to remote postgres terminal ) ( run outside of heroku bash )
-`heroku pg:reset DATABASE`  ( drop and recreate your database )
+`heroku logs --tail`: Watch logs
 
-heroku doesn't like nodemon
-use '`node server.js`' instead in start script
-can do npm 'start-dev': 'nodemon server.js'
 
-make sure modules needed to run are in Dependencies in package.json ( not DevDependencies )
+### Database / PostgreSQL
+provision free version of PostgreSQL on Heroku (through website)
+
+`connection: process.env.DATABASE_URL`
+
+`heroku pg:psql`: Connect to remote postgres terminal (run outside of heroku bash)
+
+`heroku pg:reset DATABASE`: Drop and recreate your database
+
+`heroku run knex migrate:latest`
+
+`createdb stuff`
+
+`psql stuff`
+
+`dropdb stuff`
+
+### Port number
 ```javascript
 var port = process.env.PORT || 3000;
 
@@ -47,28 +71,13 @@ app.listen(port, function () {
 });
 ```
 
-`heroku run knex migrate:latest`
+### Platforms
+- Heroku
+- AWS (Amazon Web Services)
+- Digital Ocean
 
+---
 
-`createdb stuff`
+### Links
 
-`psql stuff`
-
-`dropdb stuff`
-
-__
-
-`heroku run bash`
-
-`git push heroku master`
-
-keep your git origin master & heroku & local copy in sync
-
-can have a separate 'staging' branch on heroku for testing
-
-sort out deployment rhythm early
-
-use postgres on heroku production
-
-
-instructions: https://github.com/hihi-2016/meow-heroku
+- [Meow-Heroku](https://github.com/hihi-2016/meow-heroku) - instructions (EDA Repo)
