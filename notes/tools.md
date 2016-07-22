@@ -5,18 +5,17 @@
 - [linux terminal](linuxTerminal.md)
 - Editors: Atom, Sublime
 - browser console ( dev tools, firebug etc. )
-- [MDN](https://developer.mozilla.org/en-US/)
+- [MDN](https://developer.mozilla.org/en-US/) | [W3Schools](http://www.w3schools.com/)
+- [Stack Overflow](https://stackoverflow.com/) | [documentation](https://stackoverflow.com/documentation)
 - [git / GitHub](git-github.md)
+- [Codepen.io](https://codepen.io/)
+- [jsfiddle](https://jsfiddle.net/) | [jsbin](http://jsbin.com)
 - Postman
-- [codepen.io](https://codepen.io/)
-- [jsfiddle.net](https://jsfiddle.net/)
 - Validators
-- debugger
-- linters
-- forums ( fb node.js group, ... )
+- Linters
+- Debuggers
+- Forums ( Facebook Node.js group, ... )
 - Slack ( EDA & JavaScript NZ )
-- [Stack Overflow](https://stackoverflow.com/) |
-[documentation](https://stackoverflow.com/documentation)
 
 
 [keyboard shortcuts](keyboardShortcuts.md) ( Atom & Sublime )

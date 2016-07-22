@@ -11,7 +11,7 @@ Not case-sensitive. Statement always end in `;`
 - DELETE
 - INSERT
 
-c.f. [express.js](javascript/express.md)
+c.f. [Express.js](javascript/express.md)
 
 e.g.
 ```sql
@@ -65,7 +65,9 @@ LIMIT 10 ( return 10 items )
 OFFSET 20 ( start at 20th )
 ```
 
+---
+
 ### Links
-[Tutorial](http://www.tutorialspoint.com/sql/) - Tutorialspoint
+- [SQL Tutorial](http://www.tutorialspoint.com/sql/) - Tutorialspoint
 
 See also noSQL
