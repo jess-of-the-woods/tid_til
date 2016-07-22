@@ -26,19 +26,21 @@ Make sure modules needed to run are in Dependencies in package.json (not DevDepe
 
 `heroku git:remote --app tandem-nz`: Add remote to existing repo
 
+#### Pushing
 `git push heroku master`
+
+`git push heroku master:master`
+
+`git push heroku branchName:branchName`: Push branch to heroku branch
+
+#### Other
+`heroku open`: Open app in browser
 
 `heroku run bash`: Access BASH on remote server (type `exit` to exit)
 
 `heroku releases`: shows all deployments
 
 `heroku rollback v19`: rollback to version 19 deployed
-
-`git push heroku master:master`
-
-`git push heroku branchName:branchName`: Push branch to heroku branch
-
-`heroku open`
 
 `heroku restart`: Restart crashed app.
 
