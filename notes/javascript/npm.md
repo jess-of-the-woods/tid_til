@@ -9,6 +9,16 @@
 
 looks at package.json which records dependencies
 
+### Commands
+- `npm i moduleName`: Installs module
+- `npm i moduleName --save`: Installs module & saves in package.json
+- `npm i moduleName -D` or `npm i moduleName --save-dev`: Installs module & saves in package.json as devDependency
+- `npm -g ls`: Prints list of all globally installed modules
+- `npm -g ls --depth=0`
+- `npm uninstall moduleName --save`: Uninstalls module & deletes reference in package.json
+
+
+
 ### Ramda
 - A js library for functional programming
 - automatically curries

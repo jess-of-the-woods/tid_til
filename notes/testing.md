@@ -20,8 +20,8 @@ A software development process in which the smallest testable parts of an applic
 #### Testing with Tape
 Test file should import into it whatever is being tested. See line 2.
 
-test.js:
 ```javascript
+//'test.js'
 var test = require('tape').test;
 var add = require('./add');
 
@@ -43,10 +43,11 @@ You can also pipe output to 'tap-simple' which will only display failing tests. 
 the above script assumes you have created a symlink to node_modules e.g. `ln -s ./node_modules/.bin/ ./bin`
 
 #### Modules
-- tap-spec
-- tape
 - 'TAP': Test Anything Protocol
+- tape
+- tap-spec
 - tap-simple
+- [supertest](https://github.com/visionmedia/supertest) (see also superagent)
 
 ### Integration testing
 (sometimes called integration and testing, abbreviated I&T) is the phase in software testing in which individual software modules are combined and tested as a group. It occurs after unit testing and before validation testing. Integration testing takes as its input modules that have been unit tested, groups them in larger aggregates, applies tests defined in an integration test plan to those aggregates, and delivers as its output the integrated system ready for system testing.[1]
