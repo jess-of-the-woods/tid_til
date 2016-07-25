@@ -6,6 +6,8 @@
 - budo
 ([budo-playground](https://github.com/jess-of-the-woods/budo-playground))
 - reading about liveReload, source maps
+- types of function invocation & 'this'
+- codekit & preprocessing (SASS etc.)
 
 ### 22 July
 - cleaned up deployment notes
