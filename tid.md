@@ -2,6 +2,11 @@
 
 ## today i did..
 
+### 25 July
+- budo
+([budo-playground](https://github.com/jess-of-the-woods/budo-playground))
+- reading about liveReload, source maps
+
 ### 22 July
 - cleaned up deployment notes
 - cleaned up hashtag-web package.json scripts, (add postinstall, start-dev) & debugged deployment (see commits), bundle.js in .gitignore, delete bundle
