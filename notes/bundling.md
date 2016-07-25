@@ -24,6 +24,7 @@ Example scripts:
 see also **watchify / hbsfy**
 
 ### budo
+a browserify server for rapid prototyping ([npm page](https://www.npmjs.com/package/budo))
 ```json
 "start": "budo . -d --serve bundle.js --live"
 ```
