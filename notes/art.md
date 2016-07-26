@@ -42,7 +42,7 @@ an API for controlling the GPU, based on OpenGL ES (which is OpenGL for mobile) 
 - Andrew Huang 'Solipsist' video
 - [Iris Van Herpen](http://www.irisvanherpen.com/home) (fashion design)    
 - [Tony Parisi](https://tonyparisi.wordpress.com/) Virtual Reality
-
+- [Loris Cecchini](http://www.juxtapoz.com/news/loris-cecchini-s-wallwave-vibrations/)
 
 
 ### Glossary
