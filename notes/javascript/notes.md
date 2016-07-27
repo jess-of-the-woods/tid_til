@@ -61,6 +61,11 @@ then:
 ```javascript
 myAge = 34 // definition/initialisation of 'myAge' to '34'
 ```
+You can also declare a bunch of variables at once like:
+```javascript
+var x, y, z;
+```
+
 #### string.replace() method
 Takes string name, specifies the value within the string to be changed out, then specifies the value to be swapped in.
 ```javascript
