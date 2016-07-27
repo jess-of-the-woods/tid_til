@@ -36,21 +36,31 @@
 - Numbers e.g. `4`, `10`
 - Booleans e.g. `false`, `5 > 4`
 - Arrays e.g. `[23, bool1, {height: 154}, "stuff"]`
-- Objects  e.g. `{
-  music: 'excellent',
+- Objects  e.g.
+
+```javascript
+var magrudergrind = {
+  quality: 'excellent',
   genre: 'noise'
-  }`
+}
+```
 
 ### Variables
 Also referred to as a scalar. Only variables declared with keyword `var` inside functions with have 'localness'. Avoid global variables if possible.
 
-Declare a variable and initialize it to a value:
+Declare a variable and initialize (define) it to a value:
 ```javascript
 var myAge = 34;
 var myCountry = "Aotearoa"
 ```
-The first part `var myAge` is a variable declaration, while the 2nd part `= 34` is a variable definition.
-
+The first part `var myAge` is a variable declaration, while the 2nd part `= 34` is a variable definition. These can be done separately e.g.
+```javascript
+var myAge // declaration of the variable 'myAge'
+```
+then:
+```javascript
+myAge = 34 // definition/initialisation of 'myAge' to '34'
+```
 #### string.replace() method
 Takes string name, specifies the value within the string to be changed out, then specifies the value to be swapped in.
 ```javascript

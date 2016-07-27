@@ -17,7 +17,7 @@ function woo() {
 }
 ```
 
-#### Another named function
+Another named function
 ```javascript
 function triple(x) {
   return x * 3
@@ -49,10 +49,33 @@ foodDemand("Mashed Potatoes!")
 // I want to eat Mashed Potatoes!
 ```
 
-The functions above are actually anonymous functions (a function without a name).
+The functions above are actually anonymous functions (functions without names).
 
 Functions stored in variables do not need function names. They are always invoked (called) using the variable name.
-This way of declaring functions is actually anonymous, although the anonymous function is stored in a variable.
+
+---
+
+Functions are values. You can create an anonymous function and assign it to a variable.
+
+e.g.
+```javascript
+var triple = function(x) {
+  return x * 3
+}
+```
+Just like any variable we can pass it around.. e.g.
+
+e.g.
+```javascript
+var triple = function(x) {
+  return x * 3
+}
+
+var waffle = triple
+
+waffle(30)
+// -> 90
+```
 
 #### Anonymous function
 ```javascript
@@ -76,4 +99,4 @@ var newNumber = timesTwo(8)
 console.log(newNumber);
 ```
 
-See also hoisting in [JavaScript notes](notes.md)
+See also hoisting in [JavaScript notes](notes.md) | [functional programming](../functional.md)

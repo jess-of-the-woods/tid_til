@@ -1,4 +1,4 @@
-[notes](notes.md) | [to learn](toLearn.md)
+[notes](notes.md) | [to learn](toLearn.md) | [JavaScript](javascript/notes.md)
 
 ## functional programming
 - [Higher-order functions](#higher-order-functions)
@@ -12,13 +12,11 @@
 - [Modules](#modules)
 - [Links](#links)
 
----
 
 -  All of your functions must accept at least one argument.
 -  All of your functions must return data or another function.
 -  No loops!
 
----
 
 ### Higher-order function
 A function which takes another function as its argument (a callback)
@@ -37,49 +35,22 @@ A function which takes another function as its argument (a callback)
 - Higher-order Function is another name for a Callback function
 - Passing a function as an argument is called a Callback
 - A callback function is a function that is passed as an argument to another function and is invoked after some kind of event.
-- Functions that are passed into other functions as arguments/values are called callback function b/c the host function calls back to them
+- Functions that are passed into other functions as arguments/values are called callback functions because the host function calls back to them.
 
 ### Closures
 are functions that refer to independent (free) variables. In other words, the function defined in the closure 'remembers' the environment in which it was created.
-
----
-
-Functions are values. You can create an anonymous function and assign it to a variable.
-
-e.g.
-```javascript
-var triple = function(x) {
-  return x * 3
-}
-```
-Just like any variable we can pass it around.. e.g.
-
-e.g.
-```javascript
-var triple = function(x) {
-  return x * 3
-}
-
-var waffle = triple
-
-waffle(30)
-// -> 90
-```
----
 
 ### Map
 is a method on the array object. It returns all objects in the array, but transformed in a way specified by the callback function (the function which is passed to it as an argument).
 
 #### Basic map
-
 ```javascript
 function doubleAll(numbers) {
   var result = numbers.map(function(number){
     return number * 2;
   })
-    return result;
+  return result;
 }
-
 
 module.exports = doubleAll
 ```
@@ -121,30 +92,28 @@ var totalAmount = orders.reduce(function(sum, order) {
 }, 0 )
 ```
 
----
-
 ### Uppercaser function
 ```javascript
- module.exports = function(input) {
-      return input.toUpperCase()
-    }
+function(input) {
+  return input.toUpperCase()
+}
 ```
 
 ### Recursion
-(functional?)
+(functional?)~~~~~~~~~~~~~~~~~
 
 ```javascript
 function factorial(n) {
-    if (n < 0) {
-        return;
-    } //termination condition
+  if (n < 0) {
+      return;
+  } //termination condition
 
-    if (n === 0) {
-        return 1;
-    } //base case
+  if (n === 0) {
+      return 1;
+  } //base case
 
-    return n * factorial(n - 1)  
-    //recursive case
+  return n * factorial(n - 1)  
+  //recursive case
 }
 
 factorial(4);
@@ -161,4 +130,4 @@ factorial(4);
 - [Higher-order functions - Part 1 of Functional Programming in JS ( MPJ )](https://www.youtube.com/watch?v=BMUiFMZr7vk&list=PL0zVEGEvSaeEd9hlmCXrk5yUyqUag-n84)
 - [Callbacks & higher-order functions](http://www.niluk.co/blog/post/callbacks-and-higher-order-functions-in-javascript) - (Not Async)
 
-See also [asynchronous](async.md) | [JavaScript](javascript/notes.md) | [node.js](javascript/node.md)
+See also [asynchronous](async.md) | [JavaScript functions](javascript/functions.md) | [node.js](javascript/node.md)
