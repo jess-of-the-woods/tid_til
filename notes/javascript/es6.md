@@ -1,4 +1,4 @@
-[JavaScript](javascript/notes.md)
+[JavaScript](notes.md)
 
 ### ES6 / ECMAScript 2015
 
@@ -9,6 +9,7 @@ ES6 is a significant update to the JavaScript language, and the first update to 
 - yield keyword
 - destructuring
 - arrow functions
+- var, let, const
 
 ### Babel
 Babel transforms ES6 code into readable and standards-compliant ES5 code that can be executed by JavaScript engines that haven't implemented ES6.

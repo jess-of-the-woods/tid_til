@@ -11,7 +11,7 @@
 - [Variables](#variables)
 - [Arrays](#arrays)
 - [Objects](#objects)
-- [Functions](#functions)
+- [Functions](functions.md)
 - [modulo](#modulo)
 - [Comments](#comments)
 - [Selectors](#selectors)
@@ -211,50 +211,6 @@ else {
 }
 ```
 
-### Functions
-This way of declaring functions is actually anonymous, although the anonymous function is stored in a variable.
-
-```javascript
-var foodDemand = function(food) {
-    console.log("I want to eat" + " " + food);
-}
-
-foodDemand("Mashed Potatoes!!! Fuck Yea!")
-```
-#### Function declaration notation:
-This is a named function
-```javascript
-function woo() {
-    console.log("Yea");
-}
-```
-
-#### Another named function
-```javascript
-function triple(x) {
-    return x * 3
-}
-```
-#### Anonymous function
-```javascript
-function( data ) {
-    x = 56;
-    data = data + x
-    return data
-}
-```
-### Return keyword
-Parameter is a number, and we do math with that parameter
-```javascript
-var timesTwo = function(number) {
-    return number * 2;
-}
-```
-this calls timesTwo function and assigns output to new variable (newNumber), then prints newNumber to console
-```javascript
-var newNumber = timesTwo(8)
-console.log(newNumber);
-```
 ---
 
 ### Modulo
