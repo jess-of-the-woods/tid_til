@@ -44,11 +44,12 @@
 ### Variables
 Also referred to as a scalar. Only variables declared with keyword `var` inside functions with have 'localness'. Avoid global variables if possible.
 
-Declare a variable and initialize it to a value :
+Declare a variable and initialize it to a value:
 ```javascript
 var myAge = 34;
 var myCountry = "Aotearoa"
 ```
+The first part `var myAge` is a variable declaration, while the 2nd part `= 34` is a variable definition.
 
 #### string.replace() method
 Takes string name, specifies the value within the string to be changed out, then specifies the value to be swapped in.
@@ -279,9 +280,14 @@ So the 'true' boolean in the event listener means capturing. 'False' means bubbl
 ---
 ### Scope
 Each local scope can also see all the local scopes that contain it. JavaScript only has local & global scope. It doesn't have block scope. Functions are the only things that create local scope. All variables from blocks around a function’s definition are visible—meaning both those in function bodies that enclose it and those at the top level of the program.
+
 ### Hoisting
 When you declare and initialize a variable below other code that has the same scope, its as if the variable is being declared at the top of the code and then initialised later.
-Function definitions are also hoisted, that is they are parsed before other code and therefore are available to be called before they are declared
+Function declarations are also hoisted, that is they are parsed before other code and therefore are available to be called before they are declared
+
+Hoisting is JavaScript's default behavior of moving declarations to the top of the current scope.
+
+Hoisting applies to variable declarations and to function declarations.
 
 ---
 ### Debugging
