@@ -3,12 +3,69 @@
 ## CSS - Cascading Style Sheets
 **[Flexbox](flexbox.md)** | **[SASS](SASS.md)**
 
-
-
+- [Basic Selectors](#basic-selectors)
+- [The Cascade](#the-cascade)
+- [Comments](#comments)
 - [Pseudo-Elements](#pseudo-elements)
 - [Pseudo-classes](#pseudo-classes)
+- [nth-child](#nth-child)
 - [Font-stack](#font-stack)
 - [Layout](#layout)
+
+### Basic Selectors
+
+```css
+body {                /* selects the body tag */
+    background: red;  /* applies a red background */
+}
+
+h1 {
+    font: Arial;
+    color: #555;
+}
+
+```
+
+### Classes
+Classes are more specific than selecting tags. Many tags can share a class per page. Classes are represented by a `.`
+
+```css
+/* main.css */
+.className {
+    color: #555;
+}
+```
+```html
+<!-- index.html -->
+<p class='className'>Some text</p>
+<p class='className'>Yea yea yea</p>
+```
+
+### ID's
+Id should exist only once per page for each id name. Typically nav. More specific than classes. Faster for browser to load. ID's are represented by a `#`
+
+```css
+/* main.css */
+#special {
+  font: Helvetica;
+}
+```
+```html
+<!-- index.html -->
+<div id="special"></div>
+```
+
+### The Cascade
+If a rule comes after a similar rule, the latter rule overrides the first rule.
+
+More specific rules override less specific. Specificity rule
+
+margin/padding: 4 values = top, bottom, left, right. or if just two values: top-bottom & left-right
+
+### Comments
+```css
+/* comment */  
+```
 
 ### Pseudo-Elements
 ([w3schools](http://www.w3schools.com/css/css_pseudo_elements.asp))
