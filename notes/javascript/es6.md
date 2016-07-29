@@ -11,6 +11,13 @@ ES6 is a significant update to the JavaScript language, and the first update to 
 - arrow functions
 - var, let, const
 
+### let
+A new way to declare & define variables i.e.
+```javascript
+let i = 10 // instead of var i = 10
+```
+Introduces block scope. let is scoped to blocks, such as for loops, if statements etc.
+
 ### Babel
 Babel transforms ES6 code into readable and standards-compliant ES5 code that can be executed by JavaScript engines that haven't implemented ES6.
 

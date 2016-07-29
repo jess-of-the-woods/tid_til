@@ -24,7 +24,7 @@ function triple(x) {
 }
 ```
 
-#### Immediately Invoked Function Expression (IIFE)
+#### Immediately Invoked Function Expression (IIFE) or 'Self-Invoking'
 ```javascript
 ;(function tripler(num){
   return num * 3
@@ -68,6 +68,7 @@ Just like any variable we can pass it around.. e.g.
 e.g.
 ```javascript
 var triple = function(x) {
+  console.log(arguments.length);
   return x * 3
 }
 
@@ -98,5 +99,23 @@ this calls timesTwo function and assigns output to the new variable `newNumber`,
 var newNumber = timesTwo(8)
 console.log(newNumber);
 ```
+
+### Functions are Objects
+
+JavaScript functions have both properties & methods.
+
+The arguments.length property returns the number of arguments received when the function was invoked:
+
+```javascript
+function myFunction(a, b) {
+    return arguments.length;
+}
+```
+
+```javascript
+type of function // function
+```
+---
+
 
 See also hoisting in [JavaScript notes](notes.md) | [functional programming](../functional.md)

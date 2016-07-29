@@ -2,6 +2,12 @@
 
 ## today i did..
 
+## 28 July
+- minimize mutable state, let, const, hoisting, mutability, variable reassignment
+- function definition, expression.
+- Immediately Invoked Function Expressions
+-
+
 ### 25 July
 - budo
 ([budo-playground](https://github.com/jess-of-the-woods/budo-playground))

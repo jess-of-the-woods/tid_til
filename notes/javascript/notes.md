@@ -65,6 +65,12 @@ You can also declare a bunch of variables at once like:
 ```javascript
 var x, y, z;
 ```
+or declare and initialize all at once:
+```javascript
+var variable1 = "Hello World!",
+    variable2 = "Testing...",
+    variable3 = 42;
+```
 
 #### string.replace() method
 Takes string name, specifies the value within the string to be changed out, then specifies the value to be swapped in.
