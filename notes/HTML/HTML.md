@@ -7,23 +7,7 @@ Element includes opening,  attributes and their values, content & closing tags (
 e.g.
 
 ```html
-<a href="http://www.duckduckgo.com"></a>
-```
-
-
-```html
-<!doctype html>
-
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page title (goes in the tab on the browser)</title>
-  </head>
-<body>
-</body
-</html>
+<a href="http://www.duckduckgo.com">DuckDuckGo</a>
 ```
 
 ### Forms
