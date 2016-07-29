@@ -4,6 +4,8 @@
 **[Flexbox](flexbox.md)** | **[SASS](SASS.md)**
 
 - [Basic Selectors](#basic-selectors)
+- [Classes](#classes)
+- [ID's](#id's)
 - [The Cascade](#the-cascade)
 - [Comments](#comments)
 - [Pseudo-Elements](#pseudo-elements)
@@ -60,7 +62,6 @@ If a rule comes after a similar rule, the latter rule overrides the first rule.
 
 More specific rules override less specific. Specificity rule
 
-margin/padding: 4 values = top, bottom, left, right. or if just two values: top-bottom & left-right
 
 ### Comments
 ```css
@@ -141,7 +142,11 @@ A font stack is a list of fonts in a CSS font-family declaration. The fonts are 
 ## Layout
 HTML elements have default display types. e.g. divs have block type, therefore are displayed across the whole width of the page. span elements are inline, therefore are displayed inline.
 
-### Float
+#### Spacing
+margin/padding: 4 values = top, bottom, left, right. Or if just two values: top-bottom & left-right
+
+
+#### Float
 clear - Specifies on which sides of an element where floating elements are not allowed to float
 
 float -	Specifies whether or not an element should float
