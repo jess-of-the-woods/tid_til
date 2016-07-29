@@ -5,7 +5,7 @@
 
 - [Basic Selectors](#basic-selectors)
 - [Classes](#classes)
-- [ID's](#id's)
+- [ID's](#ids)
 - [The Cascade](#the-cascade)
 - [Comments](#comments)
 - [Pseudo-Elements](#pseudo-elements)
@@ -13,6 +13,7 @@
 - [nth-child](#nth-child)
 - [Font-stack](#font-stack)
 - [Layout](#layout)
+- [Links](#links)
 
 ### Basic Selectors
 
@@ -33,14 +34,14 @@ Classes are more specific than selecting tags. Many tags can share a class per p
 
 ```css
 /* main.css */
-.className {
+.potatoes {
     color: #555;
 }
 ```
 ```html
 <!-- index.html -->
-<p class='className'>Some text</p>
-<p class='className'>Yea yea yea</p>
+<p class='potatoes'>Some text</p>
+<p class='potatoes'>Yea yea yea</p>
 ```
 
 ### ID's

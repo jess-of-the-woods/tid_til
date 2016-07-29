@@ -3,6 +3,13 @@
 ## HTML
 **[HTML5](HTML5.md)**
 
+- [Forms](#forms)
+- [Span](#span)
+- [Comments](#comments)
+- [CSS Link](#css-link)
+- [Metadata Tags](#metadata-tags)
+
+
 Element includes opening,  attributes and their values, content & closing tags (sometimes self-closing)
 e.g.
 
@@ -40,16 +47,6 @@ e.g.
 ```html
 <meta name="description" content="free web tutorials">
 ```
-
-### Elements
-element includes opening, attributes & their values, content & closing tags (sometimes self-closing)
-
----
-
-### HTML5 canvas
-Canvas element is a part of HTML5 and allows for dynamic, scriptable rendering of 2D shapes and bitmap images
-
-[HTML5 Canvas](https://www.udacity.com/course/html5-canvas--ud292) (Udacity Course) | [Canvas Tutorial](https://www.youtube.com/watch?v=FaOYjLl9dZg&list=PLftmDuo1-PWLCoCQmXM_e57bYRHjVg0pp&index=5).. (up to part 5) canvas2.html
 
 ---
 
