@@ -5,22 +5,30 @@
 **[terminal](linuxTerminal.md)**
 
 ### Filesystem
+
+`/`: Represents the root directory
+
+`/bin`: Binary (executable) programs & commands available to the user. The location of several commonly used programs
+
 `/etc`: Stores config files for the system.
 
-`/var/log`: Stores log files for various system programs. (You may not have permission to look at everything in this directory. Don't let that stop you exploring though. A few error messages never hurt anyone.)
+`/opt`: Optional. Programs installed by user
 
-`/bin`: The location of several commonly used programs (some of which we will learn about in the rest of this tutorial.
+`/home`: Stores files belonging to each user. In a subdirectory of `/home` e.g. `/home/margaret`
+
+`/var`: Variables. Variable data which changes over time. e.g. mail spools, user databases, log files
+
+`/tmp`: Temporary files
+
+`/var/log`: Stores log files for various system programs.
+
+`/usr`: unix system resources
 
 `/usr/bin`: Another location for programs on the system
 
+### Other
 `r-alt` set as compose key (special characters)
 Ctrl + m minimize
-
-
-PPA - Personal Package Archives
-
-APT - Advanced Package Tool
-
 
 ### Applications
 - Privacy Badger ( browser addon )
@@ -32,6 +40,10 @@ APT - Advanced Package Tool
 gksu gedit /etc/sysctl.conf              (change swappiness)
 
 gksu gedit, in preferences, disable file browser plugin
+
+PPA - Personal Package Archives
+
+APT - Advanced Package Tool
 
 ### Booting
 - MBR
