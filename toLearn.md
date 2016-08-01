@@ -27,7 +27,6 @@
 - ~~try, catch~~ ([w3schools](http://www.w3schools.com/js/js_errors.asp))
 - webpack, budo, gulp (general building/bundling stuff?)
 - return function [JS Functions that Return Functions](https://davidwalsh.name/javascript-functions)
-- ES6 - `let`, `const`,
 - Testing ([notes](notes/testing.md))
 - React, React router, redux ([notes](notes/react/react.md))
 - jQuery event delegation, Listeners
@@ -48,6 +47,7 @@
 - filesystem structure
 - SSH
 - SSH from android
+- tty
 
 ### Other
 - Hotspots in images
