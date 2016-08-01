@@ -3,7 +3,7 @@
 ## Nix Terminal
 - **[Git / Github](git-github.md)**
 - [Terminal Window Keyboard Shortcuts](#terminal-window-shortcuts)
-- [shell scripts](#shell-scripts)
+- [BASH scripts](#bash-scripts)
 - [basic commands](#basic-commands)
 - [ls](#ls)
 - [cd](#cd)
@@ -28,7 +28,7 @@
 - `ctrl pageup` ( `ctrl + fn + up` ): Next tab
 - `ctrl l`: Clear terminal
 
-### Shell scripts
+### BASH scripts
 starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 - `#! /bin/bash`: bash script
 - `#! /usr/bin/env node`: node script
@@ -123,16 +123,17 @@ creates links to files or folders
 
 ### Installing / Uninstalling / Updating / Managing Applications
 
-`sudo apt-get install packagename`: install a package/program
+`sudo apt-get install packagename`: Install a package/program
 
-`sudo apt-get update`: update repo's
+`sudo apt-get remove packagename`: Remove a package/program
 
-`sudo add-apt-repository ppa:numix/ppa`: add repository
+`sudo apt-get update`: Update repo's
 
-`sudo apt-get autoremove`: remove dependencies for programs which are no longer installed
+`sudo add-apt-repository ppa:numix/ppa`: Add repository
 
-`ls /usr/share/applications | awk -F '.desktop' ' { print $1}' - > ~/Desktop/applications.txt`: list of installed applications
+`sudo apt-get autoremove`: Remove dependencies for programs which are no longer installed
 
+`ls /usr/share/applications | awk -F '.desktop' ' { print $1}' - > ~/Desktop/applications.txt`: List of installed applications
 
 ### Piping / Redirection
 `sort deserts.txt | uniq > uniq-deserts.txt`: sort deserts.txt, pipe to `uniq`, redirect to newfile.
