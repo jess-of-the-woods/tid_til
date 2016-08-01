@@ -48,6 +48,9 @@ e.g.
 <meta name="description" content="free web tutorials">
 ```
 
+#### Characters
+`a&#768;`: a&#768;
+
 ---
 
 See Also [CSS](../CSS/CSS.md) | [JavaScript](../javascript/notes.md) | [markdown](../markdown.md) | [XML](../XML.md)

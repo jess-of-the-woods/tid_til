@@ -7,13 +7,16 @@
 ### HTML5 Declaration
 ```html
 <!doctype html>
-
+```
+html5 template:
+```html
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Page title (goes in the tab on the browser)</title>
+    <title></title>
   </head>
 <body>
 </body
@@ -22,19 +25,18 @@
 
 ### New semantic elements
 ```html
-<header>
-<footer>
-<article>
-<section>
+<header></header>
+<footer></footer>
+<article></article>
+<section></section>
 ```
 
 ### New Multimedia elements
 ```html
-<audio>
-<video>
+<audio></audio>
+<video></video>
 ```
 
-`ma&#768;ori`: ma&#768;ori
 
 
-See also
+<!-- See also -->
