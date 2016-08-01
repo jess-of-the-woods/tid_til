@@ -2,9 +2,10 @@
 
 ## Nix Terminal
 - **[Git / Github](git-github.md)**
-- [Terminal Window Keyboard Shortcuts](#terminal-window-shortcuts)
+- [terminal window shortcuts](#terminal-window-shortcuts)
 - [BASH scripts](#bash-scripts)
 - [basic commands](#basic-commands)
+- [system](#system)
 - [ls](#ls)
 - [cd](#cd)
 - [rm](#rm)
@@ -14,9 +15,10 @@
 - [chmod](#chmod)
 - [chown](#chown)
 - [disk usage](#disk-usage)
-- [Installing / Uninstalling / Updating / Managing Applications](#installing-/-uninstalling-/-updating-/-managing-/-applications)
+- [sudo/su](#sudo-su)
+- [managing applications](#installing-/-uninstalling-/-updating-/-managing-/-applications)
 - [piping / redirection](#piping-redirection)
-- [Network Tools](#network-tools)
+- [network Tools](#network-tools)
 - [other](#other)
 
 ### Terminal window shortcuts
@@ -68,8 +70,15 @@ starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 
 `history`: Displays recent commands
 
+`history -c`: Clears history (stored in ~/.bash_history)
+
 `alias | wc -l`: Number of Aliases
 
+### System
+- `tty`: displays the virtual terminal you are using..
+- `whoami`: displays username
+- `who am i`: displays username & terminal you are in.
+- `hostname`: displays hostname (name of computer)
 
 ### ls
 - `ls` - list files (`-l` long form, `-a` hidden files & directories, `-t` sort by time modified)
@@ -121,6 +130,11 @@ creates links to files or folders
 - `baobab`
 - `du -hs ./path/to/dir` ( du = disk usage, h = human-readable, s = summary ) recursive summary of folder & subfolders..
 
+### sudo / su
+`su`: superuser. Typing `su` followed by root account password (if it has been set up), will log in as superuser/root user. To exit type `exit`.
+
+`sudo` will just allow you superuser access for a single command.. e.g. `sudo apt-get install wine`. This is safer. The OS will remember your password for 15 minutes. If you haven't set up root account & password, you can log in as superuser with `sudo su` using just your user password.
+
 ### Installing / Uninstalling / Updating / Managing Applications
 
 `sudo apt-get install packagename`: Install a package/program
@@ -145,27 +159,24 @@ creates links to files or folders
 - `traceroute`: shows path to the destination IP
 - `dig`: domain info groper, translates domains to ip addresses
 - `iftop`: displays a table of bandwidth usage by hosts
-- `whoami`: displays username
-- `hostname`: displays hostname (name of computer)
 - `nm-tool`: Network Manager Tool (Network Information)
 - `ssh`: secure shell, 'ssh user@192.x.x.x'
 - `lspci | grep Net`: info about Network Cards (wired & wireless)
 - `lsusb`: info about USB devices connected etc.
 
-
 ----
 
 ### Other
-`~/.bash_profile` (bash profile, used to store environment settings for terminal (source ~/.bash_profile activates changes))
-
-` ~` (tilde) represents users home directory eg. `/home/user`, can use in paths e.g. `~/Documents/` is the same as `/home/user/Documents`
-
 `$` represents prompt?
-
-'alias' is another name for keyboard shortcut in the terminal, defined in .bashrc or .zshrc etc as `alias tek="cd ~Documents/tech"`
 
 `.`: represents current directory
 
-`..`: represents parent directory, `cd ..`: change to parent dir
+`..`: represents parent directory, `cd ..`: change to parent directory
+
+` ~`: (tilde) represents users home directory eg. `/home/user`, can use in relative paths e.g. `~/Documents/` is the same as `/home/user/Documents`
+
+`~/.bash_profile`: used to store environment settings for terminal (source ~/.bash_profile activates changes))
+
+'alias' is another name for keyboard shortcut in the terminal, defined in .bashrc or .zshrc etc as `alias tek="cd ~Documents/tech"`
 
 `|` (pipe) pipes output of one command to another
