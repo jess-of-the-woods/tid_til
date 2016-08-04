@@ -11,8 +11,8 @@
 - [Variables](#variables)
 - [Arrays](#arrays)
 - [Objects](#objects)
+- [Math](math.md)
 - [Functions](functions.md)
-- [modulo](#modulo)
 - [Comments](#comments)
 - [Selectors](#selectors)
 - [Events](#events)
@@ -114,8 +114,6 @@ e.g.
 console.log(typeof objName);
 ```
 
----
-
 ### Arrays
 - Lists of data
 - Heterogeneous: Different data types (strings, integers, booleans)
@@ -154,7 +152,7 @@ for (i = 0; i < languages.length; i++) {
     console.log(languages[i]);
 }
 ```
----
+
 ### Objects
 A JavaScript object is a collection of named values
 Like a noun & a verb together. Information & Functions in the same place.
@@ -233,13 +231,6 @@ else {
 }
 ```
 
----
-
-### Modulo
-`23%10` = 23 divided by 10 = 2 and a remainder of 3
-
----
-
 ### Comments
 
 **Single-line**
@@ -255,7 +246,6 @@ comment
 comment comment */
 ```
 
----
 ### Selectors
 [caniuse.com](caniuse.com) - browser compatibility
 ```javascript
