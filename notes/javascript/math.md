@@ -26,6 +26,12 @@ Math.floor(9.99); // 9
 Math.floor(1 + 0.5); // 1
 Math.floor(Math.random() * X + 1); // Returns a random number between 1 and X
 ```
+Return a whole number between 0 & 10:
+```javascript
+Math.floor(Math.random() * 11)
+```
+
+
 
 ### pow
 
