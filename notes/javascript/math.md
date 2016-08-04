@@ -1,6 +1,6 @@
-[JavaScript](notes.md)
+[JavaScript](notes.md) | [maths](../math.md)
 
-## Math
+## JavaScript Math
 
 ### Random numbers
 
@@ -29,9 +29,15 @@ Math.floor(Math.random() * X + 1); // Returns a random number between 1 and X
 Return a whole number between 0 & 10:
 ```javascript
 Math.floor(Math.random() * 11)
+
 ```
 
-
+How does this work?
+`Math.floor(Math.random() * 5 + 1);`
+First we use Math.random() to create a random number from 0 up to 1. For example, 0.5
+Then we multiply by 5 to make the random number from 0 up to 5. For example, 0.5 * 5 = 2.5    
+Next we use Math.floor() to round down to a whole number. For example, Math.floor( 2.5 ) = 2
+Finally we add 1 to change the range from between 0 and 4 to between 1 and 5 (up to and including 5)
 
 ### pow
 
