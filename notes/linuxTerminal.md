@@ -3,7 +3,6 @@
 ## Nix Terminal
 - **[Git / Github](git-github.md)**
 - [terminal window shortcuts](#terminal-window-shortcuts)
-- [BASH scripts](#bash-scripts)
 - [basic commands](#basic-commands)
 - [system](#system)
 - [ls](#ls)
@@ -18,6 +17,7 @@
 - [sudo/su](#sudo-su)
 - [managing applications](#installing-/-uninstalling-/-updating-/-managing-/-applications)
 - [piping / redirection](#piping-redirection)
+- [BASH scripts](#bash-scripts)
 - [network Tools](#network-tools)
 - [SSH](#ssh.md)
 - [other](#other)
@@ -31,14 +31,6 @@
 - `ctrl pageup` ( `ctrl + fn + up` ): Next tab
 - `ctrl l`: Clear terminal
 
-### BASH scripts
-starts with hashbang (`#!`) & reference to thing that runs the script e.g.
-- `#! /bin/bash`: bash script
-- `#! /usr/bin/env node`: node script
-
-- [Beginners Bash Scripting](https://help.ubuntu.com/community/Beginners/BashScripting)
-
----
 
 `ls -la | grep bash | sort nk1 > testfile`: ?
 
@@ -75,7 +67,21 @@ starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 
 `alias | wc -l`: Number of Aliases
 
+`find ~/Downloads theFileImLookingFor`: Finds files/directories.
+
+
 ### System
+- `$`: represents prompt?
+- `.`: represents current directory
+- `..`: represents parent directory, `cd ..`: change to parent directory
+- ` ~`: (tilde) represents users home directory eg. `/home/user`, can use in relative paths e.g. `~/Documents/` is the same as `/home/user/Documents`
+- `~/.bash_profile`: used to store environment settings for terminal (source ~/.bash_profile activates changes))
+- 'alias' is another name for keyboard shortcut in the terminal, defined in .bashrc or .zshrc etc as `alias tek="cd ~Documents/tech"`
+### Piping / Redirection
+- `|` (pipe) pipes output of one command to another (see basic commands)
+e.g. `sort deserts.txt | uniq > uniq-deserts.txt`: sort deserts.txt, pipe to `uniq`, redirect to newfile.
+
+#### 'System' Commands:
 - `tty`: displays the virtual terminal you are using..
 - `whoami`: displays username
 - `who am i`: displays username & terminal you are in.
@@ -152,8 +158,15 @@ creates links to files or folders
 
 `ls /usr/share/applications | awk -F '.desktop' ' { print $1}' - > ~/Desktop/applications.txt`: List of installed applications
 
-### Piping / Redirection
-`sort deserts.txt | uniq > uniq-deserts.txt`: sort deserts.txt, pipe to `uniq`, redirect to newfile.
+
+### BASH scripts
+starts with hashbang (`#!`) & reference to thing that runs the script e.g.
+- `#! /bin/bash`: bash script
+- `#! /usr/bin/env node`: node script
+
+- [Beginners Bash Scripting](https://help.ubuntu.com/community/Beginners/BashScripting)
+
+---
 
 ### Network tools
 - `ifconfig`: configure a network interface [(x)](http://net-tools.sourceforge.net/man/ifconfig.8.html)
@@ -175,18 +188,7 @@ syntax:
 
 ssh [ip address] e.g. `ssh 123.45.67.78`
 
+### SSH Keys
 
-### Other
-`$` represents prompt?
 
-`.`: represents current directory
-
-`..`: represents parent directory, `cd ..`: change to parent directory
-
-` ~`: (tilde) represents users home directory eg. `/home/user`, can use in relative paths e.g. `~/Documents/` is the same as `/home/user/Documents`
-
-`~/.bash_profile`: used to store environment settings for terminal (source ~/.bash_profile activates changes))
-
-'alias' is another name for keyboard shortcut in the terminal, defined in .bashrc or .zshrc etc as `alias tek="cd ~Documents/tech"`
-
-`|` (pipe) pipes output of one command to another
+`find / -name sshd_config`
