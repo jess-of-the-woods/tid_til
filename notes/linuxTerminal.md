@@ -71,15 +71,34 @@
 
 
 ### System
-- `$`: represents prompt?
+- 'man': manual pages. Use like: `man ls` or `man uniq` for manual pages on the ls or uniq commands
+- help. to get help on a command type like: `ls --help`
+- `$`: represents prompt in BASH?
 - `.`: represents current directory
 - `..`: represents parent directory, `cd ..`: change to parent directory
 - ` ~`: (tilde) represents users home directory eg. `/home/user`, can use in relative paths e.g. `~/Documents/` is the same as `/home/user/Documents`
 - `~/.bash_profile`: used to store environment settings for terminal (source ~/.bash_profile activates changes))
-- 'alias' is another name for keyboard shortcut in the terminal, defined in .bashrc or .zshrc etc as `alias tek="cd ~Documents/tech"`
-### Piping / Redirection
-- `|` (pipe) pipes output of one command to another (see basic commands)
-e.g. `sort deserts.txt | uniq > uniq-deserts.txt`: sort deserts.txt, pipe to `uniq`, redirect to newfile.
+- 'alias' is another name for keyboard shortcut in the terminal, defined in .bashrc or .zshrc etc as
+
+`alias tek="cd ~Documents/tech"`
+
+#### Piping / Redirection
+`|` (pipe) pipes output of one command to another (see basic commands)
+
+Syntax:
+
+`sort deserts.txt | uniq > uniq-deserts.txt`
+
+sort deserts.txt, pipe to `uniq`, redirect to newfile.
+
+#### Redirect
+
+`>`
+
+Syntax:
+
+`cat filename > otherFilename`
+
 
 #### 'System' Commands:
 - `tty`: displays the virtual terminal you are using..
@@ -189,6 +208,9 @@ syntax:
 ssh [ip address] e.g. `ssh 123.45.67.78`
 
 ### SSH Keys
-
+`ssh-keygen -t rsa`: to generate keys. t for type
 
 `find / -name sshd_config`
+
+- [How SSH Works](https://www.youtube.com/watch?v=zlv9dI-9g1U)
+- [Setting up SSH Keys](https://www.youtube.com/watch?v=-J9wUW5NhOQ) - YouTube
