@@ -122,6 +122,8 @@ creates links to files or folders
 - `chmod +x`: adds execution rights
 - `chmod -x`: removes execution rights
 
+`chmod 644 filename` or `chmod 777 filename`
+
 ### chown
 'change owner' or group of object
 
