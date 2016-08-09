@@ -19,6 +19,7 @@
 - [managing applications](#installing-/-uninstalling-/-updating-/-managing-/-applications)
 - [piping / redirection](#piping-redirection)
 - [network Tools](#network-tools)
+- [SSH](#ssh.md)
 - [other](#other)
 
 ### Terminal window shortcuts
@@ -165,6 +166,13 @@ creates links to files or folders
 - `lsusb`: info about USB devices connected etc.
 
 ----
+
+##SSH - Secure Shell
+
+syntax:
+
+ssh [ip address] e.g. `ssh 123.45.67.78`
+
 
 ### Other
 `$` represents prompt?

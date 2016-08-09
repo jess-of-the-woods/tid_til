@@ -5,7 +5,7 @@
   <img src="https://raw.githubusercontent.com/gmetais/YellowLabTools/master/doc/img/npm-logo.png" width="300">
 </a>
 
-**[Express.js](express.md)** | **[Knex](knex.md)** | **[React.js](../react/react.md)**
+**[Express.js](express.md)** | **[ghost](ghost.md)** | **[Knex](knex.md)** | **[React.js](../react/react.md)**
 
 looks at package.json which records dependencies
 
