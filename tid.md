@@ -2,8 +2,11 @@
 
 ## today i did..
 
-<!-- ### xxxx
-- xxxx -->
+### 10 August
+- Domain Name System
+
+### 9 August
+- SSH, SSH Keys, Digital Ocean, Ghost (theming)
 
 ### 28 July
 - minimize mutable state, let, const, hoisting, mutability, variable reassignment

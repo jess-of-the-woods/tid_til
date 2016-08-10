@@ -9,20 +9,17 @@
 - [cd](#cd)
 - [rm](#rm)
 - [ln](#ln)
-- [grep](#grep)
-- [sed](#sed)
-- [chmod](#chmod)
-- [chown](#chown)
+- [grep](#grep), [sed](#sed)
+- [chmod](#chmod), [chown](#chown)
 - [disk usage](#disk-usage)
-- [sudo/su](#sudo-su)
+- [sudo & su](#sudo-su)
 - [managing applications](#installing-/-uninstalling-/-updating-/-managing-/-applications)
 - [piping / redirection](#piping-redirection)
 - [BASH scripts](#bash-scripts)
 - [network Tools](#network-tools)
 - [SSH](#ssh.md)
-- [other](#other)
 
-### Terminal window shortcuts
+### terminal window shortcuts
 - `ctrl alt t`: Open terminal window
 - `ctrl shift t`: Open new tab
 - `ctrl shift n`: Open new window
@@ -34,7 +31,7 @@
 
 `ls -la | grep bash | sort nk1 > testfile`: ?
 
-### Basic commands
+### basic commands
 `pwd`: Print Working Directory
 
 `clear`: clear screen (also ctrl + l)
@@ -82,7 +79,7 @@
 
 `alias tek="cd ~Documents/tech"`
 
-#### Piping / Redirection
+#### piping / redirection
 `|` (pipe) pipes output of one command to another (see basic commands)
 
 Syntax:
@@ -91,8 +88,7 @@ Syntax:
 
 sort deserts.txt, pipe to `uniq`, redirect to newfile.
 
-#### Redirect
-
+#### redirect output to file
 `>`
 
 Syntax:
@@ -163,7 +159,7 @@ creates links to files or folders
 
 `sudo` will just allow you superuser access for a single command.. e.g. `sudo apt-get install wine`. This is safer. The OS will remember your password for 15 minutes. If you haven't set up root account & password, you can log in as superuser with `sudo su` using just your user password.
 
-### Installing / Uninstalling / Updating / Managing Applications
+### installing / uninstalling / updating / managing applications
 
 `sudo apt-get install packagename`: Install a package/program
 
@@ -185,29 +181,26 @@ starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 
 - [Beginners Bash Scripting](https://help.ubuntu.com/community/Beginners/BashScripting)
 
----
-
-### Network tools
+### network tools
 - `ifconfig`: configure a network interface [(x)](http://net-tools.sourceforge.net/man/ifconfig.8.html)
 - `ping 8.8.8.8`: time to return answer
 - `whois`: gets info on domain names or IP's
 - `traceroute`: shows path to the destination IP
-- `dig`: domain info groper, translates domains to ip addresses
+- `dig`: domain info groper, translates domains to IP addresses
 - `iftop`: displays a table of bandwidth usage by hosts
 - `nm-tool`: Network Manager Tool (Network Information)
-- `ssh`: secure shell, 'ssh user@192.x.x.x'
 - `lspci | grep Net`: info about Network Cards (wired & wireless)
 - `lsusb`: info about USB devices connected etc.
+- `wget`: web get, download a file from an address like: `wget locationToFile`
 
-----
-
-##SSH - Secure Shell
+#### SSH - Secure Shell
 
 syntax:
 
 ssh [ip address] e.g. `ssh 123.45.67.78`
+- `ssh`: secure shell, 'ssh user@192.x.x.x'
 
-### SSH Keys
+##### SSH Keys
 `ssh-keygen -t rsa`: to generate keys. t for type
 
 `find / -name sshd_config`
