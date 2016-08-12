@@ -215,7 +215,11 @@ delete a file and run rsync again, and it only copies the one missing file
 
 
 ##### SSH Keys
-`ssh-keygen -t rsa`: to generate keys. t for type
+`ssh-keygen -t rsa`: to generate keys. '-t' for type
+
+can either use a passphrase or not
+
+`ssh -C 'email@email.com'`: '-C' is a comment
 
 `find / -name sshd_config`
 
