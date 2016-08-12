@@ -197,8 +197,22 @@ starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 
 syntax:
 
-ssh [ip address] e.g. `ssh 123.45.67.78`
-- `ssh`: secure shell, 'ssh user@192.x.x.x'
+ssh [user]@[ip address]
+
+e.g.
+
+`ssh user@192.x.x.x` or `ssh user@mydomain.com`
+
+`exit`: to logout
+
+**rsync**
+
+copy all of the files in this directory to the /home/will/newapp directory
+
+`rsync -av . will@domain.com:~/newapp`
+
+delete a file and run rsync again, and it only copies the one missing file
+
 
 ##### SSH Keys
 `ssh-keygen -t rsa`: to generate keys. t for type
