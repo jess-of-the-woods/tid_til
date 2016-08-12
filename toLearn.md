@@ -2,29 +2,35 @@
 
 ## to learn
 
+[Web Development mindmap 2016/2017](https://coggle.it/diagram/Vz9LvW8byvN0I38x) - learncode.academy
+
 - **[questions](questions.md)**
+
+## TOC
+- [general](#general)
+- [CSS](#css)
+- [JavaScript](#javascript)
+- [linux](#linux)
+- [other](#other)
+- [art](#art)
+- [git/github](#git-github)
+
+### general
 - Functional Programming ([notes](notes/functional.md))
-- Class, Constructors
-- Closures, Factory functions, Constructors, Classes, Prototypes
-- DOM, DOM Manipulation
 - Matrices?
-- SSH
-- streams, I/O, sockets
 - webRTC
 - Media type (MIME type)
 - Data type ([Wiki](https://en.wikipedia.org/wiki/Data_type))
 - Elm
-
-### Git / Github  ([notes](notes/git-github.md))
-- tag
-- refs, HEAD
 
 ### CSS
 - SASS ([notes](notes/CSS/SASS.md))
 - Flexbox ([notes](notes/CSS/flexbox.md))
 
 ### JavaScript ([notes](notes/javascript/notes.md))
+- Closures, Factory functions, Constructors, Classes, Prototypes
 - ~~try, catch~~ ([w3schools](http://www.w3schools.com/js/js_errors.asp))
+- DOM, DOM Manipulation
 - webpack, budo, gulp (general building/bundling stuff?)
 - return function [JS Functions that Return Functions](https://davidwalsh.name/javascript-functions)
 - Testing ([notes](notes/testing.md))
@@ -34,24 +40,20 @@
 - Express.js:  partials, middleware.. ([notes](notes/javascript/express.md))
 
 ### node.js / NPM basics ([notes](notes/javascript/node.md))
+- streams, I/O, sockets
 - fsWriteFile
 - superagent
 - fs ( file system ) fsReadFile, fsWriteFile (node core)
 - inu
-- OAuth
+- OAuth2
 
 ### Linux ([notes](notes/linux.md))
 - Mount points
 - Device nodes
 - How to determine filesystem of removable media?
 - filesystem structure
-- SSH
 - SSH from android
 - tty
-
-### Other
-- Hotspots in images
-
 
 ## art ([notes](notes/art.md))
 - data visualisation ([notes](notes/dataVisualisation.md))
@@ -64,3 +66,10 @@
 - three.js ([notes](notes/javascript/node.md))
 - webGL
 - user interfaces ([notes](notes/UI.md))
+
+### Git / Github  ([notes](notes/git-github.md))
+- tag
+- refs, HEAD
+
+### Other
+- Hotspots in images
