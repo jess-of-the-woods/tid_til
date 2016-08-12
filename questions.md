@@ -2,6 +2,7 @@
 
 ## questions
 
+- What is ORM? (Object relational modelling?)
 - What is Backbone.js?
 - data definition language(DDL), data modelling language(DML), (control language?)
 - constructors

@@ -11,9 +11,9 @@
 - [CSS](#css)
 - [JavaScript](#javascript)
 - [linux](#linux)
-- [other](#other)
 - [art](#art)
 - [git/github](#git-github)
+- [other](#other)
 
 ### general
 - Functional Programming ([notes](notes/functional.md))
