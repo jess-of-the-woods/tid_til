@@ -31,14 +31,24 @@ Node offers easy way to do aysnchronous processing. Follows 'common.js' pattern
 
 `which node` finds path of node install
 
-
-### fs (file system module)
+### fs (file system) module 
 part of 'core node'
 ```javascript
 var fs = require('fs')
 var output = fs.readFileSync('data.txt', 'utf8')
 ```
 utf8 is character encoding.. converts from buffer i.e. (b4 7v 3g....) to readable data
+
+### http module
+```javascript
+var http = require('http')
+var server = http.createServer(function(req, res){
+
+})
+server.listen(3000)
+
+```
+
 
 ### Modules & Exports / Requires
 
