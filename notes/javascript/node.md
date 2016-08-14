@@ -5,6 +5,12 @@
 
 **[NPM](npm.md)**
 
+JavaScript had previously just run in the browser, but node takes google Chrome's V8 js engine and lets you run code on your computer.. (in command line).
+- Access the files on your computer
+- Listen to network traffic
+- Listen to HTTP requests
+- Access databases directly
+
 Node offers easy way to do aysnchronous processing. Follows 'common.js' pattern
 
 #### Three parts
@@ -26,12 +32,61 @@ Node offers easy way to do aysnchronous processing. Follows 'common.js' pattern
 `which node` finds path of node install
 
 
-### fs ( file system module )
+### fs (file system module)
+part of 'core node'
 ```javascript
 var fs = require('fs')
 var output = fs.readFileSync('data.txt', 'utf8')
 ```
 utf8 is character encoding.. converts from buffer i.e. (b4 7v 3g....) to readable data
+
+### Modules & Exports / Requires
+
+```javascript
+//module1
+var m2 = require('./module2')
+m2()
+
+```
+```javascript
+// module2
+module.exports = function(){
+  console.log('I\'m module 2!');
+}
+// or
+function a(){
+  console.log('I\'m module 2!');
+}
+module.exports = a
+
+
+```
+or
+```javascript
+
+//module1
+console.log(m2);
+console.log(typeof m2);
+
+```
+
+```javascript
+// module2
+var a = 1
+module.exports.a = a
+module.exports.b = 2
+
+//or
+
+exports.a = a // this will export {a: 1}, type: object
+
+// or
+
+module.exports = a // this will export 1 (type: number)
+
+```
+
+To execute a function exported inside an object: `objectName.functionName()`
 
 ---
 
