@@ -4,7 +4,7 @@
 
 **[terminal](linuxTerminal.md)**
 
-### Filesystem
+### Filesystem Locations
 
 `/`: Represents the root directory
 
@@ -27,15 +27,7 @@
 `/usr/bin`: Another location for programs on the system
 
 ### Other
-- `r-alt` set as compose key (special characters)
-
 - Ctrl + m minimize
-
-### Applications
-- Privacy Badger ( browser addon )
-- k4dirstat
-- deborphan, gtkorphan
-- preload: make faster, adaptive readahead daemon
 
 ### GKSu
 GKSu is a library that provides a Gtk+ frontend to su and sudo. It supports login shells and preserving environment when acting as a su frontend. It is useful to menu items or other graphical programs that need to ask a user's password to run another program as another user.
