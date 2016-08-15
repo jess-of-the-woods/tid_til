@@ -118,4 +118,4 @@ type of function // function
 ---
 
 
-See also hoisting in [JavaScript notes](notes.md) | [functional programming](../functional.md)
+See also hoisting in [JavaScript notes](notes.md) | [objects](objects.md) | [functional programming](../functional.md)
