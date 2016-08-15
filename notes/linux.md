@@ -16,6 +16,8 @@
 
 `/home`: Stores files belonging to each user. In a subdirectory of `/home` e.g. `/home/margaret`
 
+`/mnt`: Where new devices such as USB drives will be mounted
+
 `/var`: Variables. Variable data which changes over time. e.g. mail spools, user databases, log files
 
 `/tmp`: Temporary files

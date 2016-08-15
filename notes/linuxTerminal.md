@@ -101,6 +101,12 @@ Syntax:
 - `whoami`: displays username
 - `who am i`: displays username & terminal you are in.
 - `hostname`: displays hostname (name of computer)
+- `uname`: print system information. `uname -a` prints all
+- `service udev status`: Check if 'udev' service is running (on older machines)
+- `systemctl status udev`: Check if 'udev' service is running (on newer machines)
+- `ps aux | grep nginx`: check CPU usage for a process (nginx)
+- `top`: check CPU usage for a processes
+
 
 ### ls
 - `ls` - list files (`-l` long form, `-a` hidden files & directories, `-t` sort by time modified)
@@ -149,10 +155,10 @@ creates links to files or folders
 'change owner' or group of object
 
 ### Disk Usage
-- `df -h`
-- `lsblk`
-- `baobab`
+- `df -ah` `-a`: all, `-h`: human-readable
 - `du -hs ./path/to/dir` ( du = disk usage, h = human-readable, s = summary ) recursive summary of folder & subfolders..
+- `lsblk`: list info about block devices
+- `baobab`: open disk usage analyser
 
 ### sudo / su
 `su`: superuser. Typing `su` followed by root account password (if it has been set up), will log in as superuser/root user. To exit type `exit`.
@@ -183,6 +189,7 @@ starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 
 ### network tools
 - `ifconfig`: configure a network interface [(x)](http://net-tools.sourceforge.net/man/ifconfig.8.html)
+- `ip addr show`: display network info, similar to ifconfig
 - `ping 8.8.8.8`: time to return answer
 - `whois`: gets info on domain names or IP's
 - `traceroute`: shows path to the destination IP
@@ -192,6 +199,7 @@ starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 - `lspci | grep Net`: info about Network Cards (wired & wireless)
 - `lsusb`: info about USB devices connected etc.
 - `wget`: web get, download a file from an address like: `wget locationToFile`
+- `netstat -tulpn`: check for open ports. run as root with `sudo netstat -tulpn` for process id's & program names
 
 #### SSH - Secure Shell
 
