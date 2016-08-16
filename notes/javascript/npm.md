@@ -13,7 +13,8 @@ looks at package.json which records dependencies
 - `npm i moduleName`: Installs module(s)
 - `npm i moduleName --save`: Installs module(s) & save in package.json
 - `npm i moduleName -D` or `npm i moduleName --save-dev`: Installs module(s) & saves in package.json in 'devDependencies'
-- `npm -g ls`: Prints list of all globally installed modules
+- `npm -g ls` or `npm list -g`: Prints list of all globally installed modules
+- `npm list -g | grep express`: List global modules, pipe to grep & search for moduleName (express)
 - `npm -g ls --depth=0`
 - `npm uninstall moduleName --save`: Uninstalls module & deletes reference in package.json
 
