@@ -34,10 +34,24 @@ a browserify server for rapid prototyping ([npm page](https://www.npmjs.com/pack
 
 ### webpack
 
+install globally with `npm i webpack -g`
+
+run with `webpack`
+
+webpack.config.js
+
+options include watch (for file changes) `webpack --watch`
+
+#### webpack-dev-server
+There is also 'webpack-dev-server', hot-reloads changes. Doesn't build file. Needs to be installed globally as a separate module.
+
+checkout localhost:8080/webpack-dev-server
+
 ---
 
 See also [deployment](deployment.md) | [npm](javascript/npm.md)
 
+- npm scripts
 - Task runners...? (Grunt, Gulp),
 - Live Reload?
 - uglifyify
@@ -46,3 +60,4 @@ See also [deployment](deployment.md) | [npm](javascript/npm.md)
 ### Links
 - [Getting started with Browserify](https://www.youtube.com/watch?v=CTAa8IcQh1U) - YouTube
 - [Beginner’s guide to Webpack](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.anh3ggrrl)
+- Asynchronous Module Definition [Why AMD](http://requirejs.org/docs/whyamd.html) |  [Wiki](https://en.wikipedia.org/wiki/Asynchronous_module_definition)
