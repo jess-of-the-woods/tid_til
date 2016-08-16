@@ -45,3 +45,4 @@ See also [deployment](deployment.md) | [npm](javascript/npm.md)
 
 ### Links
 - [Getting started with Browserify](https://www.youtube.com/watch?v=CTAa8IcQh1U) - YouTube
+- [Beginner’s guide to Webpack](https://medium.com/@dabit3/beginner-s-guide-to-webpack-b1f1a3638460#.anh3ggrrl)
