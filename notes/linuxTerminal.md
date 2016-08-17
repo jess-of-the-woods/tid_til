@@ -16,8 +16,8 @@
 - [managing applications](#installing-/-uninstalling-/-updating-/-managing-/-applications)
 - [piping / redirection](#piping-redirection)
 - [BASH scripts](#bash-scripts)
-- [network Tools](#network-tools)
-- [SSH](#ssh.md)
+- [network tools](#network-tools)
+- [SSH](#ssh)
 
 ### terminal window shortcuts
 - `ctrl alt t`: Open terminal window
