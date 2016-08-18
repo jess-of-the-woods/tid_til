@@ -16,8 +16,38 @@ A new way to declare & define variables i.e.
 ```javascript
 let i = 10 // instead of var i = 10
 ```
-Introduces block scope. let is scoped to blocks, such as for loops, if statements etc.
+Introduces block scope. let is scoped to blocks, such as for loops, if statements etc.. i.e. anything between two curly braces.
 
+### const
+A new type of variable which can not be reassigned.
+
+```javascript
+const x = {coffee: 'yum'}
+console.log(x); //
+```
+You can
+Common use cases include port numbers in node apps, API keys for 3rd party API's, things like `const pi = 3.14 ` etc.
+
+### Arrow Functions
+
+```javascript
+// es5 code
+var createGreeting = function (message, name) {
+  return message + name;
+}
+```
+
+```javascript
+// equivalent done with ES6 arrow function
+var arrowGreeting = (message, name) => {
+  return message + name
+};
+```
+You don't have to include the return keyword when you don't have braces. Also if there is only one argument to the function, you need need parentheses surrounding the args.
+
+```javascript
+var arrowGreeting = name => name;
+```
 ### Babel
 Babel transforms ES6 code into readable and standards-compliant ES5 code that can be executed by JavaScript engines that haven't implemented ES6.
 
