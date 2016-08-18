@@ -14,24 +14,27 @@ JavaScript had previously just run in the browser, but node takes google Chrome'
 Node offers easy way to do aysnchronous processing. Follows 'common.js' pattern
 
 #### Three parts
-- REPL ( type `node` in terminal to enter REPL )
+- REPL
 - Server/Package Manager ([NPM](npm.md))
 - Runner ( e.g. `node fileName` to run a file with node.js runner)
 
-'fs' & 'path' are core node modules
+'fs', 'path' & others are core node modules
+
+### node REPL
+type `node` in terminal (with no arguments) to enter REPL
+- `.save fileName.js`: saves the session as a file
+- `.load fileName.js`: loads a session from a file
+- `.help`: displays available commands
+- 'ctrl + c' to exit
 
 ### Commands
-`node fileName`: to run a file with Node runner
+- `node fileName`: to run a file with Node runner
+- `node -v` or `node --version`: To see if Node is installed, tells you version number
+- `npm -v`: To see if NPM is installed, tells you version number
+- `node --help`: Help
+- `which node` finds path of node install
 
-`node -v` or `node --version`: To see if Node is installed, tells you version number
-
-`npm -v`: To see if NPM is installed, tells you version number
-
-`node --help`: Help
-
-`which node` finds path of node install
-
-### fs (file system) module 
+### fs (file system) module
 part of 'core node'
 ```javascript
 var fs = require('fs')
