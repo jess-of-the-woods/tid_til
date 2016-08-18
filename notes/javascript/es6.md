@@ -48,6 +48,11 @@ You don't have to include the return keyword when you don't have braces. Also if
 ```javascript
 var arrowGreeting = name => name;
 ```
+
+```javascript
+var squared = x => x * x;
+```
+
 ### Babel
 Babel transforms ES6 code into readable and standards-compliant ES5 code that can be executed by JavaScript engines that haven't implemented ES6.
 
