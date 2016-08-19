@@ -79,6 +79,8 @@
 
 `alias tek="cd ~Documents/tech"`
 
+'ctrl + r': reverse search. ctrl + r, then start typing a command you have used recently & it will come up, then press enter. preferable to having to retype long commands again & again.
+
 #### piping / redirection
 `|` (pipe) pipes output of one command to another (see basic commands)
 
@@ -234,3 +236,8 @@ can either use a passphrase or not
 
 - [How SSH Works](https://www.youtube.com/watch?v=zlv9dI-9g1U)
 - [Setting up SSH Keys](https://www.youtube.com/watch?v=-J9wUW5NhOQ) - YouTube
+
+### tmux (terminal multiplexer)
+- `tmux`  to enter tmux
+- `ctrl + b` then `?` for help (list commands)
+- `exit`: to exit
