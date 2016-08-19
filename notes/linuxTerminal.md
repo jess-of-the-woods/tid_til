@@ -153,6 +153,7 @@ creates links to files or folders
 
 ### chown
 'change owner' or group of object
+- `chown -R ghost:ghost .` chown recursively, group: ghost, user:ghost, `.` is current dir
 
 ### Disk Usage
 - `df -ah` `-a`: all, `-h`: human-readable
