@@ -19,17 +19,21 @@
 - [network tools](#network-tools)
 - [SSH](#ssh)
 
-### terminal window shortcuts
-- `ctrl alt t`: Open terminal window
-- `ctrl shift t`: Open new tab
-- `ctrl shift n`: Open new window
-- `ctrl shift w`: Close tab
-- `ctrl shift q`: Close terminal window
-- `ctrl pageup` ( `ctrl + fn + up` ): Next tab
-- `ctrl l`: Clear terminal
+### terminal keyboard shortcuts
+- `ctrl alt t`: open terminal window
+- `ctrl shift t`: open new tab
+- `ctrl shift n`: open new window
+- `ctrl shift w`: close tab
+- `ctrl shift q`: close terminal window
+- `ctrl pageup` ( `ctrl + fn + up` ): next tab
+- `ctrl l`: clear terminal
+- `ctrl + r`: reverse search. ctrl + r, then start typing a command you have used recently & it will come up, then press enter. preferable to having to retype long commands again & again.
+- `ctrl a`: start of line
+- `ctrl e`: end of line
+- `ctrl p`: previous command
+- `ctrl n`: next
 
 
-`ls -la | grep bash | sort nk1 > testfile`: ?
 
 ### basic commands
 `pwd`: Print Working Directory
@@ -54,7 +58,13 @@
 
 `file /user/home/filename.txt`: tells you document type
 
-`less filename`: Output file contents to screen, cf. more
+`less`: Output file contents to screen, e.g. `less filename`. see also 'more'
+
+`more`: prints out file to screen, page by page
+
+`head`: first 10 lines of a file, e.g. `head filename`
+
+`tail`: last 10 lines of a file. also `tail -f filename`: follows a file.. (as it changes over time)
 
 `nano path/filename`: Open file in Nano editor ( ctrl + O to save, ctrl + X to exit )
 
@@ -79,9 +89,14 @@
 
 `alias tek="cd ~Documents/tech"`
 
-'ctrl + r': reverse search. ctrl + r, then start typing a command you have used recently & it will come up, then press enter. preferable to having to retype long commands again & again.
 
-#### piping / redirection
+
+`shutdown` `shutdown -h`: halt/turn off. `shutdown -r +30`: restart in 30 minutes, `shutdown -h now`: turn off now
+
+also `poweroff` or `init 0` do the same
+
+`init 6`: reboot
+
 `|` (pipe) pipes output of one command to another (see basic commands)
 
 Syntax:
