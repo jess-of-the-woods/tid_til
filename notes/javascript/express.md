@@ -23,8 +23,6 @@ In express, `app.use` allows you to use middleware.. i.e. hbs, body-parser, expr
 
 or `express folderName`
 
----
-
 #### Simple server example
 ```javascript
 var express = require ('express')
@@ -38,25 +36,6 @@ app.listen(3000, function){
   console.log('Listening on port 3000!')
 })
 ```
-
-#### CRUD/ REST API's
-Create, Read, Update, Destroy.. See [SQL](../SQL.md)
-
-`POST /tweets`
-
-`GET /tweets`
-
-`GET /tweets/:id`
-
-`PUT /tweets/:id` ( replace whole object )
-
-`PATCH /tweets/:id` ( replace part of object ) `{id: 7, tweet: 'hi', color: 'red'}`
-
-`PUT /tweets/7 {color: 'blue'}` => `{id: 7, color: 'blue'}`
-
-`PATCH /tweets/7 {color: 'blue'}` =>  `{id: 7, tweet: 'hi', color: 'blue'}`
-
-`DELETE /tweets/:id`
 
 #### POST Route using Knex
 ```javascript
@@ -76,7 +55,6 @@ localhost:9000/?age=33&name=will
 
 `console.log(req.query)`
 
----
 
 **if you get port in use error**, e.g. ( Error: listen EADDRINUSE :::3000 )
 
@@ -84,7 +62,7 @@ in terminal: `ps -ax | grep node`
 
 You'll get something like:
 
-60778 ??         0:00.62 /usr/local/bin/node abc.js
+`60778 ??         0:00.62 /usr/local/bin/node abc.js`
 
 Then do: `kill -9 60778`
 

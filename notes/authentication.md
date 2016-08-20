@@ -1,4 +1,4 @@
-[notes](notes.md) | [security](security.md) | [backend](backend.md) | [server-side](server-side.md)
+[notes](notes.md) | [security](security.md) | [server-side](server-side.md)
 
 ## Authentication/Login/Encryption
 

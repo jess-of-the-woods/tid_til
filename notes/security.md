@@ -2,8 +2,8 @@
 
 # Security
 
-**[authentication](auth-encryption.md)**
-<!-- **[authentication](authentication.md)** -->
+<!-- **[authentication](auth-encryption.md)** -->
+**[authentication](authentication.md)**
 
 ## Encryption
 
