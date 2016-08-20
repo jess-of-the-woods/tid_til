@@ -2,6 +2,14 @@
 
 ## today i did..
 
+### 21 August
+- Octets, Binary, Decimal
+- TLS/SSL Handshakes
+- rsync
+- gitlab
+- haroopad
+- 
+
 ### 10 August
 - Domain Name System
 
