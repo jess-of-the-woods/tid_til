@@ -1,14 +1,14 @@
 [notes](notes.md) | [to learn](../toLearn.md)
 
 ## backend
-- [Authentication / Encryption](auth-encryption.md)
-- [Databases](databases.md)
-- [Deployment](deployment.md)
+- [databases](databases.md)
+- [deployment](deployment.md)
 - [HTTP](HTTP.md)
-- [Express](javascript/express.md)
-- [Linux Terminal](linuxTerminal.md)
-- [Node.js](javascript/node.md)
-- [Server-Side](server-side.md)
+- [express.js](javascript/express.md)
+- [linux terminal](linuxTerminal.md)
+- [node.js](javascript/node.md)
+- [security](security.md)
+- [server-side](server-side.md)
 
 ---
 

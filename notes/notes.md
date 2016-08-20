@@ -4,7 +4,6 @@
 
 * [3D](3D.md)
 * [art](art.md)
-* [authentication / encryption](auth-encryption.md)
 * [bundling/building](bundling.md)
 * [CSS](CSS/CSS.md)
 * [databases](databases.md)
@@ -19,6 +18,7 @@
 * [react.js](react/react.md)
 * [resources](resources.md) | [tools](tools.md)
 * [ruby](ruby.md)
+* [security](security.md)
 * [sockets / streams](sockets-streams.md)
 * [testing](testing.md)
 * [user interfaces](UI.md)
