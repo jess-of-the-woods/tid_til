@@ -14,7 +14,9 @@
 - [disk usage](#disk-usage)
 - [sudo & su](#sudo-su)
 - [managing applications](#installing-/-uninstalling-/-updating-/-managing-/-applications)
-- [piping / redirection](#piping-redirection)
+- [rsync](#rsync)
+- [piping](#piping)
+- [redirection](#redirection)
 - [BASH scripts](#bash-scripts)
 - [network tools](#network-tools)
 - [SSH](#ssh)
@@ -96,21 +98,6 @@
 also `poweroff` or `init 0` do the same
 
 `init 6`: reboot
-
-`|` (pipe) pipes output of one command to another (see basic commands)
-
-Syntax:
-
-`sort deserts.txt | uniq > uniq-deserts.txt`
-
-sort deserts.txt, pipe to `uniq`, redirect to newfile.
-
-#### redirect output to file
-`>`
-
-Syntax:
-
-`cat filename > otherFilename`
 
 
 #### 'System' Commands:
@@ -197,6 +184,39 @@ creates links to files or folders
 
 `ls /usr/share/applications | awk -F '.desktop' ' { print $1}' - > ~/Desktop/applications.txt`: List of installed applications
 
+### rsync
+
+copy all of the files in this directory (`.`) to the /home/bananaUser/mango directory (through SSH 'user@domain')
+
+e.g. `rsync -av . root@domain.com:~/mango`
+
+non SSH usage: `rsync --progress --delete -ah source destination`
+
+switches:
+- `a`: archive, preserve file structure etc.
+- `h`: human-readable
+- `v`: verbose
+- `--progress`: show progress
+- `--delete`: delete files in destination to keep dir's sync'd
+
+delete a file and run rsync again, and it only copies the one missing file
+
+### piping
+`|` (pipe) pipes output of one command to another (see basic commands)
+
+Syntax:
+
+`sort deserts.txt | uniq > uniq-deserts.txt`
+
+sort deserts.txt, pipe to `uniq`, redirect to newfile.
+
+### redirection
+redirect output to file
+`>`
+
+Syntax:
+
+`cat filename > otherFilename`
 
 ### BASH scripts
 starts with hashbang (`#!`) & reference to thing that runs the script e.g.
@@ -223,22 +243,13 @@ starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 
 syntax:
 
-ssh [user]@[ip address]
+ssh [user]@[ip address] / [domain]
 
 e.g.
 
 `ssh user@192.x.x.x` or `ssh user@mydomain.com`
 
 `exit`: to logout
-
-**rsync**
-
-copy all of the files in this directory to the /home/will/newapp directory
-
-`rsync -av . will@domain.com:~/newapp`
-
-delete a file and run rsync again, and it only copies the one missing file
-
 
 ##### SSH Keys
 `ssh-keygen -t rsa`: to generate keys. '-t' for type
