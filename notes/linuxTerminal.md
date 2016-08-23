@@ -2,7 +2,7 @@
 
 ## Nix Terminal
 - **[Git / Github](git-github.md)**
-- [terminal window shortcuts](#terminal-keyboard-shortcuts)
+- [terminal keyboard shortcuts](#terminal-keyboard-shortcuts)
 - [basic commands](#basic-commands)
 - [system](#system)
 - [ls](#ls)
@@ -19,7 +19,7 @@
 - [redirection](#redirection)
 - [BASH scripts](#bash-scripts)
 - [network tools](#network-tools)
-- [SSH](#ssh--secure-shell)
+- [SSH](#ssh---secure-shell)
 
 ### terminal keyboard shortcuts
 - `ctrl alt t`: open terminal window
