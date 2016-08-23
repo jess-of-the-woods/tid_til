@@ -20,6 +20,7 @@
 - [BASH scripts](#bash-scripts)
 - [network tools](#network-tools)
 - [SSH](#ssh---secure-shell)
+- [tmux](#tmux-terminal-multiplexer)
 
 ### terminal keyboard shortcuts
 - `ctrl alt t`: open terminal window
@@ -249,6 +250,8 @@ e.g.
 
 `exit`: to logout
 
+- [How SSH Works](https://www.youtube.com/watch?v=zlv9dI-9g1U) - YouTube
+
 ##### SSH Keys
 `ssh-keygen -t rsa`: to generate keys. '-t' for type
 
@@ -258,7 +261,6 @@ can either use a passphrase or not
 
 `find / -name sshd_config`
 
-- [How SSH Works](https://www.youtube.com/watch?v=zlv9dI-9g1U)
 - [Setting up SSH Keys](https://www.youtube.com/watch?v=-J9wUW5NhOQ) - YouTube
 
 ### tmux (terminal multiplexer)
