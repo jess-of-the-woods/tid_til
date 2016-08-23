@@ -2,7 +2,7 @@
 
 ## Nix Terminal
 - **[Git / Github](git-github.md)**
-- [terminal window shortcuts](#terminal-window-shortcuts)
+- [terminal window shortcuts](#terminal-keyboard-shortcuts)
 - [basic commands](#basic-commands)
 - [system](#system)
 - [ls](#ls)
@@ -13,13 +13,13 @@
 - [chmod](#chmod), [chown](#chown)
 - [disk usage](#disk-usage)
 - [sudo & su](#sudo-su)
-- [managing applications](#installing-/-uninstalling-/-updating-/-managing-/-applications)
+- [managing applications](#installing--uninstalling--updating--managing-applications)
 - [rsync](#rsync)
 - [piping](#piping)
 - [redirection](#redirection)
 - [BASH scripts](#bash-scripts)
 - [network tools](#network-tools)
-- [SSH](#ssh)
+- [SSH](#ssh--secure-shell)
 
 ### terminal keyboard shortcuts
 - `ctrl alt t`: open terminal window
@@ -34,8 +34,6 @@
 - `ctrl e`: end of line
 - `ctrl p`: previous command
 - `ctrl n`: next
-
-
 
 ### basic commands
 `pwd`: Print Working Directory
@@ -239,7 +237,7 @@ starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 - `wget`: web get, download a file from an address like: `wget locationToFile`
 - `netstat -tulpn`: check for open ports. run as root with `sudo netstat -tulpn` for process id's & program names
 
-#### SSH - Secure Shell
+### SSH - Secure Shell
 
 syntax:
 
