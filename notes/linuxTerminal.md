@@ -250,7 +250,7 @@ e.g.
 
 `exit`: to logout
 
-- [How SSH Works](https://www.youtube.com/watch?v=zlv9dI-9g1U) - YouTube
+- [How SSH Works](https://www.youtube.com/watch?v=zlv9dI-9g1U) - YouTube (2 mins)
 
 ##### SSH Keys
 `ssh-keygen -t rsa`: to generate keys. '-t' for type
@@ -261,7 +261,7 @@ can either use a passphrase or not
 
 `find / -name sshd_config`
 
-- [Setting up SSH Keys](https://www.youtube.com/watch?v=-J9wUW5NhOQ) - YouTube
+- [Setting up SSH Keys](https://www.youtube.com/watch?v=-J9wUW5NhOQ) - YouTube (14 mins)
 
 ### tmux (terminal multiplexer)
 - `tmux`  to enter tmux
