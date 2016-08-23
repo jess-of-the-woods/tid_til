@@ -10,18 +10,19 @@
 - [general](#general)
 - [CSS](#css)
 - [JavaScript](#javascript)
+- [math](#math)
 - [linux](#linux)
 - [art](#art)
 - [git/github](#git-github)
 - [other](#other)
 
 ### general
-- Functional Programming ([notes](notes/functional.md))
-- Matrices?
-- webRTC
+- Functional Programming ( Elm.. )  ([notes](notes/functional.md))
+- webRTC (Web Real-Time-Communication, API definition drafted by W3C)
 - Media type (MIME type)
 - Data type ([Wiki](https://en.wikipedia.org/wiki/Data_type))
-- Elm
+- Octets, binary
+- Networking (TCP/IP..)
 
 ### CSS
 - SASS ([notes](notes/CSS/SASS.md))
@@ -38,6 +39,10 @@
 - jQuery event delegation, Listeners
 - Ember.js?
 - Express.js:  partials, middleware.. ([notes](notes/javascript/express.md))
+
+### Math ([notes](notes/math.md))
+- Matrices (esp. transformation matrices) used in 3D programming
+
 
 ### node.js / NPM basics ([notes](notes/javascript/node.md))
 - streams, I/O, sockets

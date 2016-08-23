@@ -5,6 +5,10 @@
 ### 23 August
 - rsync
 - git submodules, use forked version of Triangle theme in OTM blog
+- Continuous Integration
+- DevOps
+- webRTC
+- web workers
 
 ### 21 August
 - Octets, Binary, Decimal

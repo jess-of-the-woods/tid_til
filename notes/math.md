@@ -14,7 +14,7 @@
 
 ### Research
 - Notation for large numbers
-- manifolds
+- Manifolds
 
 ### Floating Point Numbers
 
