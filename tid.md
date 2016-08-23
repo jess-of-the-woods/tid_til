@@ -4,6 +4,7 @@
 
 ### 23 August
 - rsync
+- git submodules, use forked version of Triangle theme in OTM blog
 
 ### 21 August
 - Octets, Binary, Decimal
