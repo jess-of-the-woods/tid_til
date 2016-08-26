@@ -9,14 +9,17 @@
 - [cd](#cd)
 - [rm](#rm)
 - [ln](#ln)
-- [grep](#grep), [sed](#sed)
-- [chmod](#chmod), [chown](#chown)
-- [disk usage](#disk-usage)
-- [sudo & su](#sudo-su)
-- [managing applications](#installing--uninstalling--updating--managing-applications)
-- [rsync](#rsync)
+- [outputting](#outputting)
 - [piping](#piping)
 - [redirection](#redirection)
+- [text editors](#text-editors)
+- [grep](#grep), [sed](#sed)
+- [chmod](#chmod), [chown](#chown)
+- [system](#system) (help, aliases, shutdown..)
+- [sudo & su](#sudo-su)
+- [disk usage](#disk-usage)
+- [managing applications](#installing--uninstalling--updating--managing-applications)
+- [rsync](#rsync)
 - [BASH scripts](#bash-scripts)
 - [network tools](#network-tools)
 - [SSH](#ssh---secure-shell)
@@ -36,101 +39,96 @@
 - `ctrl p`: previous command
 - `ctrl n`: next
 
-### basic commands
-`pwd`: Print Working Directory
+## basic commands
+- `pwd`: print working directory
 
-`clear`: clear screen (also ctrl + l)
+- `clear`: clear screen (also ctrl + l)
 
-`mv`: move file(s), source file(s) then destination
+- `mv`: move file(s), source file(s) then destination, e.g. `mv filename ~`
 
-`cp`: copy file(s), source file(s) then destination
+- `cp`: copy file(s), source file(s) then destination
 
-`touch`: creates empty file, `touch stuff.txt`
+- `touch`: creates empty file, `touch stuff.txt`
 
-`wc`: 'Word Count' lines, words, characters, eg. `cat filename | wc`
+- `wc`: 'Word Count' lines, words, characters, eg. `cat filename | wc`
 
-`mkdir`: creates directory, `mkdir dirname`
+- `mkdir`: creates directory, e.g. `mkdir dirname`. `mkdir -p newfolder/child/chilOfChild` creates a path of folders (subfolders)
 
-`cat`: outputs contents of file to terminal, `cat filename`
+- `rmdir`: removes empty directories, e.g. `rmdir dirname`
 
-`sort`: Orders Alphabetically, `sort filename.*` or `cat lakes.txt | sort > sorted_lakes.txt`
+- `sort`: Orders Alphabetically, `sort filename.*` or `cat lakes.txt | sort > sorted_lakes.txt`
 
-`uniq`: filters out adjacent duplicate lines & outputs contents, `uniq filename`
+- `uniq`: filters out adjacent duplicate lines & outputs contents, `uniq filename`
 
-`file /user/home/filename.txt`: tells you document type
+- `file /user/home/filename.txt`: tells you document type
 
-`less`: Output file contents to screen, e.g. `less filename`. see also 'more'
+- `find ~/Downloads theFileImLookingFor`: Finds files/directories.
 
-`more`: prints out file to screen, page by page
-
-`head`: first 10 lines of a file, e.g. `head filename`
-
-`tail`: last 10 lines of a file. also `tail -f filename`: follows a file.. (as it changes over time)
-
-`nano path/filename`: Open file in Nano editor ( ctrl + O to save, ctrl + X to exit )
-
-`history`: Displays recent commands
-
-`history -c`: Clears history (stored in ~/.bash_history)
-
-`alias | wc -l`: Number of Aliases
-
-`find ~/Downloads theFileImLookingFor`: Finds files/directories.
+- `history`: displays recent commands. `history -c`: clears history (stored in `~/.bash_history` or `~/.zsh_history`)
 
 
-### System
-- 'man': manual pages. Use like: `man ls` or `man uniq` for manual pages on the ls or uniq commands
-- help. to get help on a command type like: `ls --help`
-- `$`: represents prompt in BASH?
-- `.`: represents current directory
-- `..`: represents parent directory, `cd ..`: change to parent directory
-- ` ~`: (tilde) represents users home directory eg. `/home/user`, can use in relative paths e.g. `~/Documents/` is the same as `/home/user/Documents`
-- `~/.bash_profile`: used to store environment settings for terminal (source ~/.bash_profile activates changes))
-- 'alias' is another name for keyboard shortcut in the terminal, defined in .bashrc or .zshrc etc as
-
-`alias tek="cd ~Documents/tech"`
-
-
-
-`shutdown` `shutdown -h`: halt/turn off. `shutdown -r +30`: restart in 30 minutes, `shutdown -h now`: turn off now
-
-also `poweroff` or `init 0` do the same
-
-`init 6`: reboot
-
-
-#### 'System' Commands:
-- `tty`: displays the virtual terminal you are using..
-- `whoami`: displays username
-- `who am i`: displays username & terminal you are in.
-- `hostname`: displays hostname (name of computer)
-- `uname`: print system information. `uname -a` prints all
-- `service udev status`: Check if 'udev' service is running (on older machines)
-- `systemctl status udev`: Check if 'udev' service is running (on newer machines)
-- `ps aux | grep nginx`: check CPU usage for a process (nginx)
-- `top`: check CPU usage for a processes
-
-
-### ls
+#### ls
 - `ls` - list files (`-l` long form, `-a` hidden files & directories, `-t` sort by time modified)
 - `ls /bin`: list files/folders in /bin
 
-### cd
+#### cd
 - `cd ../..`: change directory
 - `cd /` goes to root (as does `/`)
 - `cd` goes to home
 
-### rm
+#### rm
 - `rm` ( remove files & directories, -r recursive )
 - `rm -rf dirname`: removes non-empty dir ( recursive & force )
 
-### ln
+#### ln
 creates links to files or folders
 - `ln file1 yea`: creates hard link to file1. link is called yea
 - `ln -s file1 yea`: creates symlink (soft) to file1. If file1 is deleted, link will not work..
 - [more info](http://www.unixtutorial.org/commands/ln/)
 
-### grep
+#### outputting
+- `cat`: outputs contents of file to terminal, `cat filename`
+
+- `less`: Output file contents to screen, e.g. `less filename`. see also 'more'
+
+- `more`: prints out file to screen, page by page
+
+- `head`: first 10 lines of a file, e.g. `head filename`
+
+- `tail`: last 10 lines of a file. also `tail -f filename`: follows a file.. (as it changes over time)
+
+#### piping
+`|` (pipe) pipes output of one command to another (see basic commands)
+
+Syntax:
+
+`sort deserts.txt | uniq > uniq-deserts.txt`
+
+sort deserts.txt, pipe to `uniq`, redirect to newfile.
+
+#### redirection
+redirect output to file
+`>`
+
+Syntax:
+
+- `cat filename > otherFilename`
+- `cat filename >> otherFilename` appends to file (instead of overwriting)
+
+#### standard input/output/error
+- 0 represents stdin
+- 1 represents stdout
+- 2 represents stderr
+
+`ls -alh nonexistentFile 2> error.txt`: redirects error (stderr) returned from listing non-existent file to error.txt
+
+
+#### text editors
+- `nano path/filename`: Open file in Nano editor ( ctrl + O to save, ctrl + X to exit )
+
+- `vi path/filename`: open file in Vim. Vim has 2 modes, esc & i alternate between modes. i is text mode, esc then `:q` then enter to quit. `:wq` to write to file & quit
+
+#### grep
 - 'G'lobal 'Re'gular expression 'P'rint (regex)
 - used to look for line that matches a pattern in files
 - `grep "foo" words.txt` or `grep -i "foo" words.txt` or `grep -R searchterm /home/user/`
@@ -142,11 +140,10 @@ creates links to files or folders
 - `$`: end of line
 - `..cept` finds `accept`, `except`
 
-### sed
+#### sed
 'stream editor', accepts standard input and modifies it based on an expression, before displaying it as output, for filtering & transforming text
 
-
-### chmod
+#### chmod
 'change mode' change the access permissions to file system objects (files and directories).
 - `chmod`: change mode, modify permission string
 - `chmod +x`: adds execution rights
@@ -154,20 +151,53 @@ creates links to files or folders
 
 `chmod 644 filename` or `chmod 777 filename`
 
-### chown
+#### chown
 'change owner' or group of object
 - `chown -R ghost:ghost .` chown recursively, group: ghost, user:ghost, `.` is current dir
 
-### Disk Usage
-- `df -ah` `-a`: all, `-h`: human-readable
-- `du -hs ./path/to/dir` ( du = disk usage, h = human-readable, s = summary ) recursive summary of folder & subfolders..
-- `lsblk`: list info about block devices
-- `baobab`: open disk usage analyser
+## system
+- 'man': manual pages. Use like: `man ls` or `man uniq` for manual pages on the ls or uniq commands
+- help. to get help on a command type `commandName --help`, e.g. `ls --help` for help on ls
+- `$`: represents prompt in BASH
+- `.`: represents current directory
+- `..`: represents parent directory, `cd ..`: change to parent directory
+- ` ~`: (tilde) represents users home directory eg. `/home/user`, can use in relative paths e.g. `~/Documents/` is the same as `/home/user/Documents`
+- `~/.bash_profile`: used to store environment settings for terminal (source ~/.bash_profile activates changes))
+- 'alias' is another name for keyboard shortcut in the terminal, defined in .bashrc or .zshrc etc as
+
+#### 'system' commands
+- `tty`: displays the virtual terminal you are using..
+- `whoami`: displays username
+- `who am i`: displays username & terminal you are in.
+- `hostname`: displays hostname (name of computer)
+- `uname`: print system information. `uname -a` prints all
+- `service udev status`: Check if 'udev' service is running (on older machines)
+- `systemctl status udev`: Check if 'udev' service is running (on newer machines)
+- `ps aux | grep nginx`: check CPU usage for a process (nginx)
+- `top`: check CPU usage for a processes
 
 ### sudo / su
 `su`: superuser. Typing `su` followed by root account password (if it has been set up), will log in as superuser/root user. To exit type `exit`.
 
 `sudo` will just allow you superuser access for a single command.. e.g. `sudo apt-get install wine`. This is safer. The OS will remember your password for 15 minutes. If you haven't set up root account & password, you can log in as superuser with `sudo su` using just your user password.
+
+### disk usage
+- `df -ah` `-a`: all, `-h`: human-readable
+- `du -hs ./path/to/dir` ( `du` = disk usage, `h` = human-readable, `s` = summary ) recursive summary of folder & subfolders..
+- `lsblk`: list info about block devices
+- `baobab`: open disk usage analyser
+
+### aliases
+- `alias tek="cd ~Documents/tech"`
+- `alias | wc -l`: number of aliases
+
+### shutdown
+`shutdown` `shutdown -h`: halt/turn off. `shutdown -r +30`: restart in 30 minutes, `shutdown -h now`: turn off now
+
+also `poweroff` or `init 0` do the same
+
+`init 6`: reboot
+
 
 ### installing / uninstalling / updating / managing applications
 
@@ -200,23 +230,6 @@ switches:
 
 delete a file and run rsync again, and it only copies the one missing file
 
-### piping
-`|` (pipe) pipes output of one command to another (see basic commands)
-
-Syntax:
-
-`sort deserts.txt | uniq > uniq-deserts.txt`
-
-sort deserts.txt, pipe to `uniq`, redirect to newfile.
-
-### redirection
-redirect output to file
-`>`
-
-Syntax:
-
-`cat filename > otherFilename`
-
 ### BASH scripts
 starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 - `#! /bin/bash`: bash script
@@ -236,7 +249,7 @@ starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 - `lspci | grep Net`: info about Network Cards (wired & wireless)
 - `lsusb`: info about USB devices connected etc.
 - `wget`: web get, download a file from an address like: `wget locationToFile`
-- `netstat -tulpn`: check for open ports. run as root with `sudo netstat -tulpn` for process id's & program names
+- `netstat -tulpn`: check for open ports. run as root with `sudo netstat -tulpn` for process id's & program names `t`: tcp, `u`: udp, `p`: programs attached to those ports, `l`: listening ports, `n`: listed numerically
 
 ### SSH - Secure Shell
 
