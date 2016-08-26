@@ -98,22 +98,32 @@ creates links to files or folders
 - `tail`: last 10 lines of a file. also `tail -f filename`: follows a file.. (as it changes over time)
 
 #### piping
-`|` (pipe) pipes output of one command to another (see basic commands)
+`|` (pipe) pipes output (stdout / 1) of one command to the input (stdin / 0) of another (see basic commands for other examples)
 
 Syntax:
+
+`ps aux | grep nginx`: check CPU usage for a process (nginx)
 
 `sort deserts.txt | uniq > uniq-deserts.txt`
 
 sort deserts.txt, pipe to `uniq`, redirect to newfile.
 
+
 #### redirection
-redirect output to file
+redirect output of a command to a file
+
 `>`
 
 Syntax:
-
 - `cat filename > otherFilename`: outputs contents of filename to otherFilename (overwrites anything in otherFilename)
-- `cat filename >> otherFilename` appends to file (instead of overwriting)
+- `cat filename >> otherFilename`: append to file (instead of overwriting)
+
+redirect output of a file to the input of a command
+
+`<`
+
+Syntax:
+- `prog1 < file.txt`
 
 #### standard input/output/error
 - 0 represents stdin
@@ -122,6 +132,22 @@ Syntax:
 
 `ls -alh nonexistentFile 2> error.txt`: redirects error (stderr) returned from listing non-existent file to error.txt
 
+#### cut
+if we have a file, file1.txt which contains:
+```
+user:we
+user:love
+user:linux
+```
+
+we can run `cat file1.txt | cut -d: -f2` which will output
+
+```
+we
+love
+linux
+```
+`-d`: delimiter, `-f2`: second field
 
 #### text editors
 - `nano path/filename`: Open file in Nano editor ( ctrl + O to save, ctrl + X to exit )
@@ -173,6 +199,7 @@ Syntax:
 - `uname`: print system information. `uname -a` prints all
 - `service udev status`: Check if 'udev' service is running (on older machines)
 - `systemctl status udev`: Check if 'udev' service is running (on newer machines)
+- `ps aux`: report snapshot of current processes. `a`: all, `u`: convert userid's to usernames, `x`: show processes not attached to a terminal (tty)
 - `ps aux | grep nginx`: check CPU usage for a process (nginx)
 - `top`: check CPU usage for a processes
 - `w`: shows who is logged in & what they are doing
