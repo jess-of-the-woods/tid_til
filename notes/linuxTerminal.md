@@ -20,10 +20,10 @@
 - [disk usage](#disk-usage)
 - [managing applications](#installing--uninstalling--updating--managing-applications)
 - [rsync](#rsync)
-- [BASH scripts](#bash-scripts)
 - [network tools](#network-tools)
 - [SSH](#ssh---secure-shell)
 - [tmux](#tmux-terminal-multiplexer)
+- [BASH scripts](#bash-scripts)
 
 ### terminal keyboard shortcuts
 - `ctrl alt t`: open terminal window
@@ -112,7 +112,7 @@ redirect output to file
 
 Syntax:
 
-- `cat filename > otherFilename`
+- `cat filename > otherFilename`: outputs contents of filename to otherFilename (overwrites anything in otherFilename)
 - `cat filename >> otherFilename` appends to file (instead of overwriting)
 
 #### standard input/output/error
@@ -126,7 +126,7 @@ Syntax:
 #### text editors
 - `nano path/filename`: Open file in Nano editor ( ctrl + O to save, ctrl + X to exit )
 
-- `vi path/filename`: open file in Vim. Vim has 2 modes, esc & i alternate between modes. i is text mode, esc then `:q` then enter to quit. `:wq` to write to file & quit
+- `vi path/filename`: open file in Vim. Vim has 2 modes, 'esc' & 'i' alternate between modes. i is text mode, esc then `:q` then enter to quit. `:wq` to write to file & quit
 
 #### grep
 - 'G'lobal 'Re'gular expression 'P'rint (regex)
@@ -165,7 +165,7 @@ Syntax:
 - `~/.bash_profile`: used to store environment settings for terminal (source ~/.bash_profile activates changes))
 - 'alias' is another name for keyboard shortcut in the terminal, defined in .bashrc or .zshrc etc as
 
-#### 'system' commands
+### system commands
 - `tty`: displays the virtual terminal you are using..
 - `whoami`: displays username
 - `who am i`: displays username & terminal you are in.
@@ -175,6 +175,7 @@ Syntax:
 - `systemctl status udev`: Check if 'udev' service is running (on newer machines)
 - `ps aux | grep nginx`: check CPU usage for a process (nginx)
 - `top`: check CPU usage for a processes
+- `w`: shows who is logged in & what they are doing
 
 ### sudo / su
 `su`: superuser. Typing `su` followed by root account password (if it has been set up), will log in as superuser/root user. To exit type `exit`.
@@ -198,7 +199,6 @@ also `poweroff` or `init 0` do the same
 
 `init 6`: reboot
 
-
 ### installing / uninstalling / updating / managing applications
 
 `sudo apt-get install packagename`: Install a package/program
@@ -214,14 +214,15 @@ also `poweroff` or `init 0` do the same
 `ls /usr/share/applications | awk -F '.desktop' ' { print $1}' - > ~/Desktop/applications.txt`: List of installed applications
 
 ### rsync
+file copying tool (remote & local)
 
-copy all of the files in this directory (`.`) to the /home/bananaUser/mango directory (through SSH 'user@domain')
+e.g.
 
-e.g. `rsync -av . root@domain.com:~/mango`
+`rsync -av . root@domain.com:~/mango`: copy all of the files in this directory (`.`) to the /home/bananaUser/mango directory (through SSH 'user@domain')
 
-non SSH usage: `rsync --progress --delete -ah source destination`
+`rsync --progress --delete -ah source destination`: non-SSH usage
 
-switches:
+**switches:**
 - `a`: archive, preserve file structure etc.
 - `h`: human-readable
 - `v`: verbose
@@ -229,13 +230,6 @@ switches:
 - `--delete`: delete files in destination to keep dir's sync'd
 
 delete a file and run rsync again, and it only copies the one missing file
-
-### BASH scripts
-starts with hashbang (`#!`) & reference to thing that runs the script e.g.
-- `#! /bin/bash`: bash script
-- `#! /usr/bin/env node`: node script
-
-- [Beginners Bash Scripting](https://help.ubuntu.com/community/Beginners/BashScripting)
 
 ### network tools
 - `ifconfig`: configure a network interface [(x)](http://net-tools.sourceforge.net/man/ifconfig.8.html)
@@ -249,13 +243,13 @@ starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 - `lspci | grep Net`: info about Network Cards (wired & wireless)
 - `lsusb`: info about USB devices connected etc.
 - `wget`: web get, download a file from an address like: `wget locationToFile`
-- `netstat -tulpn`: check for open ports. run as root with `sudo netstat -tulpn` for process id's & program names `t`: tcp, `u`: udp, `p`: programs attached to those ports, `l`: listening ports, `n`: listed numerically
+- `netstat -tulpn`: check for open ports. run as root with `sudo netstat -tulpn` for process id's & program names. `t`: TCP, `u`: UDP, `p`: programs attached to those ports, `l`: listening ports, `n`: listed numerically
 
-### SSH - Secure Shell
+### SSH - secure shell
 
 syntax:
 
-ssh [user]@[ip address] / [domain]
+`ssh [user]@[ip address]` / `ssh [user]@[domain]`
 
 e.g.
 
@@ -280,3 +274,10 @@ can either use a passphrase or not
 - `tmux`  to enter tmux
 - `ctrl + b` then `?` for help (list commands)
 - `exit`: to exit
+
+### BASH scripts
+starts with hashbang (`#!`) & reference to thing that runs the script e.g.
+- `#! /bin/bash`: bash script
+- `#! /usr/bin/env node`: node script
+
+- [Beginners Bash Scripting](https://help.ubuntu.com/community/Beginners/BashScripting)
