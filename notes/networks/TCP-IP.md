@@ -21,13 +21,13 @@ The Subnet Mask is a dot-separated string of four octets, just like the I.P. Add
 e.g.
 
 | `192.168.56.99` |
-| -- | -- |
+| -- |
 | `255.255.0.0` |
 
-we can see that the first two octets of the IP, `192.168` are the network, & the `56.99` is the host
+we can see that the first two octets of the IP, `192.168` are the network portion, & the `56.99` is the host portion
 
-| Subnet Mask | Binary |
-|--|--|
+| Subnet Mask | Binary | On's & Off's |
+|--|--|--|
 | 255.0.0.0 | 11111111.00000000.00000000.00000000 | or 8 on & 24 off |
 | 255.255.0.0| 11111111.11111111.00000000.00000000 | or 16 on & 16 off |
 | 255.255.255.0| 11111111.11111111.11111111.00000000 | or 24 on & 8 off

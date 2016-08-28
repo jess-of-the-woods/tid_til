@@ -5,6 +5,7 @@
 **[JavaScript Math](javascript/math.md)**
 
 - [research](#research)
+- [binary notation](#binary-notation)
 - [floating point numbers](#floating-point0numbers)
 - [division](#division)
 - [power](#power)
