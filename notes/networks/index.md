@@ -1,13 +1,8 @@
 [notes](../notes.md) | [backend](../backend.md)
 
 ## Networks
-
-- [HTTP](HTTP.md)
 - [sockets / streams](../sockets-streams.md)
-
-IP address is divided up into 4 octets
-
-each number between the dots is between 0 and 255
+- [TCP/IP](TCP-IP.md)
 
 ---
 
