@@ -26,6 +26,15 @@ e.g.
 
 we can see that the first two octets of the IP, `192.168` are the network, & the `56.99` is the host
 
+| Subnet Mask | Binary |
+|--|--|
+| 255.0.0.0 | 11111111.00000000.00000000.00000000 | or 8 on & 24 off |
+| 255.255.0.0| 11111111.11111111.00000000.00000000 | or 16 on & 16 off |
+| 255.255.255.0| 11111111.11111111.11111111.00000000 | or 24 on & 8 off
+
+
+A subnet mask of `255.255.255.0` can be expressed as `192.168.15.3/24` because there are 24 switches on.
+
 ---
 
 See also [math](../math.md)
