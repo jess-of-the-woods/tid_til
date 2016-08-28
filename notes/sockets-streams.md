@@ -12,4 +12,4 @@ pub/sub - publish / subscribe
 fun fun functions MPJ (on streams)
 
 
-See also .. chat, [node](javascript/node.md)
+See also .. chat, [node.js](javascript/node.md)

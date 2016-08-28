@@ -11,7 +11,6 @@
 * [deployment](deployment.md)
 * [Git / GitHub](git-github.md)
 * [HTML](HTML/HTML.md)
-* [HTTP](HTTP.md)
 * [JavaScript](javascript/notes.md) | [node.js](javascript/node.md)
 * [linux](linux.md)
 * [math](math.md)
