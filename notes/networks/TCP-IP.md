@@ -13,7 +13,7 @@ Divided up into 4 octets e.g.
 each number between the dots is between 0 and 255 as that is the highest number that can be expressed by an octet
 
 
-The I.P. Address is separated into two sections, the network section & the host section.
+The I.P. Address is separated into two sections, the network section & the host section. The network section is the 'address' of the network while the host section is the number of an individual computer. This is analogous to a street name & house number.
 
 ### Subnet Mask
 The Subnet Mask is a dot-separated string of four octets, just like the I.P. Address. If we draw am imaginary line through the subnet mask between the last 255 from the left and the first zero, this shows us which part of the matching I.P. address is the network section & which is the host section.

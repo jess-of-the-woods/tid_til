@@ -2,6 +2,9 @@
 
 ## today i did..
 
+### 28 August
+- IP Adresses, Subnet Masks, Binary notation, TCP/IP
+
 ### 23 August
 - rsync
 - git submodules, use forked version of Triangle theme in OTM blog

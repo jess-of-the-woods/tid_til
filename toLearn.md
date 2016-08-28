@@ -21,8 +21,7 @@
 - webRTC (Web Real-Time-Communication, API definition drafted by W3C)
 - Media type (MIME type)
 - Data type ([Wiki](https://en.wikipedia.org/wiki/Data_type))
-- Octets, binary
-- Networking (TCP/IP.., subnets, DHCP, NAT (network address translation))
+- Networking (TCP/IP.., DHCP, NAT (network address translation))
 
 ### CSS
 - SASS ([notes](notes/CSS/SASS.md))
