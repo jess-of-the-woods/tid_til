@@ -1,4 +1,4 @@
-[notes](../notes.md) | [asynchronous](../async.md) | [JavaScript](notes.md) | [backend](../backend.md)
+[asynchronous](../async.md) | [JavaScript](notes.md) | [backend](../backend.md)
 
 ## Node.js
 <a href='https://nodejs.org/en/'><img src="https://nodejs.org/static/images/logos/nodejs-new-pantone-black.png" height="120" width="200"></a>
@@ -109,4 +109,4 @@ To execute a function exported inside an object: `objectName.functionName()`
 - [Understanding module.exports and exports in Node.js](https://www.sitepoint.com/understanding-module-exports-exports-node-js/)
 - [Learn Node.js with Brigadier Fluffykins Part I: Sync, Async, and Creating Your First Server!](https://medium.freecodecamp.com/learn-node-js-with-brigadier-fluffykins-i-basics-async-sync-create-your-first-server-b9e54a45e108#.x7dcs09wk)
 
-See also [bundling](../bundling.md) | [functional programming](../functional.md)
+See also [bundling](../bundling.md) | [functional programming](../functional.md) | [networks](../networks/index.md)

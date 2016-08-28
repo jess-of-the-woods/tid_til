@@ -1,7 +1,8 @@
-[notes](notes.md) | [backend](backend.md)
+[networks](index.md)
 
 ## Hypertext Transfer Protocol - HTTP
 
+Part of TCP/IP. Uses port 80
 - GET
 - POST
 - PUT
@@ -18,5 +19,5 @@
 
 ---
 
-See also API's | [node.js](node.md)
- | [client-side](client-side.md) | [server-side](server-side.md)
+See also API's | [node.js](../javascript/node.md)
+ | [client-side](../client-side.md) | [server-side](../server-side.md)

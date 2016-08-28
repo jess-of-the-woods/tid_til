@@ -15,6 +15,7 @@
 * [JavaScript](javascript/notes.md) | [node.js](javascript/node.md)
 * [linux](linux.md)
 * [math](math.md)
+* [networks](networks/index.md)
 * [react.js](react/react.md)
 * [resources](resources.md) | [tools](tools.md)
 * [ruby](ruby.md)

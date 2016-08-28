@@ -32,4 +32,4 @@ Create, Read, Update, Destroy.. See [SQL](../SQL.md)
 ### Links
 - http://code-maven.com
 
-See also [asynchronous](async.md) | [client-side](client-side.md) | [HTTP](HTTP.md)
+See also [asynchronous](async.md) | [client-side](client-side.md) | [networks](networks/index.md)

@@ -18,7 +18,7 @@
 - [system](#system) (help, aliases, shutdown..)
 - [sudo & su](#sudo-su)
 - [disk usage](#disk-usage)
-- [managing applications](#installing--uninstalling--updating--managing-applications)
+- [managing applications](#managing-applications)
 - [rsync](#rsync)
 - [network tools](#network-tools)
 - [SSH](#ssh---secure-shell)
@@ -226,19 +226,25 @@ also `poweroff` or `init 0` do the same
 
 `init 6`: reboot
 
-### installing / uninstalling / updating / managing applications
+### managing applications
+installing / uninstalling / updating / upgrading
+- `apt-cache search searchterm`: search repositories for search term (search through package names & descriptions)
 
-`sudo apt-get install packagename`: Install a package/program
+- `sudo apt-get install packagename`: Install a package/program
 
-`sudo apt-get remove packagename`: Remove a package/program
+- `sudo apt-get remove packagename`: Remove a package/program
 
-`sudo apt-get update`: Update repo's
+- `sudo apt-get update`: update repo's (retrieve new lists of packages)
 
-`sudo add-apt-repository ppa:numix/ppa`: Add repository
+- `sudo apt-get upgrade`: install updates
 
-`sudo apt-get autoremove`: Remove dependencies for programs which are no longer installed
+- `sudo add-apt-repository ppa:numix/ppa`: add repository
 
-`ls /usr/share/applications | awk -F '.desktop' ' { print $1}' - > ~/Desktop/applications.txt`: List of installed applications
+- `sudo apt-get autoremove`: remove dependencies for programs which are no longer installed
+
+- `cat /etc/apt/sources.list`: displays repositories subscribed to
+
+- `ls /usr/share/applications | awk -F '.desktop' ' { print $1}' - > ~/Desktop/applications.txt`: list installed applications & output to file on desktop
 
 ### rsync
 file copying tool (remote & local)
