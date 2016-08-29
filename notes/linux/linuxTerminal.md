@@ -204,6 +204,14 @@ linux
 - `top`: check CPU usage for a processes
 - `w`: shows who is logged in & what they are doing
 
+### shell
+- `echo $0`
+- `echo $SHELL`
+- `echo "$$"`: to find the process ID (PID) of the current instance of shell
+- `ps -p <PID>`: to find the process having the PID
+- `ps -p "$$"`: to do this in one command
+`bash`: to change to BASH shell, `zsh`: to change to zsh shell (if installed)
+
 ### sudo / su
 `su`: superuser. Typing `su` followed by root account password (if it has been set up), will log in as superuser/root user. To exit type `exit`.
 
