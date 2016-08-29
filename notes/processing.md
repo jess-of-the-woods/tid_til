@@ -1,4 +1,4 @@
-[notes](notes.md) | [art](art.md) | [data visualisation](dataVisualisation.md)
+[art](art.md) | [code](code.md) | [data visualisation](dataVisualisation.md)
 
 ## Processing
 

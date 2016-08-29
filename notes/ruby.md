@@ -1,4 +1,4 @@
-[notes](notes.md)
+[code](code.md)
 
 ## Ruby
 (41% through Codecademy course)

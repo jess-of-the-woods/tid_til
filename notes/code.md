@@ -13,6 +13,12 @@ interpreters
 - dynamic
 - polymorphic
 
----
 
-See also [JavaScript](javascript/notes.md)
+### Languages
+- [JavaScript](javascript/notes.md)
+- [processing](processing.md)
+- [Ruby](ruby.md)
+
+<!-- ---
+
+See also  -->

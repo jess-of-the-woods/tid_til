@@ -2,7 +2,7 @@
 
 ## tools
 
-- [linux terminal](linuxTerminal.md)
+- [linux terminal](linux/linuxTerminal.md)
 - Editors: Atom, Sublime
 - browser console ( dev tools, firebug etc. )
 - [git / GitHub](git-github.md)
@@ -19,4 +19,4 @@
 [keyboard shortcuts](keyboardShortcuts.md) ( Atom & Sublime )
 
 
-See also [markdown](../markdown.md) | [resources](resources.md) | [testing](testing.md)
+See also [markdown](markdown.md) | [resources](resources.md) | [testing](testing.md)

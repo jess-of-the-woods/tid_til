@@ -1,4 +1,4 @@
-[notes](notes.md)
+[notes](../notes.md)
 
 ## Linux
 

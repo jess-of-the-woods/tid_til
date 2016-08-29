@@ -1,4 +1,4 @@
-[backend](backend.md) | [linux](linux.md) | [tools](tools.md)
+[backend](../backend.md) | [linux](linux.md) | [tools](../tools.md)
 
 ## Nix Terminal
 - **[Git / Github](git-github.md)**
@@ -314,3 +314,7 @@ starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 - `#! /usr/bin/env node`: node script
 
 - [Beginners Bash Scripting](https://help.ubuntu.com/community/Beginners/BashScripting)
+
+---
+
+See also [Git / GitHub](../git-github.md)
