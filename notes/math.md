@@ -2,7 +2,9 @@
 
 ## Math
 
-**[JavaScript Math](javascript/math.md)**
+- **[3D](3D.md)**
+- **[JavaScript Math](javascript/math.md)**
+
 
 - [research](#research)
 - [binary notation](#binary-notation)
