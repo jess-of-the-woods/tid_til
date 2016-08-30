@@ -8,6 +8,7 @@
 - [git / GitHub](git-github.md)
 - [Codepen.io](https://codepen.io/)
 - [jsfiddle](https://jsfiddle.net/) | [jsbin](http://jsbin.com)
+- [Linux Terminal Network Tools](linux/network.md)
 - Postman
 - Validators
 - Linters

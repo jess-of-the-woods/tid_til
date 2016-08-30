@@ -1,7 +1,8 @@
-[backend](../backend.md) | [linux](linux.md) | [tools](../tools.md)
+[backend](../backend.md) | [linux](index.md) | [tools](../tools.md)
 
 ## Nix Terminal
 - **[Git / Github](git-github.md)**
+- **[network tools](network.md)**
 - [terminal keyboard shortcuts](#terminal-keyboard-shortcuts)
 - [basic commands](#basic-commands)
 - [system](#system)
@@ -19,7 +20,6 @@
 - [sudo & su](#sudo-su)
 - [disk usage](#disk-usage)
 - [managing applications](#managing-applications)
-- [network tools](network.md)
 - [tmux](#tmux-terminal-multiplexer)
 - [BASH scripts](#bash-scripts)
 
@@ -255,6 +255,8 @@ installing / uninstalling / updating / upgrading
 ### tmux (terminal multiplexer)
 - `tmux`  to enter tmux
 - `ctrl + b` then `?` for help (list commands)
+- `ctrl + b` then `c` to create new window (`p`: previous, `n`: next, `w`: list all)
+- `%`: split horizontally, `"`: split vertically
 - `exit`: to exit
 
 ### BASH scripts

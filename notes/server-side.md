@@ -3,7 +3,7 @@
 ## Server-Side
 - [databases](databases.md)
 - [express.js](javascript/express.md)
-- [linux terminal](linuxTerminal.md)
+- [linux terminal](linux/linuxTerminal.md)
 - [node.js](javascript/node.md)
 - [security](security.md)
 

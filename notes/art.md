@@ -53,10 +53,10 @@ an API for controlling the GPU, based on OpenGL ES (which is OpenGL for mobile) 
 
 
 
+---
 
 ### Links
-[The Aesthetics of Internet Art ](https://www.youtube.com/watch?v=783hwpJTjlo) - Nerdwriter
-
----
+- [The Aesthetics of Internet Art ](https://www.youtube.com/watch?v=783hwpJTjlo) - Nerdwriter
+- [Motion Capture video of weird Dancing Avatars](https://www.youtube.com/watch?v=gMuz30b77wE)
 
 See also [data visualisation](dataVisualisation.md) | [3D](3D.md) | [CSS](CSS/CSS.md)

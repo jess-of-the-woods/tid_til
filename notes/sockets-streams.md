@@ -2,14 +2,13 @@
 
 ## Streams
 
-sockets:
+### Sockets
 connection protocol between computers eg http, ws (websockets)
 
 streams flow through sockets
 
 pub/sub - publish / subscribe
 
-fun fun functions MPJ (on streams)
+---
 
-
-See also .. chat, [node.js](javascript/node.md)
+See also .. chat, [HTTP](networks/HTTP.md), [node.js](javascript/node.md), fun fun functions MPJ (on streams)

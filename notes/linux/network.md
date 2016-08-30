@@ -1,10 +1,11 @@
-[linux](linuxTerminal.md)
+[linux terminal](linuxTerminal.md) | [networks](../networks.index.md) | [tools](../tools.md)
 
+### network tools
 - **[rsync](#rsync)**
 - **[SSH](#ssh---secure-shell)**
 - **[SCP](#scp)**
 
-### network tools
+
 - `ifconfig`: configure a network interface [(x)](http://net-tools.sourceforge.net/man/ifconfig.8.html)
 - `ip addr show`: display network info, similar to ifconfig
 - `ping 8.8.8.8`: time to return answer
@@ -68,3 +69,7 @@ e.g. `scp -R user@domain.com:/home/user/Documents/newfiles ~/Desktop`
 
 - `-R`: recursive (grab a whole directory including subfolders)
 - `-P`: specify port number e.g. `-P1234`
+
+<!-- --- -->
+
+<!-- See also  -->
