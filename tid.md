@@ -2,6 +2,13 @@
 
 ## today i did..
 
+### 30 August
+- deployed latest master branch for tandem to heroku
+
+### 29 August
+- embedded subscription form in OTM blog
+- change time for mailchimp campaign to send
+
 ### 28 August
 - IP Adresses, Subnet Masks, Binary notation, TCP/IP
 
@@ -19,7 +26,6 @@
 - rsync
 - gitlab
 - haroopad
--
 
 ### 10 August
 - Domain Name System
