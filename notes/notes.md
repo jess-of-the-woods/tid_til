@@ -4,7 +4,7 @@
 
 * [3D](3D.md)
 * [art](art.md)
-* [bundling/building](building.md)
+* [building / bundling](building.md)
 * [CSS](CSS/CSS.md)
 * [databases](databases.md)
 * [data visualisation](dataVisualisation.md)
