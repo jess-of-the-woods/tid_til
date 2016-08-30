@@ -72,4 +72,4 @@ Uses 'package.json' to record dependencies, & install them after downloading a p
 - tap-spec
 - nodemon
 
-See also [bundling](../bundling.md)
+See also [building / bundling](../building.md)
