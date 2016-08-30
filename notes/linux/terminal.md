@@ -242,6 +242,8 @@ installing / uninstalling / updating / upgrading
 
 - `ls /usr/share/applications | awk -F '.desktop' ' { print $1}' - > ~/Desktop/applications.txt`: list installed applications & output to file on desktop
 
+- `dpkg -L packagename`: lists all files 'owned' by a package
+
 ### disk usage
 - `df -ah` `-a`: all, `-h`: human-readable
 - `du -hs ./path/to/dir` ( `du` = disk usage, `h` = human-readable, `s` = summary ) recursive summary of folder & subfolders..
@@ -274,6 +276,19 @@ starts with hashbang (`#!`) & reference to thing that runs the script e.g.
 
 - [Beginners Bash Scripting](https://help.ubuntu.com/community/Beginners/BashScripting)
 
+### User Account Management
+see '/etc/passwd', '/etc/shadow' & '/etc/group'
+
+##### useradd
+- `useradd userName`: creates a user. `-m`: create a home dir, `-d`: define a path for it, `-s`: default shell..
+
+    e.g. `useradd mymble -m -d /home/mymble -s /bin/bash`
+
+
+- `userdel userName`: delete user
+- `passwd userName`: sets a password for a user.
+- usermod -L userName: locks an account
+- `usermod -U userName`: unlocks
 ---
 
 See also [Git / GitHub](../git-github.md)
