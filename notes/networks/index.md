@@ -1,8 +1,8 @@
 [notes](../notes.md) | [backend](../backend.md)
 
 ## Networks
-- [linux terminal network commands](../linux/network.md)
-- [sockets / streams](../sockets-streams.md)
+- [linux terminal network tools](../linux/network.md)
+- [sockets / streams](sockets-streams.md)
 - [TCP/IP](TCP-IP.md)
 
 ---

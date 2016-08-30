@@ -2,7 +2,7 @@
 
 ## Linux
 
-**[terminal](linuxTerminal.md)**
+**[terminal](terminal.md)**
 
 ### Filesystem Locations
 

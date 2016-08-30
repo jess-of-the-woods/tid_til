@@ -1,4 +1,4 @@
-[JavaScript](notes.md)
+[JavaScript](index.md)
 
 ### Objects
 A JavaScript object is a collection of named values

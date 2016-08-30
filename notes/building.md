@@ -1,6 +1,6 @@
 [notes](notes.md)
 
-## Bundling / Building
+## Building / Bundling
 
 Making require work in browser
 

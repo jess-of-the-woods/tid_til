@@ -1,4 +1,4 @@
-[JavaScript](notes.md)
+[JavaScript](index.md)
 
 ## Control Flow
 

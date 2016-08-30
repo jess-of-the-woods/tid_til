@@ -1,4 +1,4 @@
-[frontend](../frontend.md) | [client-side](../client-side.md) | [JavaScript](notes.md)
+[frontend](../frontend.md) | [client-side](../client-side.md) | [JavaScript](index.md)
 
 ## jQuery
 <a href="https://jquery.com/"><img src="http://ejohn.org/apps/workshop/adv-talk/jquery_logo.png" width='300'></a>

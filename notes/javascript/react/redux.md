@@ -1,4 +1,4 @@
-[react](react.md)
+[react](index.md)
 
 ## Redux
 [Learn Redux](http://bit.ly/1USXO6n) (YouTube series)

@@ -1,4 +1,4 @@
-[linux terminal](linuxTerminal.md) | [networks](../networks.index.md) | [tools](../tools.md)
+[linux terminal](terminal.md) | [networks](../networks.index.md) | [tools](../tools.md)
 
 ### network tools
 - **[rsync](#rsync)**

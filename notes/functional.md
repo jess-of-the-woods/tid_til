@@ -1,4 +1,4 @@
-[notes](notes.md) | [to learn](toLearn.md) | [JavaScript](javascript/notes.md)
+[notes](notes.md) | [JavaScript](javascript/index.md)
 
 ## functional programming
 - [Higher-order functions](#higher-order-functions)

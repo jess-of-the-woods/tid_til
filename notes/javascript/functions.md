@@ -1,4 +1,4 @@
-[JavaScript](notes.md)
+[JavaScript](index.md)
 
 ## Functions
 
@@ -118,4 +118,4 @@ type of function // function
 ---
 
 
-See also hoisting in [JavaScript notes](notes.md) | [objects](objects.md) | [functional programming](../functional.md)
+See also hoisting in [JavaScript notes](index.md) | [objects](objects.md) | [functional programming](../functional.md)

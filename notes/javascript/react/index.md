@@ -1,4 +1,4 @@
-[JavaScript](index.md) | [frontend](../../frontend.md) | [client-side](../../client-side.md)
+[JavaScript](../index.md) | [frontend](../../frontend.md) | [client-side](../../client-side.md)
 
 ## React.js
 <a href='https://facebook.github.io/react/'><img src="http://yycjs.com/real-world-react/img/react-logo.png" width="150"></a>

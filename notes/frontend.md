@@ -6,7 +6,7 @@
 * [Data Visualisation](dataVisualisation.md)
 * [HTML](HTML/HTML.md)
 * [jQuery](javascript/jQuery.md)
-* [React](react/react.md)
+* [React](javascript/react/index.md)
 * [SVG](HTML/SVG.md)
 * Templating (Handlebars, Hyperscript, Jade..)
 * [User Interfaces](UI.md)

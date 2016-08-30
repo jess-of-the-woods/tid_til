@@ -1,4 +1,4 @@
-[JavaScript](notes.md)
+[JavaScript](index.md)
 
 ### ES6 / ECMAScript 2015
 

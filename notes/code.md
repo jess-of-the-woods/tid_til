@@ -15,9 +15,10 @@ interpreters
 
 
 ### Languages
-- [JavaScript](javascript/notes.md)
+- [JavaScript](javascript/index.md)
 - [processing](processing.md)
 - [Ruby](ruby.md)
+- [SQL](SQL.md)
 
 <!-- ---
 

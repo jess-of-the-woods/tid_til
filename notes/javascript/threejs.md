@@ -1,4 +1,4 @@
-[notes](../notes.md) | [JavaScript](notes.md) | [3D](../3D.md) | WebGL
+[notes](../notes.md) | [JavaScript](index.md) | [3D](../3D.md) | WebGL
 
 ## Three.js
 

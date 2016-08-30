@@ -6,6 +6,8 @@
 
 - **[questions](questions.md)**
 
+- client-side templating
+
 ## TOC
 - [general](#general)
 - [CSS](#css)
@@ -27,7 +29,7 @@
 - SASS ([notes](notes/CSS/SASS.md))
 - Flexbox ([notes](notes/CSS/flexbox.md))
 
-### JavaScript ([notes](notes/javascript/notes.md))
+### JavaScript ([notes](notes/javascript/index.md))
 - Closures, Factory functions, Constructors, Classes, Prototypes
 - ~~try, catch~~ ([w3schools](http://www.w3schools.com/js/js_errors.asp))
 - DOM, DOM Manipulation
@@ -51,7 +53,7 @@
 - inu
 - OAuth2
 
-### Linux ([notes](notes/linux.md))
+### Linux ([notes](notes/linux/index.md))
 - Mount points
 - Device nodes
 - How to determine filesystem of removable media?
@@ -63,7 +65,7 @@
 - data visualisation ([notes](notes/dataVisualisation.md))
 - HTML ([notes](notes/HTML/HTML.md))
 - node.js ([notes](notes/javascript/node.md))
-- React.js ([notes](notes/react/react.md))
+- React.js ([notes](notes/javascript/react/react.md))
 - rhino3D
 - stack.gl
 - SVG ([notes](notes/HTML/SVG.md))

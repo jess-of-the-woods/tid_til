@@ -1,4 +1,4 @@
-[JavaScript](notes.md) | [maths](../math.md)
+[JavaScript](index.md) | [maths](../math.md)
 
 ## JavaScript Math
 
