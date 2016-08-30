@@ -16,11 +16,12 @@
 - [searching](#searching)([find](#find), [grep](#grep), [sed](#sed))
 - [chmod](#chmod), [chown](#chown)
 - [system](#system) (help, aliases, shutdown..)
-- [sudo & su](#sudo-su)
+- [sudo & su](#sudo--su)
 - [managing applications](#managing-applications)
 - [disk usage](#disk-usage)
 - [tmux](#tmux-terminal-multiplexer)
 - [BASH scripts](#bash-scripts)
+- [user account management](#user-account-management)
 
 ## terminal keyboard shortcuts
 - `ctrl alt t`: open terminal window
@@ -289,6 +290,7 @@ see '/etc/passwd', '/etc/shadow' & '/etc/group'
 - `passwd userName`: sets a password for a user.
 - usermod -L userName: locks an account
 - `usermod -U userName`: unlocks
+
 ---
 
 See also [Git / GitHub](../git-github.md)
