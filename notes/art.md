@@ -43,15 +43,15 @@ an API for controlling the GPU, based on OpenGL ES (which is OpenGL for mobile) 
 - [Iris Van Herpen](http://www.irisvanherpen.com/home) (fashion design)    
 - [Tony Parisi](https://tonyparisi.wordpress.com/) Virtual Reality
 - [Loris Cecchini](http://www.juxtapoz.com/news/loris-cecchini-s-wallwave-vibrations/)
-
+- [Anders Hoff](http://inconvergent.net/) | [ello](https://ello.co/inconvergent) - Generative art
+- [Jared Tarbell](http://www.complexification.net/gallery/)
+- [Nervous System](http://n-e-r-v-o-u-s.com/)
 
 ### Glossary
 
 **HSL** ( Hue, Saturation & Lightness ) cylindrical coordinates representation of color model
 
 **parametric** - adj. of, relating to, or expressed in terms of a parameter or parameters.
-
-
 
 ---
 

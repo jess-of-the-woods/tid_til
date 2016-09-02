@@ -17,6 +17,8 @@ Part of TCP/IP. Uses port 80
 - Chrome addon for crafting API requests.
 - PUT, POST, GET requests to specified location
 
+HTTPS typically uses port 443
+
 ---
 
 See also API's | [node.js](../javascript/node.md)
