@@ -46,6 +46,8 @@ an API for controlling the GPU, based on OpenGL ES (which is OpenGL for mobile) 
 - [Anders Hoff](http://inconvergent.net/) | [ello](https://ello.co/inconvergent) - Generative art
 - [Jared Tarbell](http://www.complexification.net/gallery/)
 - [Nervous System](http://n-e-r-v-o-u-s.com/)
+- [Alastair Gray](http://alastair-gray.com/) | [Ello](https://ello.co/grayalas) (digital artist, nz)
+- Casey Reas, Ben Fry (processing artists)
 
 ### Glossary
 
