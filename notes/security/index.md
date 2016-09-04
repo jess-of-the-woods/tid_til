@@ -9,8 +9,8 @@
 
 ### Topics
 - encryption
-- hiding IP
-- preventing malware
+- hiding I.P.
+- preventing malware (drive-by downloads/installs), obfuscation
 - DNS Leakage??
 
 ### SSL / TLS

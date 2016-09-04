@@ -37,13 +37,12 @@
 - return function [JS Functions that Return Functions](https://davidwalsh.name/javascript-functions)
 - Testing ([notes](notes/testing.md))
 - React, React router, redux ([notes](notes/react/react.md))
-- jQuery event delegation, Listeners
+- jQuery event delegation, listeners
 - Ember.js?
 - Express.js:  partials, middleware.. ([notes](notes/javascript/express.md))
 
 ### Math ([notes](notes/math.md))
 - Matrices (esp. transformation matrices) used in 3D programming
-
 
 ### node.js / NPM basics ([notes](notes/javascript/node.md))
 - streams, I/O, sockets
@@ -53,12 +52,15 @@
 - inu
 - OAuth2
 
+### SysAdmin/Ops
+- Ansible
+
 ### Linux ([notes](notes/linux/index.md))
 - Mount points
 - Device nodes
 - How to determine filesystem of removable media?
 - filesystem structure
-- SSH from android
+- SSH from android?
 - tty
 
 ## art ([notes](notes/art.md))

@@ -191,6 +191,7 @@ linux
 ## system
 - 'man': manual pages. Use like: `man ls` or `man uniq` for manual pages on the ls or uniq commands
 - help. to get help on a command type `commandName --help`, e.g. `ls --help` for help on ls
+- `whatis`: displays one-line manual page descriptions. e.g. `whatis grep`
 - `$`: represents prompt in BASH
 - `.`: represents current directory
 - `..`: represents parent directory, `cd ..`: change to parent directory
@@ -202,20 +203,23 @@ linux
 - `whoami`: displays username
 - `who am i`: displays username & terminal you are in.
 - `hostname`: displays hostname (name of computer)
+- `logname`: Prints the users login name
 - `uname`: print system information. `uname -a` prints all
 - `service udev status`: Check if 'udev' service is running (on older machines)
 - `systemctl status udev`: Check if 'udev' service is running (on newer machines)
+- `top`: check CPU usage for processes
+- `w`: shows who is logged in & what they are doing
+
+### ps (process status)
 - `ps aux`: report snapshot of current processes. `a`: all, `u`: convert userid's to usernames, `x`: show processes not attached to a terminal (tty)
 - `ps aux | grep nginx`: check CPU usage for a process (nginx)
-- `top`: check CPU usage for a processes
-- `w`: shows who is logged in & what they are doing
+- `ps -p <PID>`: to find the process having the PID
+- `ps -p "$$"`: to do this in one command
 
 ### shell
 - `echo $0`
 - `echo $SHELL`
 - `echo "$$"`: to find the process ID (PID) of the current instance of shell
-- `ps -p <PID>`: to find the process having the PID
-- `ps -p "$$"`: to do this in one command
 - `bash`: to change to BASH shell, `zsh`: to change to zsh shell (if installed)
 
 ### sudo / su
@@ -293,4 +297,7 @@ see '/etc/passwd', '/etc/shadow' & '/etc/group'
 
 ---
 
-See also [Git / GitHub](../git-github.md)
+## Links
+[List of Unix commands](https://en.wikipedia.org/wiki/List_of_Unix_commands) - Wikipedia
+
+See also [Git / GitHub](../git-github.md) | [security](security.md)

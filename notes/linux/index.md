@@ -42,6 +42,3 @@ GKSu is a library that provides a Gtk+ frontend to su and sudo. It supports logi
 
 - `gksu gedit /etc/sysctl.conf`     (change swappiness)
 - `gksu gedit`, in preferences, disable file browser plugin
-
-### Other
-- Ctrl + m minimize
