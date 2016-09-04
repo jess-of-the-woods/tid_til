@@ -3,6 +3,7 @@
 ## Nix Terminal (linux/unix)
 - **[Git / Github](git-github.md)**
 - **[network tools](network.md)**
+- **[BASH scripts](BASH_scripting.md)**
 - [terminal keyboard shortcuts](#terminal-keyboard-shortcuts)
 - [basic commands](#basic-commands)
 - [ls](#ls)
@@ -20,7 +21,6 @@
 - [managing applications](#managing-applications)
 - [disk usage](#disk-usage)
 - [tmux](#tmux-terminal-multiplexer)
-- [BASH scripts](#bash-scripts)
 - [user account management](#user-account-management)
 
 ## terminal keyboard shortcuts
@@ -211,7 +211,10 @@ linux
 - `w`: shows who is logged in & what they are doing
 
 ### ps (process status)
-- `ps aux`: report snapshot of current processes. `a`: all, `u`: convert userid's to usernames, `x`: show processes not attached to a terminal (tty)
+- `ps aux`: report snapshot of current processes.
+
+`a`: all, `u`: convert userid's to usernames, `x`: show processes not attached to a terminal (tty)
+
 - `ps aux | grep nginx`: check CPU usage for a process (nginx)
 - `ps -p <PID>`: to find the process having the PID
 - `ps -p "$$"`: to do this in one command
@@ -221,6 +224,13 @@ linux
 - `echo $SHELL`
 - `echo "$$"`: to find the process ID (PID) of the current instance of shell
 - `bash`: to change to BASH shell, `zsh`: to change to zsh shell (if installed)
+
+### PATH
+`env | grep PATH`: to see the PATH
+
+or
+
+`echo $PATH`
 
 ### sudo / su
 `su`: superuser. Typing `su` followed by root account password (if it has been set up), will log in as superuser/root user. To exit type `exit`.
@@ -273,13 +283,6 @@ also `poweroff` or `init 0` do the same
 - `ctrl + b` then `c` to create new window (`p`: previous, `n`: next, `w`: list all)
 - `%`: split horizontally, `"`: split vertically
 - `exit`: to exit
-
-### BASH scripts
-starts with hashbang (`#!`) & reference to thing that runs the script e.g.
-- `#! /bin/bash`: bash script
-- `#! /usr/bin/env node`: node script
-
-- [Beginners Bash Scripting](https://help.ubuntu.com/community/Beginners/BashScripting)
 
 ### User Account Management
 see '/etc/passwd', '/etc/shadow' & '/etc/group'

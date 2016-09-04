@@ -18,13 +18,23 @@ APT - Advanced Package Tool
 
 `/bin`: Binary (executable) programs & commands available to the user. The location of several commonly used programs
 
-`/etc`: Stores config files for the system.
+`/boot`: Boot & system files inc. kernel
+
+`/dev`: Device files & drivers
+
+`/etc`: Stores config files for the system (host-specific).
 
 `/home`: Stores files belonging to each user. In a subdirectory of `/home` e.g. `/home/margaret`
 
-`/mnt`: Where new devices such as USB drives will be mounted
+`/lib`: shared libraries, kernel modules
+
+`/media`: mount point for removable media
+
+`/mnt`: Mount point for temporary file systems
 
 `/opt`: Optional. Programs installed by user
+
+`/sbin`: System binaries
 
 `/tmp`: Temporary files
 
