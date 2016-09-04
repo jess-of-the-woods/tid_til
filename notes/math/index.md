@@ -2,7 +2,7 @@
 
 ## Math
 
-- **[3D](3D.md)**
+- **[Geometry](geometry.md)**
 - **[JavaScript Math](javascript/math.md)**
 
 

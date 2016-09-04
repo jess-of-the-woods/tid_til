@@ -13,7 +13,7 @@
 * [HTML](HTML/HTML.md)
 * [JavaScript](javascript/index.md) | [node.js](javascript/node.md)
 * [linux](linux/index.md)
-* [math](math.md)
+* [math](math/index.md)
 * [networks](networks/index.md)
 * [resources](resources.md) | [tools](tools.md)
 * [security](security.md)
