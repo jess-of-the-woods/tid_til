@@ -1,4 +1,4 @@
-[notes](notes.md) | [security](security.md) | [server-side](server-side.md)
+[security](index.md) | [server-side](../server-side.md)
 
 ## Authentication/Login/Encryption
 
@@ -39,5 +39,4 @@ Third party authentication, sign in with 3rd party ( facebook/ google / twitter 
 
 
 
-
-See also [express.js](javascript/express.md)
+See also [express.js](../javascript/express.md)

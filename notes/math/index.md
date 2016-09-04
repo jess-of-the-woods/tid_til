@@ -52,3 +52,5 @@ a number or quantity that when multiplied with another produces a given number o
 
 ## Links
 - [mathsisfun.com](www.mathsisfun.com)
+
+See also [encryption](../encryption.md)

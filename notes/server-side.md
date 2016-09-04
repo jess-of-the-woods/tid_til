@@ -5,7 +5,7 @@
 - [express.js](javascript/express.md)
 - [linux terminal](linux/terminal.md)
 - [node.js](javascript/node.md)
-- [security](security.md)
+- [security](security/index.md)
 
 ### CRUD/ REST API's
 Create, Read, Update, Destroy.. See [SQL](../SQL.md)

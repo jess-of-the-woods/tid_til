@@ -1,9 +1,4 @@
-[notes](notes.md) | [backend](backend.md)
-
-# Security
-
-<!-- **[authentication](auth-encryption.md)** -->
-**[authentication](authentication.md)**
+[security](index.md) | [math](../math/index.md)
 
 ## Encryption
 
@@ -37,22 +32,3 @@ Algorithm is cheap to use.
 ### Review
 
 - HTTPS, ( salt )
-
-### SSL / TLS
-
-Provides encryption & authentication.
-
-Uses asymmetric-key cryptography
-
-Authentication through the system of certification authorities is the weak point in the system.
-
-
-Handshake:
-
-<img src="http://vanish.org/t/images/ssl.jpg" height="150" width="300"/>
-
-
-
----
-
-See also [networks](networks/index.md)

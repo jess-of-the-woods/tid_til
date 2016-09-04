@@ -9,4 +9,4 @@
 
 See also [Git / GitHub](../git-github.md)
  | [node.js](../javascript/node.md)
- | [security](../security.md) | [server-side](../server-side.md)
+ | [security](../security/index.md) | [server-side](../server-side.md)

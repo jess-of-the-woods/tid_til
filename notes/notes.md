@@ -16,7 +16,7 @@
 * [math](math/index.md)
 * [networks](networks/index.md)
 * [resources](resources.md) | [tools](tools.md)
-* [security](security.md)
+* [security](security/index.md)
 * [testing](testing.md)
 * [user interfaces](UI.md)
 
