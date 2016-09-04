@@ -1,6 +1,6 @@
-[networks](index.md) | []()
+[networks](index.md)
 
-## TCP / IP - Transmission Control Protocol / Internet Protocol
+## TCP/IP - Transmission Control Protocol/Internet Protocol
 
 
 **[HTTP](HTTP.md)**
@@ -37,4 +37,4 @@ A subnet mask of `255.255.255.0` can be expressed as `192.168.15.3/24` because t
 
 ---
 
-See also [math](../math.md)
+See also [binary notation](../math/binary.md)
