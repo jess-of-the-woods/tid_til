@@ -2,7 +2,7 @@
 
 ## Data Visualisation
 * [CSS](CSS/CSS.md)
-* [D3.js](d3.md)
+* [D3.js](javascript/d3.md)
 * [HTML](HTML/HTML.md)5 Canvas
 * [SVG](HTML/SVG.md)
 * [processing](processing.md)
