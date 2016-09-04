@@ -3,11 +3,10 @@
 ## Math
 
 - **[Arithmetic](arithmetic.md)**
+- **[Binary Notation](binary.md)**
 - **[Geometry](geometry.md)**
-- **[JavaScript Math](javascript/math.md)**
-- **[Binary Notation](binary)**
+- **[JavaScript Math](../javascript/math.md)**
 - **[Statistics](statistics.md)**
-
 
 ### TOC
 - [research](#research)
