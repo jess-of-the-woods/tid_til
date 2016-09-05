@@ -3,11 +3,11 @@
 # security
 
 <!-- **[authentication](auth-encryption.md)** -->
-**[authentication](authentication.md)**
-**[encryption](encryption.md)**
+- **[authentication](authentication.md)**
+- **[encryption](encryption.md)**
+- **[linux security](../linux/security.md)**
 
-
-### Topics
+### topics
 - encryption
 - hiding I.P.
 - preventing malware (drive-by downloads/installs), obfuscation
