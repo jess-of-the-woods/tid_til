@@ -6,13 +6,14 @@ starts with a hashbang (`#!`) & reference to thing that runs the script e.g.
 - `#! /bin/bash`: bash script
 - `#! /usr/bin/env node`: node script
 
-- [Beginners Bash Scripting](https://help.ubuntu.com/community/Beginners/BashScripting)
 
 files should have the suffix '.sh' e.g. 'helloworld.sh'
 
 run with `bash helloworld.sh`
 
 `chmod +x helloworld.sh`: To make the file executable.
+
+then run the script with `./scriptName.sh`
 
 ### Comments
 ```sh
@@ -35,7 +36,7 @@ if [ <condition> ]; then {
 fi
 ```
 
-### If, Else
+#### If, Else
 ```sh
 if [ <condition> ]; then {
   #this code will execute
@@ -46,7 +47,7 @@ else {
 fi
 ```
 
-### Else if
+#### Else if
 ```sh
 if [ <condition> ]; then {
   #this code will execute
@@ -59,3 +60,19 @@ else {
 }
 fi
 ```
+
+### Arithmetic relational operators
+- `-lt`: less than
+- `-gt`: greater than
+- `-le`: less than or equal
+- `-ge`: greater than or equal
+- `-eq`: equal
+- `-ne`: not equal
+
+e.g. `[ 1 -eq $SMALLNUMBER ]`
+
+
+---
+
+## Links
+- [Beginners Bash Scripting](https://help.ubuntu.com/community/Beginners/BashScripting)
