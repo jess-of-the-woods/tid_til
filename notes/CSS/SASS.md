@@ -1,4 +1,4 @@
-[CSS](CSS.md)
+[CSS](index.md)
 
 ## SASS - Syntactically Awesome Style Sheets
 ([Guide](http://sass-lang.com/guide))

@@ -1,4 +1,4 @@
-[notes](notes.md)
+[notes](index.md)
 
 ## asynchronicity
 - [node.js](javascript/node.md)

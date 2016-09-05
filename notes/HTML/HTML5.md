@@ -1,8 +1,9 @@
-[HTML](HTML.md)
+[HTML](index.md)
 
 ## HTML5
 
-**[SVG](SVG.md)** | **[Canvas](canvas.md)**
+### - [SVG](SVG.md)
+### - [Canvas](canvas.md)
 
 ### HTML5 Declaration
 ```html

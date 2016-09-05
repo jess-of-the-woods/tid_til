@@ -1,4 +1,4 @@
-[home](README.md) | [notes](notes/notes.md)
+[home](README.md)
 
 ## to learn
 
@@ -41,7 +41,7 @@
 - Ember.js?
 - Express.js:  partials, middleware.. ([notes](notes/javascript/express.md))
 
-### Math ([notes](notes/math.md))
+### Math ([notes](notes/math/index.md))
 - Matrices (esp. transformation matrices) used in 3D programming
 
 ### node.js / NPM basics ([notes](notes/javascript/node.md))
@@ -62,6 +62,7 @@
 - filesystem structure
 - SSH from android?
 - tty
+- veracrypt & ecryptfs
 
 ## art ([notes](notes/art.md))
 - data visualisation ([notes](notes/dataVisualisation.md))

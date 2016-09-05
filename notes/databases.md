@@ -1,4 +1,4 @@
-[notes](notes.md) | [backend](backend.md) | [server-side](server-side.md)
+[notes](index.md) | [backend](backend.md) | [server-side](server-side.md)
 
 ## databases
 - **[Knex](javascript/knex.md)**
@@ -63,7 +63,7 @@ knex is outside of config file.. we pass knex to app and then get back a app obj
 
 ---
 
-### 15 April 2016 - Database in an App
+### 15 April 2016 - Database in a node.js app
 `git init`:  Initialises new git repository in project.
 
 `npm init`: Initialises folder as a node project.

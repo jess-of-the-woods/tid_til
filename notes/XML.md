@@ -1,4 +1,4 @@
-[notes](notes.md)
+[notes](index.md)
 
 ## XML - Extensible Markup Language | ([Wiki](https://en.wikipedia.org/wiki/XML))
 

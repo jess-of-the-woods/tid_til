@@ -1,4 +1,4 @@
-[notes](../notes.md) | [frontend](../frontend.md)
+[notes](../index.md) | [frontend](../frontend.md)
 
 ## CSS - Cascading Style Sheets
 **[Flexbox](flexbox.md)** | **[SASS](SASS.md)**
@@ -164,4 +164,4 @@ overflow-y -	Specifies what to do with the top/bottom edges of the content if it
 - [learnlayout.com](http://learnlayout.com)
 - [w3schools](http://www.w3schools.com/css)
 
-See Also [HTML](../HTML/HTML.md) | [JavaScript](../javascript/javascript.md)
+See Also [HTML](../HTML/index.md) | [JavaScript](../javascript/index.md)

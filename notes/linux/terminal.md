@@ -172,7 +172,7 @@ linux
 `-d`: delimiter, `-f2`: second field
 
 ### text editors
-- `nano path/filename`: Open file in Nano editor ( ctrl + O to save, ctrl + X to exit )
+- `nano path/filename`: Open file in Nano editor ( ctrl + O to save, ctrl + X to exit ) - [beginners guide](http://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/)
 
 - `vi path/filename`: open file in Vim. Vim has 2 modes, 'esc' & 'i' alternate between modes. i is text mode, esc then `:q` then enter to quit. `:wq` to write to file & quit
 

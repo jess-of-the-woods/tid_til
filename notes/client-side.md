@@ -1,4 +1,4 @@
-[notes](notes.md) | [frontend](frontend.md)
+[notes](index.md) | [frontend](frontend.md)
 
 ## Client-Side Rendering
 - uses users processor (browser)

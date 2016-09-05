@@ -1,4 +1,4 @@
-[notes](notes.md) | [tools](tools.md)
+[notes](index.md) | [tools](tools.md)
 
 ## keyboard shortcuts
 

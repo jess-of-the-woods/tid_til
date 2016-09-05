@@ -1,4 +1,4 @@
-[HTML5](HTML5.md) | [notes](../notes.md) | [frontend](../frontend.md) | [XML](../XML)
+[HTML5](HTML5.md) | [frontend](../frontend.md) | [XML](../XML)
 
 ## Scalable Vector Graphics - SVG
 

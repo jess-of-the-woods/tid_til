@@ -1,4 +1,4 @@
-[CSS](CSS.md)
+[CSS](index.md)
 
 ## Flexbox
 

@@ -1,4 +1,4 @@
-[HTML5](HTML5.md) | [notes](../notes.md)
+[HTML5](HTML5.md)
 
 ## Canvas
 

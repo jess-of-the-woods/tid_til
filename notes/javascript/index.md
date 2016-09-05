@@ -1,4 +1,4 @@
-[notes](../notes.md) | [code/languages](../code.md)
+[notes](../index.md) | [code/languages](../code.md)
 
 ## JavaScript
 

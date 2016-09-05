@@ -25,3 +25,7 @@ writes to /var/log/rkhunter.log
 - `sudo apt-get install chkrootkit`
 - `sudo chkrootkit`
 - `sudo chrkrootkit --help`
+
+---
+
+See also [network tools](network.md)

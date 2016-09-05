@@ -1,4 +1,4 @@
-[notes](../notes.md) | [to learn](../../toLearn.md) | [frontend](../frontend.md)
+[notes](../index.md) | [frontend](../frontend.md)
 
 ## HTML
 **[HTML5](HTML5.md)**
@@ -53,4 +53,4 @@ e.g.
 
 ---
 
-See Also [CSS](../CSS/CSS.md) | [JavaScript](../javascript/notes.md) | [markdown](../markdown.md) | [XML](../XML.md)
+See Also [CSS](../CSS/index.md) | [JavaScript](../javascript/index.md) | [markdown](../markdown.md) | [XML](../XML.md)

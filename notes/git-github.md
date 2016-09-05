@@ -1,4 +1,4 @@
-[notes](notes.md) | [backend](backend.md) | [linux terminal](linux/terminal.md)  | [tools](tools.md)
+[notes](index.md) | [backend](backend.md) | [linux terminal](linux/terminal.md)  | [tools](tools.md)
 
 ## Git / GitHub
 - [basics](#basics)

@@ -1,4 +1,4 @@
-[notes](notes.md) | [to learn](../toLearn.md)
+[notes](index.md)
 
 ## art
 **[canvas](HTML/canvas.md)** | **[processing](processing.md)** | **[SVG](HTML/SVG.md)** | **[three.js](javascript/threejs.md)**
@@ -61,4 +61,4 @@ an API for controlling the GPU, based on OpenGL ES (which is OpenGL for mobile) 
 - [The Aesthetics of Internet Art ](https://www.youtube.com/watch?v=783hwpJTjlo) - Nerdwriter
 - [Motion Capture video of weird Dancing Avatars](https://www.youtube.com/watch?v=gMuz30b77wE)
 
-See also [data visualisation](dataVisualisation.md) | [3D](3D.md) | [CSS](CSS/CSS.md)
+See also [data visualisation](dataVisualisation.md) | [3D](3D.md) | [CSS](CSS/index.md)

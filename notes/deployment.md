@@ -1,4 +1,4 @@
-[notes](notes.md) | [backend](backend.md)
+[notes](index.md) | [backend](backend.md)
 
 ## Deployment (Heroku)
 
