@@ -24,4 +24,4 @@ produces:
 * [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
 * [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
 
-See also [HTML](HTML/HTML.md)
+See also [HTML](HTML/index.md)

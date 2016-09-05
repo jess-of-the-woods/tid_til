@@ -4,7 +4,7 @@
 
 [Web Development mindmap 2016/2017](https://coggle.it/diagram/Vz9LvW8byvN0I38x) - learncode.academy
 
-- **[questions](questions.md)**
+### - [questions](questions.md)
 
 - client-side templating
 
