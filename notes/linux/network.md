@@ -1,11 +1,11 @@
-[linux terminal](terminal.md) | [networks](../networks.index.md) | [tools](../tools.md)
+[linux terminal](terminal.md) | [networks](../networks/index.md) | [tools](../tools.md)
 
 ### network tools
 - **[rsync](#rsync)**
 - **[SSH](#ssh---secure-shell)**
 - **[SCP](#scp)**
 
-
+### commands
 - `ifconfig`: configure a network interface [(x)](http://net-tools.sourceforge.net/man/ifconfig.8.html)
 - `ip addr show`: display network info, similar to ifconfig
 - `ping 8.8.8.8`: time to return answer
@@ -19,7 +19,7 @@
 - `wget`: web get, download a file from an address like: `wget locationToFile`
 - `netstat -tulpn`: check for open ports. run as root with `sudo netstat -tulpn` for process id's & program names. `t`: TCP, `u`: UDP, `p`: programs attached to those ports, `l`: listening ports, `n`: listed numerically
 
-### Show wireless information (configure a wireless network interface)
+### wireless information (configure a wireless network interface)
 Check the settings of your wireless connection without editing anything. This also shows packets sent/received.
 
 `iwconfig`

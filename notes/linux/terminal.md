@@ -243,6 +243,12 @@ A users PATH is stored in `~/.bash_profile`. To add a directory to the PATH perm
 
 `sudo` will just allow you superuser access for a single command.. e.g. `sudo apt-get install wine`. This is safer. The OS will remember your password for 15 minutes. If you haven't set up root account & password, you can log in as superuser with `sudo su` using just your user password.
 
+#### GKSu
+GKSu is a library that provides a Gtk+ frontend to su and sudo. It supports login shells and preserving environment when acting as a su frontend. It is useful to menu items or other graphical programs that need to ask a user's password to run another program as another user.
+
+- `gksu gedit /etc/sysctl.conf`     (change swappiness)
+- `gksu gedit`, in preferences, disable file browser plugin
+
 ### managing applications
 installing / uninstalling / updating / upgrading
 - `apt-cache search searchterm`: search repositories for search term (search through package names & descriptions)

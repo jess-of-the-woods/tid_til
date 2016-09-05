@@ -12,7 +12,7 @@ PPA - Personal Package Archives
 
 APT - Advanced Package Tool
 
-### Filesystem Locations
+### Filesystem
 
 `/`: Represents the root directory
 
@@ -45,10 +45,3 @@ APT - Advanced Package Tool
 `/var`: Variables. Variable data which changes over time. e.g. mail spools, user databases, log files
 
 `/var/log`: Stores log files for various system programs.
-
-
-### GKSu
-GKSu is a library that provides a Gtk+ frontend to su and sudo. It supports login shells and preserving environment when acting as a su frontend. It is useful to menu items or other graphical programs that need to ask a user's password to run another program as another user.
-
-- `gksu gedit /etc/sysctl.conf`     (change swappiness)
-- `gksu gedit`, in preferences, disable file browser plugin
