@@ -7,6 +7,7 @@
 
 ### commands
 - `ifconfig`: configure a network interface [(x)](http://net-tools.sourceforge.net/man/ifconfig.8.html)
+- `iwconfig`: wireless information (configure a wireless network interface), check the settings of your wireless connection without editing anything. This also shows packets sent/received.
 - `ip addr show`: display network info, similar to ifconfig
 - `ping 8.8.8.8`: time to return answer
 - `whois`: gets info on domain names or IP's
@@ -19,10 +20,6 @@
 - `wget`: web get, download a file from an address like: `wget locationToFile`
 - `netstat -tulpn`: check for open ports. run as root with `sudo netstat -tulpn` for process id's & program names. `t`: TCP, `u`: UDP, `p`: programs attached to those ports, `l`: listening ports, `n`: listed numerically
 
-### wireless information (configure a wireless network interface)
-Check the settings of your wireless connection without editing anything. This also shows packets sent/received.
-
-`iwconfig`
 
 ### rsync
 file copying tool (remote & local)
