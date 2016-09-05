@@ -1,9 +1,9 @@
 [backend](../backend.md) | [linux](index.md) | [tools](../tools.md)
 
 ## Nix Terminal (linux/unix)
-- **[Git / Github](git-github.md)**
+- **[Git / Github](../git-github.md)**
 - **[network tools](network.md)**
-- **[BASH scripts](BASH_scripting.md)**
+- **[BASH scripts](bash_scripting.md)**
 - [terminal keyboard shortcuts](#terminal-keyboard-shortcuts)
 - [basic commands](#basic-commands)
 - [ls](#ls)
