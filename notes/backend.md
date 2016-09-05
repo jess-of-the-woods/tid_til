@@ -3,12 +3,11 @@
 ## backend
 - [databases](databases.md)
 - [deployment](deployment.md)
-- [HTTP](HTTP.md)
 - [express.js](javascript/express.md)
 - [linux terminal](linux/terminal.md)
 - [networks](networks/index.md)
 - [node.js](javascript/node.md)
-- [security](security.md)
+- [security](security/index.md)
 - [server-side](server-side.md)
 
 ---

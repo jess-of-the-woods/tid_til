@@ -2,9 +2,9 @@
 
 ## frontend
 * [Art](art.md)
-* [CSS](CSS/CSS.md)
+* [CSS](CSS/index.md)
 * [Data Visualisation](dataVisualisation.md)
-* [HTML](HTML/HTML.md)
+* [HTML](HTML/index.md)
 * [jQuery](javascript/jQuery.md)
 * [React](javascript/react/index.md)
 * [SVG](HTML/SVG.md)

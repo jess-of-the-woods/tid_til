@@ -18,4 +18,4 @@ Use relative routes in client side app.. ( express endpoints )
 
 ---
 
-See also [asynchronous](async.md) | [express](javascript/express.md) | [HTTP](HTTP.md) | [jQuery](javascript/jQuery.md) |  [server-side](server-side.md) | [react](react/react.md) | [Three.js](javascript/threejs.md)
+See also [asynchronous](async.md) | [express](javascript/express.md) | [HTTP](networks/HTTP.md) | [jQuery](javascript/jQuery.md) |  [server-side](server-side.md) | [react](javascript/react/index.md) | [Three.js](javascript/threejs.md)
