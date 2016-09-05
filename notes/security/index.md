@@ -2,10 +2,9 @@
 
 # security
 
-<!-- **[authentication](auth-encryption.md)** -->
-- **[authentication](authentication.md)**
-- **[encryption](encryption.md)**
-- **[linux security](../linux/security.md)**
+### - [authentication](authentication.md)
+### - [encryption](encryption.md)
+### - [linux security](../linux/security.md)
 
 ### topics
 - encryption
