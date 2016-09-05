@@ -236,6 +236,8 @@ or
 
 A users PATH is stored in `~/.bash_profile`. To add a directory to the PATH permanently, add it to the line in .bash_profile that starts with PATH with a colon separated list of absolute paths.
 
+[What is PATH?](http://www.linfo.org/path_env_var.html)
+
 ### sudo / su
 `su`: superuser. Typing `su` followed by root account password (if it has been set up), will log in as superuser/root user. To exit type `exit`.
 

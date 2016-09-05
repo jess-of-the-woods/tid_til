@@ -19,6 +19,11 @@
 - `wget`: web get, download a file from an address like: `wget locationToFile`
 - `netstat -tulpn`: check for open ports. run as root with `sudo netstat -tulpn` for process id's & program names. `t`: TCP, `u`: UDP, `p`: programs attached to those ports, `l`: listening ports, `n`: listed numerically
 
+### Show wireless information (configure a wireless network interface)
+Check the settings of your wireless connection without editing anything. This also shows packets sent/received.
+
+`iwconfig`
+
 ### rsync
 file copying tool (remote & local)
 
