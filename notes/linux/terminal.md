@@ -20,6 +20,7 @@
 - [sudo & su](#sudo--su)
 - [managing applications](#managing-applications)
 - [disk usage](#disk-usage)
+- [archiving/compressing](#archiving--compressing)
 - [tmux](#tmux-terminal-multiplexer)
 - [user account management](#user-account-management)
 
@@ -288,6 +289,15 @@ installing / uninstalling / updating / upgrading
 also `poweroff` or `init 0` do the same
 
 `init 6`: reboot
+
+### archiving / compressing
+
+#### tar
+- `tar -cf archive.tar file1 file2`: Create archive archive.tar containing files file1 and file2. Here, the c tells tar you will be creating an archive; the f tells tar that the next option (here it's archive.tar) will be the name of the archive it creates. file1 and file2, the final arguments, are the files to be archived.
+- `tar -tvf archive.tar`: List the files in the archive archive.tar verbosely. Here, the t tells tar to list the contents of an archive; v tells tar to operate verbosely; and f indicates that the next argument will be the name of the archive file to operate on.
+- `tar -xf archive.tar`: Extract the files from archive archive.tar. x tells tar to extract files from an archive; f tells tar that the next argument will be the name of the archive to operate on.
+- [Linux and Unix tar command](http://www.computerhope.com/unix/utar.htm)
+
 
 ### tmux (terminal multiplexer)
 - `tmux`  to enter tmux
