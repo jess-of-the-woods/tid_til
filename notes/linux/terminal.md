@@ -211,7 +211,19 @@ linux
 - `top`: check CPU usage for processes
 - `w`: shows who is logged in & what they are doing
 
-### ps (process status)
+
+### processes
+All processes have an ID (PID). all processes have a parent apart from init which has PID: 1. It is the initialisation which boots the pc and runs through start up scripts. Init is the 'mummy' to all processes whose parents have died.
+
+The kernel is a layer between the process & the hardware. Each process has a UID which is the user that owns that process. Effective User Id (EUID) is a way of giving a process different permissions than the user that spawned it.
+
+The niceness of a process is how high the priority of the process, therefore how 'nice' it is to other processes.
+
+Signals are used by processes to communicate with the kernel, & also how the kernel communicates info about the state of the system to processes.
+
+Processes need CPU time & the kernel manages when they get access to that in a smart way.
+
+#### ps (process status)
 - `ps aux`: report snapshot of current processes.
 
 `a`: all, `u`: convert userid's to usernames, `x`: show processes not attached to a terminal (tty)
@@ -219,6 +231,15 @@ linux
 - `ps aux | grep nginx`: check CPU usage for a process (nginx)
 - `ps -p <PID>`: to find the process having the PID
 - `ps -p "$$"`: to do this in one command
+
+#### kill
+- `kill -l`: list all types of kill commands. kill 15 is the default (or implied) which is SIGTERM.
+- `kill 9 <PID>`: use with caution, can cause damage
+
+#### pkill
+look up or signal processes based on name & other attributes
+- `sudo pkill -u user`: kill processes owned by user
+
 
 ### shell
 - `echo $0`
@@ -298,6 +319,9 @@ also `poweroff` or `init 0` do the same
 - `tar -xf archive.tar`: Extract the files from archive archive.tar. x tells tar to extract files from an archive; f tells tar that the next argument will be the name of the archive to operate on.
 - [Linux and Unix tar command](http://www.computerhope.com/unix/utar.htm)
 
+#### zip / unzip
+- `zip -r zippeddocs.zip Documents/`: zip Documents dir into an archive called zippeddocs.zip
+- `unzip zippeddocs.zip`: unzip archive into current dir
 
 ### tmux (terminal multiplexer)
 - `tmux`  to enter tmux
