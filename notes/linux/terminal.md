@@ -3,26 +3,30 @@
 ## Nix Terminal (linux/unix)
 - **[Git / Github](../git-github.md)**
 - **[network tools](network.md)**
-- **[BASH scripts](bash_scripting.md)**
+- **[BASH scripting](bash_scripting.md)**
 - [terminal keyboard shortcuts](#terminal-keyboard-shortcuts)
 - [basic commands](#basic-commands)
-- [ls](#ls)
-- [cd](#cd)
-- [rm](#rm)
-- [ln](#ln)
-- [outputting](#outputting)
-- [piping](#piping)
-- [redirection](#redirection)
+  - [ls](#ls)
+  - [cd](#cd)
+  - [rm](#rm)
+  - [ln](#ln)
+- [outputting](#outputting) ([piping](#piping), [redirection](#redirection), [standard input/output/error](standard-inputoutputerror))
 - [text editors](#text-editors)
 - [searching](#searching)([find](#find), [grep](#grep), [sed](#sed))
+- [cut](#cut)
 - [chmod](#chmod), [chown](#chown)
-- [system](#system) (help, aliases, shutdown..)
-- [sudo & su](#sudo--su)
-- [managing applications](#managing-applications)
-- [disk usage](#disk-usage)
-- [archiving/compressing](#archiving--compressing)
-- [tmux](#tmux-terminal-multiplexer)
-- [user account management](#user-account-management)
+- [system](#system)
+  - [help](#help)
+  - [PATH](#path)
+  - [sudo & su](#sudo--su)
+  - [managing applications](#managing-applications)
+  - [processes](#processes) ([ps](#ps-process-status), [kill](#kill))
+  - [disk usage](#disk-usage)
+  - [aliases](#aliases)
+  - [shutdown](#shutdown)
+  - [archiving/compressing](#archiving--compressing) ([tar](#tar), [zip/unzip](#zip--unzip))
+  - [user account management](#user-account-management)
+  - [tmux](#tmux-terminal-multiplexer)
 
 ## terminal keyboard shortcuts
 - `ctrl alt t`: open terminal window
@@ -190,55 +194,28 @@ linux
 - `chown -R ghost:ghost .` chown recursively, group: ghost, user:ghost, `.` is current dir
 
 ## system
-- 'man': manual pages. Use like: `man ls` or `man uniq` for manual pages on the ls or uniq commands
-- help. to get help on a command type `commandName --help`, e.g. `ls --help` for help on ls
-- `whatis`: displays one-line manual page descriptions. e.g. `whatis grep`
 - `$`: represents prompt in BASH
 - `.`: represents current directory
 - `..`: represents parent directory, `cd ..`: change to parent directory
 - ` ~`: (tilde) represents users home directory eg. `/home/user`, can use in relative paths e.g. `~/Documents/` is the same as `/home/user/Documents`
 - `~/.bash_profile`: used to store environment settings for terminal (source ~/.bash_profile activates changes))
 
+### help
+- 'man': manual pages. Use like: `man ls` or `man uniq` for manual pages on the ls or uniq commands
+- help. to get help on a command type `commandName --help`, e.g. `ls --help` for help on ls
+- `whatis`: displays one-line manual page descriptions. e.g. `whatis grep`
+
 ### system commands
 - `tty`: displays the virtual terminal you are using..
 - `whoami`: displays username
+- `logname`: Prints the users login name
 - `who am i`: displays username & terminal you are in.
 - `hostname`: displays hostname (name of computer)
-- `logname`: Prints the users login name
 - `uname`: print system information. `uname -a` prints all
 - `service udev status`: Check if 'udev' service is running (on older machines)
 - `systemctl status udev`: Check if 'udev' service is running (on newer machines)
 - `top`: check CPU usage for processes
 - `w`: shows who is logged in & what they are doing
-
-
-### processes
-All processes have an ID (PID). all processes have a parent apart from init which has PID: 1. It is the initialisation which boots the pc and runs through start up scripts. Init is the 'mummy' to all processes whose parents have died.
-
-The kernel is a layer between the process & the hardware. Each process has a UID which is the user that owns that process. Effective User Id (EUID) is a way of giving a process different permissions than the user that spawned it.
-
-The niceness of a process is how high the priority of the process, therefore how 'nice' it is to other processes.
-
-Signals are used by processes to communicate with the kernel, & also how the kernel communicates info about the state of the system to processes.
-
-Processes need CPU time & the kernel manages when they get access to that in a smart way.
-
-#### ps (process status)
-- `ps aux`: report snapshot of current processes.
-
-`a`: all, `u`: convert userid's to usernames, `x`: show processes not attached to a terminal (tty)
-
-- `ps aux | grep nginx`: check CPU usage for a process (nginx)
-- `ps -p <PID>`: to find the process having the PID
-- `ps -p "$$"`: to do this in one command
-
-#### kill
-- `kill -l`: list all types of kill commands. kill 15 is the default (or implied) which is SIGTERM.
-- `kill 9 <PID>`: use with caution, can cause damage
-
-#### pkill
-look up or signal processes based on name & other attributes
-- `sudo pkill -u user`: kill processes owned by user
 
 
 ### shell
@@ -293,6 +270,34 @@ installing / uninstalling / updating / upgrading
 
 - `dpkg -L packagename`: lists all files 'owned' by a package
 
+### processes
+All processes have an ID (PID). all processes have a parent apart from init which has PID: 1. It is the initialisation which boots the pc and runs through start up scripts. Init is the 'mummy' to all processes whose parents have died.
+
+The kernel is a layer between the process & the hardware. Each process has a UID which is the user that owns that process. Effective User Id (EUID) is a way of giving a process different permissions than the user that spawned it.
+
+The niceness of a process is how high the priority of the process, therefore how 'nice' it is to other processes.
+
+Signals are used by processes to communicate with the kernel, & also how the kernel communicates info about the state of the system to processes.
+
+Processes need CPU time & the kernel manages when they get access to that in a smart way.
+
+#### ps (process status)
+- `ps aux`: report snapshot of current processes.
+
+`a`: all, `u`: convert userid's to usernames, `x`: show processes not attached to a terminal (tty)
+
+- `ps aux | grep nginx`: check CPU usage for a process (nginx)
+- `ps -p <PID>`: to find the process having the PID
+- `ps -p "$$"`: to do this in one command
+
+#### kill
+- `kill -l`: list all types of kill commands. kill 15 is the default (or implied) which is SIGTERM.
+- `kill 9 <PID>`: use with caution, can cause damage
+
+#### pkill
+look up or signal processes based on name & other attributes
+- `sudo pkill -u user`: kill processes owned by user
+
 ### disk usage
 - `df -ah` `-a`: all, `-h`: human-readable
 - `du -hs ./path/to/dir` ( `du` = disk usage, `h` = human-readable, `s` = summary ) recursive summary of folder & subfolders..
@@ -323,26 +328,25 @@ also `poweroff` or `init 0` do the same
 - `zip -r zippeddocs.zip Documents/`: zip Documents dir into an archive called zippeddocs.zip
 - `unzip zippeddocs.zip`: unzip archive into current dir
 
-### tmux (terminal multiplexer)
-- `tmux`  to enter tmux
-- `ctrl + b` then `?` for help (list commands)
-- `ctrl + b` then `c` to create new window (`p`: previous, `n`: next, `w`: list all)
-- `%`: split horizontally, `"`: split vertically
-- `exit`: to exit
-
 ### User Account Management
 see '/etc/passwd', '/etc/shadow' & '/etc/group'
 
 ##### useradd
 - `useradd userName`: creates a user. `-m`: create a home dir, `-d`: define a path for it, `-s`: default shell..
 
-    e.g. `useradd mymble -m -d /home/mymble -s /bin/bash`
-
+  e.g. `useradd mymble -m -d /home/mymble -s /bin/bash`
 
 - `userdel userName`: delete user
 - `passwd userName`: sets a password for a user.
 - usermod -L userName: locks an account
 - `usermod -U userName`: unlocks
+
+### tmux (terminal multiplexer)
+- `tmux`  to enter tmux
+- `ctrl + b` then `?` for help (list commands)
+- `ctrl + b` then `c` to create new window (`p`: previous, `n`: next, `w`: list all)
+- `%`: split horizontally, `"`: split vertically
+- `exit`: to exit
 
 ---
 

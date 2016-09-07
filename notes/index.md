@@ -12,7 +12,7 @@
 * [Git / GitHub](git-github.md)
 * [HTML](HTML/index.md)
 * [JavaScript](javascript/index.md) | [node.js](javascript/node.md)
-* [linux](linux/index.md)
+* [linux](linux/index.md) | [terminal](linux/terminal.md)
 * [math](math/index.md)
 * [networks](networks/index.md)
 * [resources](resources.md) | [tools](tools.md)
