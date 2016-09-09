@@ -1,9 +1,12 @@
-[networks](index.md)
+[networks](index.md) |
 
 ## TCP/IP - Transmission Control Protocol/Internet Protocol
 
 
-**[HTTP](HTTP.md)**
+### - [HTTP](HTTP.md)
+
+### - [hardware](hardware.md)
+
 
 ### I.P. Addresses
 Divided up into 4 octets e.g.
