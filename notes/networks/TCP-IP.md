@@ -18,8 +18,13 @@ each number between the dots is between 0 and 255 as that is the highest number 
 
 The I.P. Address is separated into two sections, the network section & the host section. The network section is the 'address' of the network while the host section is the number of an individual computer. This is analogous to a street name & house number.
 
+There are private & public I.P addresses. A router or residential gateway will have a public IP which is used on the internet, and a private IP which is only used within the home/office.
+
+#### Dynamic Host Configuration Protocol - DHCP
+I.P. addresses by default are assigned dynamically by a DHCP server in exchange for the hosts MAC address, but can also be set manually. The server will have a pool of IP addresses available & these will be assigned when a host connects to that server.
+
 ### Subnet Mask
-The Subnet Mask is a dot-separated string of four octets, just like the I.P. Address. If we draw am imaginary line through the subnet mask between the last 255 from the left and the first zero, this shows us which part of the matching I.P. address is the network section & which is the host section.
+The Subnet Mask is a dot-separated string of four octets, just like the I.P. Address. If we draw an imaginary line through the subnet mask between the last 255 from the left and the first zero, this shows us which part of the matching I.P. address is the network section & which is the host section.
 
 e.g.
 
