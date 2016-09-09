@@ -1,4 +1,4 @@
-[notes](index.md)
+[notes](index.md) [languages](code.md)
 
 ## Markdown
 

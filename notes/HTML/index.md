@@ -1,7 +1,8 @@
-[notes](../index.md) | [frontend](../frontend.md)
+[notes](../index.md) | [frontend](../frontend.md) | [languages](code.md)
 
-## HTML
-**[HTML5](HTML5.md)**
+## Hyper Text Markup Language - HTML
+- ### [HTML5](HTML5.md)
+
 
 - [Forms](#forms)
 - [Span](#span)
