@@ -6,7 +6,7 @@
 - [sockets / streams](sockets-streams.md)
 - [TCP/IP](TCP-IP.md)
 
-### Terms
+### terms
 - Network/Subnet - section of a larger network
 - Packet - Piece of data
 - Protocols - agreed upon set of rules/ procedures
