@@ -5,7 +5,7 @@
   <img src="https://raw.githubusercontent.com/gmetais/YellowLabTools/master/doc/img/npm-logo.png" width="300">
 </a>
 
-**[D3.js](d3.md)** | **[Express.js](express.md)** | **[ghost](ghost.md)** | **[Knex](knex.md)** | **[React.js](react/index.md)** | **[three.js](threejs.md)**
+**[D3.js](d3.md)** | **[express.js](express.md)** | **[ghost](ghost.md)** | **[handlebars.js](handlebars.md)** | **[knex](knex.md)** | **[react.js](react/index.md)** | **[three.js](threejs.md)**
 
 Uses 'package.json' to record dependencies, & install them after downloading a project.
 

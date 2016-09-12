@@ -8,7 +8,7 @@
 * [jQuery](javascript/jQuery.md)
 * [React](javascript/react/index.md)
 * [SVG](HTML/SVG.md)
-* Templating (Handlebars, Hyperscript, Jade..)
+* [Templating](templating.md) (Handlebars, Hyperscript, Jade..)
 * [User Interfaces](UI.md)
 * Virtual Reality
 
