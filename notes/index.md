@@ -4,19 +4,17 @@
 
 * [3D](3D.md)
 * [art](art.md)
-* [building / bundling](building.md)
-* [CSS](CSS/index.md)
+* [building / bundling](building.md) | [deployment](deployment.md)
+* [CSS](CSS/index.md) | [HTML](HTML/index.md)
 * [databases](databases.md)
 * [data visualisation](dataVisualisation.md)
-* [deployment](deployment.md)
 * [Git / GitHub](git-github.md)
-* [HTML](HTML/index.md)
 * [JavaScript](javascript/index.md) | [node.js](javascript/node.md)
 * [linux](linux/index.md) | [terminal](linux/terminal.md)
 * [math](math/index.md)
-* [networks](networks/index.md)
+* [networks](networks/index.md) | [security](security/index.md)
 * [resources](resources.md) | [tools](tools.md)
-* [security](security/index.md)
+* [templating](templating.md)
 * [testing](testing.md)
 * [user interfaces](UI.md)
 
@@ -26,8 +24,5 @@
 [backend](backend.md) | [frontend](frontend.md) | [client-side](client-side.md) | [server-side](server-side.md)
 
 ---
-
-<!-- ### Links -->
-
 
 See also [to learn](../toLearn.md)
