@@ -278,6 +278,10 @@ installing / uninstalling / updating / upgrading
 - `dpkg -L packagename`: lists all files 'owned' by a package
 
 ### processes
+- `top`: display linux processes (by CPU usage)
+- `htop`: interactive process viewer (needs to be installed)
+- `pstree`: display a tree of processes
+
 All processes have an ID (PID). all processes have a parent apart from init which has PID: 1. It is the initialisation which boots the pc and runs through start up scripts. Init is the 'mummy' to all processes whose parents have died.
 
 The kernel is a layer between the process & the hardware. Each process has a UID which is the user that owns that process. Effective User Id (EUID) is a way of giving a process different permissions than the user that spawned it.
@@ -293,27 +297,6 @@ Signals are used by processes to communicate with the kernel, & also how the ker
 
 Processes need CPU time & the kernel manages when they get access to that in a smart way.
 
-4 States a process can be in:
-- runnable (eligible to be scheduled for CPU time, has all the info it needs)
-- sleeping (waiting for something)
-- zombie state: a process that has finished doing what it is doing, waiting to give back the info it has come up with & then be killed by kernel
-- stopped: has received a SIGSTOP, waiting for a SIGCONT (resume)
-
-
-PPID: parent process id
-
-- `top`: display linux processes (by CPU usage)
-- `htop`: interactive process viewer (needs to be installed)
-
-#### ps (process status)
-- `ps aux`: report snapshot of current processes.
-
-`a`: all, `u`: convert userid's to usernames, `x`: show processes not attached to a terminal (tty)
-
-- `ps aux | grep nginx`: check CPU usage for a process (nginx)
-- `ps -p <PID>`: to find the process having the PID
-- `ps -p "$$"`: to do this in one command
-
 #### kill
 - `kill -l`: list all types of kill commands. kill 15 is the default (or implied) which is SIGTERM.
 - `kill 9 <PID>`: use with caution, can cause damage
@@ -322,6 +305,26 @@ PPID: parent process id
 look up or signal processes based on name & other attributes
 - `sudo pkill -u user`: kill processes owned by user
 
+#### states
+4 States a process can be in:
+- runnable (eligible to be scheduled for CPU time, has all the info it needs)
+- sleeping (waiting for something)
+- zombie state: a process that has finished doing what it is doing, waiting to give back the info it has come up with & then be killed by kernel
+- stopped: has received a SIGSTOP, waiting for a SIGCONT (resume)
+
+
+#### ps (process status command)
+- `ps aux`: report snapshot of current processes.
+
+`a`: all, `u`: convert userid's to usernames, `x`: show processes not attached to a terminal (tty)
+
+- `ps aux | grep nginx`: check CPU usage for a process (nginx)
+- `ps -p <PID>`: to find the process having the PID
+- `ps -p "$$"`: to do this in one command
+
+[ps: Clean way to only get parent processes?](https://stackoverflow.com/questions/12373309/ps-clean-way-to-only-get-parent-processes) - Stack Overflow
+
+PPID: parent process id
 
 ### disk usage
 - `df -ah` `-a`: all, `-h`: human-readable
