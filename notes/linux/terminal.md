@@ -222,7 +222,6 @@ linux
 - `uname`: print system information. `uname -a` prints all
 - `service udev status`: Check if 'udev' service is running (on older machines)
 - `systemctl status udev`: Check if 'udev' service is running (on newer machines)
-- `top`: check CPU usage for processes
 - `w`: shows who is logged in & what they are doing
 
 
@@ -283,11 +282,28 @@ All processes have an ID (PID). all processes have a parent apart from init whic
 
 The kernel is a layer between the process & the hardware. Each process has a UID which is the user that owns that process. Effective User Id (EUID) is a way of giving a process different permissions than the user that spawned it.
 
-The niceness of a process is how high the priority of the process, therefore how 'nice' it is to other processes.
+#### niceness
+The niceness of a process is how high the priority of the process, therefore how 'nice' or respectful it is to other processes. The higher the number the lower the priority. Range is from about -20 to 19.
+e.g. `nice -n 15 /not/important/task` or `nice -n -5 <PID>`
 
+or if a process is already running, `renice -n -5 <PID>`
+
+#### signals
 Signals are used by processes to communicate with the kernel, & also how the kernel communicates info about the state of the system to processes.
 
 Processes need CPU time & the kernel manages when they get access to that in a smart way.
+
+4 States a process can be in:
+- runnable (eligible to be scheduled for CPU time, has all the info it needs)
+- sleeping (waiting for something)
+- zombie state: a process that has finished doing what it is doing, waiting to give back the info it has come up with & then be killed by kernel
+- stopped: has received a SIGSTOP, waiting for a SIGCONT (resume)
+
+
+PPID: parent process id
+
+- `top`: display linux processes (by CPU usage)
+- `htop`: interactive process viewer (needs to be installed)
 
 #### ps (process status)
 - `ps aux`: report snapshot of current processes.
@@ -305,6 +321,7 @@ Processes need CPU time & the kernel manages when they get access to that in a s
 #### pkill
 look up or signal processes based on name & other attributes
 - `sudo pkill -u user`: kill processes owned by user
+
 
 ### disk usage
 - `df -ah` `-a`: all, `-h`: human-readable
@@ -336,7 +353,7 @@ also `poweroff` or `init 0` do the same
 - `zip -r zippeddocs.zip Documents/`: zip Documents dir into an archive called zippeddocs.zip
 - `unzip zippeddocs.zip`: unzip archive into current dir
 
-### User Account Management
+### user account management
 see '/etc/passwd', '/etc/shadow' & '/etc/group'
 
 ##### useradd
