@@ -1,10 +1,10 @@
 [notes](../index.md) | [backend](../backend.md)
 
-# security
+## security
 
-### - [authentication](authentication.md)
-### - [encryption](encryption.md)
-### - [linux security](../linux/security.md)
+#### - [authentication](authentication.md)
+#### - [encryption](encryption.md)
+#### - [linux security](../linux/security.md)
 
 ### topics
 - encryption
@@ -21,12 +21,12 @@ Uses asymmetric-key cryptography
 Authentication through the system of certification authorities is the weak point in the system.
 
 
-Handshake:
+#### Handshake:
 
-<img src="http://vanish.org/t/images/ssl.jpg" height="150" width="300"/>
+<img src="http://vanish.org/t/images/ssl.jpg" height="300" width="500"/>
 
 
 
 ---
 
-See also [networks](../networks/index.md)
+See also [HTTP](networks/HTTP.md) | [networks](../networks/index.md)
