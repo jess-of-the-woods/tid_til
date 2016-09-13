@@ -25,13 +25,17 @@
 ### rsync
 file copying tool (remote & local)
 
+syntax:
+
+`rsync from to`
+
 e.g.
 
 `rsync -av . root@domain.com:~/mango`: copy all of the files in this directory (`.`) to the /home/bananaUser/mango directory (through SSH 'user@domain')
 
 `rsync --progress --delete -ah source destination`: non-SSH usage
 
-**switches:**
+**switches**:
 - `a`: archive, preserve file structure etc.
 - `h`: human-readable
 - `v`: verbose
@@ -66,7 +70,9 @@ can either use a passphrase or not
 - [Setting up SSH Keys](https://www.youtube.com/watch?v=-J9wUW5NhOQ) - YouTube (14 mins)
 
 ### SCP - Secure Copy
-Syntax: `scp from to`
+Syntax:
+
+`scp from to`
 
 e.g. `scp -R user@domain.com:/home/user/Documents/newfiles ~/Desktop`
 
