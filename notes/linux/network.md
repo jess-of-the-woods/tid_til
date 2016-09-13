@@ -11,7 +11,8 @@
 - `ip addr show`: display network info, similar to ifconfig
 - `ping 8.8.8.8`: time to return answer
 - `whois`: gets info on domain names or IP's
-- `traceroute`: shows path to the destination IP
+- `route -n`: see your default gateway
+- `traceroute`: shows path to the destination IP (also mtr & tracepath)
 - `dig`: domain info groper, translates domains to IP addresses
 - `iftop`: displays a table of bandwidth usage by hosts
 - `nm-tool`: Network Manager Tool (Network Information)
