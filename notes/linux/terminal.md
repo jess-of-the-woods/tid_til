@@ -318,7 +318,7 @@ e.g. `nice -n 15 /not/important/task` or `nice -n -5 <PID>`
 
 or if a process is already running, `renice -n -5 <PID>`
 
-#### ps (process status command)
+#### ps (process status)
 - `ps aux`: report snapshot of current processes.
 
 **examples**:
