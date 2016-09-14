@@ -4,6 +4,7 @@
 - **[Git / Github](../git-github.md)**
 - **[network tools](network.md)**
 - **[BASH scripting](bash_scripting.md)**
+- **[file types](filetypes.md)** | **[permissions](file_permissions.md)**
 - [terminal keyboard shortcuts](#terminal-keyboard-shortcuts)
 - [basic commands](#basic-commands)
   - [ls](#ls)
@@ -208,6 +209,8 @@ linux
 - `chmod -x`: removes execution rights
 
 `chmod 644 filename` or `chmod 777 filename`
+
+see also [file permissions](file_permissions.md)
 
 ### chown
 'change owner' or group of object
