@@ -1,4 +1,4 @@
-[networks](index.md) | [TCP/IP](TCP-IP.md)
+[hardware](../hardware.md) | [networks](index.md) | [TCP/IP](TCP-IP.md)
 
 ## network hardware (backbones)
 
