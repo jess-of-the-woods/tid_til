@@ -37,7 +37,7 @@ also check out `man hier`: manual pages for filesystem hierarchy
 
 `/opt`: Optional. Programs installed by user
 
-`/proc`: Where the kernel writes information about running processes. A virtual filesystem where the kernel is able to communicate with the user & any other program on the machine about the state of processes that are running. There will be a directory in /proc for each running process.
+`/proc`: Where the kernel writes information about running processes. [more info](terminal.md#proc-filesystem)
 
 `/root`: root's home
 
