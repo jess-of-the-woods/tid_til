@@ -15,6 +15,8 @@
   - [redirection](#redirection)
   - [standard input/output/error](#standard-inputoutputerror)
 - [text editors](#text-editors)
+  - [nano](#nano-pico)
+  - [Vi / Vim](#vi-vim)
 - [searching](#searching)
   - [find](#find)
   - [grep](#grep)
@@ -185,9 +187,14 @@ linux
 `-d`: delimiter, `-f2`: second field
 
 ### text editors
+
+#### Nano/Pico
 - `nano path/filename`: Open file in Nano editor ( ctrl + O to save, ctrl + X to exit ) - [beginners guide](http://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/)
 
-- `vi path/filename`: open file in Vim. Vim has 2 modes, 'esc' & 'i' alternate between modes. i is text mode, esc then `:q` then enter to quit. `:wq` to write to file & quit
+#### Vi/Vim
+- `vi path/filename`: open file in Vim. Vim has 2 modes, 'esc' & 'i' alternate between modes. i is text mode, esc then `:q` then enter to quit.
+- `:wq` to write to file & quit
+- `:q!` to discard changes.
 
 ### chmod
 'change mode' change the access permissions to file system objects (files and directories).
@@ -256,6 +263,8 @@ GKSu is a library that provides a Gtk+ frontend to su and sudo. It supports logi
 - `gksu gedit`, in preferences, disable file browser plugin
 
 ### managing applications
+APT - Advanced Package Tool
+
 installing / uninstalling / updating / upgrading
 - `apt-cache search searchterm`: search repositories for search term (search through package names & descriptions)
 
