@@ -2,32 +2,48 @@
 
 ## to learn
 
-[Web Development mindmap 2016/2017](https://coggle.it/diagram/Vz9LvW8byvN0I38x) - learncode.academy
-
 ### - [questions](questions.md)
-
-- client-side templating
 
 ## TOC
 - [general](#general)
-- [CSS](#css)
-- [JavaScript](#javascript)
-- [math](#math)
 - [linux](#linux)
+- [networks](#networks)
+- [SysAdmin/Ops](#sysadmin-ops)
+- [JavaScript](#javascript)
+- [node.js](#node.js)
+- [math](#math)
+- [CSS](#css)
 - [art](#art)
 - [git/github](#git-github)
 - [other](#other)
 
 ### general
+- client-side templating
 - Functional Programming ( Elm.. )  ([notes](notes/functional.md))
 - webRTC (Web Real-Time-Communication, API definition drafted by W3C)
 - Media type (MIME type)
 - Data type ([Wiki](https://en.wikipedia.org/wiki/Data_type))
-- Networking (TCP/IP.., DHCP, NAT (network address translation))
 
-### CSS
-- SASS ([notes](notes/CSS/SASS.md))
-- Flexbox ([notes](notes/CSS/flexbox.md))
+### Linux ([notes](notes/linux/index.md))
+- mount points, mounting, unmounting
+- package management (universe, multiverse etc.)
+- device nodes
+- determine filesystem of removable media?
+- SSH from android?
+- veracrypt & ecryptfs
+- bash scripting (batch processing of tasks..)
+
+### networks
+- TCP/IP
+- OSI Model
+- DHCP
+- NAT (network address translation))
+- WNIC's
+- IEEE802.11
+- SSID/ ESSID/ BSSID
+
+### SysAdmin/Ops
+- Ansible
 
 ### JavaScript ([notes](notes/javascript/index.md))
 - Closures, Factory functions, Constructors, Classes, Prototypes
@@ -41,33 +57,25 @@
 - Ember.js?
 - Express.js:  partials, middleware.. ([notes](notes/javascript/express.md))
 
-### Math ([notes](notes/math/index.md))
-- Matrices (esp. transformation matrices) used in 3D programming
-
-### node.js / NPM basics ([notes](notes/javascript/node.md))
+#### node.js
 - streams, I/O, sockets
 - fsWriteFile
 - superagent
-- fs ( file system ) fsReadFile, fsWriteFile (node core)
 - inu
-- OAuth2
 
-### SysAdmin/Ops
-- Ansible
+([notes](notes/javascript/node.md))
 
-### Linux ([notes](notes/linux/index.md))
-- Mount points
-- Device nodes
-- How to determine filesystem of removable media?
-- filesystem structure
-- SSH from android?
-- tty
-- veracrypt & ecryptfs
+### Math ([notes](notes/math/index.md))
+- Matrices (esp. transformation matrices) used in 3D programming
+- vectors, scalars, tensors
+
+### CSS
+- SASS ([notes](notes/CSS/SASS.md))
+- Flexbox ([notes](notes/CSS/flexbox.md))
 
 ## art ([notes](notes/art.md))
 - data visualisation ([notes](notes/dataVisualisation.md))
 - HTML ([notes](notes/HTML/HTML.md))
-- node.js ([notes](notes/javascript/node.md))
 - React.js ([notes](notes/javascript/react/react.md))
 - rhino3D
 - stack.gl
@@ -82,3 +90,9 @@
 
 ### Other
 - Hotspots in images
+
+---
+
+### Links
+
+- [Web Development mindmap 2016/2017](https://coggle.it/diagram/Vz9LvW8byvN0I38x) - learncode.academy
