@@ -158,6 +158,7 @@ Syntax: `find ~/Downloads theFileImLookingFor`: Finds files/directories.
 - `find -iname "markdown.*"`: search for files called markdown (`-iname`: case-insensitive)
 - `find /home -iname "markdown.*"`: search for files in /home called markdown
 - use `-type` & a letter, such as `f`: files, `d` directories, `l`: symbolic links etc. e.g. `find / -type d -iname "filename"`
+- `find / -name "*song*" -user margaret -exec ls -l {} \;`: find files with the word 'song' somewhere in the name (case-sensitive), owned by user 'margaret', then execute 'ls -l' with the results.
 
 hint: pipe results to less
 
