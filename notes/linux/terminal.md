@@ -21,6 +21,7 @@
   - [Vi / Vim](#vivim)
 - [searching](#searching)
   - [find](#find)
+  - [locate](#locate)
   - [grep](#grep)
   - [sed](#sed)
 - [cut](#cut)
@@ -159,6 +160,11 @@ Syntax: `find ~/Downloads theFileImLookingFor`: Finds files/directories.
 - use `-type` & a letter, such as `f`: files, `d` directories, `l`: symbolic links etc. e.g. `find / -type d -iname "filename"`
 
 hint: pipe results to less
+
+### locate
+based on an index of filesystem which is updated once a day. therefore can be out of date. some directories such as /tmp are excluded based on  `/etc/updatedb.conf`: config file for locate
+- `locate "*.mp3"`
+- `sudo updatedb`: to update 'locate' database/index
 
 ### grep
 - 'G'lobal 'Re'gular expression 'P'rint (regex), used to look for line that matches a pattern inside files
