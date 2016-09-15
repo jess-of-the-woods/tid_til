@@ -5,6 +5,7 @@
 - **[network tools](network.md)**
 - **[BASH scripting](bash_scripting.md)**
 - **[file types](filetypes.md)** | **[permissions](file_permissions.md)**
+- **[cron](cron.md)**
 - [terminal keyboard shortcuts](#terminal-keyboard-shortcuts)
 - [basic commands](#basic-commands)
   - [ls](#ls)
