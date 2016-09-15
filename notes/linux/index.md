@@ -39,7 +39,7 @@ also check out `man hier`: manual pages for filesystem hierarchy
 
 `/opt`: Optional. Programs installed by user
 
-`/proc`: Where the kernel writes information about running processes. [more info](terminal.md#proc-filesystem)
+`/proc`: Where the kernel writes information about running processes. [more info](processes.md#proc-filesystem)
 
 `/root`: root's home
 
