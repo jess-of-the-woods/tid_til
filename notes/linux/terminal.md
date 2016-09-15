@@ -96,8 +96,13 @@ change directory
 - `cd` goes to home
 
 #### rm
-- `rm` ( remove files & directories, -r recursive )
-- `rm -rf dirname`: removes non-empty dir ( recursive & force )
+remove files or directories e.g.
+- `rm file1.txt`
+- `rm -rf <dirname>`: removes non-empty directory
+
+**switches**:
+- `-r`: recursive
+- `-f`: force
 
 #### ln
 creates links to files or folders
@@ -108,7 +113,7 @@ creates links to files or folders
 ## outputting
 - `cat`: outputs contents of file to terminal, `cat filename`
 
-- `less`: Output file contents to screen, e.g. `less filename`. see also 'more'
+- `less`: Pager, Output file contents to screen page by page, e.g. `less filename`. see also 'more'
 
 - `more`: prints out file to screen, page by page
 
