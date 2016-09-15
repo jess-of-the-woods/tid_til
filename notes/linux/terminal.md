@@ -28,7 +28,7 @@
 - [system](#system)
   - [help](#help)
   - [PATH](#path)
-  - [sudo & su](#sudo--su)
+  - [history](#history)
   - [managing applications](#managing-applications)
   - [processes](#processes)
     - [signals](#signals)
@@ -41,7 +41,9 @@
   - [disk usage](#disk-usage)
   - [aliases](#aliases)
   - [shutdown](#shutdown)
+  - [reboot](#reboot)
   - [archiving/compressing](#archiving--compressing) ([tar](#tar), [zip/unzip](#zip--unzip))
+  - [sudo & su](#sudo--su)
   - [user account management](#user-account-management)
   - [tmux](#tmux-terminal-multiplexer)
 
@@ -58,6 +60,7 @@
 - `ctrl e`: end of line
 - `ctrl p`: previous command
 - `ctrl n`: next
+- `ctrl u`: clear line
 
 ## basic commands
 - `pwd`: print working directory
@@ -81,9 +84,6 @@
 - `uniq`: filters out adjacent duplicate lines & outputs contents, `uniq filename`
 
 - `file /user/home/filename.txt`: tells you document type
-
-- `history`: displays recent commands. `history -c`: clears history (stored in `~/.bash_history` or `~/.zsh_history`)
-
 
 #### ls
 - `ls` - list files (`-l` long form, `-a` hidden files & directories, `-t` sort by time modified)
@@ -228,18 +228,19 @@ see also [file permissions](file_permissions.md)
 - 'man': manual pages. Use like: `man ls` or `man uniq` for manual pages on the ls or uniq commands
 - help. to get help on a command type `commandName --help`, e.g. `ls --help` for help on ls
 - `whatis`: displays one-line manual page descriptions. e.g. `whatis grep`
+- `which <command>` e.g. `which ls`: locates a command (the path to where it is found)
+- `whereis`: locate the binary, source & man pages for a command
 
 ### system commands
 - `tty`: displays the virtual terminal you are using..
 - `whoami`: displays username
 - `logname`: Prints the users login name
 - `who am i`: displays username & terminal you are in.
+- `w`: shows who is logged in & what they are doing
 - `hostname`: displays hostname (name of computer)
 - `uname`: print system information. `uname -a` prints all
 - `service udev status`: Check if 'udev' service is running (on older machines)
 - `systemctl status udev`: Check if 'udev' service is running (on newer machines)
-- `w`: shows who is logged in & what they are doing
-
 
 ### shell
 - `echo $0`
@@ -260,16 +261,11 @@ A users PATH is stored in `~/.bash_profile`. To add a directory to the PATH perm
 
 [What is PATH?](http://www.linfo.org/path_env_var.html)
 
-### sudo / su
-`su`: superuser. Typing `su` followed by root account password (if it has been set up), will log in as superuser/root user. To exit type `exit`.
-
-`sudo` will just allow you superuser access for a single command.. e.g. `sudo apt-get install wine`. This is safer. The OS will remember your password for 15 minutes. If you haven't set up root account & password, you can log in as superuser with `sudo su` using just your user password.
-
-#### GKSu
-GKSu is a library that provides a Gtk+ frontend to su and sudo. It supports login shells and preserving environment when acting as a su frontend. It is useful to menu items or other graphical programs that need to ask a user's password to run another program as another user.
-
-- `gksu gedit /etc/sysctl.conf`     (change swappiness)
-- `gksu gedit`, in preferences, disable file browser plugin
+### history
+`history`: displays recent commands.
+- `!23`: will enter (but not run) the 23rd command in history
+- `history -c`: clears BASH history (stored in `~/.bash_history`)
+- `rm ~/.zsh_history` or `echo "" > ~/.zsh_history`: to remove zsh history
 
 ### managing applications
 APT - Advanced Package Tool
@@ -370,18 +366,19 @@ estimate file space usage
 - `h` = human-readable
 - `s` = summary (recursive summary of folder & subfolders..)
 
-
 ### aliases
 - 'alias' is another name for keyboard shortcut in the terminal, defined in .bashrc or .zshrc etc as
 - `alias tek="cd ~Documents/tech"`
 - `alias | wc -l`: number of aliases
 
 ### shutdown
-`shutdown` `shutdown -h`: halt/turn off. `shutdown -r +30`: restart in 30 minutes, `shutdown -h now`: turn off now
+`shutdown`: shuts the system down
+- `shutdown -h`: halt/turn off.
+- `shutdown -h now` or `poweroff` or `init 0`: turn off now
 
-also `poweroff` or `init 0` do the same
-
-`init 6`: reboot
+### reboot
+- `shutdown -r +30`: reboot in 30 minutes,
+- `init 6` or `reboot`: reboot computer
 
 ### archiving / compressing
 
@@ -401,10 +398,22 @@ also `poweroff` or `init 0` do the same
 
 [Linux and Unix tar command](http://www.computerhope.com/unix/utar.htm)
 
-
 #### zip / unzip
 - `zip -r zippeddocs.zip Documents/`: zip Documents dir into an archive called zippeddocs.zip
 - `unzip zippeddocs.zip`: unzip archive into current dir
+
+### sudo / su
+`su`: superuser. Typing `su` followed by root account password (if it has been set up), will log in as superuser/root user. To exit type `exit`.
+
+`sudo` will just allow you superuser access for a single command.. e.g. `sudo apt-get install wine`. This is safer. The OS will remember your password for 15 minutes. If you haven't set up root account & password, you can log in as superuser with `sudo su` using just your user password.
+
+- `sudo -k`: wipe cache
+
+#### GKSu
+GKSu is a library that provides a Gtk+ frontend to su and sudo. It supports login shells and preserving environment when acting as a su frontend. It is useful to menu items or other graphical programs that need to ask a user's password to run another program as another user.
+
+- `gksu gedit /etc/sysctl.conf`     (change swappiness)
+- `gksu gedit`, in preferences, disable file browser plugin
 
 ### user account management
 see '/etc/passwd', '/etc/shadow' & '/etc/group'

@@ -3,8 +3,8 @@
 ## Linux
 
 ### - [booting](booting.md)
-### - [filetypes](filetypes.md)
-### - [file permissions](file_permissions.md)
+<!-- ### - [filetypes](filetypes.md) | [permissions](file_permissions.md) -->
+### - files [types](filetypes.md) | [permissions](file_permissions.md)
 ### - [security](security.md)
 ### - [SSD configuration](SSD.md)
 ### - [terminal](terminal.md)

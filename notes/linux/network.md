@@ -6,7 +6,7 @@
 - **[SCP](#scp)**
 
 ### commands
-- `ifconfig`: configure a network interface [(x)](http://net-tools.sourceforge.net/man/ifconfig.8.html)
+- `ifconfig`: configure a network interface, also `ifconfig eth0` [(x)](http://net-tools.sourceforge.net/man/ifconfig.8.html)
 - `iwconfig`: wireless information (configure a wireless network interface), check the settings of your wireless connection without editing anything. This also shows packets sent/received.
 - `ip addr show`: display network info, similar to ifconfig
 - `ping 8.8.8.8`: time to return answer
