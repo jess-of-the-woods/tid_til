@@ -16,9 +16,9 @@
 - [links](#links)
 
 ### basics
-starts with a hashbang (`#!`) & reference to thing that runs the script e.g.
-- `#! /bin/bash`: bash script
-- `#! /usr/bin/env node`: node script
+bash scripts start with a hashbang `#!` & reference to thing that runs the script e.g.
+- `#!/bin/bash`: bash script or `#!/usr/bin/env bash`
+- `#!/usr/bin/env node`: node script
 
 files should have the suffix '.sh' e.g. 'helloworld.sh' although its not necessary
 
@@ -33,12 +33,12 @@ files should have the suffix '.sh' e.g. 'helloworld.sh' although its not necessa
 #!/bin/bash
 message='Hello World'
 echo $message
-```
 
+exit $0
+```
 its a convention to put environment variables in all capitals, but regular variables (within a script) in lowercase.
 
 no spaces around =. e.g. `message = "this is a string"` is wrong & won't work.
-
 
 #### quoting
 ```bash
@@ -60,7 +60,7 @@ echo "there are `wc -l < /etc/group` lines in the /etc/group file"
 ```
 
 ### running scripts
-`chmod +x helloworld.sh`: To make the file executable.
+`chmod +x helloworld.sh`: To make the file executable. (see also [chmod](terminal.md#chmod))
 
 run with `bash helloworld.sh` or `./helloworld.sh`
 
@@ -69,12 +69,36 @@ the source command will run a script and also integrate (or make available) all 
 
 e.g. `source helloworld.sh` or `. helloworld.sh`
 
+### arguments
+- `$#`: number of args the script was run with
+- `$0`: the filename of our script
+- `$1..$n`: script arguments
+
+e.g.
+```bash
+our_file_name=$0
+echo $ourfilename
+number_of_args=$#
+echo "The first 3 arguments were ${1}, ${2} and ${3}"
+
+```
+
 ### if statements
 ```bash
 if [ <condition> ]; then {
 
 }
 fi
+```
+
+e.g.
+```bash
+#!/bin/bash
+name="Margaret"
+if [ $1 = $name ]; then
+  echo "Hi $name"
+fi
+
 ```
 
 #### if, else
