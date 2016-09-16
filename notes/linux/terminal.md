@@ -149,6 +149,8 @@ redirect output of a file to the input of a command
 Syntax:
 - `prog1 < file.txt`
 
+e.g. `wc -l < testfile.txt`: redirect testfile.txt as the stdin for `wc -l` which will return (stdout) the number of lines in testfile.txt. equivalent to `cat testfile.txt | wc -l`
+
 ### standard input/output/error
 - 0 represents stdin
 - 1 represents stdout
