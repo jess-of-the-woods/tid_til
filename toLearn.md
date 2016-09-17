@@ -18,8 +18,10 @@
 - [other](#other)
 
 ### general
+- buffer
+- trim (fstrim) & SSD's
 - client-side templating
-- Functional Programming ( Elm.. )  ([notes](notes/functional.md))
+- Functional Programming ( Elm.. )
 - webRTC (Web Real-Time-Communication, API definition drafted by W3C)
 - Media type (MIME type)
 - Data type ([Wiki](https://en.wikipedia.org/wiki/Data_type))
@@ -32,6 +34,7 @@
 - SSH from android?
 - veracrypt & ecryptfs
 - bash scripting (batch processing of tasks..)
+- partedmagic SSD secure erase
 
 ### networks
 - TCP/IP
@@ -44,6 +47,7 @@
 
 ### SysAdmin/Ops
 - Ansible
+- Docker
 
 ### JavaScript ([notes](notes/javascript/index.md))
 - Closures, Factory functions, Constructors, Classes, Prototypes
