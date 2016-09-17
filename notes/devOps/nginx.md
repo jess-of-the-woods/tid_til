@@ -2,6 +2,9 @@
 
 ## nginx
 
+## - [setup](#setup)
+## - [config](#config)
+
 ### setup
 
 - create a droplet
