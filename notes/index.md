@@ -8,6 +8,7 @@
 * [CSS](CSS/index.md) | [HTML](HTML/index.md)
 * [databases](databases.md)
 * [data visualisation](dataVisualisation.md)
+* [DevOps](devOps/index.md)
 * [Git / GitHub](git-github.md)
 * [JavaScript](javascript/index.md) | [node.js](javascript/node.md)
 * [linux](linux/index.md) | [terminal](linux/terminal.md)
