@@ -21,7 +21,7 @@ interpreters
 - [markdown](markdown.md)
 - [processing](processing.md)
 - [Ruby](ruby.md)
-- [Structred Query Language - SQL](SQL.md)
+- [Structured Query Language - SQL](SQL.md)
 - [XML](XML.md)
 
 ---

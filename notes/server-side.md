@@ -2,6 +2,7 @@
 
 ## Server-Side
 - [databases](databases.md)
+- [DevOps](devOps/index.md)
 - [express.js](javascript/express.md)
 - [linux terminal](linux/terminal.md)
 - [node.js](javascript/node.md)
