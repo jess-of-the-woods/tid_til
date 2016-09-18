@@ -76,6 +76,34 @@ server {
 
 nginx error messages kept in `/var/log/nginx`
 
+## setting up another server block & git deployment
+
+- ssh in to droplet
+- `cd /etc/nginx/sites-available`
+- `sudo cp cheqin.me cloudscri.be`
+- edit new config file (server-block) (change domains)
+- `sudo ln -s /etc/nginx/sites-available/cloudscri.be cloudscri.be`: to create symlink to new site in sites-enabled dir
+- edit `nginx.conf` file, uncomment server_names_hash_bucket_size 64
+- `sudo service nginx restart`
+- goto home directory, `mkdir cloudscribe.git`
+- `cd cloudscribe.git`, `git init --bare`
+- `cd hooks`, `touch post-receive`
+- `sudo vi post-receive`
+
+```
+export GIT_WORK_TREE=/opt/www/cloudscri.be
+git checkout -f master
+```
+- `chmod +x post-receive`
+- `logout`
+
+
+in the git repo for the project you want to push up.. create a basic index.html file.. then..
+- `git remote add production deployer@123.456.789.123:cloudscribe.git`
+- `git remote -v`
+- then add, commit & push with `git push production master`
+
+
 <!-- ---
 
 See also -->
