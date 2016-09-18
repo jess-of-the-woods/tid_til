@@ -253,6 +253,7 @@ see also [file permissions](file_permissions.md)
 - `w`: shows who is logged in & what they are doing
 - `hostname`: displays hostname (name of computer)
 - `uname`: print system information. `uname -a` prints all
+- `lsb_release -a`: print distribution-specific information (find out ubuntu (or any distro) version)
 - `service udev status`: Check if 'udev' service is running (on older machines)
 - `systemctl status udev`: Check if 'udev' service is running (on newer machines)
 
