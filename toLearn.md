@@ -35,6 +35,7 @@
 - veracrypt & ecryptfs
 - bash scripting (batch processing of tasks..)
 - partedmagic SSD secure erase
+- [Introduction to Computer Networks Part 1 - Easy to understand basics](https://www.youtube.com/watch?v=ClPA3F_ZXds) Just watched this one (part 1)
 
 ### networks
 - TCP/IP
