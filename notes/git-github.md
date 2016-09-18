@@ -8,7 +8,7 @@
 - [remote](#git-remote)
 - [stash](#stash)
 - [undoing](#undoing)
-- [password caching](#password-caching)
+- [caching](#caching)
 - [other](#other)
 - [links](#links)
 
@@ -95,10 +95,11 @@ And if you actually want to completely undo it, throwing away all uncommitted ch
 ### Revert
 `git revert commitId` ( does an anti-commit, undo commit, but is still available )
 
-## Password Caching
-`git config --global credential.helper cache` - cache password in git
-
-`git config --global credential.helper 'cache --timeout=3600'` - timeout = 1 hour
+## Caching
+- `git config user.name`: display user name
+- `git config user.email`: display user email
+- `git config --global credential.helper cache` - cache password in git
+- `git config --global credential.helper 'cache --timeout=3600'` - timeout = 1 hour
 
 ## Other
 `git merge --abort`
