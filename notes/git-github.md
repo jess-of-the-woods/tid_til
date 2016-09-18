@@ -1,4 +1,4 @@
-[notes](index.md) | [backend](backend.md) | [linux terminal](linux/terminal.md)  | [tools](tools.md)
+[notes](index.md) | [backend](backend.md) | [linux terminal](linux/terminal.md) | [tools](tools.md)
 
 ## Git / GitHub
 - [basics](#basics)
@@ -98,6 +98,7 @@ And if you actually want to completely undo it, throwing away all uncommitted ch
 ## Caching
 - `git config user.name`: display user name
 - `git config user.email`: display user email
+- `git config --list`: list all config details
 - `git config --global credential.helper cache` - cache password in git
 - `git config --global credential.helper 'cache --timeout=3600'` - timeout = 1 hour
 
