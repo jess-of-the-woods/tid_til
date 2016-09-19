@@ -214,8 +214,11 @@ linux
 
 #### Vi/Vim
 - `vi path/filename`: open file in Vim. Vim has 2 modes, 'esc' & 'i' alternate between modes. i is text mode, esc then `:q` then enter to quit.
-- `:wq` to write to file & quit
+- `:wq` or `:x` to write to file & quit
 - `:q!` to discard changes.
+- `w`: to move to next word, `cw` to replace word??
+- `shift + x`: to uncomment??
+
 
 ### chmod
 'change mode' change the access permissions to file system objects (files and directories).
