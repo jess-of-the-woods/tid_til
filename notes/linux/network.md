@@ -46,6 +46,8 @@ delete a file and run rsync again, and it only copies the one missing file
 
 ### SSH - secure shell
 
+SSH daemon runs on port 22 by default.
+
 syntax:
 
 `ssh [user]@[ip address]` / `ssh [user]@[domain]`
