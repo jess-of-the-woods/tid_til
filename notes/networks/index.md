@@ -4,6 +4,7 @@
 - [hardware](hardware.md)
 - [linux terminal network tools](../linux/network.md)
 - [sockets / streams](sockets-streams.md)
+- [OSI Model](OSI.md)
 - [TCP/IP](TCP-IP.md)
 
 ### terms
