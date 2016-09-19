@@ -2,6 +2,14 @@
 
 ## linux security
 
+- [encryption](#encryption)
+  - [GnuPG](#gnupg)
+  - [steghide](#steghide)
+- [firewalls](#firewalls)
+- [rootkits](#rootkits)
+  - [rkhunter](#rkhunter)
+  - [chrootkit](#chrootkit)
+
 ### encryption
 
 #### GnuPG (GPG)
@@ -15,6 +23,17 @@
 
 - ef: embed file
 - cf: cover file
+
+### firewalls
+
+#### ufw
+Ubuntu ships with a tool called `ufw` that can be used to configure your firewall policies
+- `sudo ufw allow ssh`: if ssh port has not been changed from default port 22
+- `sudo ufw 80/tcp`: exception to run a web server
+- `sudo ufw 25/tcp`: exception to allow email on SMTP
+- `sudo ufw show added`: show added exceptions
+- `sudo ufw enable`
+- `sudo ufw status`
 
 ### rootkits
 'A rootkit is a stealthy type of software, typically malicious, designed to hide the existence of certain processes or programs from normal methods of detection and enable continued privileged access to a computer' -  [Wikipedia](http://en.wikipedia.org/wiki/Rootkit)
@@ -36,4 +55,4 @@ writes to /var/log/rkhunter.log
 
 ---
 
-See also [network tools](network.md)
+See also [network tools](network.md) | [SSH](network.md#ssh---secure-shell)
