@@ -1,4 +1,4 @@
-[linux](index.md)
+[linux](index.md) | [terminal](terminal.md)
 
 ## filesystem
 
@@ -45,4 +45,4 @@ also check out `man hier`: manual pages for filesystem hierarchy
 
 ---
 
-See also [booting](booting.md) | [filetypes](filetypes.md) | [file permissions](file_permissions.md)
+See also [booting](booting.md) | [filetypes](filetypes.md) | [file permissions](file_permissions.md) | [storage devices](storage_devices.md)

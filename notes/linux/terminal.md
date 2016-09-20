@@ -1,13 +1,14 @@
 [backend](../backend.md) | [linux](index.md) | [tools](../tools.md)
 
 ## Nix Terminal (linux/unix)
-- **[Git / Github](../git-github.md)**
-- **[network tools](network.md)**
-- **[BASH scripting](bash_scripting.md)**
-- **[processes](processes.md)**
-- **[file types](filetypes.md)** | **[permissions](file_permissions.md)**
 - **[cron](cron.md)**
+- **[BASH scripting](bash_scripting.md)**
+- **[Git / Github](../git-github.md)**
+- **[file types](filetypes.md)** | **[permissions](file_permissions.md)**
+- **[network tools](network.md)**
+- **[processes](processes.md)**
 - **[searching](search.md)**
+
 - [terminal keyboard shortcuts](#terminal-keyboard-shortcuts)
 - [basic commands](#basic-commands)
   - [ls](#ls)

@@ -1,4 +1,4 @@
-[linux](index.md)
+[linux](index.md) | [terminal](terminal.md)
 
 ## storage devices
 - [device file naming](#device-file-naming)
@@ -55,4 +55,4 @@ report file system disk space usage. e.g. `df -ah`
 
 ---
 
-See also [du](terminal#du) | [filesystem](filesystem.md) (esp. `/dev`)
+See also [du](terminal#du) | [filesystem](filesystem.md) (esp. `/dev`) | [SSD config](SSD.md)

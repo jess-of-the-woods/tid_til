@@ -1,4 +1,4 @@
-[filesystem](filesystem.md) | [linux](index.md)
+[filesystem](filesystem.md) | [linux](index.md) | [terminal](terminal.md)
 
 ## file types
 
