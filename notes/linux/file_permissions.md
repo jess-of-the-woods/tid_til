@@ -1,10 +1,10 @@
-[linux](index.md) | [file types](filetypes.md)
+[linux](index.md) | [file types](filetypes.md) | [filesystem](filesystem.md) | [terminal](terminal.md)
 
 ## file permissions
 
 owner, group, other
 
--rwxrwxrwx
+`-rwxrwxrwx`: permission string
 
 7: rwx
 
