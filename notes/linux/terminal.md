@@ -54,29 +54,18 @@
 - `ctrl p`: previous command
 - `ctrl n`: next
 - `ctrl u`: clear line
-- `!$` (bang-dollar): reuse the last argument(item) of previous command. e.g. if you run `mkdir test`, you can then type `cd !$` to reuse the last arg i.e. `test`
 
 ## basic commands
 - `pwd`: print working directory
-
 - `clear`: clear screen (also ctrl + l)
-
 - `mv`: move file(s), source file(s) then destination, e.g. `mv filename ~`
-
 - `cp`: copy file(s), source file(s) then destination
-
 - `touch`: creates empty file, `touch stuff.txt`
-
 - `wc`: 'Word Count' lines, words, characters, eg. `cat filename | wc`
-
 - `mkdir`: creates directory, e.g. `mkdir dirname`. `mkdir -p newfolder/child/chilOfChild` creates a path of folders (subfolders)
-
 - `rmdir`: removes empty directories, e.g. `rmdir dirname`
-
 - `sort`: Orders Alphabetically, `sort filename.*` or `cat lakes.txt | sort > sorted_lakes.txt`
-
 - `uniq`: filters out adjacent duplicate lines & outputs contents, `uniq filename`
-
 - `file /user/home/filename.txt`: tells you document type
 
 #### ls
@@ -253,6 +242,9 @@ A users PATH is stored in `~/.bash_profile`. To add a directory to the PATH perm
 - `!23`: will enter (but not run) the 23rd command in history
 - `history -c`: clears BASH history (stored in `~/.bash_history`)
 - `rm ~/.zsh_history` or `echo "" > ~/.zsh_history`: to remove zsh history
+- `!$` (bang-dollar): reuse the last argument(item) of previous command. e.g. if you run `mkdir test`, you can then type `cd !$` to reuse the last arg i.e. `test`
+- `!*`: reuse all arguments except the first one (typically command name)
+- `!!`: retype whole previous line
 
 ### managing applications
 - 'APT' - Advanced Package Tool (similiar to aptitude)
