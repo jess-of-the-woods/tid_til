@@ -19,3 +19,7 @@ less than 512 bytes
 loads & executes GRUB
 
 loads default kernel specified in config file /etc/grub.conf
+
+---
+
+ See also [filesystem](filesystem.md)

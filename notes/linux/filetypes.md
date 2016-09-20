@@ -1,8 +1,8 @@
-[linux](index.md) | [terminal](terminal.md)
+[filesystem](filesystem.md) | [linux](index.md)
 
 ## file types
 
-### - [file permissions](file_permissions.md)
+- **[file permissions](file_permissions.md)**
 
 first file attribute bit that's displayed when you type "ls -l"
 
@@ -11,11 +11,5 @@ first file attribute bit that's displayed when you type "ls -l"
 - symlinks - has an `l` for first bit
 
 ### Interface files for your hardware
-- character device files, e.g. mice. where the mouse writes information about where it is moving. the system then takes & uses that info. character devices take care of their own buffering. has a `c` for first bit
-- block device files e.g. hard drives. buffer on the kernel (kernel provides buffering). has a `b` for first bit
-
-
-
-<!-- ---
-
-See also -->
+- character device files, e.g. mice. where the mouse writes information about where it is moving. the system then takes & uses that info. character devices take care of their own buffering. has a `c` for first bit. data will be written to device one character at a time.
+- block device files e.g. hard drives. buffer on the kernel (kernel provides buffering). has a `b` for first bit. data will be written to device one block at a time.
