@@ -27,8 +27,8 @@
 - Data type ([Wiki](https://en.wikipedia.org/wiki/Data_type))
 
 ### Linux ([notes](notes/linux/index.md))
-- mount points, mounting, unmounting
-- package management (universe, multiverse etc.)
+- ~~mount points, mounting, unmounting~~
+- ~~package management (universe, multiverse etc.)~~
 - device nodes
 - determine filesystem of removable media?
 - SSH from android?
