@@ -1,7 +1,6 @@
 [linux](index.md)
 
 ## Booting
-
 - MBR
 - GRUB: GRand Unified Boot Loader
 - POST: power on self test

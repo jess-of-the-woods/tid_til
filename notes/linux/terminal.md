@@ -29,6 +29,8 @@
   - [PATH](#path)
   - [history](#history)
   - [managing applications](#managing-applications)
+    - [installing/uninstalling/updating/upgrading](#installinguninstallingupdatingupgrading)
+    - [managing repositories](#managing-repositories)
   - [du](#du)
   - [aliases](#aliases)
   - [shutdown](#shutdown)
@@ -52,6 +54,7 @@
 - `ctrl p`: previous command
 - `ctrl n`: next
 - `ctrl u`: clear line
+- `!$` (bang-dollar): reuse the last argument(item) of previous command. e.g. if you run `mkdir test`, you can then type `cd !$` to reuse the last arg i.e. `test`
 
 ## basic commands
 - `pwd`: print working directory
@@ -186,7 +189,6 @@ linux
 - `w`: to move to next word, `cw` to replace word??
 - `shift + x`: to uncomment??
 
-
 ### chmod
 'change mode' change the access permissions to file system objects (files and directories).
 - `chmod`: change mode, modify permission string
@@ -253,32 +255,25 @@ A users PATH is stored in `~/.bash_profile`. To add a directory to the PATH perm
 - `rm ~/.zsh_history` or `echo "" > ~/.zsh_history`: to remove zsh history
 
 ### managing applications
-APT - Advanced Package Tool (same as aptitude??)
+- 'APT' - Advanced Package Tool (similiar to aptitude)
+- 'PPA' - Personal Package Archives
 
-PPA - Personal Package Archives
-
-installing / uninstalling / updating / upgrading
+#### installing/uninstalling/updating/upgrading
 - `apt-cache search searchterm`: search repositories for search term (search through package names & descriptions)
-
-- `sudo apt-get install packagename`: Install a package/program
-
-- `sudo apt-get remove packagename`: Remove a package/program
-
+- `sudo apt-get install packagename`: install a package/program
+- `sudo apt-get remove packagename`: remove a package/program
 - `sudo apt-get update`: update repo's (retrieve new lists of packages)
-
 - `sudo apt-get upgrade`: install updates
-
-- `sudo add-apt-repository ppa:numix/ppa`: add repository
-
 - `sudo apt-get autoremove`: remove dependencies for programs which are no longer installed
-
-- `cat /etc/apt/sources.list`: displays repositories subscribed to
-
 - `ls /usr/share/applications | awk -F '.desktop' ' { print $1}' - > ~/Desktop/applications.txt`: list installed applications & output to file on desktop
 
 - `dpkg -L packagename`: lists all files 'owned' by a package
 
-#### du
+#### managing repositories
+- `sudo add-apt-repository ppa:numix/ppa`: add repository
+- `/etc/apt/sources.list` & any file with the suffix '.list' in `/etc/apt/sources.list.d/`: displays repositories subscribed to
+
+### du
 estimate file space usage
 - `du -hs ./path/to/dir`
 
@@ -316,8 +311,7 @@ estimate file space usage
 - `tar -cf archive.tar file1 file2`: Create archive 'archive.tar' containing files file1 and file2.
 - `tar -tvf archive.tar`: List the files in the archive 'archive.tar' verbosely.
 - `tar -xf archive.tar`: Extract the files from archive 'archive.tar'.
-
-[Linux and Unix tar command](http://www.computerhope.com/unix/utar.htm)
+- ([more info](http://www.computerhope.com/unix/utar.htm))
 
 #### zip / unzip
 - `zip -r zippeddocs.zip Documents/`: zip Documents dir into an archive called zippeddocs.zip
