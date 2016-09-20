@@ -3,6 +3,7 @@
 ## linux security
 
 - [encryption](#encryption)
+  - [eCryptfs](#ecryptfs)
   - [GnuPG](#gnupg)
   - [steghide](#steghide)
 - [firewalls](#firewalls)
@@ -11,6 +12,11 @@
   - [chrootkit](#chrootkit)
 
 ### encryption
+
+#### eCryptfs
+- `sudo apt-get install ecryptfs-utils`
+- `sudo mount -t ecryptfs /srv /srv`
+- [homepage](http://ecryptfs.org/) | [help.ubuntu](https://help.ubuntu.com/lts/serverguide/ecryptfs.html) | [Linux Journal](https://www.linuxjournal.com/article/9400) | [StackExchange](https://stackexchange.com/filters/33360/ecryptfs)
 
 #### GnuPG (GPG)
 - `gpg -c filename.txt`: encrypts with a symmetric cipher.. Will prompt to enter a passphrase.
