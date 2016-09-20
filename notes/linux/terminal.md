@@ -14,7 +14,7 @@
   - [ls](#ls)
   - [cd](#cd)
   - [rm](#rm)
-  - [ln](#ln)
+- [history](#history)
 - [outputting](#outputting)
   - [piping](#piping)
   - [redirection](#redirection)
@@ -27,12 +27,12 @@
 - [system](#system)
   - [help](#help)
   - [PATH](#path)
-  - [history](#history)
   - [managing applications](#managing-applications)
     - [installing/uninstalling/updating/upgrading](#installinguninstallingupdatingupgrading)
     - [managing repositories](#managing-repositories)
   - [du](#du)
   - [aliases](#aliases)
+  - [ln](#ln)
   - [shutdown](#shutdown)
   - [reboot](#reboot)
   - [archiving/compressing](#archiving--compressing) ([tar](#tar), [zip/unzip](#zip--unzip))
@@ -93,11 +93,14 @@ remove files or directories e.g.
 - `-r`: recursive
 - `-f`: force
 
-#### ln
-creates links to files or folders
-- `ln file1 yea`: creates hard link to file1. link is called yea
-- `ln -s file1 yea`: creates symlink (soft) to file1. If file1 is deleted, link will not work..
-- [more info](http://www.unixtutorial.org/commands/ln/)
+### history
+`history`: displays recent commands.
+- `!23`: will enter (but not run) the 23rd command in history
+- `history -c`: clears BASH history (stored in `~/.bash_history`)
+- `rm ~/.zsh_history` or `echo "" > ~/.zsh_history`: to remove zsh history
+- `!$` (bang-dollar): reuse the last argument(item) of previous command. e.g. if you run `mkdir test`, you can then type `cd !$` to reuse the last arg i.e. `test`
+- `!*`: reuse all arguments except the first one (typically command name)
+- `!!`: retype whole previous line
 
 ## outputting
 - `cat`: outputs contents of file to terminal, `cat filename`
@@ -237,15 +240,6 @@ A users PATH is stored in `~/.bash_profile`. To add a directory to the PATH perm
 
 [What is PATH?](http://www.linfo.org/path_env_var.html)
 
-### history
-`history`: displays recent commands.
-- `!23`: will enter (but not run) the 23rd command in history
-- `history -c`: clears BASH history (stored in `~/.bash_history`)
-- `rm ~/.zsh_history` or `echo "" > ~/.zsh_history`: to remove zsh history
-- `!$` (bang-dollar): reuse the last argument(item) of previous command. e.g. if you run `mkdir test`, you can then type `cd !$` to reuse the last arg i.e. `test`
-- `!*`: reuse all arguments except the first one (typically command name)
-- `!!`: retype whole previous line
-
 ### managing applications
 - 'APT' - Advanced Package Tool (similiar to aptitude)
 - 'PPA' - Personal Package Archives
@@ -278,6 +272,12 @@ estimate file space usage
 - 'alias' is another name for keyboard shortcut in the terminal, defined in .bashrc or .zshrc etc as
 - `alias tek="cd ~Documents/tech"`
 - `alias | wc -l`: number of aliases
+
+### ln
+creates links to files or folders
+- `ln file1 yea`: creates hard link to file1. link is called yea
+- `ln -s file1 yea`: creates symlink (soft) to file1. If file1 is deleted, link will not work..
+- [more info](http://www.unixtutorial.org/commands/ln/)
 
 ### shutdown
 `shutdown`: shuts the system down
