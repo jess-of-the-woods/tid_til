@@ -285,8 +285,14 @@ A users PATH is stored in `~/.bash_profile`. To add a directory to the PATH perm
 - `history -c`: clears BASH history (stored in `~/.bash_history`)
 - `rm ~/.zsh_history` or `echo "" > ~/.zsh_history`: to remove zsh history
 
+### mount
+- `mount`: to display mounted devices
+-
+
 ### managing applications
-APT - Advanced Package Tool
+APT - Advanced Package Tool (same as aptitude??)
+
+PPA - Personal Package Archives
 
 installing / uninstalling / updating / upgrading
 - `apt-cache search searchterm`: search repositories for search term (search through package names & descriptions)
