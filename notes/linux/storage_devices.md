@@ -55,4 +55,4 @@ report file system disk space usage. e.g. `df -ah`
 
 ---
 
-See also [du](terminal#du) | [filesystem](filesystem.md) (esp. `/dev`) | [SSD config](SSD.md)
+See also [du](terminal.md#du) | [filesystem](filesystem.md) (esp. `/dev`) | [SSD config](SSD.md)
