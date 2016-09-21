@@ -10,3 +10,6 @@
 ### - [SSD configuration](SSD.md)
 ### - [storage devices](storage_devices.md)
 ### - [terminal](terminal.md)
+
+### Links
+- [Linux Knowledge Base & Tutorial](http://www.linux-tutorial.info/modules.php?name=MContent&pageid=224)
