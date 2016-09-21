@@ -41,6 +41,8 @@
   - [sudo & su](#sudo--su)
   - [user account management](#user-account-management)
   - [tmux](#tmux-terminal-multiplexer)
+  - [links](#links)
+
 
 ## terminal keyboard shortcuts
 - `ctrl alt t`: open terminal window
