@@ -17,18 +17,17 @@
 - `sudo apt-get install ecryptfs-utils`
 - `sudo mount -t ecryptfs /srv /srv`
 - [homepage](http://ecryptfs.org/) | [help.ubuntu](https://help.ubuntu.com/lts/serverguide/ecryptfs.html) | [Linux Journal](https://www.linuxjournal.com/article/9400) | [StackExchange](https://stackexchange.com/filters/33360/ecryptfs)
+- [How to Encrypt Directories with eCryptfs on Ubuntu 16.04](https://www.howtoforge.com/tutorial/how-to-encrypt-directories-with-ecryptfs-on-ubuntu-16-04/) | [eCryptfs on Ubuntu 9.04](http://bodhizazen.net/Tutorials/Ecryptfs/)
 
 #### GnuPG (GPG)
 - `gpg -c filename.txt`: encrypts with a symmetric cipher.. Will prompt to enter a passphrase.
 - `gpg filename.txt.gpg`: to decrypt
 
 #### steghide
-`steghide embed -cf /home/user/coverfile.jpg -ef /home/user/top_secret_info.txt -p password12345`: hide top_secret_info.txt inside coverfile.jpg, encrypt with AES
+- `steghide embed -cf /home/user/coverfile.jpg -ef /home/user/top_secret_info.txt -p password12345`: hide top_secret_info.txt inside coverfile.jpg, encrypt with AES
+- `steghide extract -sf /home/user/coverfile.jpg`: then enter password to extract.
 
-`steghide extract -sf /home/user/coverfile.jpg`: then enter password to extract.
-
-- ef: embed file
-- cf: cover file
+`ef`: embed file | `cf`: cover file
 
 ### firewalls
 
