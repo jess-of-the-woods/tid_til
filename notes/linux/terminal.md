@@ -8,6 +8,8 @@
 - **[network tools](network.md)**
 - **[processes](processes.md)**
 - **[searching](search.md)**
+- **[security](security.md)**
+
 
 - [terminal keyboard shortcuts](#terminal-keyboard-shortcuts)
 - [basic commands](#basic-commands)
@@ -18,7 +20,7 @@
 - [outputting](#outputting)
   - [piping](#piping)
   - [redirection](#redirection)
-  - [standard input/output/error](#standard-inputoutputerror)
+  - [standard streams](#standard-streams)
 - [text editors](#text-editors)
   - [nano](#nanopico)
   - [Vi / Vim](#vivim)
@@ -143,10 +145,11 @@ Syntax:
 
 e.g. `wc -l < testfile.txt`: redirect testfile.txt as the stdin for `wc -l` which will return (stdout) the number of lines in testfile.txt. equivalent to `cat testfile.txt | wc -l`
 
-### standard input/output/error
-- 0 represents stdin
-- 1 represents stdout
-- 2 represents stderr
+### standard streams
+input/output/error
+- 0 represents stdin or standard input
+- 1 represents stdout or standard output
+- 2 represents stderr or standard error
 
 `ls -alh nonexistentFile 2> error.txt`: redirects error (stderr) returned from listing non-existent file to error.txt
 
@@ -175,7 +178,7 @@ linux
 - `nano path/filename`: Open file in Nano editor ( ctrl + O to save, ctrl + X to exit ) - [beginners guide](http://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/)
 
 #### Vi/Vim
-- `vi path/filename`: open file in Vim. Vim has 2 modes, 'esc' & 'i' alternate between modes. i is text mode, esc then `:q` then enter to quit.
+- `vi path/filename`: open file in Vim. Vim has 2 modes, command mode & input mode. 'esc' & 'i' alternate between modes. i is input mode, esc then `:q` then enter to quit.
 - `:wq` or `:x` to write to file & quit
 - `:q!` to discard changes.
 - `w`: to move to next word, `cw` to replace word??
@@ -347,4 +350,4 @@ see '/etc/passwd', '/etc/shadow' & '/etc/group'
 ## Links
 [List of Unix commands](https://en.wikipedia.org/wiki/List_of_Unix_commands) - Wikipedia
 
-See also [Git / GitHub](../git-github.md) | [security](security.md)
+<!-- See also  -->
