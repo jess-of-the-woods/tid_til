@@ -1,6 +1,8 @@
 [linux](index.md) | [terminal](terminal.md)
 
 ## storage devices
+
+#### - [SSD configuration](SSD.md)
 - [device file naming](#device-file-naming)
 - [mount/umount](#mount)
 - [fdisk](#fdisk)

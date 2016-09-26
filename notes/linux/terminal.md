@@ -9,6 +9,7 @@
 - **[processes](processes.md)**
 - **[searching](search.md)**
 - **[security](security.md)**
+- **[storage devices](storage_devices.md)**
 
 
 - [terminal keyboard shortcuts](#terminal-keyboard-shortcuts)

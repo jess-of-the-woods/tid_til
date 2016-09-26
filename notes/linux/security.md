@@ -1,4 +1,4 @@
-[linux](index.md) | [security](../security/index.md)
+[linux](index.md) | [security](../security/index.md) | [terminal](terminal.md)
 
 ## linux security
 
