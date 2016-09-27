@@ -4,6 +4,24 @@
 
 - **[file types](filetypes.md)** | **[permissions](file_permissions.md)**
 
+### file storage
+
+#### inodes
+An inode (information node) is a set of details about a single file on a disk, including:
+- file size
+- creation, access & modification times
+- owner & group
+- permissions
+- file type
+- link count
+- starting block number
+
+An inode number is a reference to an inode in the inode table.
+- `ls -i`: to display inode numbers for files
+
+An inode table is a table with the information listed above connected to inode numbers (which each represent a single file)
+
+### filesystem hierarchy
 also check out `man hier`: manual pages for filesystem hierarchy
 
 `/`: Represents the root directory
@@ -41,6 +59,7 @@ also check out `man hier`: manual pages for filesystem hierarchy
 `/var`: Variables. Variable data which changes over time. e.g. mail spools, user databases, log files
 
 `/var/log`: Stores log files for various system programs.
+
 
 
 ---
