@@ -27,6 +27,11 @@ files should have the suffix '.sh' e.g. 'helloworld.sh' although its not necessa
 # This is a comment, it will not be executed.
 ```
 
+## newlines
+```bash
+printf "\n"
+```
+
 ### variables
 
 ```bash
@@ -144,8 +149,10 @@ e.g. `[ 1 -eq $SMALLNUMBER ]`
 fooBar(){
   echo "Functions are amaze! Woah!"
 }
-fooBar;
+fooBar; #this line calls the function
 ```
+
+
 ---
 
 ## Links
