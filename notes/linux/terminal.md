@@ -11,8 +11,7 @@
 - **[security](security.md)**
 - **[storage devices](storage_devices.md)**
 
-
-
+---
 
 - [terminal keyboard shortcuts](#terminal-keyboard-shortcuts)
 - [basic commands](#basic-commands)
@@ -31,7 +30,9 @@
 - [chmod](#chmod), [chown](#chown)
 - [system](#system)
   - [help](#help)
-  - [PATH](#path)
+  - [shell](#shell)
+    - [environment variables](environment-variables-env)
+      - [PATH](#path)
   - [managing applications](#managing-applications)
     - [installing/uninstalling/updating/upgrading](#installinguninstallingupdatingupgrading)
     - [managing repositories](#managing-repositories)
@@ -230,17 +231,17 @@ see also [file permissions](file_permissions.md)
 - `systemctl status udev`: Check if 'udev' service is running (on newer machines)
 
 ### shell
-- `echo $0`
-- `echo $SHELL`
+- `echo $0`: print the name of the shell you are using
+- `echo $SHELL`: print the location of the shell you're using
 - `echo "$$"`: to find the process ID (PID) of the current instance of shell
 - `bash`: to change to BASH shell, `zsh`: to change to zsh shell (if installed)
 
-### PATH
-`env | grep PATH`: to see the PATH
+#### environment variables (env)
+- `env`: prints a list of environment variables
+- `set`: prints all variables
 
-or
-
-`echo $PATH`
+##### PATH
+`env | grep PATH` or `echo $PATH`: to see the PATH
 
 `export PATH=$PATH:/usr/sbin`: to add /usr/sbin to PATH
 
@@ -339,9 +340,12 @@ see '/etc/passwd', '/etc/shadow' & '/etc/group'
   e.g. `useradd mymble -m -d /home/mymble -s /bin/bash`
 
 - `userdel userName`: delete user
-- `passwd userName`: sets a password for a user.
 - usermod -L userName: locks an account
 - `usermod -U userName`: unlocks
+
+#### passwd
+- `passwd userName`: sets a password for a user.
+- [Linux and Unix passwd command](http://www.computerhope.com/unix/upasswor.htm)
 
 ### tmux (terminal multiplexer)
 - `tmux`  to enter tmux
