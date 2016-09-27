@@ -4,7 +4,7 @@
 - **[cron](cron.md)**
 - **[BASH scripting](bash_scripting.md)**
 - **[Git / Github](../git-github.md)**
-- **[file types](filetypes.md)** | **[permissions](file_permissions.md)**
+- **[filesystem](filesystem.md)**
 - **[network tools](network.md)**
 - **[processes](processes.md)**
 - **[searching](search.md)**
@@ -31,7 +31,7 @@
 - [system](#system)
   - [help](#help)
   - [shell](#shell)
-    - [environment variables](environment-variables-env)
+    - [environment variables](#environment-variables-env)
       - [PATH](#path)
   - [managing applications](#managing-applications)
     - [installing/uninstalling/updating/upgrading](#installinguninstallingupdatingupgrading)

@@ -1,10 +1,13 @@
 [linux](index.md) | [terminal](terminal.md)
 
-## filesystem
+## linux filesystem
 
-- **[file types](filetypes.md)** | **[permissions](file_permissions.md)**
+- **[file storage](#file-storage)**
+- **[filesystem hierarchy](#filesystem-hierarchy)**
 
 ### file storage
+- [file types](filetypes.md)
+- [file permissions](file_permissions.md)
 
 #### inodes
 An inode (information node) is a set of details about a single file on a disk, including:
@@ -64,4 +67,4 @@ also check out `man hier`: manual pages for filesystem hierarchy
 
 ---
 
-See also [booting](booting.md) | [filetypes](filetypes.md) | [file permissions](file_permissions.md) | [storage devices](storage_devices.md)
+See also [booting](booting.md) | [storage devices](storage_devices.md)
