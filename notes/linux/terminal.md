@@ -12,6 +12,8 @@
 - **[storage devices](storage_devices.md)**
 
 
+
+
 - [terminal keyboard shortcuts](#terminal-keyboard-shortcuts)
 - [basic commands](#basic-commands)
   - [ls](#ls)
