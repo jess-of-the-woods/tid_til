@@ -45,7 +45,9 @@ no spaces around =. e.g. `message = "this is a string"` is wrong & won't work.
 some_number=10
 echo "this is my ${some_number}th beer"
 ```
-will work whereas
+
+will work, whereas
+
 ```bash
 some_number=10
 echo "this is my $some_numberth beer"
@@ -137,6 +139,13 @@ fi
 e.g. `[ 1 -eq $SMALLNUMBER ]`
 
 
+### functions
+```sh
+fooBar(){
+  echo "Functions are amaze! Woah!"
+}
+fooBar;
+```
 ---
 
 ## Links
