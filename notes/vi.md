@@ -7,33 +7,39 @@
 ### modes
 Vim has different modes, command mode, extended mode & input mode. 'esc' & 'i' alternate between command & input/insert modes.
 
-`i` enters input mode, `esc` to enter command mode, then `:` to enter extended mode.
+`i` enters input/insert mode, `esc` to enter command mode, then `:` to enter extended mode.
 ### command mode
-- `i` = insert mode
-- `a` = append mode
-- `R` = replace mode
+- `i`: insert mode
+- `a`: append mode
+- `R`: replace mode
 
   ### moving around
-  - `j` & `k` = up & down
-  - `h` & `l`  = left & right
-  - `g` = go to start of document
-  - `G` = go to end of document
-  - `3G` = go to 3rd line
-  - `w` = move one word to the right
-  - `b` = move one word to the left
+  - `j` & `k`: up & down
+  - `h` & `l`: left & right
+  - `g`: go to start of document
+  - `G`: go to end of document
+  - `3G`: go to 3rd line
+  - `w`: move one word to the right
+  - `b`: move one word to the left
+  - `0`: go to start of line
+  <!-- -  -->
 
   ### basics
-  - `y` = copy line
-  - `P` = paste here
-  - `p` = paste after
-  - `dd` = delete line
-  - `w`: to move to next word, `cw` to replace word??
+  - `yy`: copy line
+  - `yw`: copy word (`3yw`: copies 3 words)
+  - `P`: paste above/before
+  - `p`: paste below/after
+  - `dd`: delete line
+  - `cw`: replace word (enter insert mode), `dw` to delete word
+  - `D`: delete to end of line
   - `shift + x`: to uncomment??
 
 ## extended mode
 - `:q` then enter to quit.
 - `:wq` or `:x` to write to file & quit
 - `:q!` to discard changes.
+- `:r existingFile.txt`: read in existing file (can use tab-completion)
+- `r!date`: read in output of a command (e.g. date command)
 
 <!-- ---
 
