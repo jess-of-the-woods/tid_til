@@ -26,4 +26,4 @@ interpreters
 
 ---
 
-<!-- See also -->
+See also [tools](tools.md)

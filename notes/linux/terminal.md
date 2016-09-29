@@ -10,6 +10,7 @@
 - **[searching](search.md)**
 - **[security](security.md)**
 - **[storage devices](storage_devices.md)**
+- **[Vi / Vim](../vi.md)**
 
 ---
 
@@ -24,9 +25,8 @@
   - [piping](#piping)
   - [redirection](#redirection)
   - [standard streams](#standard-streams)
-- [text editors](#text-editors)
-  - [nano](#nanopico)
-  - [Vi / Vim](#vivim)
+- text editors
+  - [nano](#nanopico) (see also [Vi / Vim](../vi.md))
 - [cut](#cut)
 - [chmod](#chmod), [chown](#chown)
 - [system](#system)
@@ -178,17 +178,8 @@ linux
 ```
 `-d`: delimiter, `-f2`: second field
 
-### text editors
-
 #### Nano/Pico
 - `nano path/filename`: Open file in Nano editor ( ctrl + O to save, ctrl + X to exit ) - [beginners guide](http://www.howtogeek.com/howto/42980/the-beginners-guide-to-nano-the-linux-command-line-text-editor/)
-
-#### Vi/Vim
-- `vi path/filename`: open file in Vim. Vim has 2 modes, command mode & input mode. 'esc' & 'i' alternate between modes. i is input mode, esc then `:q` then enter to quit.
-- `:wq` or `:x` to write to file & quit
-- `:q!` to discard changes.
-- `w`: to move to next word, `cw` to replace word??
-- `shift + x`: to uncomment??
 
 ### chmod
 'change mode' change the access permissions to file system objects (files and directories).

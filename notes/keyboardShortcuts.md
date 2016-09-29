@@ -16,3 +16,5 @@
 - `ctrl up enter`: Insert line before
 - `ctrl d`: Select word
 - `ctrl l` Select line (repeat to select lines)
+
+See also [Vi](vi.md)
