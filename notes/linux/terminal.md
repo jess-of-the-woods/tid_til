@@ -18,6 +18,7 @@
   - [ls](#ls)
   - [cd](#cd)
   - [rm](#rm)
+- [filters](#filters) (wc, sort, uniq, tee)
 - [history](#history)
 - [outputting](#outputting)
   - [piping](#piping)
@@ -69,11 +70,8 @@
 - `mv`: move file(s), source file(s) then destination, e.g. `mv filename ~`
 - `cp`: copy file(s), source file(s) then destination
 - `touch`: creates empty file, `touch stuff.txt`
-- `wc`: 'Word Count' lines, words, characters, eg. `cat filename | wc`
 - `mkdir`: creates directory, e.g. `mkdir dirname`. `mkdir -p newfolder/child/chilOfChild` creates a path of folders (subfolders)
 - `rmdir`: removes empty directories, e.g. `rmdir dirname`
-- `sort`: Orders Alphabetically, `sort filename.*` or `cat lakes.txt | sort > sorted_lakes.txt`
-- `uniq`: filters out adjacent duplicate lines & outputs contents, `uniq filename`
 - `file /user/home/filename.txt`: tells you document type
 
 #### ls
@@ -101,6 +99,12 @@ remove files or directories e.g.
 - `-r`: recursive
 - `-f`: force
 
+### filters
+- `wc`: word count. lines, words, characters, eg. `cat filename | wc` or `cat filename | wc -l`: prints the number of lines in file
+- `sort`: orders alphabetically, `sort filename.*` or `cat lakes.txt | sort > sorted_lakes.txt`
+- `uniq`: filters out adjacent duplicate lines & outputs contents, `uniq filename`
+- `tee`: outputs to screen & file. `who | tee wholist | wc -l`
+
 ### history
 `history`: displays recent commands.
 - `!23`: will enter (but not run) the 23rd command in history
@@ -112,13 +116,9 @@ remove files or directories e.g.
 
 ## outputting
 - `cat`: outputs contents of file to terminal, `cat filename`
-
 - `less`: Pager, Output file contents to screen page by page, e.g. `less filename`. see also 'more'
-
 - `more`: prints out file to screen, page by page
-
 - `head`: first 10 lines of a file, e.g. `head filename`
-
 - `tail`: last 10 lines of a file. also `tail -f filename`: follows a file.. (as it changes over time)
 
 ### piping
@@ -225,7 +225,7 @@ see also [file permissions](file_permissions.md)
 - `who am i`: displays username & terminal you are in.
 - `w`: shows who is logged in & what they are doing
 - `hostname`: displays hostname (name of computer)
-- `uname`: print system information. `uname -a` prints all
+- `uname`: print system information. `uname -a` prints all, `uname -r`: prints kernel version
 - `lsb_release -a`: print distribution-specific information (find out ubuntu (or any distro) version)
 - `service udev status`: Check if 'udev' service is running (on older machines)
 - `systemctl status udev`: Check if 'udev' service is running (on newer machines)
@@ -235,6 +235,7 @@ see also [file permissions](file_permissions.md)
 - `echo $SHELL`: print the location of the shell you're using
 - `echo "$$"`: to find the process ID (PID) of the current instance of shell
 - `bash`: to change to BASH shell, `zsh`: to change to zsh shell (if installed)
+- `chsh -s /bin/zsh`: change login shell to zsh
 
 #### environment variables (env)
 - `env`: prints a list of environment variables
