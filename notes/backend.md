@@ -6,7 +6,7 @@
 - [DevOps](devOps/index.md)
 - [express.js](javascript/express.md)
 - [git/github](git-github.md)
-- [linux terminal](linux/terminal.md)
+- [linux](linux/index.md)
 - [networks](networks/index.md)
 - [node.js](javascript/node.md)
 - [security](security/index.md)
