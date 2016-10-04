@@ -2,6 +2,8 @@
 
 ## linux security
 
+- [sudo/su](#sudo--su)
+  - [GKSu](#gksu)
 - [encryption](#encryption)
   - [eCryptfs](#ecryptfs)
   - [GnuPG](#gnupg)
@@ -10,6 +12,39 @@
 - [rootkits](#rootkits)
   - [rkhunter](#rkhunter)
   - [chrootkit](#chrootkit)
+- [hashing algorithms](#hashing-algorithms)
+
+### sudo / su
+`su`: superuser. Typing `su` followed by root account password (if it has been set up), will log in as superuser/root user. To exit type `exit`.
+
+`sudo` will just allow you superuser access for a single command.. e.g. `sudo apt-get install wine`. This is safer. The OS will remember your password for 15 minutes. If you haven't set up root account & password, you can log in as superuser with `sudo su` using just your user password.
+
+- `sudo -k`: wipe cache
+
+#### GKSu
+GKSu is a library that provides a Gtk+ frontend to su and sudo. It supports login shells and preserving environment when acting as a su frontend. It is useful to menu items or other graphical programs that need to ask a user's password to run another program as another user.
+
+- `gksu gedit /etc/sysctl.conf`     (change swappiness)
+- `gksu gedit`, in preferences, disable file browser plugin
+
+### /etc/passwd & /etc/shadow
+edit using visudo
+
+### /etc/sudoers
+often includes a line like:
+```bash
+includedir /etc/sudoers.d
+```
+which will include files in the specified directory
+
+- [sudoers](https://help.ubuntu.com/community/Sudoers)
+
+#### add a user into sudoers
+copy file of current user who is in 'sudoers.d' like:
+```bash
+sudo cp /etc/sudoers.d/vagrant /etc/sudoers.d/newUsersName
+```
+then edit & change user name in file
 
 ### encryption
 
@@ -58,6 +93,10 @@ writes to /var/log/rkhunter.log
 - `sudo chkrootkit`
 - `sudo chrkrootkit --help`
 
+### hashing algorithms
+- MD5
+- SHA256
+
 ---
 
-See also [network tools](network.md) | [SSH](network.md#ssh---secure-shell)
+See also [user account management](terminal.md#user-account-management) | [network tools](network.md) | [SSH](network.md#ssh---secure-shell)
