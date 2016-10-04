@@ -1,7 +1,7 @@
 [notes](index.md) | [to learn](../toLearn.md)
 
 ## backend
-- [databases](databases.md)
+- [databases](databases/index.md)
 - [express.js](javascript/express.md)
 - [git/github](git-github.md)
 - [linux](linux/index.md)

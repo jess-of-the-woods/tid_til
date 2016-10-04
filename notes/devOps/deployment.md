@@ -1,4 +1,4 @@
-[notes](index.md) | [backend](backend.md)
+[DevOps](index.md)
 
 ## Deployment (Heroku)
 
@@ -89,6 +89,5 @@ See also [bundling/building](building.md)
 
 
 ### Links
-
 - [Meow-Heroku](https://github.com/hihi-2016/meow-heroku) - instructions (EDA Repo)
 - [Node.js support](https://devcenter.heroku.com/articles/nodejs-support) - inc. specifying node version number.

@@ -1,4 +1,4 @@
-[code/languages](code.md)| [databases](databases.md)
+[code/languages](../code.md)| [databases](index.md)
 
 ## SQL - Structured Query Language
 **[Knex](javascript/knex.md)**

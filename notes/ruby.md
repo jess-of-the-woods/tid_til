@@ -94,4 +94,4 @@ print hash_name["name"]
 
 ---
 
-See also [JavaScript](javascript/notes.md)
+See also [JavaScript](javascript/index.md)

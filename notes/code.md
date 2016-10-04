@@ -26,7 +26,7 @@ Abstraction: A well understood interface, which hides all the details within a s
 - [markdown](markdown.md)
 - [processing](processing.md)
 - [Ruby](ruby.md)
-- [Structured Query Language - SQL](SQL.md)
+- [Structured Query Language - SQL](databases/SQL.md)
 - [XML](XML.md)
 
 ---

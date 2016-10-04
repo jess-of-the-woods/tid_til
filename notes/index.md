@@ -6,7 +6,7 @@
 * [art](art.md)
 * [building / bundling](building.md) | [deployment](deployment.md)
 * [CSS](CSS/index.md) | [HTML](HTML/index.md)
-* [databases](databases.md)
+* [databases](databases/index.md)
 * [data visualisation](dataVisualisation.md)
 * [Git / GitHub](git-github.md)
 * [JavaScript](javascript/index.md) | [node.js](javascript/node.md)

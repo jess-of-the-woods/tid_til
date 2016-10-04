@@ -49,7 +49,7 @@ checkout localhost:8080/webpack-dev-server
 
 ---
 
-See also [deployment](deployment.md) | [npm](javascript/npm.md)
+See also [deployment](devOps/deployment.md) | [npm](javascript/npm.md)
 
 - npm scripts
 - Task runners...? (Grunt, Gulp),

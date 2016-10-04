@@ -1,9 +1,11 @@
-[notes](index.md) | [backend](backend.md) | [server-side](server-side.md)
+[notes](../index.md) | [backend](../backend.md) | [server-side](../server-side.md) | [system adminstration](../sysAdmin.md)
 
 ## databases
-- **[Knex](javascript/knex.md)**
+- **[Knex](../javascript/knex.md)**
+- **[PostgreSQL](postgreSQL.md)**
 - **[SQL](SQL.md)**
-* [PostgreSQL](#postgresql)
+
+
 * [NoSQL](#nosql)
 * [Database in an App](#database in an app)
 * [Database testing](#database testing)
@@ -17,34 +19,6 @@
 - Simultaneous multi-user access, multiple requests ( collisions, race conditions )
 - Structured Data vs unstructured ( e.g. spreadsheet vs text file )
 - Permissions
-
----
-
-### PostgreSQL
-- handles multi-threading
-- Needs to be installed and configured correctly
-- `npm i pg --save`
-- i knexfile.js client: pg, database: twitter_clone_dev
-- `psql` ( enters pg repl ) `psql database name`
-- set up pg so you don't need a username & password
-
-`createdb databaseName`: creates new database
-
-`dropdb databaseName`: drops database
-
-`knex migrate:latest --env test`: migrates test database (test is referenced from config file, knexfile.js)
-
-#### PostgreSQL interactive terminal
-- `psql` - enters interactive terminal
-- `psql databaseName` - enters terminal w/ a particular database
-- `\?` - lists all available commands
-- `\l` - lists all databases
-- `\d` - describe (lists all tables)
-- `\d tableName` - describe tableName (schema)
-- `\q` - exit
-- `SELECT * FROM tableName;`
-
-SQL queries end with  `;`
 
 ---
 
@@ -90,4 +64,4 @@ if you accidentally 'git add' node modules.. `git rm  -r --cached node_modules/`
 
 - [ontology](https://en.wikipedia.org/wiki/Ontology_(information_science) - wikipedia
 
-See also [data visualisation](dataVisualisation.md) |  [deployment](deployment.md) | [node](javascript/node.md) | ontology | info science
+See also [data visualisation](../dataVisualisation.md) | [deployment](../devOps/deployment.md) | [node](../javascript/node.md) | ontology | info science

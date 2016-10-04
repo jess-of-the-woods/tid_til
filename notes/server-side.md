@@ -1,7 +1,7 @@
 [notes](index.md) | [backend](backend.md)
 
 ## Server-Side
-- [databases](databases.md)
+- [databases](databases/index.md)
 - [DevOps](devOps/index.md)
 - [express.js](javascript/express.md)
 - [linux terminal](linux/terminal.md)

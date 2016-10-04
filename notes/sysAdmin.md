@@ -2,7 +2,7 @@
 
 ## system administration
 
-- [databases](databases.md)
+- [databases](databases/index.md)
 - [DevOps](devOps/index.md)
 - [linux](linux/index.md)
 - [security](security/index.md)
