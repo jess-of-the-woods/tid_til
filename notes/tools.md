@@ -15,7 +15,7 @@
 - Debuggers
 - Forums ( Facebook Node.js group, ... )
 - Slack ( EDA & JavaScript NZ )
-
+- [virtualisation](devOps/virtualisation.md)
 
 ---
 
