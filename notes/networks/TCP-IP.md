@@ -20,6 +20,8 @@ The I.P. Address is separated into two sections, the network section & the host 
 
 There are private & public I.P addresses. A router or residential gateway will have a public IP which is used on the internet, and a private IP which is only used within the home/office.
 
+Localhost is typically 127.0.0.1
+
 #### Dynamic Host Configuration Protocol - DHCP
 I.P. addresses by default are assigned dynamically by a DHCP server in exchange for the hosts MAC address, but can also be set manually. The server will have a pool of IP addresses available & these will be assigned when a host connects to that server.
 
