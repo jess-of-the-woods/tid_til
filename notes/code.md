@@ -8,6 +8,11 @@ transpilers
 
 interpreters
 
+### Processes & threads
+A program plus the state of all threads executing in the program.
+
+Abstraction: A well understood interface, which hides all the details within a subsystem
+
 ### Type systems
 - static
 - dynamic
