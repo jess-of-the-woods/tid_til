@@ -2,8 +2,6 @@
 
 ## backend
 - [databases](databases.md)
-- [deployment](deployment.md)
-- [DevOps](devOps/index.md)
 - [express.js](javascript/express.md)
 - [git/github](git-github.md)
 - [linux](linux/index.md)
@@ -14,4 +12,4 @@
 
 ---
 
-See also [frontend](frontend.md)
+See also [frontend](frontend.md) | [system administration](sysAdmin.md)

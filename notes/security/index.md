@@ -1,4 +1,4 @@
-[notes](../index.md) | [backend](../backend.md)
+[notes](../index.md) | [backend](../backend.md) | [system administration](../sysAdmin.md)
 
 ## security
 
