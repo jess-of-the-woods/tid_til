@@ -43,7 +43,6 @@
   - [shutdown](#shutdown)
   - [reboot](#reboot)
   - [archiving/compressing](#archiving--compressing) ([tar](#tar), [zip/unzip](#zip--unzip))
-  - [sudo & su](#sudo--su)
   - [user account management](#user-account-management)
   - [tmux](#tmux-terminal-multiplexer)
   - [links](#links)
@@ -239,7 +238,8 @@ see also [file permissions](file_permissions.md)
 
 A users PATH is stored in `~/.bash_profile`. To add a directory to the PATH permanently, add it to the line in .bash_profile that starts with PATH with a colon separated list of absolute paths.
 
-[What is PATH?](http://www.linfo.org/path_env_var.html)
+- [What is PATH?](http://www.linfo.org/path_env_var.html)
+- [add directory to PATH](https://askubuntu.com/questions/60218/how-to-add-a-directory-to-my-path)
 
 ### managing applications
 - 'APT' - Advanced Package Tool (similiar to aptitude)
@@ -310,21 +310,8 @@ creates links to files or folders
 - `zip -r zippeddocs.zip Documents/`: zip Documents dir into an archive called zippeddocs.zip
 - `unzip zippeddocs.zip`: unzip archive into current dir
 
-### sudo / su
-`su`: superuser. Typing `su` followed by root account password (if it has been set up), will log in as superuser/root user. To exit type `exit`.
-
-`sudo` will just allow you superuser access for a single command.. e.g. `sudo apt-get install wine`. This is safer. The OS will remember your password for 15 minutes. If you haven't set up root account & password, you can log in as superuser with `sudo su` using just your user password.
-
-- `sudo -k`: wipe cache
-
-#### GKSu
-GKSu is a library that provides a Gtk+ frontend to su and sudo. It supports login shells and preserving environment when acting as a su frontend. It is useful to menu items or other graphical programs that need to ask a user's password to run another program as another user.
-
-- `gksu gedit /etc/sysctl.conf`     (change swappiness)
-- `gksu gedit`, in preferences, disable file browser plugin
-
 ### user account management
-see '/etc/passwd', '/etc/shadow' & '/etc/group'
+see also '/etc/group' & [linux security](security.md)
 
 ##### useradd
 - `useradd userName`: creates a user. `-m`: create a home dir, `-d`: define a path for it, `-s`: default shell..
@@ -337,6 +324,8 @@ see '/etc/passwd', '/etc/shadow' & '/etc/group'
 
 #### passwd
 - `passwd userName`: sets a password for a user.
+- `sudo passwd -e userName`: sets userName's password to expire so they must reset at next login
+
 - [Linux and Unix passwd command](http://www.computerhope.com/unix/upasswor.htm)
 
 ### tmux (terminal multiplexer)
