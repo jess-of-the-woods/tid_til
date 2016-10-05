@@ -8,13 +8,18 @@
 ### - [storage devices](storage_devices.md)
 ### - [terminal](terminal.md)
 
+`alt + f7`: then you can move your window around with arrow keys
+
+
 ---
 
 ### Links
 - [Linux Knowledge Base & Tutorial](http://www.linux-tutorial.info/modules.php?name=MContent&pageid=224)
   - [Files and Directories](http://www.linux-tutorial.info/modules.php?name=MContent&pageid=4)
+- [theUrbanPenguin](https://www.theurbanpenguin.com)
 
 #### YouTube
+- [Kris Occhipinti](https://www.youtube.com/channel/UCf93fPKwotph47H3_KDcRyg)
 - [theUrbanPenguin](https://www.youtube.com/user/theurbanpenguin/featured)
 - [Ed Walsh](https://www.youtube.com/channel/UCDNc_ywJctbGt5DXZDr5Nmw)
 - [Just Channel](https://www.youtube.com/user/ddkdhar/featured)
