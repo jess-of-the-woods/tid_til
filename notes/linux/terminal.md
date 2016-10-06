@@ -188,7 +188,7 @@ linux
 
 `chmod 644 filename` or `chmod 777 filename`
 
-see also [file permissions](file_permissions.md)
+see also [file permissions](file_permissions.md) | [user management](userMgmt.md)
 
 ### chown
 'change owner' or group of object
