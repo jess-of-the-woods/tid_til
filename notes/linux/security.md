@@ -13,6 +13,7 @@
   - [rkhunter](#rkhunter)
   - [chrootkit](#chrootkit)
 - [hashing algorithms](#hashing-algorithms)
+- [user account management](userMgmt.md)
 
 ### sudo / su
 `su`: superuser. Typing `su` followed by root account password (if it has been set up), will log in as superuser/root user. To exit type `exit`.
@@ -99,4 +100,4 @@ writes to /var/log/rkhunter.log
 
 ---
 
-See also [user account management](terminal.md#user-account-management) | [network tools](network.md) | [SSH](network.md#ssh---secure-shell)
+See also [network tools](network.md) | [SSH](network.md#ssh---secure-shell)
