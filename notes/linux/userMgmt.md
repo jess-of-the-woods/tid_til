@@ -14,8 +14,12 @@ e.g. `useradd mymble -m -d /home/mymble -s /bin/bash`
 - `-d`: define a path for it
 - `-s`: specify default shell
 
+`sudo adduser userName cdrom`: add userName to cdrom group
+
 ### userdel
 - `userdel userName`: delete user
+- `sudo deluser --remove-home userName`: delete 'userName' user & home directory & mails
+- `sudo deluser --remove-all-files userName`: delete 'userName' & all files owned by this user on whole system
 
 ### usermod
 **examples**:
@@ -25,11 +29,16 @@ e.g. `useradd mymble -m -d /home/mymble -s /bin/bash`
 
 ### chfn
 change real user name & information
+`chfn -f seagull userName`: change userName's full name to 'seagull'
 
 ### groups
 see also '/etc/group'
 - `groups`: will print list of all groups the user is in..
 - `groups userName`
+
+#### groupadd
+create a new group
+`sudo groupadd cyborg`: creat a group named 'cyborg'
 
 #### chgrp
 change group ownership
@@ -43,4 +52,7 @@ change group ownership
 
 ---
 
-See also [security](security.md)
+## links
+- [A command to list all users? And how to add, delete, modify users?](https://askubuntu.com/questions/410244/a-command-to-list-all-users-and-how-to-add-delete-modify-users)
+
+See also [chown](terminal.md#chown) | [chmod](terminal.md#chmod)
