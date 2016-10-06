@@ -10,6 +10,7 @@
 - **[searching](search.md)**
 - **[security](security.md)**
 - **[storage devices](storage_devices.md)**
+- **[user management](userMgmt.md)**
 - **[Vi / Vim](../vi.md)**
 
 ---
@@ -43,7 +44,6 @@
   - [shutdown](#shutdown)
   - [reboot](#reboot)
   - [archiving/compressing](#archiving--compressing) ([tar](#tar), [zip/unzip](#zip--unzip))
-  - [user account management](#user-account-management)
   - [tmux](#tmux-terminal-multiplexer)
   - [links](#links)
 
@@ -194,6 +194,13 @@ see also [file permissions](file_permissions.md)
 'change owner' or group of object
 - `chown -R ghost:ghost .` chown recursively, group: ghost, user:ghost, `.` is current dir
 
+## xargs
+build & execute command lines from standard input. apply a command to each element of stdin..
+e.g.
+- `seq 5 | xargs -n 1 echo "hello"`: will print out hello before each number from 1-5
+- `ls | xargs -n 1 chgrp cdrom`: change group of all files piped from ls to the group cdrom
+- `find / -name .conf | xargs -I{} -n 1 chgrp cdrom {}`: find files (starting at `/`), with '.conf' in the name, pipe to xargs & chgrp to cdrom for each file found. (don't do this!, just an example of how to structure a command)
+
 ## system
 - `$`: represents prompt in BASH
 - `.`: represents current directory
@@ -309,24 +316,6 @@ creates links to files or folders
 #### zip / unzip
 - `zip -r zippeddocs.zip Documents/`: zip Documents dir into an archive called zippeddocs.zip
 - `unzip zippeddocs.zip`: unzip archive into current dir
-
-### user account management
-see also '/etc/group' & [linux security](security.md)
-
-##### useradd
-- `useradd userName`: creates a user. `-m`: create a home dir, `-d`: define a path for it, `-s`: default shell..
-
-  e.g. `useradd mymble -m -d /home/mymble -s /bin/bash`
-
-- `userdel userName`: delete user
-- usermod -L userName: locks an account
-- `usermod -U userName`: unlocks
-
-#### passwd
-- `passwd userName`: sets a password for a user.
-- `sudo passwd -e userName`: sets userName's password to expire so they must reset at next login
-
-- [Linux and Unix passwd command](http://www.computerhope.com/unix/upasswor.htm)
 
 ### tmux (terminal multiplexer)
 - `tmux`  to enter tmux
