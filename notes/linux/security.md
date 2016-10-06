@@ -28,8 +28,19 @@ GKSu is a library that provides a Gtk+ frontend to su and sudo. It supports logi
 - `gksu gedit /etc/sysctl.conf`     (change swappiness)
 - `gksu gedit`, in preferences, disable file browser plugin
 
-### /etc/passwd & /etc/shadow
-edit using visudo
+### /etc/passwd
+edit using visudo. has list of all users on system. in following format:
+
+```bash
+user-name:x:user-number:group-number:comment section:/home-directory:default-shell
+```
+
+for example:
+```bash
+user1:x:500:500:Greg:/home/user1:/bin/bash
+```
+
+### /etc/shadow
 
 ### /etc/sudoers
 often includes a line like:
