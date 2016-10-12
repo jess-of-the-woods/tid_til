@@ -5,6 +5,7 @@
 - [DevOps](devOps/index.md)
 - [express.js](javascript/express.md)
 - [linux terminal](linux/terminal.md)
+- [nginx](devOps/nginx.md)
 - [node.js](javascript/node.md)
 - [security](security/index.md)
 
