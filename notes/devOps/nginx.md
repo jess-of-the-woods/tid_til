@@ -1,6 +1,7 @@
 [DevOps](index.md) | [server-side](../server-side.md)
 
-## nginx
+## [nginx](https://nginx.org/)
+[wikipedia](https://en.wikipedia.org/wiki/Nginx)
 
 ## - [setup](#setup)
 ## - [config](#config)
@@ -31,6 +32,9 @@
 based on [tutorial](https://www.youtube.com/watch?v=TIaBrUo2944&index=3&list=PLjQo0sojbbxUav7I746f0lT4apGX8-iON) - Codemy, YouTube
 
 ## config
+`/etc/nginx/nginx.conf` will be highest level config file
+`/etc/nginx/conf.d` more specific config files in here which will override nginx.conf
+
 
 - ssh in as deployer
 - `cd /opt`
