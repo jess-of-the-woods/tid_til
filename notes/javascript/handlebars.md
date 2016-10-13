@@ -1,4 +1,4 @@
-[JavaScript](index.md) | [npm](npm.md) | [templating](templating.md)
+[JavaScript](index.md) | [npm](npm.md) | [templating](../templating.md)
 
 ## Handlebars.js
 

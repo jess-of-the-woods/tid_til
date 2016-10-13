@@ -1,4 +1,4 @@
-[notes](index.md) | [to learn](../toLearn.md)
+[notes](index.md)
 
 ## backend
 - [databases](databases/index.md)
