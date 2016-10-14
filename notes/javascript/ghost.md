@@ -1,7 +1,7 @@
 [node.js](node.md)
 
-
-## Ghost Blogging
+## [ghost](https://ghost.org/)
+(just a blogging platform)
 
 In console, through browser login console or SSH etc..
 
@@ -10,13 +10,10 @@ to restart: `service ghost restart`
 to see status: `service ghost status`
 
 
-### To write/ post blogs:
-
-your_domain_name/ghost
-
-your_domain_name/ghost/settings
-
-/rss
+### endpoints:
+- `your_domain_name/ghost`: to login
+- `your_domain_name/ghost/settings`: settings
+- `/rss`: rss
 
 ### links
 - [502 Bad Gateway After Updating Ghost](https://www.digitalocean.com/community/questions/502-bad-gateway-after-updating-ghost)
@@ -42,3 +39,5 @@ your_domain_name/ghost/settings
 - [Triangle](https://github.com/HaeckDesign/triangle) (github)
 - [How to Publish a Static Page](https://www.ghostforbeginners.com/how-to-publish-a-page-on-your-ghost-blog/)
 - [Navigation](https://help.ghost.org/hc/en-us/articles/224938567-Navigation)
+
+see also [nginx](../devOps/nginx.md) | [digital ocean](../devOps/digitalOcean.md)

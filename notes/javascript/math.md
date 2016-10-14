@@ -1,8 +1,8 @@
 [JavaScript](index.md) | [maths](../math/index.md)
 
-## JavaScript Math
+## javascript math
 
-### Random numbers
+### random numbers
 
 `Math.random()` returns a random number between 0 & 1
 e.g.
@@ -14,12 +14,12 @@ var x = Math.random()
 
 Returns the largest integer less than or equal to a number.
 
-Syntax:
+syntax:
 
 ```javascript
 Math.floor(expression)
 ```
-Example
+example:
 
 ```javascript
 Math.floor(9.99); // 9
@@ -32,7 +32,7 @@ Math.floor(Math.random() * 11)
 
 ```
 
-How does this work?
+how does this work?
 `Math.floor(Math.random() * 5 + 1);`
 First we use Math.random() to create a random number from 0 up to 1. For example, 0.5
 Then we multiply by 5 to make the random number from 0 up to 5. For example, 0.5 * 5 = 2.5    
@@ -105,17 +105,17 @@ Math.sqrt(Math.sqrt(122+22) + Math.sqrt(16)); //4
 ```
 [Read more](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Math/sqrt)
 
-### Numbers
-#### % (Modulus/Modulo)
+### numbers
+#### % (modulus/modulo)
 
 It returns the remainder left after dividing the left hand side with the right hand side.
 
-Syntax:
+syntax:
 
 ```javascript
 number1 % number2
 ```
-Example
+example:
 
 ```javascript
 14 % 9 // returns 5
@@ -127,12 +127,12 @@ Example
 
 Returns true if the given number is not a number, else returns false.
 
-Syntax:
+syntax:
 
 ```javascript
 isNaN([value])
 ```
-Example
+example:
 
 ```javascript
 var user_input = prompt("Enter a number"); // Enter "a number"
@@ -149,11 +149,11 @@ if( isNaN("3") )
 
 //Not executed , because the string "3" gets converted into 3 ,and 3 is a number
 ```
-### Basic Arithmetic
+### basic arithmetic
 
 Doing basic arithmetic is simple.
 
-Syntax:
+syntax:
 
 ```javascript
 4 + 5;  // 9
@@ -161,11 +161,11 @@ Syntax:
 5 - 4;  // 1
 20 / 5; // 4
 ```
-#### Prefix and Postfix increment/decrement operators
+#### prefix & postfix increment/decrement operators
 
 Prefix increment / decrement operators are operators that first increase the value of the variable by 1 (increment) or decrease the value of an expression / variable by 1 (decrement) and then return this incremented / decremented value. They are used like ++(variable) [increment] or --(varaible) [decrement] On the other hand , Postfix increment / decrement operators are operators that first return the value of the variable and then increase the value of that variable by 1 (increment) or decrease the value of the variable by 1 (decrement) . They are used like (variable)++ [increment] or (varaible)-- [decrement]
 
-Syntax
+syntax:
 
 ```javascript
 --variable   //Prefix Decrement
@@ -173,7 +173,7 @@ Syntax
 variable--   //Postfix Decrement
 variable++  //Postfix Increment
 ```
-Example
+example:
 ```javascript
 //The examples will make it clear
 

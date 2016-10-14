@@ -1,8 +1,8 @@
 [system administration](../sysAdmin.md)
 
-## DevOps
+## devOps
 - [deployment](deployment.md)
-- [nginx](nginx.md)
+- [nginx](nginx.md) (web-server)
 - [virtualisation](virtualisation.md)
 
 

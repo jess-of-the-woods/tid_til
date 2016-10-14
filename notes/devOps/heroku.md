@@ -18,7 +18,7 @@ Make sure modules needed to run are in Dependencies in package.json (not DevDepe
 
 ---
 
-### Heroku CLI ([toolbelt](https://toolbelt.heroku.com/))
+### heroku CLI ([toolbelt](https://toolbelt.heroku.com/))
 
 `heroku login`: login to heroku
 
@@ -26,7 +26,7 @@ Make sure modules needed to run are in Dependencies in package.json (not DevDepe
 
 `heroku git:remote --app tandem-nz`: add remote to existing repo
 
-#### Pushing
+#### pushing
 `git push heroku master`
 
 `git push heroku master:master`
@@ -44,13 +44,13 @@ Make sure modules needed to run are in Dependencies in package.json (not DevDepe
 
 `heroku restart`: restart crashed app.
 
-### Logs
+### logs
 `heroku logs`: shows any error messages from deployment
 
 `heroku logs --tail`: watch logs
 
 
-### Database / PostgreSQL
+### database / postgreSQL
 provision free version of PostgreSQL on heroku (through website)
 
 `connection: process.env.DATABASE_URL`
