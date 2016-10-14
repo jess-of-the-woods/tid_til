@@ -14,6 +14,6 @@
 - [How to set up multiple domains for one site (two domains point to one site..)](https://www.digitalocean.com/community/questions/multiple-domains-for-one-website)
 
 
-<!-- ---
+---
 
-See also -->
+See also [linux](../linux/index.md) | [ghost](../javascript/ghost.md) | [SSH](../linux/network.md#ssh)

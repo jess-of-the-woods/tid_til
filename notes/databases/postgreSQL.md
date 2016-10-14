@@ -25,3 +25,5 @@
 - `SELECT * FROM tableName;`
 
 SQL queries end with  `;`
+
+see also [heroku](../devOps/heroku.md)
