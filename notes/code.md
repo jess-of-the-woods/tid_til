@@ -1,6 +1,6 @@
 [notes](index.md)
 
-## General Code/ Programming Language stuff
+## general code/ programming language stuff
 
 compilers
 
@@ -8,18 +8,19 @@ transpilers
 
 interpreters
 
-### Processes & threads
+### processes & threads
 A program plus the state of all threads executing in the program.
 
 Abstraction: A well understood interface, which hides all the details within a subsystem
 
-### Type systems
+### type systems
 - static
 - dynamic
 - polymorphic
 
 
-### Languages
+### languages
+- [BASH scripting](linux/bash_scripting.md)
 - [Cascading Style Sheets - CSS](CSS/index.md)
 - [JavaScript](javascript/index.md)
 - [Hyper Text Markup Language - HTML](HTML/index.md)

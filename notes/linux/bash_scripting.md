@@ -1,4 +1,4 @@
-[linux terminal](terminal.md)
+[code/languages](../code.md) | [linux terminal](terminal.md)
 
 ## BASH scripting
 
