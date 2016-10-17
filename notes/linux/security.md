@@ -111,4 +111,4 @@ writes to /var/log/rkhunter.log
 
 ---
 
-See also [network tools](network.md) | [SSH](network.md#ssh---secure-shell)
+See also [network tools](network.md) | [SSH](../security/SSH.md)
