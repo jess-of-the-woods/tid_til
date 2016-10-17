@@ -25,9 +25,11 @@ Host testgithub
   IdentityFile ~/.ssh/id_rsa_testgithub
 ```
 
-then use like: `ssh -T git@testgithub`
+- `ssh -T git@testgithub`: to test
 
-`exit`: to logout
+- `git remote add origin git@testgithub:username/reponame.git`: add remotes to git repos
+
+- `exit`: to logout
 
 `find / -name sshd_config`: to find config file for SSH daemon
 
