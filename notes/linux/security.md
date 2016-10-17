@@ -6,7 +6,7 @@
   - [GKSu](#gksu)
 - [encryption](#encryption)
   - [eCryptfs](#ecryptfs)
-  - [GnuPG](#gnupg)
+  - [GnuPG](#gnupg-gpg)
   - [steghide](#steghide)
 - [firewalls](#firewalls)
 - [rootkits](#rootkits)
