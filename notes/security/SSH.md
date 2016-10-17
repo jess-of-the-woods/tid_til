@@ -13,7 +13,7 @@ e.g.
 `ssh user@192.x.x.x` or `ssh user@mydomain.com`
 
 **switches**
-- `-i`: to specify a particular key (e.g. )
+- `-i`: to specify a particular key (e.g. `ssh -i /home/user/.ssh/id_rsa_testgithub [user]@[domain]`)
 - `-T`: test
 
 ### boilerplate config file for multiple keys:
@@ -29,6 +29,7 @@ then use like: `ssh -T git@testgithub`
 
 `exit`: to logout
 
+`find / -name sshd_config`: to find config file for SSH daemon
 
 ### SSH Keys
 `ssh-keygen -t rsa`: to generate keys. '-t' to specify type
@@ -38,8 +39,6 @@ if using multiple keys, when asked what to name the newly generated keys, specif
 can either use a passphrase or not
 
 `ssh -C 'email@email.com'`: '-C' is a comment
-
-`find / -name sshd_config`: to find config file for SSH daemon
 
 ## Links
 - [How SSH Works](https://www.youtube.com/watch?v=zlv9dI-9g1U) - YouTube (2 mins)
