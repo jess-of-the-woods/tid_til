@@ -4,6 +4,7 @@
 - **[rsync](#rsync)**
 - **[SSH](#ssh---secure-shell)**
 - **[SCP](#scp)**
+- **[SSH](../security/SSH.md)**
 
 ### commands
 - `ifconfig`: configure a network interface, also `ifconfig eth0` [(x)](http://net-tools.sourceforge.net/man/ifconfig.8.html)
@@ -43,33 +44,6 @@ e.g.
 - `--delete`: delete files in destination to keep dir's sync'd
 
 delete a file and run rsync again, and it only copies the one missing file
-
-### SSH - secure shell
-
-SSH daemon runs on port 22 by default.
-
-syntax:
-
-`ssh [user]@[ip address]` / `ssh [user]@[domain]`
-
-e.g.
-
-`ssh user@192.x.x.x` or `ssh user@mydomain.com`
-
-`exit`: to logout
-
-- [How SSH Works](https://www.youtube.com/watch?v=zlv9dI-9g1U) - YouTube (2 mins)
-
-##### SSH Keys
-`ssh-keygen -t rsa`: to generate keys. '-t' for type
-
-can either use a passphrase or not
-
-`ssh -C 'email@email.com'`: '-C' is a comment
-
-`find / -name sshd_config`
-
-- [Setting up SSH Keys](https://www.youtube.com/watch?v=-J9wUW5NhOQ) - YouTube (14 mins)
 
 ### SCP - Secure Copy
 Syntax:
