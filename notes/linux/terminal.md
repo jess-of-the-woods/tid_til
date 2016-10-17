@@ -317,6 +317,8 @@ creates links to files or folders
 - `zip -r zippeddocs.zip Documents/`: zip Documents dir into an archive called zippeddocs.zip
 - `unzip zippeddocs.zip`: unzip archive into current dir
 
+see also [gnupg](security.md#gnupg)
+
 ### tmux (terminal multiplexer)
 - `tmux`  to enter tmux
 - `ctrl + b` then `?` for help (list commands)
