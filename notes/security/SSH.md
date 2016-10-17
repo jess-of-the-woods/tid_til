@@ -23,6 +23,13 @@ Host testgithub
   HostName github.com
   User git
   IdentityFile ~/.ssh/id_rsa_testgithub
+
+Host bitbucket
+  HostName bitbucket.com
+  User git
+  IdentityFile ~/.ssh/id_rsa_bitbucket
+
+
 ```
 
 - `ssh -T git@testgithub`: to test
