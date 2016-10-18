@@ -268,13 +268,16 @@ A users PATH is stored in `~/.bash_profile`. To add a directory to the PATH perm
 - `/etc/apt/sources.list` & any file with the suffix '.list' in `/etc/apt/sources.list.d/`: displays repositories subscribed to
 
 ### du
-estimate file space usage
+disk usage, estimate file space usage (see also [df](storage_devices.md#df))
 - `du -hs ./path/to/dir`
 
 **switches**:
-- `du` = disk usage
 - `h` = human-readable
+- `m` = display in megabytes
 - `s` = summary (recursive summary of folder & subfolders..)
+- `-d 1`: display 1 level deep
+
+
 
 ### aliases
 - 'alias' is another name for keyboard shortcut in the terminal, defined in .bashrc or .zshrc etc as
