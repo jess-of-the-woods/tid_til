@@ -25,14 +25,14 @@ Host testgithub
   IdentityFile ~/.ssh/id_rsa_testgithub
 
 Host bitbucket
-  HostName bitbucket.com
+  HostName bitbucket.com #can be I.P. address
   User git
   IdentityFile ~/.ssh/id_rsa_bitbucket
 
 
 ```
 
-- `ssh -T git@testgithub`: to test
+- `ssh -T git@testgithub` or `ssh -T testgithub`: to test
 
 - `git remote add origin git@testgithub:username/reponame.git`: add remotes to git repos
 
