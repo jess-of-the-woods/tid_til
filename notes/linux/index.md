@@ -25,3 +25,4 @@
 - [Just Channel](https://www.youtube.com/user/ddkdhar/featured)
 - [Jason Wertz Linux Playlist](https://www.youtube.com/playlist?list=PLHE8wkAai4cpXWVhQw4vU0GOQ98NUzrnC)
 - [tutoriaLinux](https://www.youtube.com/channel/UCvA_wgsX6eFAOXI8Rbg_WiQ)
+- [theNewBoston](https://www.youtube.com/user/thenewboston/)
