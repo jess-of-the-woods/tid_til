@@ -2,6 +2,7 @@
 
 ## TCP/IP - Transmission Control Protocol/Internet Protocol
 
+### - [Domain Name System (DNS)](DNS.md)
 
 ### - [Dynamic Host Configuration Protocol - DHCP](DHCP.md)
 
