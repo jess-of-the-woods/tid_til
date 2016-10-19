@@ -3,6 +3,8 @@
 ## TCP/IP - Transmission Control Protocol/Internet Protocol
 
 
+### - [Dynamic Host Configuration Protocol - DHCP](DHCP.md)
+
 ### - [HTTP](HTTP.md)
 
 ### - [hardware](hardware.md)
@@ -22,8 +24,6 @@ There are private & public I.P addresses. A router or residential gateway will h
 
 Localhost is typically 127.0.0.1
 
-#### Dynamic Host Configuration Protocol - DHCP
-I.P. addresses by default are assigned dynamically by a DHCP server in exchange for the hosts MAC address, but can also be set manually. The server will have a pool of IP addresses available & these will be assigned when a host connects to that server.
 
 ### Subnet Mask
 The Subnet Mask is a dot-separated string of four octets, just like the I.P. Address. If we draw an imaginary line through the subnet mask between the last 255 from the left and the first zero, this shows us which part of the matching I.P. address is the network section & which is the host section.
