@@ -18,6 +18,7 @@ Divided up into 4 octets e.g.
 
 each number between the dots is between 0 and 255 as that is the highest number that can be expressed by an octet
 
+I.P. Addresses are typically 23 bits. Each octet is 8 bits & together they make up 32 bits (8 * 8 = 32).
 
 The I.P. Address is separated into two sections, the network section & the host section. The network section is the 'address' of the network while the host section is the number of an individual computer. This is analogous to a street name & house number.
 
@@ -44,7 +45,7 @@ Subnet Mask | Binary | On's & Off's
 255.255.255.0| 11111111.11111111.11111111.00000000 | or 24 on & 8 off
 
 
-A subnet mask of `255.255.255.0` can be expressed as `192.168.15.3/24` because there are 24 switches on.
+A subnet mask of `255.255.255.0` can be expressed as `192.168.15.3/24` because there are 24 switches on. This is called CIDR notation. The maximum number of bits which the network section of an IP address can be is 30 bits. You need at least 2 bits to represent the host section.
 
 ---
 
