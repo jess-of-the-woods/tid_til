@@ -47,6 +47,8 @@ Subnet Mask | Binary | On's & Off's
 
 A subnet mask of `255.255.255.0` can be expressed as `192.168.15.3/24` because there are 24 switches on. This is called CIDR notation. The maximum number of bits which the network section of an IP address can be is 30 bits. You need at least 2 bits to represent the host section.
 
+To find the available hosts, raise 2 to the power of however many bits are left to represent the hosts.. I.e. if there are 4 bits left then 2 to the power of 4. To find the usable hosts, subtract 2 from this number (for gateway & broadcast IP).
+
 ---
 
 See also [binary notation](../math/binary.md)
