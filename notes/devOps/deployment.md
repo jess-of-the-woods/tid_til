@@ -4,7 +4,7 @@
 
 ### platforms
 - [heroku](heroku.md)
-- AWS (Amazon Web Services)
+- [AWS (Amazon Web Services)](AWS.md)
 - [DigitalOcean](digitalOcean.md)
 - Github pages?
 
