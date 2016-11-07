@@ -25,6 +25,7 @@ e.g. `useradd mymble -m -d /home/mymble -s /bin/bash`
 **examples**:
 - `usermod -L userName`: lock an account
 - `usermod -U userName`: unlocks
+- `sudo usermod -a -G nurses mom`: add (append `-a`) mom to the nurses group. `-g` will change the primary group (i.e. remove her from mom group), `-G` will just add her to a new group, but not change the primary group
 - `usermod -l new_username old_username`: modify the username of a user
 
 ### chfn
