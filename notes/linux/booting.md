@@ -19,6 +19,18 @@ loads & executes GRUB
 
 loads default kernel specified in config file /etc/grub.conf
 
+
+### Runlevels
+Analogous to recovery mode in windows.
+
+1. Single-user
+2. Reserved on most systems (full GUI with multi-user on Debian)
+3. Full multi-user with no GUI
+4. Undefined
+5. Full multi-user with GUI
+6. Reboot
+
+
 ---
 
  See also [filesystem](filesystem.md)
