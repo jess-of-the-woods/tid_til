@@ -1,4 +1,4 @@
-[databases](index.md)
+[databases](index.md) | [SQL](SQL.md)
 
 ## PostgreSQL
 - handles multi-threading
