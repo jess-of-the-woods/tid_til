@@ -106,7 +106,7 @@ writes to /var/log/rkhunter.log
 - `sudo chrkrootkit --help`
 
 ### hashing algorithms
-- MD5
+- MD5 ([How to MD5Sum](https://help.ubuntu.com/community/HowToMD5SUM))
 - SHA256
 
 ---
