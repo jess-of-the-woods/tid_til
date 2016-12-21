@@ -47,6 +47,9 @@
   - [tmux](#tmux-terminal-multiplexer)
   - [links](#links)
 
+---
+
+---
 
 ## terminal keyboard shortcuts
 - `ctrl alt t`: open terminal window
