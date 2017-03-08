@@ -2,9 +2,9 @@
 
 ## notes
 
-* [3D](3D.md)
 * [art](art.md)
 * [building / bundling](building.md) | [deployment](deployment.md)
+* [computer graphics](cg/index.md)
 * [CSS](CSS/index.md) | [HTML](HTML/index.md)
 * [databases](databases/index.md)
 * [data visualisation](dataVisualisation.md)

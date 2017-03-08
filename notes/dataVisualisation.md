@@ -1,6 +1,6 @@
-[notes](index.md) | [to learn](toLearn.md)
+[notes](index.md) | [computer graphics](cg/index.md) | [to learn](toLearn.md)
 
-## Data Visualisation
+## data visualisation
 - [wikipedia](https://en.wikipedia.org/wiki/Data_visualization)
 
 

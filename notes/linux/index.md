@@ -4,6 +4,7 @@
 
 ### - [booting](booting.md)
 ### - [filesystem](filesystem.md)
+### - [GIMP](../cg/gimp.md)
 ### - [security](security.md)
 ### - [storage devices](storage_devices.md)
 ### - [terminal](terminal.md)
