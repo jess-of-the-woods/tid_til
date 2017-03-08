@@ -14,9 +14,10 @@
 ## links
 - [correcting perspective distortion](https://www.thoughtco.com/correcting-perspective-distortion-with-gimp-1701638) - thoughtco
 - [perspective warp](https://www.youtube.com/watch?v=vjSoI3b-I_w) - YouTube
+- [wrap an image around a can](https://www.youtube.com/watch?v=THLTFDt8uuw)
 
 ### tutorials..
-- [DaViesMediaDesign](https://www.youtube.com/user/DaViesMediaDesign/videos) YouTube Channel
+- [DaviesMediaDesign](https://www.youtube.com/user/DaViesMediaDesign/videos) YouTube Channel
 - [official tutorials](https://www.gimp.org/tutorials/) gimp.org
 
 ### themes
