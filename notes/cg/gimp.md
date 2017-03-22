@@ -19,6 +19,7 @@
 - [perspective warp](https://www.youtube.com/watch?v=vjSoI3b-I_w) - YouTube
 - [wrap an image around a can](https://www.youtube.com/watch?v=THLTFDt8uuw)
 - cage transform, [when i use gimp cage transform it crashes](https://askubuntu.com/questions/871138/when-i-use-gimp-cage-transform-but-its-crash)
+- [How to Create a Kaleidoscope Effect in GIMP](http://www.ehow.com/how_8486344_create-kaleidoscope-effect-gimp.html)
 
 ### tutorials..
 - [DaviesMediaDesign](https://www.youtube.com/user/DaViesMediaDesign/videos) YouTube Channel
