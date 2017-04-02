@@ -13,6 +13,7 @@
 
 
 ## links
+- [glossary](https://docs.gimp.org/en/glossary.html)
 
 ### techniques
 - [correcting perspective distortion](https://www.thoughtco.com/correcting-perspective-distortion-with-gimp-1701638) - thoughtco
@@ -20,6 +21,7 @@
 - [wrap an image around a can](https://www.youtube.com/watch?v=THLTFDt8uuw)
 - cage transform, [when i use gimp cage transform it crashes](https://askubuntu.com/questions/871138/when-i-use-gimp-cage-transform-but-its-crash)
 - [How to Create a Kaleidoscope Effect in GIMP](http://www.ehow.com/how_8486344_create-kaleidoscope-effect-gimp.html)
+- [GIMP tutorial for beginners - Seamless Pattern](https://www.youtube.com/watch?v=TKhs7F0hAik) - YouTube
 
 ### tutorials..
 - [DaviesMediaDesign](https://www.youtube.com/user/DaViesMediaDesign/videos) YouTube Channel
