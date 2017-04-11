@@ -1,7 +1,7 @@
 [home](../README.md)
 
 ## notes
-
+* [android](android.md)
 * [art](art.md)
 * [building / bundling](building.md) | [deployment](deployment.md)
 * [computer graphics](cg/index.md)
