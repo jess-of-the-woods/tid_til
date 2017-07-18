@@ -1,8 +1,8 @@
 [notes](index.md) [languages](code.md)
 
-## Markdown
+## markdown
 
-### Tables
+### tables
 
 ```markdown
 | Tables        | Are           | Cool  |
@@ -20,8 +20,9 @@ produces:
 | col 2 is      | centered      |   $12 |
 | zebra stripes | are neat      |    $1 |
 
-### Markdown
-* [Mastering Markdown](https://guides.github.com/features/mastering-markdown/)
-* [Cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+### links
+* [mastering markdown](https://guides.github.com/features/mastering-markdown/)
+* [cheatsheet](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet)
+* [links to URLs containing parentheses](https://meta.stackexchange.com/questions/13501/links-to-urls-containing-parentheses)
 
-See also [HTML](HTML/index.md)
+see also [HTML](HTML/index.md)
