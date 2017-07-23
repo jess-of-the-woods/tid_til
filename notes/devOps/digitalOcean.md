@@ -3,6 +3,7 @@
 ## [digitalOcean](https://www.digitalocean.com)
 
 ### links
+- [youtube channel ](https://www.youtube.com/channel/UCaPX53JLxxSbwZz_Ra_cL0g) (official)
 - [New Ubuntu 14.04 Server Checklist](https://www.digitalocean.com/community/tutorial_series/new-ubuntu-14-04-server-checklist)
   - [Initial Server Setup with Ubuntu 14.04](https://www.digitalocean.com/community/tutorials/initial-server-setup-with-ubuntu-14-04#tutorial_series_44)
   - [Additional Recommended Steps for New Ubuntu 14.04 Servers (firewall, ntp, snapshots)](https://www.digitalocean.com/community/tutorials/additional-recommended-steps-for-new-ubuntu-14-04-servers)

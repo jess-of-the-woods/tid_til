@@ -1,4 +1,4 @@
-[notes](../index.md) | [frontend](../frontend.md) | [languages](code.md)
+[notes](../index.md) | [frontend](../frontend.md) | [languages](../code.md)
 
 ## Hyper Text Markup Language - HTML
 - ### [HTML5](HTML5.md)
