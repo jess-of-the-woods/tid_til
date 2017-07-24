@@ -14,6 +14,7 @@
 
 ## links
 - [glossary](https://docs.gimp.org/en/glossary.html)
+- [batch process files in GIMP](https://www.maketecheasier.com/batch-process-files-in-gimp/) | [GIMP Batch Mode](https://www.gimp.org/tutorials/Basic_Batch/) (command line)
 
 ### techniques
 - [correcting perspective distortion](https://www.thoughtco.com/correcting-perspective-distortion-with-gimp-1701638) - thoughtco
@@ -35,3 +36,4 @@
 
 ### addons
 - [resynthesizer addon](http://www.logarithmic.net/pfh/resynthesizer) | [github](https://github.com/bootchk/resynthesizer)
+- fxfoundry
