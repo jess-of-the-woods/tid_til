@@ -4,15 +4,8 @@
 
 `tab` to toggle windows on & off
 
-
-<!-- - []()
-- []() -->
-
-
-<!-- See also -->
-
-
 ## links
+- [online user manual](https://docs.gimp.org/2.8/en/)
 - [glossary](https://docs.gimp.org/en/glossary.html)
 - [batch process files in GIMP](https://www.maketecheasier.com/batch-process-files-in-gimp/) | [GIMP Batch Mode](https://www.gimp.org/tutorials/Basic_Batch/) (command line)
 
@@ -20,7 +13,7 @@
 - [correcting perspective distortion](https://www.thoughtco.com/correcting-perspective-distortion-with-gimp-1701638) - thoughtco
 - [perspective warp](https://www.youtube.com/watch?v=vjSoI3b-I_w) - YouTube
 - [wrap an image around a can](https://www.youtube.com/watch?v=THLTFDt8uuw)
-- cage transform, [when i use gimp cage transform it crashes](https://askubuntu.com/questions/871138/when-i-use-gimp-cage-transform-but-its-crash)
+- cage transform, [when i use gimp cage transform it crashes](https://askubuntu.com/questions/871138/when-i-use-gimp-cage-transform-but-its-crash) | [bug report](https://bugs.launchpad.net/ubuntu/+source/gimp/+bug/1614593)
 - [How to Create a Kaleidoscope Effect in GIMP](http://www.ehow.com/how_8486344_create-kaleidoscope-effect-gimp.html)
 - [GIMP tutorial for beginners - Seamless Pattern](https://www.youtube.com/watch?v=TKhs7F0hAik) - YouTube
 

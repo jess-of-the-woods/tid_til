@@ -1,18 +1,19 @@
 [notes](index.md) | [frontend](frontend.md)
 
 ## user interface
+- "non-distract UI"
 
-### People
-- Mike Alger [VR Interface Design](https://vimeo.com/141380662)
+
+### people
+- Mike Alger [VR interface design](https://vimeo.com/141380662)
 - [Bret Victor](http://worrydream.com/) (UI designer)
 
-### Visual UI design
-- Head Mounted Displays
+### visual UI design
+- head mounted displays
 - WebGL / three.js / SVG / processing
 - 3D rendering
 
 
 
 
-
-See also [3D](3D.md), VR, UX
+see also [3D](3D.md), VR, UX
