@@ -10,6 +10,7 @@
 - [DaviesMediaDesign](https://www.youtube.com/user/DaViesMediaDesign/videos) YouTube Channel
 
 #### techniques
+- [make GIMP brushes from photos and cut-outs](https://www.youtube.com/watch?v=4s0Vb1KoXkU) - VscorpianC, YouTube, 13mins
 - [correcting perspective distortion](https://www.thoughtco.com/correcting-perspective-distortion-with-gimp-1701638) - thoughtco
 - [perspective warp](https://www.youtube.com/watch?v=vjSoI3b-I_w) - YouTube
 - [wrap an image around a can](https://www.youtube.com/watch?v=THLTFDt8uuw)

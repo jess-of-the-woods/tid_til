@@ -11,10 +11,8 @@
 
 
 
-See also [art](../art.md)
+see also [art](../art.md)
 
-## links
-
-
-### tutorials
+### links
+- [vscorpianc](https://www.youtube.com/user/vscorpianc/playlists) - YouTube channel, GIMP, blender, krita..
 - [how to create kaleidoscope patterns from your photos](https://digital-photography-school.com/how-to-create-kaleidoscope-patterns-from-your-photos/) - photoshop
