@@ -25,6 +25,10 @@
 - [batch process files in GIMP](https://www.maketecheasier.com/batch-process-files-in-gimp/) | [GIMP Batch Mode](https://www.gimp.org/tutorials/Basic_Batch/) (command line)
 - cage transform, [when i use gimp cage transform it crashes](https://askubuntu.com/questions/871138/when-i-use-gimp-cage-transform-but-its-crash) | [bug report](https://bugs.launchpad.net/ubuntu/+source/gimp/+bug/1614593)
 
+#### filters
+- [curve bend](https://docs.gimp.org/en/plug-in-curve-bend.html)
+
+
 #### themes
 - [can i make just gimp use a dark theme?](https://askubuntu.com/questions/177851/can-i-make-just-gimp-use-a-dark-theme#177870) - askubuntu.com
 - [How to Make GIMP Work More Like Photoshop](https://lifehacker.com/how-to-make-the-gimp-work-more-like-photoshop-1551318983) - lifehacker
