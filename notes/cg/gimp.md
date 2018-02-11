@@ -9,7 +9,8 @@
 - [2.9.6 released](https://www.gimp.org/news/2017/08/24/gimp-2-9-6-released/)
 - [gimp 2.9.4 released](https://www.gimp.org/news/2016/07/13/gimp-2-9-4-released/) | [2.9.4 release notes](https://www.gimp.org/news/2015/11/27/gimp-2-9-2-released/)
 - [install 2.9.5 in ubuntu 16.04](http://tipsonubuntu.com/2016/08/02/install-gimp-2-9-5-ubuntu-16-04/)
-
+- shift + middle click to rotate,
+- ctrl + shift + middle click to rotate at 15º intervals
 
 #### tutorials..
 - [official tutorials](https://www.gimp.org/tutorials/) gimp.org

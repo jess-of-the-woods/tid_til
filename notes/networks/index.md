@@ -22,6 +22,10 @@ Not all DNS server knows all the IP addresses on the internet so they will ask o
 
 ---
 
-See also [Git / GitHub](../git-github.md)
+see also [Git / GitHub](../git-github.md)
  | [node.js](../javascript/node.md)
  | [security](../security/index.md) | [server-side](../server-side.md)
+
+### links
+- [what is wlan0](https://ubuntuforums.org/showthread.php?t=2057968) ubuntuforums
+- [how to change MAC of wlan0](https://askubuntu.com/questions/247583/how-to-change-mac-of-wlan0) askubuntu
