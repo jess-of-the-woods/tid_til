@@ -57,4 +57,7 @@ report file system disk space usage. e.g. `df -ah`
 
 ---
 
+## Links
+- [How to mount an external HDD?](https://askubuntu.com/questions/177825/how-to-mount-an-external-hdd)
+
 See also [du](terminal.md#du) | [filesystem](filesystem.md) (esp. `/dev`) | [SSD config](SSD.md)

@@ -33,4 +33,4 @@ Algorithm is cheap to use.
 
 - HTTPS, ( salt )
 
-see also [SSH](SSH.md)
+see also [linux security](../linux/security.md) | [SSH](SSH.md)
