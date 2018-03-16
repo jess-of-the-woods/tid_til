@@ -12,8 +12,13 @@ Syntax: `find ~/Downloads theFileImLookingFor`: Finds files/directories.
 - `find /home -iname "markdown.*"`: search for files in /home called markdown
 - use `-type` & a letter, such as `f`: files, `d` directories, `l`: symbolic links etc. e.g. `find / -type d -iname "filename"`
 - `find / -name "*song*" -user margaret -exec ls -l {} \;`: find files with the word 'song' somewhere in the name (case-sensitive), owned by user 'margaret', then execute 'ls -l' with the results.
+- `find ./ -type f -name 'Thumbs.db'` to search from current directory downwards for 'Thumbs.db'
+- `find ./ -type f -name 'Thumbs.db' -exec rm {} \;` to find & remove 'Thumbs.db' files
 
 hint: pipe results to less
+
+
+
 
 ### locate
 based on an index of filesystem which is updated once a day. therefore can be out of date. some directories such as /tmp are excluded based on  `/etc/updatedb.conf`: config file for locate
