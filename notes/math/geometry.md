@@ -2,7 +2,7 @@
 
 ## Geometry
 
-### - [3D](../3D.md)
+### - [3D](../cg/3D.md)
 
 
 ### Glossary
