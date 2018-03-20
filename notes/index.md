@@ -23,7 +23,3 @@
 [asynchronicity](async.md) | [functional](functional.md)
 
 [code/languages](code.md) | [backend](backend.md) | [frontend](frontend.md) | [client-side](client-side.md) | [server-side](server-side.md)
-
----
-
-See also [to learn](../toLearn.md)

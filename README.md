@@ -1,12 +1,11 @@
 # today i did / today i learned
 A repository to keep track of what I have been [working on](tid.md) each day & what I have been learning. As well as a place to keep notes, questions etc. The biggest part of this repository has become the notes section.. hint hint
 
-[to learn](toLearn.md) | [notes](notes/index.md)
+[notes](notes/index.md)
 
 ##### About
 I've copied this idea from [libbyschuknight/tid_til](https://github.com/libbyschuknight/tid_til) and others.
 
-just a small change for testing :)
 
 <!-- #### [Art](art.md)
 
