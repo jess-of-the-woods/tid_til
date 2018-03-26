@@ -20,9 +20,13 @@
 - Marshmallow: Android 6.0
 - Nougat: Android 7.0 - 7.1.1
 
-[version history](https://en.wikipedia.org/wiki/Android_version_history) | [inside the different versions](http://www.androidcentral.com/android-versions)
+---
+
+### links
+- [version history](https://en.wikipedia.org/wiki/Android_version_history)
+- [inside the different versions](http://www.androidcentral.com/android-versions)
 
 
 ---
 
-see also [linux]()
+see also [linux](linux/index.md)
