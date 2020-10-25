@@ -13,13 +13,14 @@
 storage devices are typically mounted at `/mnt` or `/media`
 
 ### device file naming
+
 #### SCSI devices
 - /dev/sdx
 `sd` means regular hard disk, 'sda' would be the 1st disk the system sees
 
 'sdb' would be the 2nd one.. any partitions are indicated by numbers e.g. 'sda1': 1st partition, 'sda2': 2nd partition
 
-####USB & SATA
+#### USB & SATA
 follow SCSI convention
 
 #### PATA devices
@@ -59,5 +60,6 @@ report file system disk space usage. e.g. `df -ah`
 
 ## Links
 - [How to mount an external HDD?](https://askubuntu.com/questions/177825/how-to-mount-an-external-hdd)
+- [access a USB flash drive from the terminal](https://askubuntu.com/questions/37767/how-to-access-a-usb-flash-drive-from-the-terminal)
 
-See also [du](terminal.md#du) | [filesystem](filesystem.md) (esp. `/dev`) | [SSD config](SSD.md)
+see also [du](terminal.md#du) | [filesystem](filesystem.md) (esp. `/dev`) | [SSD config](SSD.md)

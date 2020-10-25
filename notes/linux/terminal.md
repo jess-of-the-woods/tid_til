@@ -9,7 +9,7 @@
 - **[processes](processes.md)**
 - **[searching](search.md)**
 - **[security](security.md)**
-- **[storage devices](storage_devices.md)**
+- **[storage devices](storageDevices.md)**
 - **[user management](userMgmt.md)**
 - **[Vi / Vim](../vi.md)**
 
@@ -271,7 +271,7 @@ A users PATH is stored in `~/.bash_profile`. To add a directory to the PATH perm
 - `/etc/apt/sources.list` & any file with the suffix '.list' in `/etc/apt/sources.list.d/`: displays repositories subscribed to
 
 ### du
-disk usage, estimate file space usage (see also [df](storage_devices.md#df))
+disk usage, estimate file space usage (see also [df](storageDevices.md#df))
 - `du -hs ./path/to/dir`
 
 **switches**:

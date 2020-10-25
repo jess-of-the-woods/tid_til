@@ -6,7 +6,7 @@
 ### - [filesystem](filesystem.md)
 ### - [GIMP](../cg/gimp.md)
 ### - [security](security.md)
-### - [storage devices](storage_devices.md)
+### - [storage devices](storageDevices.md)
 ### - [terminal](terminal.md)
 
 `alt + f7`: then you can move your window around with arrow keys

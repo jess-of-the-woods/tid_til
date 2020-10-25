@@ -67,4 +67,4 @@ also check out `man hier`: manual pages for filesystem hierarchy
 
 ---
 
-See also [booting](booting.md) | [storage devices](storage_devices.md)
+see also [booting](booting.md) | [storage devices](storageDevices.md)

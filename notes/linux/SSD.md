@@ -26,6 +26,4 @@ disable swappiness: `sudo nano /etc/sysctl.conf`
 will take effect after reboot
 
 
-<!-- ---
-
-See also -->
+see also [storage devices](storageDevices.md)

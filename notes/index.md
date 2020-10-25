@@ -3,7 +3,7 @@
 ## notes
 * [android](android.md)
 * [art](art.md)
-* [building / bundling](building.md) | [deployment](deployment.md)
+* [building / bundling](building.md) | [deployment](devOps/deployment.md)
 * [computer graphics](cg/index.md)
 * [CSS](CSS/index.md) | [HTML](HTML/index.md)
 * [databases](databases/index.md)
